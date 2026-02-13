@@ -56,6 +56,7 @@ function changeSeason(year) {
     localStorage.setItem('f1_season', year);
     sprintByMeetingKey = new Map();
     sprintRoundSet = new Set();
+    winnersCache.clear(); // Очищаем кэш победителей
 
     document.querySelectorAll('.year-btn').forEach(btn => {
         btn.classList.toggle('active', parseInt(btn.dataset.year) === year);
@@ -238,34 +239,97 @@ async function fetchOpenF1(endpoint, params = {}) {
     return resp.json();
 }
 
+// ===== КЭШИРОВАНИЕ РЕЗУЛЬТАТОВ =====
+const winnersCache = new Map(); // session_key -> winner_name
+
 // Получить победителя из OpenF1 по session_key
 async function getOpenF1Winner(session_key) {
+    // Проверяем кэш
+    if (winnersCache.has(session_key)) {
+        console.log(`[CACHE] Session ${session_key}: используем кэшированного победителя`);
+        return winnersCache.get(session_key);
+    }
+
     try {
-        // Стратегия 1: Получить все позиции и найти победителя по последней записи с position=1
-        const allPositions = await fetchOpenF1('position', { session_key });
-        if (allPositions && allPositions.length > 0) {
-            // Фильтруем только позицию 1 и берём последнюю запись
-            const firstPlacePositions = allPositions.filter(p => p.position === 1);
-            if (firstPlacePositions.length > 0) {
-                const winnerPosition = firstPlacePositions[firstPlacePositions.length - 1];
-                const drivers = await fetchOpenF1('drivers', { session_key, driver_number: winnerPosition.driver_number });
+        // Стратегия 1: Использовать данные о кругах для определения победителя
+        const laps = await fetchOpenF1('laps', { session_key });
+        if (laps && laps.length > 0) {
+            // Группируем круги по пилотам и находим того, кто прошёл больше всего кругов
+            const lapsByDriver = {};
+            laps.forEach(lap => {
+                if (!lapsByDriver[lap.driver_number]) {
+                    lapsByDriver[lap.driver_number] = [];
+                }
+                lapsByDriver[lap.driver_number].push(lap);
+            });
+            
+            // Находим пилота с максимальным количеством кругов
+            let maxLaps = 0;
+            let winnerDriverNumber = null;
+            
+            Object.entries(lapsByDriver).forEach(([driverNumber, driverLaps]) => {
+                if (driverLaps.length > maxLaps) {
+                    maxLaps = driverLaps.length;
+                    winnerDriverNumber = parseInt(driverNumber);
+                }
+            });
+            
+            if (winnerDriverNumber) {
+                console.log(`[DEBUG] Session ${session_key}: победитель по кругам - пилот #${winnerDriverNumber} (${maxLaps} кругов)`);
+                const drivers = await fetchOpenF1('drivers', { session_key, driver_number: winnerDriverNumber });
                 if (drivers && drivers.length > 0) {
-                    return formatDriverName(drivers[0].full_name);
+                    const winnerName = formatDriverName(drivers[0].full_name);
+                    console.log(`[DEBUG] Session ${session_key}: имя победителя - ${winnerName}`);
+                    winnersCache.set(session_key, winnerName);
+                    return winnerName;
                 }
             }
         }
 
-        // Стратегия 2: Попробовать получить напрямую позицию 1
+        // Стратегия 2: Получить все позиции и найти победителя по последней записи с position=1
+        const allPositions = await fetchOpenF1('position', { session_key });
+        console.log(`[DEBUG] Session ${session_key}: получено ${allPositions?.length || 0} записей позиций`);
+        
+        if (allPositions && allPositions.length > 0) {
+            // Фильтруем только позицию 1 и берём последнюю запись
+            const firstPlacePositions = allPositions.filter(p => p.position === 1);
+            console.log(`[DEBUG] Session ${session_key}: найдено ${firstPlacePositions.length} записей с позицией 1`);
+            
+            if (firstPlacePositions.length > 0) {
+                const winnerPosition = firstPlacePositions[firstPlacePositions.length - 1];
+                console.log(`[DEBUG] Session ${session_key}: победитель - пилот #${winnerPosition.driver_number}`);
+                
+                const drivers = await fetchOpenF1('drivers', { session_key, driver_number: winnerPosition.driver_number });
+                if (drivers && drivers.length > 0) {
+                    const winnerName = formatDriverName(drivers[0].full_name);
+                    console.log(`[DEBUG] Session ${session_key}: имя победителя - ${winnerName}`);
+                    winnersCache.set(session_key, winnerName);
+                    return winnerName;
+                }
+            }
+        }
+
+        // Стратегия 3: Попробовать получить напрямую позицию 1
         const positions = await fetchOpenF1('position', { session_key, position: 1 });
+        console.log(`[DEBUG] Session ${session_key}: прямой запрос позиции 1 - ${positions?.length || 0} записей`);
+        
         if (positions && positions.length > 0) {
             const last = positions[positions.length - 1];
             const drivers = await fetchOpenF1('drivers', { session_key, driver_number: last.driver_number });
             if (drivers && drivers.length > 0) {
-                return formatDriverName(drivers[0].full_name);
+                const winnerName = formatDriverName(drivers[0].full_name);
+                console.log(`[DEBUG] Session ${session_key}: имя победителя (стратегия 3) - ${winnerName}`);
+                winnersCache.set(session_key, winnerName);
+                return winnerName;
             }
         }
+        
+        console.log(`[DEBUG] Session ${session_key}: победитель не найден`);
+        // Кэшируем null чтобы не повторять запросы
+        winnersCache.set(session_key, null);
     } catch (e) {
         console.warn(`OpenF1 winner error [${session_key}]:`, e.message);
+        winnersCache.set(session_key, null);
     }
     return null;
 }
@@ -367,9 +431,9 @@ async function buildRacesTableFromOpenF1(sessions, tableBody) {
 
     for (let i = 0; i < sessions.length; i++) {
         const session  = sessions[i];
-        // Считаем гонку завершённой, если прошло хотя бы 30 минут после окончания
+        // Считаем гонку завершённой, если прошло хотя бы 10 минут после окончания
         const endTime = new Date(session.date_end);
-        const completed = endTime < now && (now - endTime) > 30 * 60 * 1000;
+        const completed = endTime < now && (now - endTime) > 10 * 60 * 1000;
         
         const hasSprint = sprintByMeetingKey.has(session.meeting_key);
         const sprintKey = hasSprint ? sprintByMeetingKey.get(session.meeting_key) : null;
@@ -383,7 +447,42 @@ async function buildRacesTableFromOpenF1(sessions, tableBody) {
                 getOpenF1Winner(session.session_key),
                 hasSprint && sprintKey ? getOpenF1Winner(sprintKey) : Promise.resolve(null),
             ]);
-            raceWinner   = rw || 'Данные обрабатываются';
+            
+            // Если OpenF1 не вернул данные, пробуем получить через Jolpica как fallback
+            if (!rw) {
+                try {
+                    // Пытаемся найти соответствующий раунд в Jolpica по дате
+                    const sessionDate = new Date(session.date_start);
+                    const jolpicaResp = await fetch(`${JOLPICA_BASE}/${currentSeason}.json`);
+                    if (jolpicaResp.ok) {
+                        const jolpicaData = await jolpicaResp.json();
+                        const races = jolpicaData.MRData.RaceTable.Races;
+                        
+                        // Ищем гонку по дате (с погрешностью в 3 дня)
+                        const matchingRace = races.find(race => {
+                            const raceDate = new Date(race.date);
+                            const diffDays = Math.abs(sessionDate - raceDate) / (1000 * 60 * 60 * 24);
+                            return diffDays <= 3;
+                        });
+                        
+                        if (matchingRace) {
+                            const winnerResp = await fetch(`${JOLPICA_BASE}/${currentSeason}/${matchingRace.round}/results/1.json`);
+                            if (winnerResp.ok) {
+                                const winnerData = await winnerResp.json();
+                                const result = winnerData.MRData?.RaceTable?.Races?.[0]?.Results?.[0];
+                                if (result) {
+                                    raceWinner = `${result.Driver.givenName} ${result.Driver.familyName}`;
+                                    console.log(`[FALLBACK] Получен победитель через Jolpica: ${raceWinner}`);
+                                }
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.warn('Jolpica fallback failed:', e.message);
+                }
+            }
+            
+            raceWinner = rw || raceWinner || 'Данные обрабатываются';
             if (hasSprint) sprintWinner = sw || 'Данные обрабатываются';
         } else if (endTime < now) {
             // Гонка закончилась, но данные ещё обрабатываются
@@ -779,6 +878,11 @@ async function refreshData() {
     const btn = document.getElementById('refreshButton');
     btn.disabled = true;
     btn.textContent = 'Обновление...';
+    
+    // Очищаем кэш при принудительном обновлении
+    winnersCache.clear();
+    console.log('[REFRESH] Кэш победителей очищен');
+    
     try {
         await Promise.all([loadRaces(), loadDrivers(), loadConstructors()]);
     } finally {
@@ -788,6 +892,40 @@ async function refreshData() {
 }
 
 // ===== ИНИЦИАЛИЗАЦИЯ =====
+
+// Функция для отладки (можно вызвать из консоли)
+window.debugOpenF1 = function(session_key) {
+    console.log('=== DEBUG OpenF1 Session ===');
+    console.log('Session Key:', session_key);
+    
+    // Проверяем все доступные endpoints
+    Promise.all([
+        fetchOpenF1('position', { session_key }).then(data => {
+            console.log('Positions:', data?.length || 0, 'records');
+            if (data && data.length > 0) {
+                console.log('Sample position:', data[0]);
+                const pos1 = data.filter(p => p.position === 1);
+                console.log('Position 1 records:', pos1.length);
+            }
+        }).catch(e => console.log('Positions error:', e.message)),
+        
+        fetchOpenF1('laps', { session_key }).then(data => {
+            console.log('Laps:', data?.length || 0, 'records');
+            if (data && data.length > 0) {
+                console.log('Sample lap:', data[0]);
+            }
+        }).catch(e => console.log('Laps error:', e.message)),
+        
+        fetchOpenF1('drivers', { session_key }).then(data => {
+            console.log('Drivers:', data?.length || 0, 'records');
+            if (data && data.length > 0) {
+                console.log('Sample driver:', data[0]);
+            }
+        }).catch(e => console.log('Drivers error:', e.message))
+    ]).then(() => {
+        console.log('=== END DEBUG ===');
+    });
+};
 
 window.onload = async () => {
     document.getElementById('raceResultsModal').addEventListener('click', function (e) {
