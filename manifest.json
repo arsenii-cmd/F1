@@ -2,6 +2,7 @@
   "name": "F1 2026 — Визуализация",
   "short_name": "F1 2026",
   "description": "Результаты и статистика Формулы 1 сезона 2026",
+  "version": "1.0.5",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

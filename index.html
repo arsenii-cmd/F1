@@ -258,8 +258,43 @@
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('./sw.js')
-                    .then(reg => console.log('[PWA] Service Worker зарегистрирован:', reg.scope))
+                    .then(reg => {
+                        console.log('[PWA] Service Worker зарегистрирован:', reg.scope);
+                        
+                        // Проверяем обновления каждые 60 секунд
+                        setInterval(() => {
+                            reg.update();
+                        }, 60000);
+                        
+                        // Обработка обновлений
+                        reg.addEventListener('updatefound', () => {
+                            const newWorker = reg.installing;
+                            console.log('[PWA] Найдено обновление, устанавливаем...');
+                            
+                            newWorker.addEventListener('statechange', () => {
+                                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    console.log('[PWA] Новая версия установлена, перезагружаем...');
+                                    // Показываем уведомление и перезагружаем через 2 секунды
+                                    const statusEl = document.getElementById('apiStatus');
+                                    if (statusEl) {
+                                        statusEl.className = 'openf1';
+                                        statusEl.style.display = 'block';
+                                        statusEl.textContent = '🔄 Обновление приложения... Перезагрузка через 2 сек';
+                                    }
+                                    setTimeout(() => {
+                                        window.location.reload();
+                                    }, 2000);
+                                }
+                            });
+                        });
+                    })
                     .catch(err => console.warn('[PWA] Ошибка регистрации SW:', err));
+                
+                // Обработка сообщений от SW
+                navigator.serviceWorker.addEventListener('controllerchange', () => {
+                    console.log('[PWA] Контроллер изменён, перезагружаем страницу');
+                    window.location.reload();
+                });
             });
         }
     </script>

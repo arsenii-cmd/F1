@@ -1,5 +1,5 @@
 // ===== F1 2026 SERVICE WORKER =====
-const CACHE_NAME = 'f1-2026-v4';
+const CACHE_NAME = 'f1-2026-v5'; // Обновлена версия для принудительного обновления
 const CACHE_TIMEOUT = 10 * 60 * 1000; // 10 минут для API
 
 // Файлы для кэша при установке (оффлайн-оболочка)
@@ -14,16 +14,21 @@ const STATIC_ASSETS = [
 
 // ===== УСТАНОВКА: кэшируем статику =====
 self.addEventListener('install', event => {
+    console.log('[SW] Установка новой версии...');
     event.waitUntil(
         caches.open(CACHE_NAME).then(cache => {
             console.log('[SW] Кэшируем статические файлы...');
             return cache.addAll(STATIC_ASSETS);
-        }).then(() => self.skipWaiting())
+        }).then(() => {
+            console.log('[SW] Принудительная активация новой версии');
+            return self.skipWaiting();
+        })
     );
 });
 
 // ===== АКТИВАЦИЯ: удаляем старые кэши =====
 self.addEventListener('activate', event => {
+    console.log('[SW] Активация новой версии...');
     event.waitUntil(
         caches.keys().then(keys =>
             Promise.all(
@@ -34,7 +39,10 @@ self.addEventListener('activate', event => {
                         return caches.delete(key);
                     })
             )
-        ).then(() => self.clients.claim())
+        ).then(() => {
+            console.log('[SW] Захват всех клиентов');
+            return self.clients.claim();
+        })
     );
 });
 
@@ -43,7 +51,7 @@ self.addEventListener('fetch', event => {
     const { request } = event;
     const url = new URL(request.url);
 
-    // API-запросы — сначала сеть, при ошибке — кэш
+    // API-запросы — ВСЕГДА сначала сеть (для мобильных устройств)
     if (url.hostname === 'api.openf1.org' || url.hostname === 'api.jolpi.ca') {
         event.respondWith(networkFirstWithCache(request));
         return;
@@ -55,7 +63,13 @@ self.addEventListener('fetch', event => {
         return;
     }
 
-    // Локальные файлы сайта — сначала кэш, при промахе — сеть
+    // Локальные файлы сайта (script.js, styles.css) — ВСЕГДА сеть для обновлений
+    if (url.pathname.includes('script.js') || url.pathname.includes('styles.css')) {
+        event.respondWith(networkFirstForAssets(request));
+        return;
+    }
+
+    // Остальные локальные файлы — сначала кэш
     event.respondWith(cacheFirstWithNetwork(request));
 });
 
@@ -81,6 +95,26 @@ async function networkFirstWithCache(request) {
             JSON.stringify({ error: 'Офлайн-режим: данные недоступны' }),
             { status: 503, headers: { 'Content-Type': 'application/json' } }
         );
+    }
+}
+
+// Стратегия: сначала сеть для критичных ресурсов (script.js, styles.css)
+async function networkFirstForAssets(request) {
+    const cache = await caches.open(CACHE_NAME);
+    try {
+        const networkResp = await fetchWithTimeout(request.clone(), 5000);
+        if (networkResp.ok) {
+            console.log('[SW] Обновляем кэш для:', request.url);
+            cache.put(request, networkResp.clone());
+        }
+        return networkResp;
+    } catch (err) {
+        console.log('[SW] Сеть недоступна, используем кэш для:', request.url);
+        const cached = await cache.match(request);
+        if (cached) {
+            return cached;
+        }
+        throw err;
     }
 }
 

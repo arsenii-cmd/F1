@@ -804,12 +804,30 @@ function formatDate(dateStr) {
 
 // ===== ОБНОВЛЕНИЕ ДАННЫХ =====
 
+// Функция для очистки всех кэшей (для мобильных устройств)
+async function clearAllCaches() {
+    if ('caches' in window) {
+        const cacheNames = await caches.keys();
+        await Promise.all(cacheNames.map(name => caches.delete(name)));
+        console.log('[CACHE] Все кэши очищены');
+        
+        // Очищаем также кэш победителей
+        winnersCache.clear();
+        
+        // Перезагружаем страницу
+        window.location.reload(true);
+    }
+}
+
+// Добавляем функцию в глобальную область для вызова из консоли
+window.clearAllCaches = clearAllCaches;
+
 async function refreshData() {
     const btn = document.getElementById('refreshButton');
     btn.disabled = true;
     btn.textContent = 'Обновление...';
     
-    // Очищаем кэш при принудительном обновлении
+    // Очищаем кэш победителей при принудительном обновлении
     winnersCache.clear();
     console.log('[REFRESH] Кэш победителей очищен');
     
