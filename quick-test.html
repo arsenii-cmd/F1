@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Быстрый тест</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 40px; 
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d0a0a 100%);
+            color: #fff;
+            text-align: center;
+        }
+        .status {
+            font-size: 48px;
+            margin: 40px 0;
+        }
+        .details {
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 600px;
+            text-align: left;
+        }
+        .success { color: #0f0; }
+        .error { color: #f00; }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            background: #cc0000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover { background: #ff0000; }
+    </style>
+</head>
+<body>
+    <h1>🏎️ Быстрый тест F1 приложения</h1>
+    <div class="status" id="status">⏳ Проверка...</div>
+    <div class="details" id="details"></div>
+    <div id="buttons" style="display:none;">
+        <button onclick="window.location.href='index.html'">➡️ Открыть приложение</button>
+        <button onclick="window.location.href='diagnose.html'">🔍 Полная диагностика</button>
+        <button onclick="location.reload()">🔄 Повторить тест</button>
+    </div>
+
+    <script>
+        const status = document.getElementById('status');
+        const details = document.getElementById('details');
+        const buttons = document.getElementById('buttons');
+        
+        async function quickTest() {
+            let results = [];
+            let allGood = true;
+            
+            // Тест 1: Загрузка script.js
+            try {
+                const resp = await fetch('script.js');
+                if (!resp.ok) throw new Error('Не удалось загрузить');
+                const text = await resp.text();
+                
+                if (text.includes('async function loadRaces()') && 
+                    text.includes('const dataCache') &&
+                    text.includes('const CACHE_LIFETIME')) {
+                    results.push('✅ script.js загружен и содержит все функции');
+                } else {
+                    throw new Error('Отсутствуют ключевые функции');
+                }
+            } catch (e) {
+                results.push('❌ script.js: ' + e.message);
+                allGood = false;
+            }
+            
+            // Тест 2: API 2025
+            try {
+                const resp = await fetch('https://api.jolpi.ca/ergast/f1/2025.json');
+                if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                const data = await resp.json();
+                const races = data.MRData?.RaceTable?.Races || [];
+                
+                if (races.length > 0) {
+                    results.push(`✅ API 2025 работает (${races.length} гонок)`);
+                } else {
+                    throw new Error('Нет данных о гонках');
+                }
+            } catch (e) {
+                results.push('❌ API 2025: ' + e.message);
+                allGood = false;
+            }
+            
+            // Тест 3: API 2026
+            try {
+                const resp = await fetch('https://api.jolpi.ca/ergast/f1/2026.json');
+                if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                const data = await resp.json();
+                const races = data.MRData?.RaceTable?.Races || [];
+                
+                if (races.length > 0) {
+                    results.push(`✅ API 2026 работает (${races.length} гонок)`);
+                } else {
+                    results.push('⚠️ API 2026 пуст (это нормально, сезон ещё не начался)');
+                }
+            } catch (e) {
+                results.push('⚠️ API 2026: ' + e.message + ' (это нормально)');
+            }
+            
+            // Показываем результаты
+            details.innerHTML = results.map(r => `<div style="margin: 10px 0;">${r}</div>`).join('');
+            buttons.style.display = 'block';
+            
+            if (allGood) {
+                status.innerHTML = '✅ Всё работает!';
+                status.className = 'status success';
+                details.innerHTML += '<div style="margin-top: 20px; padding: 15px; background: rgba(0,255,0,0.1); border-radius: 5px;"><strong>🎉 Приложение готово к использованию!</strong><br><br>Рекомендация: Используйте 2025 год, так как 2026 ещё не начался и API может не содержать данных.</div>';
+            } else {
+                status.innerHTML = '⚠️ Есть проблемы';
+                status.className = 'status error';
+                details.innerHTML += '<div style="margin-top: 20px; padding: 15px; background: rgba(255,0,0,0.1); border-radius: 5px;"><strong>Что делать:</strong><br>1. Откройте полную диагностику (кнопка ниже)<br>2. Проверьте консоль браузера (F12)<br>3. Отправьте скриншот ошибок</div>';
+            }
+        }
+        
+        quickTest();
+    </script>
+</body>
+</html>

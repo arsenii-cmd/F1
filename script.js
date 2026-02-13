@@ -68,15 +68,33 @@ function showSection(sectionId) {
     
     // Загружаем данные для секции, если они ещё не загружены
     const now = Date.now();
-    if (sectionId === 'races' && (!dataCache.races || !dataCache.lastUpdate.races || 
-        (now - dataCache.lastUpdate.races) >= CACHE_LIFETIME)) {
-        loadRaces();
-    } else if (sectionId === 'drivers' && (!dataCache.drivers || !dataCache.lastUpdate.drivers || 
-        (now - dataCache.lastUpdate.drivers) >= CACHE_LIFETIME)) {
-        loadDrivers();
-    } else if (sectionId === 'constructors' && (!dataCache.constructors || !dataCache.lastUpdate.constructors || 
-        (now - dataCache.lastUpdate.constructors) >= CACHE_LIFETIME)) {
-        loadConstructors();
+    if (sectionId === 'races') {
+        if (!dataCache.races || !dataCache.lastUpdate.races || 
+            (now - dataCache.lastUpdate.races) >= CACHE_LIFETIME) {
+            loadRaces();
+        } else {
+            // Отображаем кэшированные данные
+            document.getElementById('racesTableBody').innerHTML = dataCache.races;
+            document.getElementById('racesError').style.display = 'none';
+        }
+    } else if (sectionId === 'drivers') {
+        if (!dataCache.drivers || !dataCache.lastUpdate.drivers || 
+            (now - dataCache.lastUpdate.drivers) >= CACHE_LIFETIME) {
+            loadDrivers();
+        } else {
+            // Отображаем кэшированные данные
+            document.getElementById('driversTableBody').innerHTML = dataCache.drivers;
+            document.getElementById('driversError').style.display = 'none';
+        }
+    } else if (sectionId === 'constructors') {
+        if (!dataCache.constructors || !dataCache.lastUpdate.constructors || 
+            (now - dataCache.lastUpdate.constructors) >= CACHE_LIFETIME) {
+            loadConstructors();
+        } else {
+            // Отображаем кэшированные данные
+            document.getElementById('constructorsTableBody').innerHTML = dataCache.constructors;
+            document.getElementById('constructorsError').style.display = 'none';
+        }
     }
 }
 

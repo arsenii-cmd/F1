@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Диагностика F1</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #1a1a1a; color: #fff; }
+        .test { margin: 20px 0; padding: 15px; border: 1px solid #444; border-radius: 5px; }
+        .success { background: #1a4d1a; border-color: #2d7a2d; }
+        .error { background: #4d1a1a; border-color: #7a2d2d; }
+        .warning { background: #4d4d1a; border-color: #7a7a2d; }
+        .loading { background: #1a1a4d; border-color: #2d2d7a; }
+        h2 { margin-top: 0; }
+        pre { background: #000; padding: 10px; overflow-x: auto; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Диагностика F1 приложения</h1>
+    
+    <div id="test1" class="test loading">
+        <h2>Тест 1: Загрузка script.js</h2>
+        <div id="test1-result">Проверка...</div>
+    </div>
+    
+    <div id="test2" class="test loading">
+        <h2>Тест 2: API Jolpica (2026)</h2>
+        <div id="test2-result">Проверка...</div>
+    </div>
+    
+    <div id="test3" class="test loading">
+        <h2>Тест 3: API Jolpica (2025)</h2>
+        <div id="test3-result">Проверка...</div>
+    </div>
+    
+    <div id="test4" class="test loading">
+        <h2>Тест 4: Функции приложения</h2>
+        <div id="test4-result">Проверка...</div>
+    </div>
+    
+    <div id="test5" class="test loading">
+        <h2>Тест 5: Service Worker</h2>
+        <div id="test5-result">Проверка...</div>
+    </div>
+    
+    <div style="margin-top: 30px;">
+        <button onclick="runAllTests()">🔄 Повторить все тесты</button>
+        <button onclick="window.location.href='index.html'">➡️ Перейти к приложению</button>
+    </div>
+
+    <script>
+        let testResults = {};
+        
+        // Тест 1: Загрузка script.js
+        async function test1() {
+            const div = document.getElementById('test1');
+            const result = document.getElementById('test1-result');
+            
+            try {
+                const response = await fetch('script.js');
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                
+                const text = await response.text();
+                const size = (text.length / 1024).toFixed(2);
+                
+                // Проверяем наличие ключевых функций
+                const hasLoadRaces = text.includes('async function loadRaces()');
+                const hasDataCache = text.includes('const dataCache');
+                const hasCacheLifetime = text.includes('const CACHE_LIFETIME');
+                
+                if (hasLoadRaces && hasDataCache && hasCacheLifetime) {
+                    div.className = 'test success';
+                    result.innerHTML = `✅ script.js загружен успешно<br>Размер: ${size} KB<br>Все ключевые функции найдены`;
+                    testResults.test1 = true;
+                } else {
+                    throw new Error('Отсутствуют ключевые функции');
+                }
+            } catch (e) {
+                div.className = 'test error';
+                result.innerHTML = `❌ Ошибка: ${e.message}`;
+                testResults.test1 = false;
+            }
+        }
+        
+        // Тест 2: API 2026
+        async function test2() {
+            const div = document.getElementById('test2');
+            const result = document.getElementById('test2-result');
+            
+            try {
+                const response = await fetch('https://api.jolpi.ca/ergast/f1/2026.json');
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                
+                const data = await response.json();
+                const races = data.MRData?.RaceTable?.Races;
+                
+                if (races && races.length > 0) {
+                    div.className = 'test success';
+                    result.innerHTML = `✅ API 2026 работает<br>Найдено гонок: ${races.length}<br>Первая гонка: ${races[0].raceName}`;
+                    testResults.test2 = true;
+                } else {
+                    throw new Error('Нет данных о гонках');
+                }
+            } catch (e) {
+                div.className = 'test error';
+                result.innerHTML = `❌ Ошибка: ${e.message}<br><small>Возможно, API недоступен или 2026 год ещё не добавлен</small>`;
+                testResults.test2 = false;
+            }
+        }
+        
+        // Тест 3: API 2025
+        async function test3() {
+            const div = document.getElementById('test3');
+            const result = document.getElementById('test3-result');
+            
+            try {
+                const response = await fetch('https://api.jolpi.ca/ergast/f1/2025.json');
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                
+                const data = await response.json();
+                const races = data.MRData?.RaceTable?.Races;
+                
+                if (races && races.length > 0) {
+                    div.className = 'test success';
+                    result.innerHTML = `✅ API 2025 работает<br>Найдено гонок: ${races.length}<br>Первая гонка: ${races[0].raceName}`;
+                    testResults.test3 = true;
+                } else {
+                    throw new Error('Нет данных о гонках');
+                }
+            } catch (e) {
+                div.className = 'test error';
+                result.innerHTML = `❌ Ошибка: ${e.message}`;
+                testResults.test3 = false;
+            }
+        }
+        
+        // Тест 4: Функции
+        async function test4() {
+            const div = document.getElementById('test4');
+            const result = document.getElementById('test4-result');
+            
+            return new Promise((resolve) => {
+                const script = document.createElement('script');
+                script.src = 'script.js';
+                script.onload = () => {
+                    try {
+                        const checks = {
+                            'JOLPICA_BASE': typeof JOLPICA_BASE !== 'undefined',
+                            'dataCache': typeof dataCache !== 'undefined',
+                            'CACHE_LIFETIME': typeof CACHE_LIFETIME !== 'undefined',
+                            'loadRaces': typeof loadRaces === 'function',
+                            'loadDrivers': typeof loadDrivers === 'function',
+                            'loadConstructors': typeof loadConstructors === 'function',
+                            'showSection': typeof showSection === 'function',
+                            'changeSeason': typeof changeSeason === 'function',
+                            'refreshData': typeof refreshData === 'function',
+                        };
+                        
+                        const failed = Object.entries(checks).filter(([k, v]) => !v);
+                        
+                        if (failed.length === 0) {
+                            div.className = 'test success';
+                            result.innerHTML = `✅ Все функции доступны<br>JOLPICA_BASE: ${JOLPICA_BASE}<br>currentSeason: ${currentSeason}`;
+                            testResults.test4 = true;
+                        } else {
+                            throw new Error(`Отсутствуют: ${failed.map(([k]) => k).join(', ')}`);
+                        }
+                    } catch (e) {
+                        div.className = 'test error';
+                        result.innerHTML = `❌ Ошибка: ${e.message}`;
+                        testResults.test4 = false;
+                    }
+                    resolve();
+                };
+                script.onerror = () => {
+                    div.className = 'test error';
+                    result.innerHTML = '❌ Не удалось загрузить script.js';
+                    testResults.test4 = false;
+                    resolve();
+                };
+                document.head.appendChild(script);
+            });
+        }
+        
+        // Тест 5: Service Worker
+        async function test5() {
+            const div = document.getElementById('test5');
+            const result = document.getElementById('test5-result');
+            
+            try {
+                if (!('serviceWorker' in navigator)) {
+                    throw new Error('Service Worker не поддерживается');
+                }
+                
+                const registrations = await navigator.serviceWorker.getRegistrations();
+                
+                if (registrations.length > 0) {
+                    const info = registrations.map(reg => {
+                        const state = reg.active?.state || 'unknown';
+                        const url = reg.active?.scriptURL || 'unknown';
+                        return `${url} (${state})`;
+                    }).join('<br>');
+                    
+                    div.className = 'test success';
+                    result.innerHTML = `✅ Service Worker зарегистрирован<br>${info}`;
+                    testResults.test5 = true;
+                } else {
+                    div.className = 'test warning';
+                    result.innerHTML = '⚠️ Service Worker не зарегистрирован<br><small>Это нормально при первом запуске</small>';
+                    testResults.test5 = true;
+                }
+            } catch (e) {
+                div.className = 'test error';
+                result.innerHTML = `❌ Ошибка: ${e.message}`;
+                testResults.test5 = false;
+            }
+        }
+        
+        async function runAllTests() {
+            testResults = {};
+            
+            // Сбрасываем состояние
+            document.querySelectorAll('.test').forEach(t => t.className = 'test loading');
+            document.querySelectorAll('[id$="-result"]').forEach(r => r.innerHTML = 'Проверка...');
+            
+            await test1();
+            await test2();
+            await test3();
+            await test4();
+            await test5();
+            
+            // Итоговый результат
+            const total = Object.keys(testResults).length;
+            const passed = Object.values(testResults).filter(v => v).length;
+            
+            console.log(`Тесты завершены: ${passed}/${total} успешно`);
+            
+            if (passed === total) {
+                alert(`✅ Все тесты пройдены (${passed}/${total})!\n\nПриложение должно работать корректно.`);
+            } else {
+                alert(`⚠️ Пройдено тестов: ${passed}/${total}\n\nПроверьте ошибки выше.`);
+            }
+        }
+        
+        // Запускаем тесты при загрузке
+        window.onload = runAllTests;
+    </script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Проверка API</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #1a1a1a; color: #0f0; }
+        .error { color: #f00; }
+        .success { color: #0f0; }
+        .warning { color: #ff0; }
+        pre { background: #000; padding: 10px; overflow-x: auto; border: 1px solid #333; }
+    </style>
+</head>
+<body>
+    <h1>Проверка Jolpica API</h1>
+    <div id="output"></div>
+
+    <script>
+        const output = document.getElementById('output');
+        
+        async function checkAPI(year) {
+            output.innerHTML += `<h2>Проверка ${year} года...</h2>`;
+            
+            try {
+                // Расписание
+                const scheduleResp = await fetch(`https://api.jolpi.ca/ergast/f1/${year}.json`);
+                output.innerHTML += `<div>Расписание: <span class="success">HTTP ${scheduleResp.status}</span></div>`;
+                
+                if (scheduleResp.ok) {
+                    const scheduleData = await scheduleResp.json();
+                    const races = scheduleData.MRData?.RaceTable?.Races || [];
+                    output.innerHTML += `<div>Найдено гонок: <span class="success">${races.length}</span></div>`;
+                    
+                    if (races.length > 0) {
+                        output.innerHTML += `<pre>${JSON.stringify(races[0], null, 2)}</pre>`;
+                    }
+                } else {
+                    output.innerHTML += `<div class="error">Ошибка загрузки расписания</div>`;
+                }
+                
+                // Результаты
+                const resultsResp = await fetch(`https://api.jolpi.ca/ergast/f1/${year}/results/1.json`);
+                output.innerHTML += `<div>Результаты: <span class="success">HTTP ${resultsResp.status}</span></div>`;
+                
+                if (resultsResp.ok) {
+                    const resultsData = await resultsResp.json();
+                    const races = resultsData.MRData?.RaceTable?.Races || [];
+                    output.innerHTML += `<div>Гонок с результатами: <span class="success">${races.length}</span></div>`;
+                    
+                    if (races.length > 0) {
+                        const winner = races[0].Results?.[0];
+                        if (winner) {
+                            output.innerHTML += `<div>Первый победитель: <span class="success">${winner.Driver.givenName} ${winner.Driver.familyName}</span></div>`;
+                        }
+                    }
+                }
+                
+                // Личный зачёт
+                const driversResp = await fetch(`https://api.jolpi.ca/ergast/f1/${year}/driverStandings.json`);
+                output.innerHTML += `<div>Личный зачёт: <span class="success">HTTP ${driversResp.status}</span></div>`;
+                
+                if (driversResp.ok) {
+                    const driversData = await driversResp.json();
+                    const standings = driversData.MRData?.StandingsTable?.StandingsLists || [];
+                    if (standings.length > 0) {
+                        const drivers = standings[0].DriverStandings || [];
+                        output.innerHTML += `<div>Пилотов в зачёте: <span class="success">${drivers.length}</span></div>`;
+                    }
+                }
+                
+                // Кубок конструкторов
+                const constructorsResp = await fetch(`https://api.jolpi.ca/ergast/f1/${year}/constructorStandings.json`);
+                output.innerHTML += `<div>Кубок конструкторов: <span class="success">HTTP ${constructorsResp.status}</span></div>`;
+                
+                if (constructorsResp.ok) {
+                    const constructorsData = await constructorsResp.json();
+                    const standings = constructorsData.MRData?.StandingsTable?.StandingsLists || [];
+                    if (standings.length > 0) {
+                        const constructors = standings[0].ConstructorStandings || [];
+                        output.innerHTML += `<div>Команд в зачёте: <span class="success">${constructors.length}</span></div>`;
+                    }
+                }
+                
+                output.innerHTML += '<hr>';
+                
+            } catch (e) {
+                output.innerHTML += `<div class="error">Ошибка: ${e.message}</div><hr>`;
+            }
+        }
+        
+        async function runChecks() {
+            await checkAPI(2026);
+            await checkAPI(2025);
+            await checkAPI(2024);
+            
+            output.innerHTML += '<h2 class="success">✅ Проверка завершена</h2>';
+        }
+        
+        runChecks();
+    </script>
+</body>
+</html>
