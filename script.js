@@ -92,7 +92,7 @@ function setApiStatus(source) {
         jolpica:  '✓ Данные: Jolpica/Ergast API',
         fallback: '! Данные: резервная база (API недоступен)',
     };
-    el.className = source === 'jolpica' ? 'openf1' : source;
+    el.className = source;
     el.textContent = labels[source] || '';
 }
 
@@ -608,30 +608,24 @@ async function loadResultsIntoTable(id, source, isSprint) {
     tableBody.innerHTML = '<tr><td colspan="4" style="text-align:center;opacity:0.6;">Загрузка...</td></tr>';
 
     try {
-        let results = [];
+        // Jolpica: id = round number
+        const endpoint = isSprint
+            ? `${JOLPICA_BASE}/${currentSeason}/${id}/sprint.json`
+            : `${JOLPICA_BASE}/${currentSeason}/${id}/results.json`;
+        const resp = await fetch(endpoint);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
 
-        if (source === 'openf1') {
-            results = await getOpenF1Results(id, isSprint);
-        } else {
-            // Jolpica: id = round number
-            const endpoint = isSprint
-                ? `${JOLPICA_BASE}/${currentSeason}/${id}/sprint.json`
-                : `${JOLPICA_BASE}/${currentSeason}/${id}/results.json`;
-            const resp = await fetch(endpoint);
-            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-            const data = await resp.json();
+        const rawResults = isSprint
+            ? (data.MRData?.RaceTable?.Races[0]?.SprintResults || []).slice(0, 8)
+            : (data.MRData?.RaceTable?.Races[0]?.Results       || []).slice(0, 10);
 
-            const rawResults = isSprint
-                ? (data.MRData?.RaceTable?.Races[0]?.SprintResults || []).slice(0, 8)
-                : (data.MRData?.RaceTable?.Races[0]?.Results       || []).slice(0, 10);
-
-            results = rawResults.map(r => ({
-                position: r.position,
-                name:     `${r.Driver.givenName} ${r.Driver.familyName}`,
-                team:     r.Constructor?.name || '—',
-                points:   r.points || 0,
-            }));
-        }
+        const results = rawResults.map(r => ({
+            position: r.position,
+            name:     `${r.Driver.givenName} ${r.Driver.familyName}`,
+            team:     r.Constructor?.name || '—',
+            points:   r.points || 0,
+        }));
 
         tableBody.innerHTML = '';
         if (results.length === 0) {
@@ -653,9 +647,7 @@ async function loadResultsIntoTable(id, source, isSprint) {
     } catch (e) {
         tableBody.innerHTML = '';
         errDiv.style.display = 'block';
-        errDiv.textContent = e.message === 'LIVE_SESSION'
-            ? 'Сессия в прямом эфире — данные временно недоступны.'
-            : 'Ошибка загрузки. Попробуйте позже.';
+        errDiv.textContent = 'Ошибка загрузки. Попробуйте позже.';
     }
 }
 

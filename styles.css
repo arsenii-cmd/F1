@@ -167,7 +167,7 @@ nav button:hover {
     font-weight: bold;
 }
 
-#apiStatus.openf1 {
+#apiStatus.jolpica {
     display: block;
     background: rgba(0, 180, 0, 0.2);
     border: 1px solid rgba(0, 180, 0, 0.5);
@@ -262,16 +262,10 @@ th {
     letter-spacing: 0.5px;
 }
 
-.badge-openf1 {
+.badge-jolpica {
     background: rgba(0, 180, 0, 0.3);
     color: #6fde6f;
     border: 1px solid rgba(0, 180, 0, 0.5);
-}
-
-.badge-jolpica {
-    background: rgba(255, 165, 0, 0.3);
-    color: #ffa500;
-    border: 1px solid rgba(255, 165, 0, 0.5);
 }
 
 /* === ВКЛАДКИ МОДАЛЬНОГО ОКНА === */
