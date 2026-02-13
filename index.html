@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 — Визуализация</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#cc0000">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- === ШАПКА === -->
+    <header>
+        <img src="https://i.vimeocdn.com/video/669065538-41fafaad781845ba3a564d44ea530cd5a24597b6f20f3b274b61833f401256d2-d?f=webp" alt="F1 Background" class="header-bg">
+        <div class="header-content">
+            <nav>
+                <button onclick="showSection('races')">Гонки</button>
+                <button onclick="showSection('drivers')">Личный зачёт</button>
+                <button onclick="showSection('constructors')">Кубок конструкторов</button>
+                <button onclick="showSection('broadcasts')">Трансляции</button>
+                <button id="refreshButton" onclick="refreshData()">Обновить данные</button>
+            </nav>
+            <div class="year-selector">
+                <span class="year-label">Сезон:</span>
+                <button class="year-btn" data-year="2023" onclick="changeSeason(2023)">2023</button>
+                <button class="year-btn" data-year="2024" onclick="changeSeason(2024)">2024</button>
+                <button class="year-btn" data-year="2025" onclick="changeSeason(2025)">2025</button>
+                <button class="year-btn active" data-year="2026" onclick="changeSeason(2026)">2026</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- === СТАТУС API === -->
+    <div id="apiStatus"></div>
+
+    <!-- === СЕКЦИИ === -->
+    <div id="races" class="section">
+        <h2 id="racesHeading">Расписание гонок — Сезон 2026</h2>
+        <div id="racesError" class="error" style="display:none;">Ошибка загрузки данных о гонках.</div>
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Этап</th>
+                    <th>Дата</th>
+                    <th>Страна</th>
+                    <th>Трасса</th>
+                    <th>Победитель гонки</th>
+                    <th>Победитель спринта</th>
+                </tr>
+            </thead>
+            <tbody id="racesTableBody"></tbody>
+        </table>
+        </div>
+    </div>
+
+    <div id="drivers" class="section hidden">
+        <h2 id="driversHeading">Личный зачёт — Сезон 2026</h2>
+        <div id="driversError" class="error" style="display:none;">Ошибка загрузки данных о пилотах.</div>
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Позиция</th>
+                    <th>Гонщик</th>
+                    <th class="col-nationality">Национальность</th>
+                    <th>Команда</th>
+                    <th>Очки</th>
+                </tr>
+            </thead>
+            <tbody id="driversTableBody"></tbody>
+        </table>
+        </div>
+    </div>
+
+    <div id="constructors" class="section hidden">
+        <h2 id="constructorsHeading">Кубок конструкторов — Сезон 2026</h2>
+        <div id="constructorsError" class="error" style="display:none;">Ошибка загрузки данных о конструкторах.</div>
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Позиция</th>
+                    <th>Команда</th>
+                    <th>Очки</th>
+                </tr>
+            </thead>
+            <tbody id="constructorsTableBody"></tbody>
+        </table>
+        </div>
+    </div>
+
+    <!-- === ТРАНСЛЯЦИИ === -->
+    <div id="broadcasts" class="section hidden">
+        <h2>Трансляции и ссылки</h2>
+
+        <div class="table-wrapper">
+        <table class="links-table">
+            <tbody>
+                <tr>
+                    <td class="label-cell">Официальный сайт F1</td>
+                    <td class="link-cell"><a href="https://www.formula1.com/" target="_blank">formula1.com</a></td>
+                </tr>
+                <tr>
+                    <td class="label-cell">Трансляции на русском</td>
+                    <td class="link-cell"><a href="https://rutube.ru/u/versporta/" target="_blank">RUTUBE: Вершина Автоспорта</a></td>
+                </tr>
+                <tr>
+                    <td class="label-cell">Telegram-канал</td>
+                    <td class="link-cell"><a href="https://t.me/formula_1_news" target="_blank">@formula_1_news</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <h3 style="margin-top: 30px;">Официальные сайты команд 2026</h3>
+        <div class="table-wrapper">
+        <table class="links-table teams-table">
+            <tbody>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.mclaren.com/racing/formula-1/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/mclaren-logo.png" onerror="this.style.display='none'" alt="McLaren" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">McLaren</td>
+                    <td class="team-link-cell"><a href="https://www.mclaren.com/racing/formula-1/" target="_blank">mclaren.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.ferrari.com/en-EN/formula1" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/ferrari-logo.png" onerror="this.style.display='none'" alt="Ferrari" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Ferrari</td>
+                    <td class="team-link-cell"><a href="https://www.ferrari.com/en-EN/formula1" target="_blank">ferrari.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.mercedesamgf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/mercedes-logo.png" onerror="this.style.display='none'" alt="Mercedes" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Mercedes</td>
+                    <td class="team-link-cell"><a href="https://www.mercedesamgf1.com/" target="_blank">mercedesamgf1.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.redbullracing.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/red-bull-racing-logo.png" onerror="this.style.display='none'" alt="Red Bull" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Red Bull Racing</td>
+                    <td class="team-link-cell"><a href="https://www.redbullracing.com/" target="_blank">redbullracing.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.williamsf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/williams-logo.png" onerror="this.style.display='none'" alt="Williams" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Williams</td>
+                    <td class="team-link-cell"><a href="https://www.williamsf1.com/" target="_blank">williamsf1.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.visacashapprb.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/racing-bulls-logo.png" onerror="this.style.display='none'" alt="Racing Bulls" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Racing Bulls</td>
+                    <td class="team-link-cell"><a href="https://www.visacashapprb.com/" target="_blank">visacashapprb.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.astonmartinf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/aston-martin-logo.png" onerror="this.style.display='none'" alt="Aston Martin" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Aston Martin</td>
+                    <td class="team-link-cell"><a href="https://www.astonmartinf1.com/" target="_blank">astonmartinf1.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.haasf1team.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/haas-logo.png" onerror="this.style.display='none'" alt="Haas" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Haas</td>
+                    <td class="team-link-cell"><a href="https://www.haasf1team.com/" target="_blank">haasf1team.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.alpinef1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/alpine-logo.png" onerror="this.style.display='none'" alt="Alpine" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Alpine</td>
+                    <td class="team-link-cell"><a href="https://www.alpinef1.com/" target="_blank">alpinef1.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.audimotorsport.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/audi-logo.png" onerror="this.style.display='none'" alt="Audi" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Audi</td>
+                    <td class="team-link-cell"><a href="https://www.audimotorsport.com/" target="_blank">audimotorsport.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.andretti.com/f1" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/cadillac-logo.png" onerror="this.style.display='none'" alt="Cadillac" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Cadillac</td>
+                    <td class="team-link-cell"><a href="https://www.andretti.com/f1" target="_blank">andretti.com/f1</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+
+    <!-- === МОДАЛЬНОЕ ОКНО === -->
+    <div id="raceResultsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">×</span>
+            <h2 id="modalTitle">Результаты гонки</h2>
+
+            <!-- Вкладки (видны только если есть спринт) -->
+            <div class="modal-tabs" id="modalTabs" style="display:none;">
+                <button class="modal-tab active" id="tabRace" onclick="switchModalTab('race')">Гонка</button>
+                <button class="modal-tab" id="tabSprint" onclick="switchModalTab('sprint')">Спринт</button>
+            </div>
+
+            <!-- Результаты гонки -->
+            <div id="raceResultsContainer">
+                <div id="modalError" class="error" style="display:none;"></div>
+                <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Позиция</th>
+                            <th>Гонщик</th>
+                            <th>Команда</th>
+                            <th>Очки</th>
+                        </tr>
+                    </thead>
+                    <tbody id="raceResultsTableBody"></tbody>
+                </table>
+                </div>
+            </div>
+
+            <!-- Результаты спринта -->
+            <div id="sprintResultsContainer" style="display:none;">
+                <div id="sprintModalError" class="error" style="display:none;"></div>
+                <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Позиция</th>
+                            <th>Гонщик</th>
+                            <th>Команда</th>
+                            <th>Очки</th>
+                        </tr>
+                    </thead>
+                    <tbody id="sprintResultsTableBody"></tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- === ФУТЕР === -->
+    <footer>
+        <p id="footerText">© 2026 F1 Visualization Project — Сезон 2026 | Данные: OpenF1 API &amp; Jolpica/Ergast</p>
+        <div class="team-logos">
+            <a href="https://www.mclaren.com/racing/formula-1/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/mclaren-logo.png" onerror="this.style.display='none'" alt="McLaren" title="McLaren"></a>
+            <a href="https://www.ferrari.com/en-EN/formula1" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/ferrari-logo.png" onerror="this.style.display='none'" alt="Ferrari" title="Ferrari"></a>
+            <a href="https://www.mercedesamgf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/mercedes-logo.png" onerror="this.style.display='none'" alt="Mercedes" title="Mercedes"></a>
+            <a href="https://www.redbullracing.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/red-bull-racing-logo.png" onerror="this.style.display='none'" alt="Red Bull" title="Red Bull"></a>
+            <a href="https://www.williamsf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/williams-logo.png" onerror="this.style.display='none'" alt="Williams" title="Williams"></a>
+            <a href="https://www.visacashapprb.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/racing-bulls-logo.png" onerror="this.style.display='none'" alt="Racing Bulls" title="Racing Bulls"></a>
+            <a href="https://www.astonmartinf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/aston-martin-logo.png" onerror="this.style.display='none'" alt="Aston Martin" title="Aston Martin"></a>
+            <a href="https://www.haasf1team.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/haas-logo.png" onerror="this.style.display='none'" alt="Haas" title="Haas"></a>
+            <a href="https://www.alpinef1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/alpine-logo.png" onerror="this.style.display='none'" alt="Alpine" title="Alpine"></a>
+            <a href="https://www.audimotorsport.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/audi-logo.png" onerror="this.style.display='none'" alt="Audi" title="Audi"></a>
+            <a href="https://www.andretti.com/f1" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/cadillac-logo.png" onerror="this.style.display='none'" alt="Cadillac" title="Cadillac"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Регистрация сервис-воркера (PWA) -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('[PWA] Service Worker зарегистрирован:', reg.scope))
+                    .catch(err => console.warn('[PWA] Ошибка регистрации SW:', err));
+            });
+        }
+    </script>
+</body>
+</html>

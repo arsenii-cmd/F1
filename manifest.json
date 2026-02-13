@@ -1,0 +1,48 @@
+{
+  "name": "F1 2026 — Визуализация",
+  "short_name": "F1 2026",
+  "description": "Результаты и статистика Формулы 1 сезона 2026",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#cc0000",
+  "background_color": "#1a0000",
+  "lang": "ru",
+  "categories": ["sports", "news"],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Гонки",
+      "short_name": "Гонки",
+      "description": "Расписание и результаты гонок",
+      "url": "./index.html#races"
+    },
+    {
+      "name": "Личный зачёт",
+      "short_name": "Зачёт",
+      "description": "Таблица очков пилотов",
+      "url": "./index.html#drivers"
+    },
+    {
+      "name": "Конструкторы",
+      "short_name": "Команды",
+      "description": "Кубок конструкторов",
+      "url": "./index.html#constructors"
+    }
+  ]
+}
