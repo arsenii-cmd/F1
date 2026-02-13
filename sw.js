@@ -52,7 +52,7 @@ self.addEventListener('fetch', event => {
     const url = new URL(request.url);
 
     // API-запросы — ВСЕГДА сначала сеть (для мобильных устройств)
-    if (url.hostname === 'api.openf1.org' || url.hostname === 'api.jolpi.ca') {
+    if (url.hostname === 'api.jolpi.ca') {
         event.respondWith(networkFirstWithCache(request));
         return;
     }

@@ -1,5 +1,4 @@
 // ===== КОНФИГУРАЦИЯ =====
-const OPENF1_BASE = 'https://api.openf1.org/v1';
 const JOLPICA_BASE = 'https://api.jolpi.ca/ergast/f1';
 const AVAILABLE_YEARS = [2023, 2024, 2025, 2026];
 
@@ -12,9 +11,7 @@ const SPRINT_POINTS_TABLE = [8, 7, 6, 5, 4, 3, 2, 1];
 function getPointsForPosition(pos)       { return POINTS_TABLE[pos - 1]        || 0; }
 function getSprintPointsForPosition(pos) { return SPRINT_POINTS_TABLE[pos - 1] || 0; }
 
-// ===== СПРИНТ: раунды по годам (fallback) =====
-// Только годы с хардкоженными данными гонок; для 2023/2024 определяем через API
-// Полный список спринт-раундов по каждому году (гарантированный fallback + дополнение API)
+// ===== СПРИНТ: раунды по годам =====
 const SPRINT_ROUNDS = {
     2026: new Set([2, 6, 7, 11, 14, 18]),  // Китай, Майами, Канада, GB, Нидерланды, Сингапур
     2025: new Set([2, 6, 13, 19, 21, 23]), // Китай, Майами, Бельгия, Остин, Бразилия, Катар
@@ -22,9 +19,6 @@ const SPRINT_ROUNDS = {
     2023: new Set([4, 9, 12, 17, 18, 21]), // Баку, Австрия, Бельгия, Катар, Остин, Бразилия
 };
 
-// ===== СОСТОЯНИЕ СПРИНТА (при загрузке через API) =====
-// OpenF1: meeting_key → sprint session_key
-let sprintByMeetingKey = new Map();
 // Jolpica: set of round numbers that have sprints (текущий сезон)
 let sprintRoundSet = new Set();
 
@@ -67,9 +61,7 @@ function changeSeason(year) {
     if (!AVAILABLE_YEARS.includes(year)) return;
     currentSeason = year;
     localStorage.setItem('f1_season', year);
-    sprintByMeetingKey = new Map();
     sprintRoundSet = new Set();
-    winnersCache.clear(); // Очищаем кэш победителей
     
     // Очищаем кэш данных при смене сезона
     dataCache.races = null;
@@ -88,7 +80,7 @@ function changeSeason(year) {
     document.getElementById('driversHeading').textContent      = `Личный зачёт — Сезон ${year}`;
     document.getElementById('constructorsHeading').textContent = `Кубок конструкторов — Сезон ${year}`;
     document.getElementById('footerText').textContent =
-        `© 2026 F1 Visualization Project — Сезон ${year} | Данные: OpenF1 API & Jolpica/Ergast`;
+        `© 2026 F1 Visualization Project — Сезон ${year} | Данные: Jolpica/Ergast API`;
 
     refreshData();
 }
@@ -97,11 +89,10 @@ function changeSeason(year) {
 function setApiStatus(source) {
     const el = document.getElementById('apiStatus');
     const labels = {
-        openf1:   '✓ Данные: OpenF1 API (реальное время)',
-        jolpica:  '~ Данные: Jolpica/Ergast API (резервный источник)',
-        fallback: '! Данные: резервная база (API недоступен — возможна живая сессия или тест)',
+        jolpica:  '✓ Данные: Jolpica/Ergast API',
+        fallback: '! Данные: резервная база (API недоступен)',
     };
-    el.className = source;
+    el.className = source === 'jolpica' ? 'openf1' : source;
     el.textContent = labels[source] || '';
 }
 
@@ -245,126 +236,6 @@ function fallbackHasSprint(round) {
     return s ? s.has(round) : false;
 }
 
-// ===== OPENF1 API =====
-
-async function fetchOpenF1(endpoint, params = {}) {
-    const url = new URL(`${OPENF1_BASE}/${endpoint}`);
-    Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v));
-    const resp = await fetch(url.toString());
-    if (!resp.ok) {
-        const body = await resp.json().catch(() => ({}));
-        if (resp.status === 401 || (body.detail && body.detail.includes('Session in progress'))) {
-            throw new Error('LIVE_SESSION');
-        }
-        throw new Error(`OpenF1 HTTP ${resp.status}`);
-    }
-    return resp.json();
-}
-
-// ===== КЭШИРОВАНИЕ РЕЗУЛЬТАТОВ =====
-const winnersCache = new Map(); // session_key -> winner_name
-const dataCache = {
-    races: null,
-    drivers: null,
-    constructors: null,
-    lastUpdate: {
-        races: null,
-        drivers: null,
-        constructors: null
-    }
-};
-
-// Время жизни кэша (5 минут)
-const CACHE_LIFETIME = 5 * 60 * 1000;
-
-// Получить победителя из OpenF1 по session_key
-async function getOpenF1Winner(session_key) {
-    // Проверяем кэш
-    if (winnersCache.has(session_key)) {
-        console.log(`[CACHE] Session ${session_key}: используем кэшированного победителя`);
-        return winnersCache.get(session_key);
-    }
-
-    try {
-        // Стратегия 1: Получить все позиции и найти победителя по последней записи с position=1
-        const allPositions = await fetchOpenF1('position', { session_key });
-        
-        if (allPositions && allPositions.length > 0) {
-            // Фильтруем только позицию 1 и берём последнюю запись
-            const firstPlacePositions = allPositions.filter(p => p.position === 1);
-            
-            if (firstPlacePositions.length > 0) {
-                const winnerPosition = firstPlacePositions[firstPlacePositions.length - 1];
-                
-                const drivers = await fetchOpenF1('drivers', { session_key, driver_number: winnerPosition.driver_number });
-                if (drivers && drivers.length > 0) {
-                    const winnerName = formatDriverName(drivers[0].full_name);
-                    winnersCache.set(session_key, winnerName);
-                    return winnerName;
-                }
-            }
-        }
-
-        // Стратегия 2: Попробовать получить напрямую позицию 1
-        const positions = await fetchOpenF1('position', { session_key, position: 1 });
-        
-        if (positions && positions.length > 0) {
-            const last = positions[positions.length - 1];
-            const drivers = await fetchOpenF1('drivers', { session_key, driver_number: last.driver_number });
-            if (drivers && drivers.length > 0) {
-                const winnerName = formatDriverName(drivers[0].full_name);
-                winnersCache.set(session_key, winnerName);
-                return winnerName;
-            }
-        }
-        
-        // Кэшируем null чтобы не повторять запросы
-        winnersCache.set(session_key, null);
-    } catch (e) {
-        console.warn(`OpenF1 winner error [${session_key}]:`, e.message);
-        winnersCache.set(session_key, null);
-    }
-    return null;
-}
-
-// Получить итоговую классификацию из OpenF1
-async function getOpenF1Results(session_key, isSprint) {
-    const [driversData, positionsData] = await Promise.all([
-        fetchOpenF1('drivers', { session_key }),
-        fetchOpenF1('position', { session_key }),
-    ]);
-
-    const driverMap = {};
-    (driversData || []).forEach(d => { driverMap[d.driver_number] = d; });
-
-    // Группируем позиции по номеру пилота и берём последнюю запись для каждого
-    const finalPositions = {};
-    (positionsData || []).forEach(p => {
-        // Пропускаем невалидные позиции
-        if (!p.position || p.position <= 0 || !p.driver_number) return;
-        
-        if (!finalPositions[p.driver_number] || p.date > finalPositions[p.driver_number].date) {
-            finalPositions[p.driver_number] = p;
-        }
-    });
-
-    const limit = isSprint ? 8 : 10;
-    const results = Object.values(finalPositions)
-        .filter(p => p.position > 0 && p.position <= 20) // Фильтруем только валидные позиции
-        .sort((a, b) => a.position - b.position)
-        .slice(0, limit)
-        .map(p => ({
-            position: p.position,
-            name: formatDriverName(driverMap[p.driver_number]?.full_name) || `#${p.driver_number}`,
-            team: driverMap[p.driver_number]?.team_name || '—',
-            points: isSprint
-                ? getSprintPointsForPosition(p.position)
-                : getPointsForPosition(p.position),
-        }));
-
-    return results;
-}
-
 // ===== ЗАГРУЗКА ГОНОК =====
 
 async function loadRaces() {
@@ -384,41 +255,7 @@ async function loadRaces() {
     errorDiv.style.display = 'none';
     tableBody.innerHTML = '<tr><td colspan="6" style="text-align:center;opacity:0.6;">Загрузка...</td></tr>';
 
-    // 1. OpenF1
-    try {
-        // Запрашиваем гонки и спринты параллельно
-        const [raceSessions, sprintSessions] = await Promise.all([
-            fetchOpenF1('sessions', { year: currentSeason, session_type: 'Race' }),
-            fetchOpenF1('sessions', { year: currentSeason, session_type: 'Sprint' }).catch(() => []),
-        ]);
-
-        if (raceSessions && raceSessions.length > 0) {
-            // Строим карту: meeting_key → sprint session_key
-            sprintByMeetingKey = new Map();
-            (sprintSessions || []).forEach(s => sprintByMeetingKey.set(s.meeting_key, s.session_key));
-
-            raceSessions.sort((a, b) => new Date(a.date_start) - new Date(b.date_start));
-            
-            try {
-                await buildRacesTableFromOpenF1(raceSessions, tableBody);
-                setApiStatus('openf1');
-                
-                // Сохраняем в кэш
-                dataCache.races = tableBody.innerHTML;
-                dataCache.lastUpdate.races = Date.now();
-                console.log('[CACHE] Данные о гонках сохранены в кэш');
-                return;
-            } catch (buildError) {
-                console.error('Ошибка при построении таблицы OpenF1:', buildError);
-                // Продолжаем к Jolpica
-            }
-        }
-    } catch (e) {
-        if (e.message !== 'LIVE_SESSION') console.warn('OpenF1 sessions error:', e.message);
-        else console.warn('OpenF1: идёт живая сессия');
-    }
-
-    // 2. Jolpica/Ergast
+    // Jolpica/Ergast API
     try {
         await loadRacesFromJolpica(tableBody);
         setApiStatus('jolpica');
@@ -426,13 +263,13 @@ async function loadRaces() {
         // Сохраняем в кэш
         dataCache.races = tableBody.innerHTML;
         dataCache.lastUpdate.races = Date.now();
-        console.log('[CACHE] Данные о гонках (Jolpica) сохранены в кэш');
+        console.log('[CACHE] Данные о гонках сохранены в кэш');
         return;
     } catch (e) {
         console.warn('Jolpica error:', e.message);
     }
 
-    // 3. Fallback
+    // Fallback
     const fallbackRaces = getFallback('races');
     if (fallbackRaces.length > 0) {
         buildRacesTableFromFallback(tableBody, fallbackRaces);
@@ -447,64 +284,6 @@ async function loadRaces() {
     // Сохраняем fallback в кэш
     dataCache.races = tableBody.innerHTML;
     dataCache.lastUpdate.races = Date.now();
-}
-
-async function buildRacesTableFromOpenF1(sessions, tableBody) {
-    tableBody.innerHTML = '';
-    const now = new Date();
-
-    for (let i = 0; i < sessions.length; i++) {
-        const session  = sessions[i];
-        // Считаем гонку завершённой, если прошло хотя бы 10 минут после окончания
-        const endTime = new Date(session.date_end);
-        const completed = endTime < now && (now - endTime) > 10 * 60 * 1000;
-        
-        const hasSprint = sprintByMeetingKey.has(session.meeting_key);
-        const sprintKey = hasSprint ? sprintByMeetingKey.get(session.meeting_key) : null;
-
-        let raceWinner   = 'Не проведена';
-        let sprintWinner = hasSprint ? 'Не проведена' : '—';
-
-        if (completed) {
-            // Загружаем победителей гонки и спринта параллельно
-            const [rw, sw] = await Promise.all([
-                getOpenF1Winner(session.session_key),
-                hasSprint && sprintKey ? getOpenF1Winner(sprintKey) : Promise.resolve(null),
-            ]);
-            
-            raceWinner = rw || 'Данные обрабатываются';
-            if (hasSprint) sprintWinner = sw || 'Данные обрабатываются';
-        } else if (endTime < now) {
-            // Гонка закончилась, но данные ещё обрабатываются
-            raceWinner = 'Данные обрабатываются';
-            if (hasSprint) sprintWinner = 'Данные обрабатываются';
-        } else if (hasSprint) {
-            sprintWinner = 'Не проведён';
-        }
-
-        const sprintCell = hasSprint
-            ? `${sprintWinner} <span class="sprint-badge">S</span>`
-            : '—';
-
-        const row = document.createElement('tr');
-        row.innerHTML = `
-            <td>${i + 1}</td>
-            <td>${formatDateFromISO(session.date_start)}</td>
-            <td>${session.country_name || '—'}</td>
-            <td>${session.circuit_short_name || session.location || '—'}
-                <span class="race-source-badge badge-openf1">OpenF1</span></td>
-            <td>${raceWinner}</td>
-            <td>${sprintCell}</td>`;
-
-        // Делаем строку кликабельной, если гонка завершена (даже если данные обрабатываются)
-        if (endTime < now) {
-            row.style.cursor = 'pointer';
-            row.addEventListener('click', () =>
-                openRaceModal(session.session_key, sprintKey, session.meeting_name, 'openf1')
-            );
-        }
-        tableBody.appendChild(row);
-    }
 }
 
 async function loadRacesFromJolpica(tableBody) {
@@ -888,14 +667,6 @@ function closeModal() {
 
 // ===== ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ =====
 
-function formatDateFromISO(isoStr) {
-    if (!isoStr) return '—';
-    const d = new Date(isoStr);
-    const day   = String(d.getUTCDate()).padStart(2, '0');
-    const month = String(d.getUTCMonth() + 1).padStart(2, '0');
-    return `${day}-${month}`;
-}
-
 function formatDate(dateStr) {
     if (!dateStr) return '—';
     const [, month, day] = dateStr.split('-');
@@ -911,8 +682,7 @@ async function clearAllCaches() {
         await Promise.all(cacheNames.map(name => caches.delete(name)));
         console.log('[CACHE] Все кэши очищены');
         
-        // Очищаем также кэш победителей и данных
-        winnersCache.clear();
+        // Очищаем также кэш данных
         dataCache.races = null;
         dataCache.drivers = null;
         dataCache.constructors = null;
@@ -934,7 +704,6 @@ async function refreshData() {
     btn.textContent = 'Обновление...';
     
     // Очищаем все кэши при принудительном обновлении
-    winnersCache.clear();
     dataCache.races = null;
     dataCache.drivers = null;
     dataCache.constructors = null;
@@ -953,47 +722,12 @@ async function refreshData() {
 
 // ===== ИНИЦИАЛИЗАЦИЯ =====
 
-// Функция для отладки (можно вызвать из консоли)
-window.debugOpenF1 = function(session_key) {
-    console.log('=== DEBUG OpenF1 Session ===');
-    console.log('Session Key:', session_key);
-    
-    // Проверяем все доступные endpoints
-    Promise.all([
-        fetchOpenF1('position', { session_key }).then(data => {
-            console.log('Positions:', data?.length || 0, 'records');
-            if (data && data.length > 0) {
-                console.log('Sample position:', data[0]);
-                const pos1 = data.filter(p => p.position === 1);
-                console.log('Position 1 records:', pos1.length);
-            }
-        }).catch(e => console.log('Positions error:', e.message)),
-        
-        fetchOpenF1('laps', { session_key }).then(data => {
-            console.log('Laps:', data?.length || 0, 'records');
-            if (data && data.length > 0) {
-                console.log('Sample lap:', data[0]);
-            }
-        }).catch(e => console.log('Laps error:', e.message)),
-        
-        fetchOpenF1('drivers', { session_key }).then(data => {
-            console.log('Drivers:', data?.length || 0, 'records');
-            if (data && data.length > 0) {
-                console.log('Sample driver:', data[0]);
-            }
-        }).catch(e => console.log('Drivers error:', e.message))
-    ]).then(() => {
-        console.log('=== END DEBUG ===');
-    });
-};
-
 // Функция для просмотра состояния кэша
 window.debugCache = function() {
     console.log('=== CACHE STATUS ===');
-    console.log('Winners cache:', winnersCache.size, 'entries');
     
     const now = Date.now();
-    console.log('\nData cache:');
+    console.log('Data cache:');
     console.log('- Races:', dataCache.races ? 'cached' : 'empty', 
         dataCache.lastUpdate.races ? `(${Math.round((now - dataCache.lastUpdate.races) / 1000)}s ago)` : '');
     console.log('- Drivers:', dataCache.drivers ? 'cached' : 'empty',
@@ -1018,7 +752,7 @@ window.onload = async () => {
     document.getElementById('driversHeading').textContent      = `Личный зачёт — Сезон ${currentSeason}`;
     document.getElementById('constructorsHeading').textContent = `Кубок конструкторов — Сезон ${currentSeason}`;
     document.getElementById('footerText').textContent =
-        `© 2026 F1 Visualization Project — Сезон ${currentSeason} | Данные: OpenF1 API & Jolpica/Ergast`;
+        `© 2026 F1 Visualization Project — Сезон ${currentSeason} | Данные: Jolpica/Ergast API`;
 
     await refreshData();
     showSection('races');
