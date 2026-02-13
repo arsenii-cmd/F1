@@ -47,6 +47,19 @@ function showSection(sectionId) {
         section.classList.remove('hidden');
         section.classList.add('active');
     }
+    
+    // Загружаем данные для секции, если они ещё не загружены
+    const now = Date.now();
+    if (sectionId === 'races' && (!dataCache.races || !dataCache.lastUpdate.races || 
+        (now - dataCache.lastUpdate.races) >= CACHE_LIFETIME)) {
+        loadRaces();
+    } else if (sectionId === 'drivers' && (!dataCache.drivers || !dataCache.lastUpdate.drivers || 
+        (now - dataCache.lastUpdate.drivers) >= CACHE_LIFETIME)) {
+        loadDrivers();
+    } else if (sectionId === 'constructors' && (!dataCache.constructors || !dataCache.lastUpdate.constructors || 
+        (now - dataCache.lastUpdate.constructors) >= CACHE_LIFETIME)) {
+        loadConstructors();
+    }
 }
 
 // ===== СМЕНА СЕЗОНА =====
@@ -57,6 +70,15 @@ function changeSeason(year) {
     sprintByMeetingKey = new Map();
     sprintRoundSet = new Set();
     winnersCache.clear(); // Очищаем кэш победителей
+    
+    // Очищаем кэш данных при смене сезона
+    dataCache.races = null;
+    dataCache.drivers = null;
+    dataCache.constructors = null;
+    dataCache.lastUpdate.races = null;
+    dataCache.lastUpdate.drivers = null;
+    dataCache.lastUpdate.constructors = null;
+    console.log('[CACHE] Кэш данных очищен при смене сезона');
 
     document.querySelectorAll('.year-btn').forEach(btn => {
         btn.classList.toggle('active', parseInt(btn.dataset.year) === year);
@@ -241,6 +263,19 @@ async function fetchOpenF1(endpoint, params = {}) {
 
 // ===== КЭШИРОВАНИЕ РЕЗУЛЬТАТОВ =====
 const winnersCache = new Map(); // session_key -> winner_name
+const dataCache = {
+    races: null,
+    drivers: null,
+    constructors: null,
+    lastUpdate: {
+        races: null,
+        drivers: null,
+        constructors: null
+    }
+};
+
+// Время жизни кэша (5 минут)
+const CACHE_LIFETIME = 5 * 60 * 1000;
 
 // Получить победителя из OpenF1 по session_key
 async function getOpenF1Winner(session_key) {
@@ -335,6 +370,17 @@ async function getOpenF1Results(session_key, isSprint) {
 async function loadRaces() {
     const errorDiv  = document.getElementById('racesError');
     const tableBody = document.getElementById('racesTableBody');
+    
+    // Проверяем кэш
+    const now = Date.now();
+    if (dataCache.races && dataCache.lastUpdate.races && 
+        (now - dataCache.lastUpdate.races) < CACHE_LIFETIME) {
+        console.log('[CACHE] Используем кэшированные данные о гонках');
+        tableBody.innerHTML = dataCache.races;
+        errorDiv.style.display = 'none';
+        return;
+    }
+    
     errorDiv.style.display = 'none';
     tableBody.innerHTML = '<tr><td colspan="6" style="text-align:center;opacity:0.6;">Загрузка...</td></tr>';
 
@@ -356,6 +402,11 @@ async function loadRaces() {
             try {
                 await buildRacesTableFromOpenF1(raceSessions, tableBody);
                 setApiStatus('openf1');
+                
+                // Сохраняем в кэш
+                dataCache.races = tableBody.innerHTML;
+                dataCache.lastUpdate.races = Date.now();
+                console.log('[CACHE] Данные о гонках сохранены в кэш');
                 return;
             } catch (buildError) {
                 console.error('Ошибка при построении таблицы OpenF1:', buildError);
@@ -371,6 +422,11 @@ async function loadRaces() {
     try {
         await loadRacesFromJolpica(tableBody);
         setApiStatus('jolpica');
+        
+        // Сохраняем в кэш
+        dataCache.races = tableBody.innerHTML;
+        dataCache.lastUpdate.races = Date.now();
+        console.log('[CACHE] Данные о гонках (Jolpica) сохранены в кэш');
         return;
     } catch (e) {
         console.warn('Jolpica error:', e.message);
@@ -387,6 +443,10 @@ async function loadRaces() {
     setApiStatus('fallback');
     errorDiv.style.display = 'block';
     errorDiv.textContent = 'API недоступен. Показаны статичные данные.';
+    
+    // Сохраняем fallback в кэш
+    dataCache.races = tableBody.innerHTML;
+    dataCache.lastUpdate.races = Date.now();
 }
 
 async function buildRacesTableFromOpenF1(sessions, tableBody) {
@@ -568,6 +628,17 @@ function buildRacesTableFromFallback(tableBody, races) {
 async function loadDrivers() {
     const errorDiv  = document.getElementById('driversError');
     const tableBody = document.getElementById('driversTableBody');
+    
+    // Проверяем кэш
+    const now = Date.now();
+    if (dataCache.drivers && dataCache.lastUpdate.drivers && 
+        (now - dataCache.lastUpdate.drivers) < CACHE_LIFETIME) {
+        console.log('[CACHE] Используем кэшированные данные о пилотах');
+        tableBody.innerHTML = dataCache.drivers;
+        errorDiv.style.display = 'none';
+        return;
+    }
+    
     errorDiv.style.display = 'none';
     tableBody.innerHTML = '<tr><td colspan="5" style="text-align:center;opacity:0.6;">Загрузка...</td></tr>';
 
@@ -589,6 +660,11 @@ async function loadDrivers() {
                 <td>${s.points}</td>`;
             tableBody.appendChild(row);
         });
+        
+        // Сохраняем в кэш
+        dataCache.drivers = tableBody.innerHTML;
+        dataCache.lastUpdate.drivers = Date.now();
+        console.log('[CACHE] Данные о пилотах сохранены в кэш');
         return;
     } catch (e) {
         console.warn('Jolpica drivers error:', e.message);
@@ -611,6 +687,10 @@ async function loadDrivers() {
                 <td>${d.points}</td>`;
             tableBody.appendChild(row);
         });
+        
+        // Сохраняем fallback в кэш
+        dataCache.drivers = tableBody.innerHTML;
+        dataCache.lastUpdate.drivers = Date.now();
     } else {
         errorDiv.textContent = `Нет данных для ${currentSeason}. Попробуйте обновить позже.`;
         tableBody.innerHTML = '';
@@ -622,6 +702,17 @@ async function loadDrivers() {
 async function loadConstructors() {
     const errorDiv  = document.getElementById('constructorsError');
     const tableBody = document.getElementById('constructorsTableBody');
+    
+    // Проверяем кэш
+    const now = Date.now();
+    if (dataCache.constructors && dataCache.lastUpdate.constructors && 
+        (now - dataCache.lastUpdate.constructors) < CACHE_LIFETIME) {
+        console.log('[CACHE] Используем кэшированные данные о конструкторах');
+        tableBody.innerHTML = dataCache.constructors;
+        errorDiv.style.display = 'none';
+        return;
+    }
+    
     errorDiv.style.display = 'none';
     tableBody.innerHTML = '<tr><td colspan="3" style="text-align:center;opacity:0.6;">Загрузка...</td></tr>';
 
@@ -641,6 +732,11 @@ async function loadConstructors() {
                 <td>${s.points}</td>`;
             tableBody.appendChild(row);
         });
+        
+        // Сохраняем в кэш
+        dataCache.constructors = tableBody.innerHTML;
+        dataCache.lastUpdate.constructors = Date.now();
+        console.log('[CACHE] Данные о конструкторах сохранены в кэш');
         return;
     } catch (e) {
         console.warn('Jolpica constructors error:', e.message);
@@ -661,6 +757,10 @@ async function loadConstructors() {
                 <td>${c.points}</td>`;
             tableBody.appendChild(row);
         });
+        
+        // Сохраняем fallback в кэш
+        dataCache.constructors = tableBody.innerHTML;
+        dataCache.lastUpdate.constructors = Date.now();
     } else {
         errorDiv.textContent = `Нет данных для ${currentSeason}. Попробуйте обновить позже.`;
         tableBody.innerHTML = '';
@@ -811,8 +911,14 @@ async function clearAllCaches() {
         await Promise.all(cacheNames.map(name => caches.delete(name)));
         console.log('[CACHE] Все кэши очищены');
         
-        // Очищаем также кэш победителей
+        // Очищаем также кэш победителей и данных
         winnersCache.clear();
+        dataCache.races = null;
+        dataCache.drivers = null;
+        dataCache.constructors = null;
+        dataCache.lastUpdate.races = null;
+        dataCache.lastUpdate.drivers = null;
+        dataCache.lastUpdate.constructors = null;
         
         // Перезагружаем страницу
         window.location.reload(true);
@@ -827,9 +933,15 @@ async function refreshData() {
     btn.disabled = true;
     btn.textContent = 'Обновление...';
     
-    // Очищаем кэш победителей при принудительном обновлении
+    // Очищаем все кэши при принудительном обновлении
     winnersCache.clear();
-    console.log('[REFRESH] Кэш победителей очищен');
+    dataCache.races = null;
+    dataCache.drivers = null;
+    dataCache.constructors = null;
+    dataCache.lastUpdate.races = null;
+    dataCache.lastUpdate.drivers = null;
+    dataCache.lastUpdate.constructors = null;
+    console.log('[REFRESH] Все кэши очищены');
     
     try {
         await Promise.all([loadRaces(), loadDrivers(), loadConstructors()]);
@@ -873,6 +985,24 @@ window.debugOpenF1 = function(session_key) {
     ]).then(() => {
         console.log('=== END DEBUG ===');
     });
+};
+
+// Функция для просмотра состояния кэша
+window.debugCache = function() {
+    console.log('=== CACHE STATUS ===');
+    console.log('Winners cache:', winnersCache.size, 'entries');
+    
+    const now = Date.now();
+    console.log('\nData cache:');
+    console.log('- Races:', dataCache.races ? 'cached' : 'empty', 
+        dataCache.lastUpdate.races ? `(${Math.round((now - dataCache.lastUpdate.races) / 1000)}s ago)` : '');
+    console.log('- Drivers:', dataCache.drivers ? 'cached' : 'empty',
+        dataCache.lastUpdate.drivers ? `(${Math.round((now - dataCache.lastUpdate.drivers) / 1000)}s ago)` : '');
+    console.log('- Constructors:', dataCache.constructors ? 'cached' : 'empty',
+        dataCache.lastUpdate.constructors ? `(${Math.round((now - dataCache.lastUpdate.constructors) / 1000)}s ago)` : '');
+    
+    console.log('\nCache lifetime:', CACHE_LIFETIME / 1000, 'seconds');
+    console.log('=== END CACHE STATUS ===');
 };
 
 window.onload = async () => {
