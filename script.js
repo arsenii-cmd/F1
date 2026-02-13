@@ -1,8 +1,17 @@
-// ===== КОНФИГУРАЦИЯ =====
+﻿// ===== КОНФИГУРАЦИЯ =====
 const JOLPICA_BASE = 'https://api.jolpi.ca/ergast/f1';
 const AVAILABLE_YEARS = [2023, 2024, 2025, 2026];
 
 let currentSeason = parseInt(localStorage.getItem('f1_season') || '2026');
+
+// Глобальная обработка ошибок
+window.addEventListener('error', function(e) {
+    console.error('[GLOBAL ERROR]', e.message, e.filename, e.lineno, e.colno);
+});
+
+window.addEventListener('unhandledrejection', function(e) {
+    console.error('[UNHANDLED PROMISE]', e.reason);
+});
 
 // ===== ОЧКИ =====
 const POINTS_TABLE        = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1];
@@ -21,6 +30,21 @@ const SPRINT_ROUNDS = {
 
 // Jolpica: set of round numbers that have sprints (текущий сезон)
 let sprintRoundSet = new Set();
+
+// ===== КЭШИРОВАНИЕ РЕЗУЛЬТАТОВ =====
+const dataCache = {
+    races: null,
+    drivers: null,
+    constructors: null,
+    lastUpdate: {
+        races: null,
+        drivers: null,
+        constructors: null
+    }
+};
+
+// Время жизни кэша (5 минут)
+const CACHE_LIFETIME = 5 * 60 * 1000;
 
 // ===== ФОРМАТИРОВАНИЕ =====
 function formatDriverName(name) {
