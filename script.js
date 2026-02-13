@@ -251,80 +251,38 @@ async function getOpenF1Winner(session_key) {
     }
 
     try {
-        // Стратегия 1: Использовать данные о кругах для определения победителя
-        const laps = await fetchOpenF1('laps', { session_key });
-        if (laps && laps.length > 0) {
-            // Группируем круги по пилотам и находим того, кто прошёл больше всего кругов
-            const lapsByDriver = {};
-            laps.forEach(lap => {
-                if (!lapsByDriver[lap.driver_number]) {
-                    lapsByDriver[lap.driver_number] = [];
-                }
-                lapsByDriver[lap.driver_number].push(lap);
-            });
-            
-            // Находим пилота с максимальным количеством кругов
-            let maxLaps = 0;
-            let winnerDriverNumber = null;
-            
-            Object.entries(lapsByDriver).forEach(([driverNumber, driverLaps]) => {
-                if (driverLaps.length > maxLaps) {
-                    maxLaps = driverLaps.length;
-                    winnerDriverNumber = parseInt(driverNumber);
-                }
-            });
-            
-            if (winnerDriverNumber) {
-                console.log(`[DEBUG] Session ${session_key}: победитель по кругам - пилот #${winnerDriverNumber} (${maxLaps} кругов)`);
-                const drivers = await fetchOpenF1('drivers', { session_key, driver_number: winnerDriverNumber });
-                if (drivers && drivers.length > 0) {
-                    const winnerName = formatDriverName(drivers[0].full_name);
-                    console.log(`[DEBUG] Session ${session_key}: имя победителя - ${winnerName}`);
-                    winnersCache.set(session_key, winnerName);
-                    return winnerName;
-                }
-            }
-        }
-
-        // Стратегия 2: Получить все позиции и найти победителя по последней записи с position=1
+        // Стратегия 1: Получить все позиции и найти победителя по последней записи с position=1
         const allPositions = await fetchOpenF1('position', { session_key });
-        console.log(`[DEBUG] Session ${session_key}: получено ${allPositions?.length || 0} записей позиций`);
         
         if (allPositions && allPositions.length > 0) {
             // Фильтруем только позицию 1 и берём последнюю запись
             const firstPlacePositions = allPositions.filter(p => p.position === 1);
-            console.log(`[DEBUG] Session ${session_key}: найдено ${firstPlacePositions.length} записей с позицией 1`);
             
             if (firstPlacePositions.length > 0) {
                 const winnerPosition = firstPlacePositions[firstPlacePositions.length - 1];
-                console.log(`[DEBUG] Session ${session_key}: победитель - пилот #${winnerPosition.driver_number}`);
                 
                 const drivers = await fetchOpenF1('drivers', { session_key, driver_number: winnerPosition.driver_number });
                 if (drivers && drivers.length > 0) {
                     const winnerName = formatDriverName(drivers[0].full_name);
-                    console.log(`[DEBUG] Session ${session_key}: имя победителя - ${winnerName}`);
                     winnersCache.set(session_key, winnerName);
                     return winnerName;
                 }
             }
         }
 
-        // Стратегия 3: Попробовать получить напрямую позицию 1
+        // Стратегия 2: Попробовать получить напрямую позицию 1
         const positions = await fetchOpenF1('position', { session_key, position: 1 });
-        console.log(`[DEBUG] Session ${session_key}: прямой запрос позиции 1 - ${positions?.length || 0} записей`);
         
         if (positions && positions.length > 0) {
             const last = positions[positions.length - 1];
             const drivers = await fetchOpenF1('drivers', { session_key, driver_number: last.driver_number });
             if (drivers && drivers.length > 0) {
                 const winnerName = formatDriverName(drivers[0].full_name);
-                console.log(`[DEBUG] Session ${session_key}: имя победителя (стратегия 3) - ${winnerName}`);
                 winnersCache.set(session_key, winnerName);
                 return winnerName;
             }
         }
         
-        console.log(`[DEBUG] Session ${session_key}: победитель не найден`);
         // Кэшируем null чтобы не повторять запросы
         winnersCache.set(session_key, null);
     } catch (e) {
@@ -394,9 +352,15 @@ async function loadRaces() {
             (sprintSessions || []).forEach(s => sprintByMeetingKey.set(s.meeting_key, s.session_key));
 
             raceSessions.sort((a, b) => new Date(a.date_start) - new Date(b.date_start));
-            await buildRacesTableFromOpenF1(raceSessions, tableBody);
-            setApiStatus('openf1');
-            return;
+            
+            try {
+                await buildRacesTableFromOpenF1(raceSessions, tableBody);
+                setApiStatus('openf1');
+                return;
+            } catch (buildError) {
+                console.error('Ошибка при построении таблицы OpenF1:', buildError);
+                // Продолжаем к Jolpica
+            }
         }
     } catch (e) {
         if (e.message !== 'LIVE_SESSION') console.warn('OpenF1 sessions error:', e.message);
@@ -448,41 +412,7 @@ async function buildRacesTableFromOpenF1(sessions, tableBody) {
                 hasSprint && sprintKey ? getOpenF1Winner(sprintKey) : Promise.resolve(null),
             ]);
             
-            // Если OpenF1 не вернул данные, пробуем получить через Jolpica как fallback
-            if (!rw) {
-                try {
-                    // Пытаемся найти соответствующий раунд в Jolpica по дате
-                    const sessionDate = new Date(session.date_start);
-                    const jolpicaResp = await fetch(`${JOLPICA_BASE}/${currentSeason}.json`);
-                    if (jolpicaResp.ok) {
-                        const jolpicaData = await jolpicaResp.json();
-                        const races = jolpicaData.MRData.RaceTable.Races;
-                        
-                        // Ищем гонку по дате (с погрешностью в 3 дня)
-                        const matchingRace = races.find(race => {
-                            const raceDate = new Date(race.date);
-                            const diffDays = Math.abs(sessionDate - raceDate) / (1000 * 60 * 60 * 24);
-                            return diffDays <= 3;
-                        });
-                        
-                        if (matchingRace) {
-                            const winnerResp = await fetch(`${JOLPICA_BASE}/${currentSeason}/${matchingRace.round}/results/1.json`);
-                            if (winnerResp.ok) {
-                                const winnerData = await winnerResp.json();
-                                const result = winnerData.MRData?.RaceTable?.Races?.[0]?.Results?.[0];
-                                if (result) {
-                                    raceWinner = `${result.Driver.givenName} ${result.Driver.familyName}`;
-                                    console.log(`[FALLBACK] Получен победитель через Jolpica: ${raceWinner}`);
-                                }
-                            }
-                        }
-                    }
-                } catch (e) {
-                    console.warn('Jolpica fallback failed:', e.message);
-                }
-            }
-            
-            raceWinner = rw || raceWinner || 'Данные обрабатываются';
+            raceWinner = rw || 'Данные обрабатываются';
             if (hasSprint) sprintWinner = sw || 'Данные обрабатываются';
         } else if (endTime < now) {
             // Гонка закончилась, но данные ещё обрабатываются
