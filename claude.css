@@ -66,19 +66,6 @@ html.mx-dialog-open body { overflow: hidden; }
         radial-gradient(35% 30% at 82% 18%, rgba(255, 140, 40, .2), transparent 70%),
         radial-gradient(45% 40% at 70% 85%, rgba(62, 120, 255, .22), transparent 70%),
         radial-gradient(30% 30% at 25% 85%, rgba(180, 107, 255, .16), transparent 70%);
-    filter: blur(40px) saturate(130%);
-    animation: aurora 28s ease-in-out infinite alternate;
-}
-.mx-aurora::after {
-    content: ''; position: absolute; inset: 20%;
-    background: conic-gradient(from var(--angle) at 50% 50%, transparent, rgba(255, 30, 30, .14), transparent 30%, rgba(62, 230, 255, .1), transparent 60%);
-    filter: blur(60px);
-    animation: spin 40s linear infinite;
-}
-@keyframes aurora {
-    0% { transform: translate3d(0, 0, 0) scale(1); }
-    50% { transform: translate3d(4%, -3%, 0) scale(1.08); }
-    100% { transform: translate3d(-3%, 4%, 0) scale(1.02); }
 }
 @keyframes spin { to { --angle: 360deg; } }
 
@@ -92,17 +79,27 @@ html.mx-dialog-open body { overflow: hidden; }
     transform-origin: top center;
     mask-image: linear-gradient(to bottom, transparent, #000 25%, #000 50%, transparent 92%);
     -webkit-mask-image: linear-gradient(to bottom, transparent, #000 25%, #000 50%, transparent 92%);
-    animation: floor 1.4s linear infinite;
+    background: none;
     opacity: .55;
+    overflow: hidden;
 }
-@keyframes floor { to { background-position: 0 80px, 0 0; } }
+.mx-grid-floor::before {
+    content: ''; position: absolute; left: 0; right: 0; top: -80px; bottom: 0;
+    background-image:
+        linear-gradient(rgba(255, 60, 40, .32) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 60, 40, .22) 1px, transparent 1px);
+    background-size: 80px 80px;
+    animation: floor 1.4s linear infinite;
+    will-change: transform;
+}
+@keyframes floor { to { transform: translateY(80px); } }
 @supports (animation-timeline: scroll()) {
-    .mx-grid-floor { animation: floor 1.4s linear infinite, floor-fade linear both; animation-timeline: auto, scroll(root); animation-range: normal, 0 90vh; }
+    .mx-grid-floor { animation: floor-fade linear both; animation-timeline: scroll(root); animation-range: 0 90vh; }
     @keyframes floor-fade { to { opacity: 0; } }
 }
 
 .mx-grain {
-    position: absolute; inset: 0; opacity: .07; mix-blend-mode: overlay;
+    position: absolute; inset: 0; opacity: .035;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
@@ -126,8 +123,6 @@ html.mx-dialog-open body { overflow: hidden; }
         linear-gradient(155deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .025) 42%, rgba(255, 255, 255, .055));
     border: 1px solid rgba(255, 255, 255, .11);
     border-radius: var(--radius);
-    -webkit-backdrop-filter: blur(22px) saturate(170%);
-    backdrop-filter: blur(22px) saturate(170%);
     box-shadow:
         inset 0 1px 0 rgba(255, 255, 255, .22),
         inset 0 -1px 0 rgba(255, 255, 255, .04),
@@ -150,6 +145,11 @@ html.mx-dialog-open body { overflow: hidden; }
     opacity: 0; transition: opacity .4s;
 }
 .glass:hover::after { opacity: 1; }
+/* Живое размытие фона (backdrop-filter) оставлено только у навигации: под карточками оно
+   пересчитывалось бы каждый кадр. Карточкам стеклянный вид дают полупрозрачный градиент и блики. */
+.mx-card, .mx-track-side {
+    background: linear-gradient(155deg, rgba(40, 42, 54, .78), rgba(16, 17, 24, .82) 45%, rgba(26, 28, 38, .8));
+}
 .glass-inset {
     background: rgba(0, 0, 0, .28);
     border: 1px solid rgba(255, 255, 255, .08);
@@ -176,7 +176,7 @@ html.mx-dialog-open body { overflow: hidden; }
     transition: background .4s, box-shadow .4s;
 }
 /* Настоящее преломление «жидкого стекла» там, где браузер поддерживает SVG-фильтр в backdrop-filter */
-html.mx-liquid .mx-nav { backdrop-filter: url(#liquidGlass) blur(6px) saturate(190%) brightness(1.08); }
+
 .mx-nav-wrap.is-scrolled .mx-nav { background: linear-gradient(160deg, rgba(20, 22, 30, .72), rgba(10, 11, 16, .6)); }
 
 .mx-logo { display: flex; align-items: center; gap: 10px; flex: none; }
@@ -247,7 +247,6 @@ main#mx-top { position: relative; z-index: 1; }
     background: linear-gradient(100deg, var(--red) 10%, var(--amber) 50%, var(--red) 90%);
     background-size: 200% 100%;
     -webkit-background-clip: text; background-clip: text; color: transparent;
-    animation: shimmer 6s linear infinite;
 }
 @keyframes shimmer { to { background-position: -200% 0; } }
 .mx-h3 { font-family: var(--font-display); font-size: clamp(20px, 2.4vw, 28px); margin: 54px 0 18px; text-transform: uppercase; letter-spacing: .02em; }
@@ -378,17 +377,17 @@ main#mx-top { position: relative; z-index: 1; }
 .mx-speedlines i:nth-child(8) { top: 92%; animation-delay: -.8s; width: 35%; background: linear-gradient(90deg, transparent, rgba(62, 230, 255, .7), transparent); }
 @keyframes streak { to { transform: translateX(-450%); } }
 
-.mx-car-rig { position: relative; z-index: 2; margin-bottom: 4%; animation: car-launch 7s infinite; }
+.mx-car-rig { position: relative; z-index: 2; margin-bottom: 4%; animation: car-launch 7s infinite; will-change: transform; }
 .mx-car-rig::before {
     content: ''; position: absolute; left: -18%; width: 45%; top: 30%; height: 42%; z-index: -1;
-    background: linear-gradient(90deg, transparent, rgba(255, 30, 30, .22) 60%, rgba(255, 120, 60, .35));
-    filter: blur(14px); border-radius: 50%;
+    background: radial-gradient(closest-side, rgba(255, 90, 50, .4), rgba(255, 30, 30, .12) 70%, transparent);
+    border-radius: 50%;
     animation: wake 7s infinite;
 }
 @keyframes wake { 0%, 56% { opacity: .35; transform: scaleX(.6); transform-origin: right; } 66% { opacity: 1; transform: scaleX(1.2); } 100% { opacity: .35; transform: scaleX(.6); } }
 .mx-exhaust { animation: exhaust .09s steps(2) infinite; transform-box: fill-box; transform-origin: center; }
 @keyframes exhaust { 50% { opacity: .6; transform: scale(.85); } }
-.mx-car { display: block; width: 100%; height: auto; overflow: visible; filter: drop-shadow(0 30px 30px rgba(0, 0, 0, .65)); animation: idle .12s linear infinite alternate; }
+.mx-car { display: block; width: 100%; height: auto; overflow: visible; animation: idle .12s linear infinite alternate; will-change: transform; }
 @keyframes idle { to { transform: translateY(-1px); } }
 @keyframes car-launch {
     0%, 56% { transform: translateX(0); }
@@ -401,8 +400,8 @@ main#mx-top { position: relative; z-index: 1; }
 @keyframes wheel { to { transform: rotate(360deg); } }
 .mx-car-glow {
     position: absolute; left: 6%; right: 2%; top: 30%; bottom: 4%; z-index: -1;
-    background: radial-gradient(50% 50% at 55% 60%, rgba(255, 30, 30, .55), transparent 70%);
-    filter: blur(30px); animation: glow-pulse 7s infinite;
+    background: radial-gradient(50% 50% at 55% 60%, rgba(255, 30, 30, .5), rgba(255, 30, 30, .12) 50%, transparent 72%);
+    animation: glow-pulse 7s infinite; will-change: transform, opacity;
 }
 @keyframes glow-pulse { 0%, 56% { opacity: .55; } 64% { opacity: 1; transform: scale(1.1); } 100% { opacity: .55; } }
 .mx-car-shadow { position: absolute; left: 8%; right: 4%; bottom: -3%; height: 14%; border-radius: 50%; background: radial-gradient(closest-side, rgba(0, 0, 0, .8), transparent); }
@@ -446,7 +445,7 @@ main#mx-top { position: relative; z-index: 1; }
 }
 .mx-countdown b { font-family: var(--font-mono); font-size: clamp(24px, 9cqi, 40px); line-height: 1.05; font-weight: 700; font-variant-numeric: tabular-nums; }
 .mx-countdown b.flip { animation: flip .45s var(--ease-out); }
-@keyframes flip { from { transform: translateY(-60%); opacity: 0; filter: blur(4px); } }
+@keyframes flip { from { transform: translateY(-60%); opacity: 0; } }
 .mx-countdown small { font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--faint); margin-top: 4px; }
 .mx-countdown.is-idle { opacity: .35; }
 .mx-countdown > div:last-child b { color: var(--red); text-shadow: 0 0 18px rgba(255, 30, 30, .6); }
@@ -722,15 +721,14 @@ button.mx-race-card:hover .mx-win span, button.mx-race-card:focus-visible .mx-wi
 .mx-track { --speed: 1; padding: clamp(12px, 2vw, 24px); overflow: hidden; background: radial-gradient(80% 80% at 50% 40%, rgba(255, 30, 30, .08), transparent 70%), linear-gradient(160deg, rgba(255, 255, 255, .07), rgba(255, 255, 255, .015)); }
 .mx-track::after { display: none; }
 .mx-circuit { display: block; width: 100%; height: auto; overflow: visible; }
-.mx-kerb { fill: none; stroke: rgba(255, 255, 255, .22); stroke-width: 34; stroke-linejoin: round; filter: drop-shadow(0 14px 26px rgba(0, 0, 0, .8)) drop-shadow(0 0 18px rgba(255, 30, 30, .15)); }
+.mx-kerb { fill: none; stroke: rgba(255, 255, 255, .22); stroke-width: 34; stroke-linejoin: round; }
 .mx-asphalt { fill: none; stroke: #1a1d25; stroke-width: 30; stroke-linejoin: round; }
 .mx-centre { fill: none; stroke: rgba(255, 255, 255, .12); stroke-width: 1.2; stroke-dasharray: 8 14; }
-.mx-sweep { fill: none; stroke: url(#carBody); stroke: rgba(255, 60, 40, .9); stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 120 1900; animation: sweep calc(5s / var(--speed)) linear infinite; filter: drop-shadow(0 0 6px rgba(255, 30, 30, .9)); }
+.mx-sweep { fill: none; stroke: url(#carBody); stroke: rgba(255, 60, 40, .9); stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 120 1900; animation: sweep calc(5s / var(--speed)) linear infinite; }
 @keyframes sweep { to { stroke-dashoffset: -2020; } }
 .mx-track.is-paused .mx-sweep { animation-play-state: paused; }
 .mx-sector { font-family: var(--font-mono); font-size: 12px; font-weight: 700; fill: rgba(255, 255, 255, .35); letter-spacing: .12em; }
-.mx-trail { fill: none; stroke-width: 7; stroke-linecap: round; opacity: .75; filter: url(#trailGlow); }
-.mx-car-top use { filter: drop-shadow(0 0 4px currentColor); }
+.mx-trail { fill: none; stroke-width: 9; stroke-linecap: round; opacity: .38; }
 .mx-car-halo { fill: currentColor; opacity: .18; }
 .mx-car-label { font-family: var(--font-mono); font-size: 11px; font-weight: 700; fill: #fff; paint-order: stroke; stroke: rgba(0, 0, 0, .75); stroke-width: 3px; }
 .mx-track-hud { position: absolute; top: 18px; left: 18px; right: 18px; display: flex; justify-content: space-between; align-items: center; pointer-events: none; }
@@ -889,8 +887,8 @@ button.mx-race-card:hover .mx-win span, button.mx-race-card:focus-visible .mx-wi
 .mx-results-loading, .mx-results-empty { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 40px 10px; color: var(--muted); text-align: center; }
 
 /* ---------- Появление при прокрутке ---------- */
-.reveal { opacity: 0; transform: translateY(30px); filter: blur(6px); transition: opacity .9s var(--ease-out), transform .9s var(--ease-out), filter .9s var(--ease-out); }
-.reveal.in { opacity: 1; transform: none; filter: none; }
+.reveal { opacity: 0; transform: translateY(30px); transition: opacity .9s var(--ease-out), transform .9s var(--ease-out); }
+.reveal.in { opacity: 1; transform: none; }
 
 /* Переход между состояниями (View Transitions API) */
 ::view-transition-old(root), ::view-transition-new(root) { animation-duration: .45s; animation-timing-function: var(--ease-out); }
@@ -968,4 +966,20 @@ html.mx-loading .mx-races, html.mx-loading .mx-table, html.mx-loading .mx-teams,
     .mx *, .mx *::before, .mx *::after { animation-duration: .001s !important; animation-iteration-count: 1 !important; transition-duration: .001s !important; }
     .mx-light i { animation: none !important; }
     .reveal, .mx-race, .mx-pod, .mx-team, .mx-news-card, #mxDrivers .mx-tr { opacity: 1; transform: none; filter: none; }
+}
+
+/* ---------- Производительность ---------- */
+/* Разделы ниже первого экрана браузер не отрисовывает, пока до них не докрутили */
+.mx-section, .mx-footer { content-visibility: auto; contain-intrinsic-size: auto 1200px; }
+/* Анимации первого экрана, фона и бегущей строки останавливаются, когда их не видно */
+.mx-hero.is-offscreen *, .mx-hero.is-offscreen *::before, .mx-hero.is-offscreen *::after,
+.mx-marquee.is-offscreen *, .mx-backdrop.is-paused *, .mx-backdrop.is-paused *::before { animation-play-state: paused !important; }
+.mx-marquee-track, .mx-speedlines i, .mx-road i { will-change: transform; }
+/* На телефонах и планшетах — без размытия фона и дорогих эффектов */
+@media (max-width: 900px), (hover: none) {
+    .mx-card, .mx-track-side, .mx-nav, .mx-news-cat, .mx-dialog::backdrop { -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+    .mx-nav, .mx-nav-wrap.is-scrolled .mx-nav { background: rgba(14, 15, 21, .94); }
+    .glass { background: linear-gradient(155deg, #171922, #0f1017 60%, #13151d); }
+    .mx-dialog::backdrop { background: rgba(3, 4, 8, .82); }
+    .glass::after { display: none; }
 }

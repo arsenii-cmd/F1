@@ -593,13 +593,29 @@
         let last = 0;
         let raf = 0;
 
+        // Точки трассы считаем один раз: getPointAtLength на каждом кадре дорогой.
+        const STEP = 2;
+        const TRAIL = 90;
+        let points = null;
+        function pointAt(dist) {
+            const i = Math.floor((((dist % length) + length) % length) / STEP);
+            return points[i] || points[0];
+        }
         function setCars(drivers) {
-            if (!length) length = path.getTotalLength();
+            if (!length) {
+                length = path.getTotalLength();
+                points = [];
+                for (let d = 0; d <= length; d += STEP) {
+                    const p = path.getPointAtLength(d);
+                    points.push([p.x, p.y]);
+                }
+            }
             const list = drivers.length ? drivers : [
                 { code: 'MCL', team: 'McLaren', last: 'McLaren' }, { code: 'FER', team: 'Ferrari', last: 'Ferrari' },
                 { code: 'RBR', team: 'Red Bull', last: 'Red Bull' }, { code: 'MER', team: 'Mercedes', last: 'Mercedes' },
                 { code: 'AMR', team: 'Aston Martin', last: 'Aston Martin' }];
             layer.textContent = '';
+            lastOrder = '';
             cars = list.map((d, i) => {
                 const color = teamColor(d.team);
                 const trail = document.createElementNS(svgNS, 'use');
@@ -610,6 +626,7 @@
                 g.setAttribute('class', 'mx-car-top');
                 g.style.color = color;
                 g.innerHTML = `<circle r="15" class="mx-car-halo"/><use href="#carTop" x="-20" y="-9" width="40" height="18"/>`;
+                trail.style.strokeDasharray = `${TRAIL} ${length}`;
                 const label = document.createElementNS(svgNS, 'text');
                 label.setAttribute('class', 'mx-car-label');
                 label.textContent = d.code;
@@ -633,15 +650,12 @@
                     c.dist += dt * speed * (c.base + Math.sin(c.phase) * c.wobble);
                 }
                 const at = c.dist % length;
-                const p = path.getPointAtLength(at);
-                const q = path.getPointAtLength((at + 2) % length);
-                const angle = Math.atan2(q.y - p.y, q.x - p.x) * 180 / Math.PI;
-                c.g.setAttribute('transform', `translate(${p.x.toFixed(1)} ${p.y.toFixed(1)}) rotate(${angle.toFixed(1)})`);
-                c.label.setAttribute('x', (p.x + 14).toFixed(1));
-                c.label.setAttribute('y', (p.y - 14).toFixed(1));
-                const trailLen = 90;
-                c.trail.style.strokeDasharray = `${trailLen} ${length}`;
-                c.trail.style.strokeDashoffset = `${-(at - trailLen)}`;
+                const [x, y] = pointAt(at);
+                const [x2, y2] = pointAt(at + 6);
+                const angle = Math.atan2(y2 - y, x2 - x) * 180 / Math.PI;
+                c.g.setAttribute('transform', `translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${angle.toFixed(0)})`);
+                c.label.setAttribute('transform', `translate(${(x + 14).toFixed(1)} ${(y - 14).toFixed(1)})`);
+                c.trail.style.strokeDashoffset = `${-(at - TRAIL)}`;
             });
         }
 
@@ -655,11 +669,21 @@
             $('mxKmh').textContent = value;
             $('mxGear').textContent = value ? `${Math.min(8, Math.max(1, Math.ceil(value / 44)))}-я передача` : 'N';
         }
+        let lastOrder = '';
         function renderOrder() {
             const sorted = [...cars].sort((a, b) => b.dist - a.dist);
+            const key = sorted.map(c => c.driver.code).join();
             const leader = sorted[0];
             renderGauge(leader);
             $('mxLap').textContent = leader ? Math.max(1, Math.floor(leader.dist / length)) : 1;
+            // Пересобираем список, только если сменился порядок; иначе обновляем отставания.
+            if (key === lastOrder) {
+                $('mxOrder').querySelectorAll('small').forEach((el, i) => {
+                    el.textContent = i ? `+${((leader.dist - sorted[i].dist) / 118).toFixed(3)}` : 'Лидер';
+                });
+                return;
+            }
+            lastOrder = key;
             $('mxOrder').innerHTML = sorted.map((c, i) => {
                 const gap = i ? `+${((leader.dist - c.dist) / 118).toFixed(3)}` : 'Лидер';
                 return `<li style="--team:${c.color}"><span class="mx-order-pos">${i + 1}</span><i></i><b>${esc(c.driver.code)}</b><span class="mx-order-name">${esc(c.driver.last)}</span><small>${gap}</small></li>`;
@@ -773,21 +797,31 @@
     function decorate(scope) {
         scope.querySelectorAll('.glass:not([data-lit])').forEach(el => {
             el.dataset.lit = '';
+            let frame = 0;
             el.addEventListener('pointermove', e => {
-                const r = el.getBoundingClientRect();
-                el.style.setProperty('--mx', `${e.clientX - r.left}px`);
-                el.style.setProperty('--my', `${e.clientY - r.top}px`);
+                if (frame) return;
+                frame = requestAnimationFrame(() => {
+                    frame = 0;
+                    const r = el.getBoundingClientRect();
+                    el.style.setProperty('--mx', `${e.clientX - r.left}px`);
+                    el.style.setProperty('--my', `${e.clientY - r.top}px`);
+                });
             });
         });
         if (reducedMotion.matches || !window.matchMedia('(hover: hover)').matches) return;
         scope.querySelectorAll('[data-tilt]:not([data-tilted])').forEach(el => {
             el.dataset.tilted = '';
+            let frame = 0;
             el.addEventListener('pointermove', e => {
-                const r = el.getBoundingClientRect();
-                const x = (e.clientX - r.left) / r.width - 0.5;
-                const y = (e.clientY - r.top) / r.height - 0.5;
-                el.style.setProperty('--rx', `${(-y * 8).toFixed(2)}deg`);
-                el.style.setProperty('--ry', `${(x * 10).toFixed(2)}deg`);
+                if (frame) return;
+                frame = requestAnimationFrame(() => {
+                    frame = 0;
+                    const r = el.getBoundingClientRect();
+                    const x = (e.clientX - r.left) / r.width - 0.5;
+                    const y = (e.clientY - r.top) / r.height - 0.5;
+                    el.style.setProperty('--rx', `${(-y * 8).toFixed(2)}deg`);
+                    el.style.setProperty('--ry', `${(x * 10).toFixed(2)}deg`);
+                });
             });
             el.addEventListener('pointerleave', () => { el.style.setProperty('--rx', '0deg'); el.style.setProperty('--ry', '0deg'); });
         });
@@ -825,7 +859,11 @@
         sections.forEach(s => spy.observe(s));
 
         const nav = document.querySelector('.mx-nav-wrap');
-        const onScroll = () => nav.classList.toggle('is-scrolled', window.scrollY > 24);
+        let scrolled = null;
+        const onScroll = () => {
+            const now = window.scrollY > 24;
+            if (now !== scrolled) { scrolled = now; nav.classList.toggle('is-scrolled', now); }
+        };
         window.addEventListener('scroll', onScroll, { passive: true });
         onScroll();
 
@@ -868,7 +906,7 @@
         if (!YEARS.includes(year) || year === state.season) return;
         state.season = year;
         storage.set('f1_season', year);
-        withTransition(() => renderSeasonText());
+        renderSeasonText();
         loadSeason();
     }
 
@@ -879,7 +917,7 @@
             if (!b) return;
             b.parentElement.querySelectorAll('button').forEach(x => x.setAttribute('aria-checked', String(x === b)));
             state.raceFilter = b.dataset.filter;
-            withTransition(applyRaceFilter);
+            applyRaceFilter();
         });
         $('mxSearch').addEventListener('input', e => { state.raceQuery = e.target.value; applyRaceFilter(); });
         $('mxRaces').addEventListener('click', e => {
@@ -890,7 +928,7 @@
         // Вкладки зачёта
         const tabs = document.querySelector('#mx-standings .mx-tabs');
         const tabButtons = [...tabs.querySelectorAll('[role="tab"]')];
-        const selectTab = (btn, focus) => withTransition(() => {
+        const selectTab = (btn, focus) => {
             tabButtons.forEach(b => {
                 const on = b === btn;
                 b.setAttribute('aria-selected', String(on));
@@ -900,7 +938,7 @@
             moveThumb(tabs, btn, '.mx-tabs-thumb');
             if (focus) btn.focus();
             observeReveals();
-        });
+        };
         tabs.addEventListener('click', e => { const b = e.target.closest('[role="tab"]'); if (b) selectTab(b); });
         tabs.addEventListener('keydown', e => {
             if (!['ArrowLeft', 'ArrowRight'].includes(e.key)) return;
@@ -915,7 +953,7 @@
             if (!b || !state.news) return;
             b.parentElement.querySelectorAll('button').forEach(x => x.setAttribute('aria-checked', String(x === b)));
             state.newsFilter = b.dataset.news;
-            withTransition(() => { renderNews(); observeReveals(); });
+            renderNews(); observeReveals();
         });
 
         // Диалог
@@ -955,12 +993,24 @@
     }
     window.F1SetDesign = applyDesign;
 
+    // Анимации первого экрана, фона и бегущей строки не крутятся, когда их не видно.
+    function pauseOffscreen() {
+        if (!('IntersectionObserver' in window)) return;
+        const hero = document.querySelector('.mx-hero');
+        const marquee = document.querySelector('.mx-marquee');
+        const backdrop = document.querySelector('.mx-backdrop');
+        new IntersectionObserver(entries => entries.forEach(entry => {
+            entry.target.classList.toggle('is-offscreen', !entry.isIntersecting);
+            if (entry.target === hero) backdrop.classList.toggle('is-paused', !entry.isIntersecting);
+        })).observe(hero);
+        new IntersectionObserver(([entry]) => marquee.classList.toggle('is-offscreen', !entry.isIntersecting)).observe(marquee);
+    }
+
     // ---------- Старт ----------
     function startModern() {
         if (started) return;
         started = true;
-        // Преломление SVG-фильтром в backdrop-filter умеет только Chromium.
-        if (navigator.userAgentData && CSS.supports('backdrop-filter', 'url(#liquidGlass)')) root.classList.add('mx-liquid');
+        pauseOffscreen();
         setupNav();
         setupControls();
         renderSeasonText();
