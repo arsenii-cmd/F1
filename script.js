@@ -773,7 +773,11 @@ window.debugCache = function() {
     console.log('=== END CACHE STATUS ===');
 };
 
-window.onload = async () => {
+// Старый вид запускается, только когда он выбран: новый вид загружает данные сам (modern.js).
+let classicStarted = false;
+async function initClassic() {
+    if (classicStarted) return;
+    classicStarted = true;
     document.getElementById('raceResultsModal').addEventListener('click', function (e) {
         if (e.target === this) closeModal();
     });
@@ -790,4 +794,9 @@ window.onload = async () => {
 
     await refreshData();
     showSection('races');
-};
+}
+window.initClassic = initClassic;
+
+window.addEventListener('load', () => {
+    if (document.documentElement.dataset.design === 'classic') initClassic();
+});

@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="ru" data-design="modern">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 GRID — Живи гонкой</title>
+    <meta name="description" content="Твой мир Формулы 1: календарь, результаты гонок и спринтов, очки пилотов, Кубок конструкторов и новости паддока.">
+    <script>
+        // Вариант Codex всегда показывает свой новый вид; «Старый» и «Claude» — на главной странице.
+        document.documentElement.dataset.design = 'modern';
+        document.documentElement.dataset.variant = 'codex';
+        document.documentElement.dataset.page = 'codex';
+        try { localStorage.setItem('f1_variant', 'codex'); } catch (_) {}
+    </script>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="modern.css">
+    <link rel="preload" href="assets/hero-car.webp" as="image">
+
+    <!-- PWA -->
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#cc0000">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" href="../icons/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../switch.css">
+</head>
+<body>
+    <!-- Переключатель вариантов сайта -->
+    <div class="design-switch" role="group" aria-label="Вариант сайта">
+        <button type="button" data-variant-choice="classic" aria-pressed="false">Старый</button>
+        <button type="button" data-variant-choice="codex" aria-pressed="true">Codex</button>
+        <button type="button" data-variant-choice="claude" aria-pressed="false">Claude</button>
+    </div>
+    <a class="skip-link" href="#raceCenter">Перейти к данным сезона</a>
+    <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+        <symbol id="i-external" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+        <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="3"/><path d="M8 3v4m8-4v4M4 11h16m-12 4h3"/></symbol>
+        <symbol id="i-helmet" viewBox="0 0 24 24"><path d="M4 16v-4a8 8 0 0 1 16 0v6H6l-2-2Zm0-5h12l-2 5H4m3 5h10"/></symbol>
+        <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 3h8v7a4 4 0 0 1-8 0V3Zm0 2H4v3a4 4 0 0 0 4 4m8-7h4v3a4 4 0 0 1-4 4m-4 2v6m-4 1h8"/></symbol>
+        <symbol id="i-broadcast" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="3"/><path d="m9 2 3 4 3-4m-4 9 4 2-4 2v-4Z"/></symbol>
+        <symbol id="i-news" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 7h8M8 11h8m-8 4h3m-3 3h8"/></symbol>
+        <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+        <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7V5Z"/></symbol>
+        <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14m8-14v14"/></symbol>
+        <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3Z"/></symbol>
+    </svg>
+    <!-- === ШАПКА === -->
+    <header class="site-header">
+        <img src="https://i.vimeocdn.com/video/669065538-41fafaad781845ba3a564d44ea530cd5a24597b6f20f3b274b61833f401256d2-d?f=webp" alt="F1 Background" class="header-bg">
+        <div class="header-content">
+          <div class="topbar">
+            <a class="brand modern-only" href="#" aria-label="F1 GRID — на главную"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>F1<span class="brand-light">GRID</span><small>ЖИВИ ГОНКОЙ</small></span></a>
+            <nav aria-label="Разделы приложения">
+                <button data-section="races" class="nav-active" onclick="showSection('races')"><svg class="icon modern-only"><use href="#i-calendar"/></svg><span>Гонки</span></button>
+                <button data-section="drivers" onclick="showSection('drivers')"><svg class="icon modern-only"><use href="#i-helmet"/></svg><span>Личный зачёт</span></button>
+                <button data-section="constructors" onclick="showSection('constructors')"><svg class="icon modern-only"><use href="#i-trophy"/></svg><span class="modern-only">Команды</span><span class="classic-only">Кубок конструкторов</span></button>
+                <button data-section="broadcasts" onclick="showSection('broadcasts')"><svg class="icon modern-only"><use href="#i-broadcast"/></svg><span>Трансляции</span></button>
+                <button data-section="news" class="modern-only" onclick="showSection('news')"><svg class="icon"><use href="#i-news"/></svg><span>Новости</span></button>
+                <button id="refreshButton" onclick="refreshData()">Обновить данные</button>
+            </nav>
+            <label class="view-switch" title="Переключить оформление приложения" hidden style="display:none">
+                <span>Старый вид</span>
+                <input id="designToggle" type="checkbox" role="switch" aria-label="Новый вид" checked>
+                <span class="switch-track" aria-hidden="true"><span></span></span>
+                <span>Новый вид</span>
+            </label>
+          </div>
+          <div id="classicControls">
+            <div class="year-selector">
+                <span class="year-label">Сезон:</span>
+                <button class="year-btn" data-year="2023" onclick="changeSeason(2023)">2023</button>
+                <button class="year-btn" data-year="2024" onclick="changeSeason(2024)">2024</button>
+                <button class="year-btn" data-year="2025" onclick="changeSeason(2025)">2025</button>
+                <button class="year-btn active" data-year="2026" onclick="changeSeason(2026)">2026</button>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <main id="appContent">
+    <section class="race-hero modern-only" aria-labelledby="heroTitle">
+        <div class="hero-atmosphere" aria-hidden="true"></div>
+        <div class="hero-art" aria-hidden="true"><span class="hero-season" data-season>2026</span><img class="hero-car" src="assets/hero-car.webp" alt="" fetchpriority="high" width="1536" height="1024"><div class="speed-streak streak-one"></div><div class="speed-streak streak-two"></div><div class="hero-coordinate">PRECISION / PASSION / PERFORMANCE</div></div>
+        <div class="hero-copy">
+            <div class="eyebrow"><span class="live-dot"></span> ТВОЙ МИР ФОРМУЛЫ 1 <span class="hero-edition">/ <span data-season>2026</span></span></div>
+            <h1 id="heroTitle">Живи<br><em>гонкой.</em></h1>
+            <p>Каждый этап. Каждый поворот.<br>Вся Формула 1 — в одном месте.</p>
+            <div class="hero-actions"><button class="primary-action" id="exploreSeason">В центр гонки <svg class="icon"><use href="#i-arrow"/></svg></button><button class="hero-news-link" id="exploreNews">Из паддока <svg class="icon"><use href="#i-external"/></svg></button></div>
+            <div class="hero-caption"><span class="caption-line"></span> СКОРОСТЬ, КОТОРУЮ ЧУВСТВУЕШЬ</div>
+        </div>
+        <div class="hero-corner" aria-hidden="true"><span>F1 GRID</span><span>01 — 24</span></div>
+    </section>
+
+    <div class="season-ribbon modern-only" aria-hidden="true"><div class="ribbon-track"><span>LIGHTS OUT</span><i>✦</i><span>FULL THROTTLE</span><i>✦</i><span>F1 GRID</span><i>✦</i><span>EVERY SECOND COUNTS</span><i>✦</i><span>LIGHTS OUT</span><i>✦</i><span>FULL THROTTLE</span><i>✦</i><span>F1 GRID</span><i>✦</i><span>EVERY SECOND COUNTS</span><i>✦</i></div></div>
+
+    <section class="feature-grid modern-only" aria-label="Обзор сезона">
+        <article class="glass-card next-race-card">
+            <div class="card-eyebrow"><span class="live-dot"></span><span id="nextRaceLabel">НА ГОРИЗОНТЕ</span><span class="card-corner">NEXT UP ↗</span></div>
+            <div class="next-race-main"><div><h2 id="nextRaceName">Загружаем сезон…</h2><p id="nextRaceCircuit">Скоро выходим на старт</p><span id="nextRaceDate" class="race-date-note">Сезон <span data-season>2026</span></span></div><svg class="circuit-sketch" viewBox="0 0 190 130" fill="none" aria-hidden="true"><path d="M24 92 24 40Q24 19 44 20L134 28Q161 29 163 53L166 95Q166 114 146 111L116 105Q108 101 113 91L130 60Q134 53 124 50L88 44Q76 42 73 51L67 76Q63 88 51 89Z"/><path class="circuit-racing-line" d="M24 92 24 40Q24 19 44 20L134 28Q161 29 163 53L166 95Q166 114 146 111L116 105Q108 101 113 91L130 60Q134 53 124 50L88 44Q76 42 73 51L67 76Q63 88 51 89Z"/><circle cx="24" cy="87" r="5"/></svg></div>
+            <div id="raceCountdown" class="countdown" aria-label="Время до следующей гонки"><div><strong id="cdDays">—</strong><span>ДНЕЙ</span></div><b>:</b><div><strong id="cdHours">—</strong><span>ЧАСОВ</span></div><b>:</b><div><strong id="cdMinutes">—</strong><span>МИНУТ</span></div><b>:</b><div><strong id="cdSeconds">—</strong><span>СЕКУНД</span></div><span class="countdown-zone">ВАШЕ МЕСТНОЕ ВРЕМЯ</span></div>
+        </article>
+        <article class="glass-card season-pulse">
+            <div class="card-eyebrow">ПУЛЬС СЕЗОНА <svg class="icon"><use href="#i-spark"/></svg></div>
+            <div class="pulse-top"><strong data-season>2026</strong><span>НА ПОЛНОЙ<br>СКОРОСТИ</span></div>
+            <div class="pulse-stats"><div><strong id="statRaces">—</strong><span>ЭТАПОВ</span></div><div><strong id="statDrivers">—</strong><span>ПИЛОТОВ</span></div><div><strong id="statTeams">—</strong><span>КОМАНД</span></div></div>
+            <div class="season-progress"><span id="seasonProgress"></span></div><div class="progress-caption"><span id="completedCaption">Загружаем календарь</span><span id="seasonPercent">—</span></div>
+        </article>
+        <article class="glass-card leader-spotlight">
+            <div class="card-eyebrow">НА ВЕРШИНЕ <svg class="icon"><use href="#i-trophy"/></svg></div>
+            <div class="leader-identity"><span class="leader-avatar" id="leaderInitials" aria-hidden="true">F1</span><div><small id="leaderTeam">Личный зачёт</small><h2 id="leaderName">Сезон <span data-season>2026</span></h2></div></div>
+            <div class="leader-numbers"><span><strong id="leaderPoints">—</strong> ОЧКОВ</span><button id="showStandings" aria-label="Открыть личный зачёт"><svg class="icon"><use href="#i-arrow"/></svg></button></div>
+            <div id="leaderNote" class="leader-note">Данные официального зачёта</div>
+        </article>
+    </section>
+
+    <div id="raceCenter" class="race-center">
+    <div class="center-heading modern-only"><div><div class="eyebrow section-number">01 / ЦЕНТР ГОНКИ</div><h2>Весь сезон. <span>На ладони.</span></h2></div><div class="center-controls"><div id="modernSeasonSlot"></div><div id="modernRefreshSlot"></div></div></div>
+    <!-- === СТАТУС API === -->
+    <div class="data-status-row"><div id="apiStatus" role="status" aria-live="polite"></div><span id="lastUpdated" class="modern-only"></span></div>
+
+    <!-- === СЕКЦИИ === -->
+    <div id="races" class="section">
+        <h2 id="racesHeading">Расписание гонок — Сезон 2026</h2>
+        <div class="race-tools modern-only"><div class="race-filters" role="group" aria-label="Фильтр гонок"><button class="active" data-race-filter="all" aria-pressed="true">Все этапы <span id="raceCount">—</span></button><button data-race-filter="upcoming" aria-pressed="false">Впереди</button><button data-race-filter="finished" aria-pressed="false">Завершённые</button><button data-race-filter="sprint" aria-pressed="false">Спринты</button></div><label class="race-search"><svg class="icon"><use href="#i-search"/></svg><input id="raceSearch" type="search" placeholder="Найти гонку…" aria-label="Поиск по стране, трассе и названию гонки"></label></div>
+        <p id="raceFilterEmpty" class="modern-only filter-empty" hidden>По вашему запросу гонок нет. Попробуйте другую трассу или фильтр.</p>
+        <div id="racesError" class="error" style="display:none;">Ошибка загрузки данных о гонках.</div>
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Этап</th>
+                    <th>Дата</th>
+                    <th>Страна</th>
+                    <th>Трасса</th>
+                    <th>Победитель гонки</th>
+                    <th>Победитель спринта</th>
+                </tr>
+            </thead>
+            <tbody id="racesTableBody"></tbody>
+        </table>
+        </div>
+    </div>
+
+    <div id="drivers" class="section hidden">
+        <h2 id="driversHeading">Личный зачёт — Сезон 2026</h2>
+        <div id="driverPodium" class="driver-podium modern-only" aria-label="Лидеры личного зачёта"></div>
+        <div id="driversError" class="error" style="display:none;">Ошибка загрузки данных о пилотах.</div>
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Позиция</th>
+                    <th>Гонщик</th>
+                    <th class="col-nationality">Национальность</th>
+                    <th>Команда</th>
+                    <th>Очки</th>
+                </tr>
+            </thead>
+            <tbody id="driversTableBody"></tbody>
+        </table>
+        </div>
+    </div>
+
+    <div id="constructors" class="section hidden">
+        <h2 id="constructorsHeading">Кубок конструкторов — Сезон 2026</h2>
+        <div id="constructorCards" class="constructor-cards modern-only" aria-label="Лидеры Кубка конструкторов"></div>
+        <div id="constructorsError" class="error" style="display:none;">Ошибка загрузки данных о конструкторах.</div>
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Позиция</th>
+                    <th>Команда</th>
+                    <th>Очки</th>
+                </tr>
+            </thead>
+            <tbody id="constructorsTableBody"></tbody>
+        </table>
+        </div>
+    </div>
+
+    <!-- === ТРАНСЛЯЦИИ === -->
+    <div id="broadcasts" class="section hidden">
+        <h2>Трансляции и ссылки</h2>
+
+        <div class="table-wrapper">
+        <table class="links-table">
+            <tbody>
+                <tr>
+                    <td class="label-cell">Официальный сайт F1</td>
+                    <td class="link-cell"><a href="https://www.formula1.com/" target="_blank">formula1.com</a></td>
+                </tr>
+                <tr>
+                    <td class="label-cell">Трансляции на русском</td>
+                    <td class="link-cell"><a href="https://rutube.ru/u/versporta/" target="_blank">RUTUBE: Вершина Автоспорта</a></td>
+                </tr>
+                <tr>
+                    <td class="label-cell">Telegram-канал</td>
+                    <td class="link-cell"><a href="https://t.me/formula_1_news" target="_blank">@formula_1_news</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <h3 style="margin-top: 30px;">Официальные сайты команд 2026</h3>
+        <div class="table-wrapper">
+        <table class="links-table teams-table">
+            <tbody>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.mclaren.com/racing/formula-1/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/mclaren-logo.png" onerror="this.style.display='none'" alt="McLaren" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">McLaren</td>
+                    <td class="team-link-cell"><a href="https://www.mclaren.com/racing/formula-1/" target="_blank">mclaren.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.ferrari.com/en-EN/formula1" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/ferrari-logo.png" onerror="this.style.display='none'" alt="Ferrari" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Ferrari</td>
+                    <td class="team-link-cell"><a href="https://www.ferrari.com/en-EN/formula1" target="_blank">ferrari.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.mercedesamgf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/mercedes-logo.png" onerror="this.style.display='none'" alt="Mercedes" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Mercedes</td>
+                    <td class="team-link-cell"><a href="https://www.mercedesamgf1.com/" target="_blank">mercedesamgf1.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.redbullracing.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/red-bull-racing-logo.png" onerror="this.style.display='none'" alt="Red Bull" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Red Bull Racing</td>
+                    <td class="team-link-cell"><a href="https://www.redbullracing.com/" target="_blank">redbullracing.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.williamsf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/williams-logo.png" onerror="this.style.display='none'" alt="Williams" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Williams</td>
+                    <td class="team-link-cell"><a href="https://www.williamsf1.com/" target="_blank">williamsf1.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.visacashapprb.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/racing-bulls-logo.png" onerror="this.style.display='none'" alt="Racing Bulls" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Racing Bulls</td>
+                    <td class="team-link-cell"><a href="https://www.visacashapprb.com/" target="_blank">visacashapprb.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.astonmartinf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/aston-martin-logo.png" onerror="this.style.display='none'" alt="Aston Martin" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Aston Martin</td>
+                    <td class="team-link-cell"><a href="https://www.astonmartinf1.com/" target="_blank">astonmartinf1.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.haasf1team.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/haas-logo.png" onerror="this.style.display='none'" alt="Haas" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Haas</td>
+                    <td class="team-link-cell"><a href="https://www.haasf1team.com/" target="_blank">haasf1team.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.alpinef1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/alpine-logo.png" onerror="this.style.display='none'" alt="Alpine" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Alpine</td>
+                    <td class="team-link-cell"><a href="https://www.alpinef1.com/" target="_blank">alpinef1.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.audimotorsport.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/audi-logo.png" onerror="this.style.display='none'" alt="Audi" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Audi</td>
+                    <td class="team-link-cell"><a href="https://www.audimotorsport.com/" target="_blank">audimotorsport.com</a></td>
+                </tr>
+                <tr>
+                    <td class="logo-cell"><a href="https://www.andretti.com/f1" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/cadillac-logo.png" onerror="this.style.display='none'" alt="Cadillac" class="team-logo-small"></a></td>
+                    <td class="team-name-cell">Cadillac</td>
+                    <td class="team-link-cell"><a href="https://www.andretti.com/f1" target="_blank">andretti.com/f1</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+
+    <section id="news" class="section modern-only hidden" aria-labelledby="newsHeading">
+        <div class="news-section-heading"><div><div class="eyebrow section-number">ИЗ ПАДДОКА</div><h2 id="newsHeading">По ту сторону трассы.</h2></div><a href="https://www.f1news.ru/" target="_blank" rel="noopener noreferrer" class="text-link">F1News <svg class="icon"><use href="#i-external"/></svg></a></div>
+        <p class="section-intro">Новости, технологии и люди, которые делают Формулу 1.</p>
+        <div class="news-tools"><div class="news-filters" role="group" aria-label="Фильтр новостей"><button class="active" data-news-filter="all" aria-pressed="true">Все новости</button><button data-news-filter="racing" aria-pressed="false">На трассе</button><button data-news-filter="teams" aria-pressed="false">Команды</button><button data-news-filter="tech" aria-pressed="false">Технологии</button></div><span id="newsUpdated" class="news-updated">Загружаем ленту…</span></div>
+        <div id="newsGrid" class="news-grid" aria-live="polite"></div>
+    </section>
+    </div>
+
+    <section id="paddockTeaser" class="paddock-section modern-only" aria-labelledby="paddockHeading">
+        <div class="editorial-heading"><div><div class="eyebrow section-number">02 / ИЗ ПАДДОКА</div><h2 id="paddockHeading">Гонка за <span>пределами трассы.</span></h2></div><button id="allNewsButton" class="outline-action">Все новости <svg class="icon"><use href="#i-external"/></svg></button></div>
+        <div id="newsTeaserGrid" class="news-grid"><div class="news-placeholder glass-card"><span class="loading-dot"></span> Загружаем новости паддока…</div></div>
+    </section>
+
+    <section class="motion-section modern-only" aria-labelledby="motionHeading">
+        <div class="motion-copy"><div class="eyebrow section-number">03 / ЧИСТАЯ СКОРОСТЬ</div><h2 id="motionHeading">Поворот.<br>Апекс. <em>Газ.</em></h2><p>Идеальная траектория — маленькое искусство.<br>Включи ночной заезд и поймай ритм.</p><div class="motion-controls"><button id="motionToggle" class="outline-action" aria-pressed="true"><svg class="icon"><use href="#i-pause"/></svg><span>Пауза</span></button><label class="motion-speed">ТЕМП <input type="range" id="motionSpeed" min="1" max="3" step="0.5" value="1" aria-label="Скорость анимации болидов"><output id="speedValue" for="motionSpeed">1×</output></label></div><span class="motion-footnote">НОЧНОЙ ЗАЕЗД · ВИЗУАЛИЗАЦИЯ</span></div>
+        <div class="track-scene glass-card" aria-label="Анимация двух болидов на гоночной трассе"><div class="track-topline"><span><i class="live-dot"></i> NIGHT SESSION</span><span id="motionStatus">ON TRACK</span></div>
+            <svg id="nightTrack" viewBox="0 0 600 300" fill="none" aria-hidden="true">
+                <defs><pattern id="trackGrid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0v30" stroke="#ffffff" stroke-opacity=".035"/></pattern><linearGradient id="trackGlow" x1="80" y1="260" x2="540" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#ff8c42"/><stop offset=".6" stop-color="#545159"/><stop offset="1" stop-color="#b2aea9"/></linearGradient><filter id="carGlow"><feGaussianBlur stdDeviation="3"/></filter></defs>
+                <rect width="600" height="300" fill="url(#trackGrid)"/>
+                <path class="track-outline" d="M90 220L72 113Q68 75 103 73L400 50Q445 45 454 83L474 168Q480 187 503 182L527 177Q552 172 548 196Q544 222 520 224L393 233Q369 235 367 207L362 137Q360 113 337 117L237 135Q214 139 213 165L212 212Q213 245 177 245L120 245Q95 245 90 220Z"/>
+                <path class="track-centerline" d="M90 220L72 113Q68 75 103 73L400 50Q445 45 454 83L474 168Q480 187 503 182L527 177Q552 172 548 196Q544 222 520 224L393 233Q369 235 367 207L362 137Q360 113 337 117L237 135Q214 139 213 165L212 212Q213 245 177 245L120 245Q95 245 90 220Z"/>
+                <path class="track-light" d="M90 220L72 113Q68 75 103 73L400 50Q445 45 454 83L474 168Q480 187 503 182L527 177Q552 172 548 196Q544 222 520 224L393 233Q369 235 367 207L362 137Q360 113 337 117L237 135Q214 139 213 165L212 212Q213 245 177 245L120 245Q95 245 90 220Z"/>
+                <g class="track-car car-papaya"><ellipse cx="0" cy="0" rx="16" ry="9" fill="#ff903e" opacity=".45" filter="url(#carGlow)"/><path d="M-12-6h5v12h-5zm16-2h4v16H4" fill="#f3c68a"/><path d="M-10-3H7l8 3-8 3h-17Z" fill="#ff8c42"/><rect x="-5" y="-2" width="5" height="4" rx="2" fill="#0c0c12"/><path d="M-8-7h5v3h-5zm0 11h5v3h-5zm13-12h5v3H5zm0 11h5v3H5" fill="#080a0d"/></g>
+                <g class="track-car car-ice"><ellipse cx="0" cy="0" rx="16" ry="9" fill="#5ee0d1" opacity=".4" filter="url(#carGlow)"/><path d="M-12-6h5v12h-5zm16-2h4v16H4" fill="#9ee3db"/><path d="M-10-3H7l8 3-8 3h-17Z" fill="#5ee0d1"/><rect x="-5" y="-2" width="5" height="4" rx="2" fill="#0c0c12"/><path d="M-8-7h5v3h-5zm0 11h5v3h-5zm13-12h5v3H5zm0 11h5v3H5" fill="#080a0d"/></g>
+                <path d="m282 239 7-6 8 6 8-6" stroke="#ff8c42" stroke-width="2" opacity=".7"/>
+                <text x="127" y="109" class="track-sector-label">SECTOR 01</text><text x="381" y="276" class="track-sector-label">SECTOR 02</text><text x="243" y="212" class="track-sector-label">APEX</text>
+            </svg>
+            <div class="track-legend"><span><i></i> PAPAYA</span><span><i></i> ICE</span><span class="track-tag">FOLLOW THE RACING LINE</span></div>
+        </div>
+    </section>
+    <div class="team-ticker modern-only" aria-label="Команды сезона"><span class="ticker-label">НА СТАРТОВОЙ РЕШЁТКЕ</span><div id="teamTicker"><span>McLAREN</span><span>FERRARI</span><span>MERCEDES</span><span>RED BULL</span><span>WILLIAMS</span><span>ASTON MARTIN</span></div></div>
+    </main>
+
+    <!-- === МОДАЛЬНОЕ ОКНО === -->
+    <div id="raceResultsModal" class="modal">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="close-button" onclick="closeModal()" aria-label="Закрыть результаты">×</button>
+            <h2 id="modalTitle">Результаты гонки</h2>
+
+            <!-- Вкладки (видны только если есть спринт) -->
+            <div class="modal-tabs" id="modalTabs" style="display:none;">
+                <button class="modal-tab active" id="tabRace" onclick="switchModalTab('race')">Гонка</button>
+                <button class="modal-tab" id="tabSprint" onclick="switchModalTab('sprint')">Спринт</button>
+            </div>
+
+            <!-- Результаты гонки -->
+            <div id="raceResultsContainer">
+                <div id="modalError" class="error" style="display:none;"></div>
+                <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Позиция</th>
+                            <th>Гонщик</th>
+                            <th>Команда</th>
+                            <th>Очки</th>
+                        </tr>
+                    </thead>
+                    <tbody id="raceResultsTableBody"></tbody>
+                </table>
+                </div>
+            </div>
+
+            <!-- Результаты спринта -->
+            <div id="sprintResultsContainer" style="display:none;">
+                <div id="sprintModalError" class="error" style="display:none;"></div>
+                <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Позиция</th>
+                            <th>Гонщик</th>
+                            <th>Команда</th>
+                            <th>Очки</th>
+                        </tr>
+                    </thead>
+                    <tbody id="sprintResultsTableBody"></tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- === ФУТЕР === -->
+    <footer>
+        <div class="modern-footer-top modern-only"><a class="brand" href="#"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>F1<span class="brand-light">GRID</span></span></a><span>Для тех, у кого гонки — в ДНК.</span><a href="https://www.formula1.com/" target="_blank" rel="noopener noreferrer">Мир Formula 1 <svg class="icon"><use href="#i-external"/></svg></a></div>
+        <p id="footerText">© 2026 F1 Visualization Project — Сезон 2026 | Данные: Jolpica/Ergast API</p>
+        <div class="team-logos">
+            <a href="https://www.mclaren.com/racing/formula-1/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/mclaren-logo.png" onerror="this.style.display='none'" alt="McLaren" title="McLaren"></a>
+            <a href="https://www.ferrari.com/en-EN/formula1" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/ferrari-logo.png" onerror="this.style.display='none'" alt="Ferrari" title="Ferrari"></a>
+            <a href="https://www.mercedesamgf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/mercedes-logo.png" onerror="this.style.display='none'" alt="Mercedes" title="Mercedes"></a>
+            <a href="https://www.redbullracing.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/red-bull-racing-logo.png" onerror="this.style.display='none'" alt="Red Bull" title="Red Bull"></a>
+            <a href="https://www.williamsf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/williams-logo.png" onerror="this.style.display='none'" alt="Williams" title="Williams"></a>
+            <a href="https://www.visacashapprb.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/racing-bulls-logo.png" onerror="this.style.display='none'" alt="Racing Bulls" title="Racing Bulls"></a>
+            <a href="https://www.astonmartinf1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/aston-martin-logo.png" onerror="this.style.display='none'" alt="Aston Martin" title="Aston Martin"></a>
+            <a href="https://www.haasf1team.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/haas-logo.png" onerror="this.style.display='none'" alt="Haas" title="Haas"></a>
+            <a href="https://www.alpinef1.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/alpine-logo.png" onerror="this.style.display='none'" alt="Alpine" title="Alpine"></a>
+            <a href="https://www.audimotorsport.com/" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/audi-logo.png" onerror="this.style.display='none'" alt="Audi" title="Audi"></a>
+            <a href="https://www.andretti.com/f1" target="_blank"><img src="https://www.formula1.com/content/dam/fom-website/teams/2026/cadillac-logo.png" onerror="this.style.display='none'" alt="Cadillac" title="Cadillac"></a>
+        </div>
+    </footer>
+
+    <script src="season-data.js"></script>
+    <script src="core.js"></script>
+    <script src="modern.js"></script>
+
+    <script src="../switch.js"></script>
+    <script>
+        // Общий сервис-воркер сайта (лежит в корне и обслуживает все варианты)
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () { navigator.serviceWorker.register('../sw.js', { scope: '../' }).catch(function () {}); });
+        }
+    </script>
+</body>
+</html>

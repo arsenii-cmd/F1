@@ -4,7 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1 — Визуализация</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Вариант сайта: «classic» (старый), «codex» (папка codex/) или «claude». Выбор хранится на устройстве. -->
+    <script>
+        (function () {
+            var variant = null;
+            try { variant = localStorage.getItem('f1_variant'); } catch (_) {}
+            if (variant === 'codex') { window.location.replace('codex/' + window.location.hash); return; }
+            if (variant !== 'classic') variant = 'claude';
+            document.documentElement.dataset.design = variant;
+            document.documentElement.dataset.variant = variant;
+        })();
+    </script>
+    <style>
+        html[data-design="classic"] #claude,
+        html[data-design="claude"] #classic { display: none !important; }
+        html[data-design="claude"] { background: #05060a; color-scheme: dark; }
+    </style>
+    <link rel="stylesheet" href="switch.css">
+    <link rel="stylesheet" href="styles.css" id="classicCss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Tektur:wght@500;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" id="claudeFonts">
+    <link rel="stylesheet" href="claude.css" id="claudeCss">
+    <script>
+        // Отключаем чужие стили до первой отрисовки, чтобы виды не мешали друг другу.
+        (function () {
+            var claude = document.documentElement.dataset.design === 'claude';
+            document.getElementById('classicCss').disabled = claude;
+            document.getElementById('claudeCss').disabled = !claude;
+        })();
+    </script>
 
     <!-- PWA -->
     <link rel="manifest" href="manifest.json">
@@ -15,6 +44,14 @@
     <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 </head>
 <body>
+    <!-- Переключатель вариантов сайта -->
+    <div class="design-switch" role="group" aria-label="Вариант сайта">
+        <button type="button" data-variant-choice="classic" aria-pressed="false">Старый</button>
+        <button type="button" data-variant-choice="codex" aria-pressed="false">Codex</button>
+        <button type="button" data-variant-choice="claude" aria-pressed="true">Claude</button>
+    </div>
+
+    <div id="classic">
     <!-- === ШАПКА === -->
     <header>
         <img src="https://i.vimeocdn.com/video/669065538-41fafaad781845ba3a564d44ea530cd5a24597b6f20f3b274b61833f401256d2-d?f=webp" alt="F1 Background" class="header-bg">
@@ -251,7 +288,417 @@
         </div>
     </footer>
 
+    </div><!-- /#classic -->
+
+    <!-- ================= ВАРИАНТ CLAUDE ================= -->
+    <div id="claude" class="mx">
+        <svg class="mx-defs" aria-hidden="true" focusable="false">
+            <defs>
+                <!-- Преломление «жидкого стекла» (Chromium применяет его к backdrop-filter) -->
+                <filter id="liquidGlass" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.008 0.012" numOctaves="2" seed="7" result="noise"/>
+                    <feGaussianBlur in="noise" stdDeviation="2" result="soft"/>
+                    <feDisplacementMap in="SourceGraphic" in2="soft" scale="38" xChannelSelector="R" yChannelSelector="G"/>
+                </filter>
+                <linearGradient id="carBody" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0" stop-color="#7a0010"/>
+                    <stop offset=".45" stop-color="#e10600"/>
+                    <stop offset="1" stop-color="#ff4d2e"/>
+                </linearGradient>
+                <linearGradient id="carShine" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+                    <stop offset=".35" stop-color="#fff" stop-opacity=".08"/>
+                    <stop offset="1" stop-color="#000" stop-opacity=".35"/>
+                </linearGradient>
+                <radialGradient id="tyre" cx=".5" cy=".5" r=".5">
+                    <stop offset=".55" stop-color="#2a2d33"/>
+                    <stop offset=".62" stop-color="#111316"/>
+                    <stop offset=".93" stop-color="#1b1d21"/>
+                    <stop offset="1" stop-color="#050506"/>
+                </radialGradient>
+                <symbol id="wheel" viewBox="-50 -50 100 100">
+                    <circle r="49" fill="url(#tyre)"/>
+                    <circle r="47" fill="none" stroke="#ffd400" stroke-width="1.6" stroke-dasharray="22 8" opacity=".9"/>
+                    <circle r="27" fill="#16181c" stroke="#3a3e46" stroke-width="2"/>
+                    <g class="mx-spokes" stroke="#8b919c" stroke-width="3.2" stroke-linecap="round">
+                        <path d="M0-24V24M-24 0H24M-17-17 17 17M17-17-17 17"/>
+                    </g>
+                    <circle r="7" fill="#e10600"/>
+                    <circle r="2.5" fill="#111"/>
+                </symbol>
+                <!-- Болид сверху (для трассы) -->
+                <symbol id="carTop" viewBox="-20 -9 40 18">
+                    <rect x="-18" y="-8" width="6" height="4" rx="1" fill="#0b0b0d"/>
+                    <rect x="-18" y="4" width="6" height="4" rx="1" fill="#0b0b0d"/>
+                    <rect x="8" y="-8" width="5" height="4" rx="1" fill="#0b0b0d"/>
+                    <rect x="8" y="4" width="5" height="4" rx="1" fill="#0b0b0d"/>
+                    <path d="M-19-6h4v12h-4z" fill="currentColor"/>
+                    <path d="M-15-3C-8-5 4-4 12-1.5L19 0 12 1.5C4 4-8 5-15 3Z" fill="currentColor"/>
+                    <path d="M16-6h3v12h-3z" fill="currentColor" opacity=".8"/>
+                    <circle cx="-1" cy="0" r="1.8" fill="#fff"/>
+                </symbol>
+            </defs>
+        </svg>
+
+        <!-- Фон: аврора, сетка, зерно -->
+        <div class="mx-backdrop" aria-hidden="true">
+            <div class="mx-aurora"></div>
+            <div class="mx-grid-floor"></div>
+            <div class="mx-grain"></div>
+        </div>
+        <div class="mx-progress" aria-hidden="true"></div>
+
+        <!-- Навигация: жидкое стекло -->
+        <header class="mx-nav-wrap">
+            <nav class="mx-nav glass" aria-label="Разделы">
+                <a class="mx-logo" href="#mx-top" aria-label="F1 Apex — наверх">
+                    <span class="mx-logo-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+                    <span class="mx-logo-text">F1<b>APEX</b></span>
+                </a>
+                <div class="mx-nav-links" role="list">
+                    <span class="mx-nav-indicator" aria-hidden="true"></span>
+                    <a role="listitem" href="#mx-calendar" data-spy="mx-calendar">Гонки</a>
+                    <a role="listitem" href="#mx-standings" data-spy="mx-standings">Зачёт</a>
+                    <a role="listitem" href="#mx-track" data-spy="mx-track">Трасса</a>
+                    <a role="listitem" href="#mx-news" data-spy="mx-news">Новости</a>
+                    <a role="listitem" href="#mx-watch" data-spy="mx-watch">Смотреть</a>
+                </div>
+                <div class="mx-season glass-inset" role="radiogroup" aria-label="Сезон">
+                    <span class="mx-season-thumb" aria-hidden="true"></span>
+                </div>
+                <button class="mx-refresh" type="button" aria-label="Обновить данные" title="Обновить данные">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v5h-5"/></svg>
+                </button>
+            </nav>
+        </header>
+
+        <main id="mx-top">
+            <!-- ===== HERO ===== -->
+            <section class="mx-hero" aria-labelledby="mxHeroTitle">
+                <div class="mx-gantry" aria-hidden="true">
+                    <div class="mx-gantry-bar">
+                        <span class="mx-light"><i></i><i></i></span>
+                        <span class="mx-light"><i></i><i></i></span>
+                        <span class="mx-light"><i></i><i></i></span>
+                        <span class="mx-light"><i></i><i></i></span>
+                        <span class="mx-light"><i></i><i></i></span>
+                    </div>
+                </div>
+
+                <div class="mx-hero-copy">
+                    <p class="mx-kicker"><span class="mx-live-dot"></span> Сезон <b data-season>2026</b> · Формула 1</p>
+                    <h1 id="mxHeroTitle" class="mx-hero-title">
+                        <span class="mx-line"><span>Огни</span></span>
+                        <span class="mx-line"><span>гаснут.</span></span>
+                        <span class="mx-line mx-line-accent"><span>Гонка</span></span>
+                        <span class="mx-line mx-line-outline"><span>началась</span></span>
+                    </h1>
+                    <p class="mx-hero-sub">Календарь, результаты, очки пилотов и Кубок конструкторов —
+                        в одном живом пит-уолле. Обновляется после каждого финиша.</p>
+                    <div class="mx-hero-cta">
+                        <a class="mx-btn mx-btn-primary" href="#mx-calendar"><span>К гонкам</span>
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
+                        <a class="mx-btn mx-btn-glass glass" href="#mx-standings"><span>Таблица очков</span></a>
+                    </div>
+                </div>
+
+                <div class="mx-hero-stage" aria-hidden="true">
+                    <div class="mx-season-ghost" data-season>2026</div>
+                    <div class="mx-speedlines"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                    <div class="mx-car-rig">
+                        <div class="mx-car-glow"></div>
+<svg class="mx-car" viewBox="0 0 900 250">
+                            <defs>
+                                <linearGradient id="bodyRed" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0" stop-color="#ff5a3c"/>
+                                    <stop offset=".38" stop-color="#e10600"/>
+                                    <stop offset="1" stop-color="#6d0008"/>
+                                </linearGradient>
+                                <linearGradient id="bodyCarbon" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0" stop-color="#2a2c33"/>
+                                    <stop offset="1" stop-color="#0b0c0f"/>
+                                </linearGradient>
+                                <linearGradient id="bodyGloss" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+                                    <stop offset=".18" stop-color="#fff" stop-opacity=".12"/>
+                                    <stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+                                </linearGradient>
+                                <radialGradient id="exhaustGlow" cx=".5" cy=".5" r=".5">
+                                    <stop offset="0" stop-color="#ffd27a"/>
+                                    <stop offset=".35" stop-color="#ff6a2a" stop-opacity=".8"/>
+                                    <stop offset="1" stop-color="#ff1e1e" stop-opacity="0"/>
+                                </radialGradient>
+                            </defs>
+                            <!-- тень и днище -->
+                            <ellipse cx="470" cy="232" rx="420" ry="10" fill="#000" opacity=".55"/>
+                            <path d="M120 197 L828 191 L832 204 L118 210 Z" fill="#060608"/>
+                            <path d="M150 207 L800 202" stroke="#ffd400" stroke-width="2" opacity=".5"/>
+                            <!-- заднее антикрыло -->
+                            <path d="M48 46 H152 Q160 46 160 54 V168 L132 178 H62 Q48 178 48 164 Z" fill="url(#bodyCarbon)"/>
+                            <path d="M48 46 H152 Q160 46 160 54 V64 H48 Z" fill="url(#bodyRed)"/>
+                            <path d="M56 86 H150" stroke="#e10600" stroke-width="3"/>
+                            <text x="104" y="132" text-anchor="middle" font-family="Tektur, sans-serif" font-weight="800" font-size="19" letter-spacing="2" fill="#fff" opacity=".9">APEX</text>
+                            <circle cx="138" cy="160" r="16" fill="url(#exhaustGlow)" class="mx-exhaust"/>
+                            <!-- корпус -->
+                            <path d="M150 132 C210 120 300 104 382 92 L396 68 L424 66 L432 96 C446 101 458 104 476 105 L546 107 C610 112 706 138 806 160 L872 171 Q888 176 876 185 L762 187 C700 186 642 190 600 194 L160 198 Z" fill="url(#bodyRed)"/>
+                            <!-- карбоновый низ понтона -->
+                            <path d="M250 196 C258 158 292 140 350 137 L522 135 C552 135 572 150 580 166 L594 194 Z" fill="url(#bodyCarbon)"/>
+                            <path d="M524 135 L566 137 L572 154 L530 153 Z" fill="#050506"/>
+                            <path d="M300 160 C360 150 450 149 560 152" stroke="#fff" stroke-width="3" fill="none" opacity=".85"/>
+                            <path d="M296 170 C360 162 450 161 566 164" stroke="#ffb648" stroke-width="2" fill="none" opacity=".75"/>
+                            <text x="360" y="188" font-family="Tektur, sans-serif" font-weight="800" font-size="16" letter-spacing="3" fill="#fff" opacity=".8">F1 APEX</text>
+                            <!-- полоса по капоту -->
+                            <path d="M160 128 C230 116 310 103 386 91" stroke="#fff" stroke-width="4" fill="none" opacity=".9"/>
+                            <path d="M560 112 C640 120 720 140 820 162" stroke="#fff" stroke-width="3" fill="none" opacity=".8"/>
+                            <!-- воздухозаборник -->
+                            <path d="M410 70 L424 68 L432 96 L420 96 Z" fill="#050506"/>
+                            <!-- пилот -->
+                            <path d="M432 98 C452 102 470 104 520 106 L520 112 L436 110 Z" fill="#050506"/>
+                            <circle cx="462" cy="94" r="17" fill="#f4f5f8"/>
+                            <path d="M447 88 H480 Q484 92 480 97 H447 Z" fill="#0b0c0f"/>
+                            <path d="M446 101 Q462 106 478 101" stroke="#e10600" stroke-width="3" fill="none"/>
+                            <!-- ореол -->
+                            <path d="M416 88 C450 70 500 76 540 104" stroke="#1d1f25" stroke-width="7" fill="none" stroke-linecap="round"/>
+                            <path d="M536 100 L544 110" stroke="#1d1f25" stroke-width="7" stroke-linecap="round"/>
+                            <!-- зеркало -->
+                            <path d="M556 106 L568 96 L586 96 L586 104 L566 106 Z" fill="#111216"/>
+                            <!-- номер -->
+                            <text x="650" y="150" font-family="Tektur, sans-serif" font-weight="900" font-size="26" fill="#fff" transform="rotate(9 650 150)">1</text>
+                            <!-- блик -->
+                            <path d="M150 132 C210 120 300 104 382 92 L396 68 L424 66 L432 96 C446 101 458 104 476 105 L546 107 C610 112 706 138 806 160 L872 171 Q888 176 876 185 L762 187 C700 186 642 190 600 194 L160 198 Z" fill="url(#bodyGloss)"/>
+                            <!-- переднее антикрыло -->
+                            <path d="M840 178 L848 196" stroke="#111216" stroke-width="5"/>
+                            <path d="M786 196 L892 193 L894 205 L784 208 Z" fill="#111216"/>
+                            <path d="M796 189 C828 182 860 180 890 182 L890 190 C860 188 830 190 798 196 Z" fill="url(#bodyRed)"/>
+                            <rect x="884" y="164" width="11" height="44" rx="3" fill="url(#bodyCarbon)"/>
+                            <!-- колёса -->
+                            <svg x="117" y="114" width="118" height="118" viewBox="-50 -50 100 100" overflow="visible"><g class="mx-wheel"><use href="#wheel" x="-50" y="-50" width="100" height="100"/></g></svg>
+                            <svg x="689" y="118" width="112" height="112" viewBox="-50 -50 100 100" overflow="visible"><g class="mx-wheel"><use href="#wheel" x="-50" y="-50" width="100" height="100"/></g></svg>
+                        </svg>
+
+                        <div class="mx-car-shadow"></div>
+                    </div>
+                    <div class="mx-road"><i></i></div>
+                </div>
+
+                <!-- Карточки под героем -->
+                <div class="mx-hero-cards">
+                    <article class="mx-card glass mx-next" data-tilt>
+                        <header class="mx-card-head">
+                            <span class="mx-chip mx-chip-live"><span class="mx-live-dot"></span> <span id="mxNextLabel">Следующий этап</span></span>
+                            <span class="mx-round" id="mxNextRound">R—</span>
+                        </header>
+                        <h2 class="mx-next-name" id="mxNextName">Загружаем календарь…</h2>
+                        <p class="mx-next-circuit" id="mxNextCircuit">&nbsp;</p>
+                        <div class="mx-countdown" id="mxCountdown" role="timer" aria-live="off">
+                            <div><b data-cd="d">--</b><small>дней</small></div>
+                            <div><b data-cd="h">--</b><small>часов</small></div>
+                            <div><b data-cd="m">--</b><small>минут</small></div>
+                            <div><b data-cd="s">--</b><small>секунд</small></div>
+                        </div>
+                        <ol class="mx-weekend" id="mxWeekend"></ol>
+                    </article>
+
+                    <article class="mx-card glass mx-pulse" data-tilt>
+                        <header class="mx-card-head"><span class="mx-chip">Пульс сезона</span></header>
+                        <div class="mx-ring" id="mxRing" style="--p:0">
+                            <div class="mx-ring-inner"><b id="mxRingValue">0</b><small id="mxRingCaption">из — этапов</small></div>
+                        </div>
+                        <dl class="mx-stats">
+                            <div><dt>Пилотов</dt><dd id="mxStatDrivers">—</dd></div>
+                            <div><dt>Команд</dt><dd id="mxStatTeams">—</dd></div>
+                            <div><dt>Спринтов</dt><dd id="mxStatSprints">—</dd></div>
+                        </dl>
+                    </article>
+
+                    <article class="mx-card glass mx-leader" data-tilt id="mxLeaderCard">
+                        <header class="mx-card-head"><span class="mx-chip">Лидер чемпионата</span><span class="mx-round">P1</span></header>
+                        <div class="mx-leader-num" id="mxLeaderNum" aria-hidden="true">1</div>
+                        <p class="mx-leader-first" id="mxLeaderFirst">&nbsp;</p>
+                        <h2 class="mx-leader-last" id="mxLeaderLast">—</h2>
+                        <p class="mx-leader-team" id="mxLeaderTeam">&nbsp;</p>
+                        <ol class="mx-leader-race" id="mxLeaderRace" aria-label="Тройка лидеров"></ol>
+                        <div class="mx-leader-points"><b id="mxLeaderPoints">0</b><span>очков</span></div>
+                        <p class="mx-leader-gap" id="mxLeaderGap">&nbsp;</p>
+                    </article>
+                </div>
+            </section>
+
+            <div class="mx-marquee" aria-hidden="true">
+                <div class="mx-marquee-track">
+                    <span>Lights out</span><i>◆</i><span>DRS enabled</span><i>◆</i><span>Purple sector</span><i>◆</i><span>Box, box</span><i>◆</i><span>Fastest lap</span><i>◆</i><span>Chequered flag</span><i>◆</i>
+                    <span>Lights out</span><i>◆</i><span>DRS enabled</span><i>◆</i><span>Purple sector</span><i>◆</i><span>Box, box</span><i>◆</i><span>Fastest lap</span><i>◆</i><span>Chequered flag</span><i>◆</i>
+                </div>
+            </div>
+
+            <div class="mx-status" id="mxStatus" role="status" aria-live="polite"></div>
+
+            <!-- ===== КАЛЕНДАРЬ ===== -->
+            <section class="mx-section" id="mx-calendar" aria-labelledby="mxCalTitle">
+                <header class="mx-section-head reveal">
+                    <p class="mx-eyebrow"><span>01</span> Календарь</p>
+                    <h2 id="mxCalTitle" class="mx-h2">Гонки сезона <em data-season>2026</em></h2>
+                    <p class="mx-lead">Нажмите на завершённый этап, чтобы открыть результаты гонки и спринта.</p>
+                </header>
+                <div class="mx-toolbar reveal">
+                    <div class="mx-filters glass-inset" role="radiogroup" aria-label="Фильтр этапов">
+                        <button type="button" role="radio" aria-checked="true" data-filter="all">Все</button>
+                        <button type="button" role="radio" aria-checked="false" data-filter="done">Завершённые</button>
+                        <button type="button" role="radio" aria-checked="false" data-filter="next">Впереди</button>
+                        <button type="button" role="radio" aria-checked="false" data-filter="sprint">Спринты</button>
+                    </div>
+                    <label class="mx-search glass-inset">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+                        <input id="mxSearch" type="search" placeholder="Страна, трасса, победитель" aria-label="Поиск по гонкам" autocomplete="off">
+                    </label>
+                </div>
+                <div class="mx-timeline reveal" aria-hidden="true"><span class="mx-timeline-fill" id="mxTimelineFill"></span><span class="mx-timeline-car"><svg viewBox="-20 -9 40 18"><use href="#carTop"/></svg></span></div>
+                <ol class="mx-races" id="mxRaces" aria-live="polite"></ol>
+                <p class="mx-empty" id="mxRacesEmpty" hidden>Ничего не нашлось. Попробуйте другой фильтр.</p>
+            </section>
+
+            <!-- ===== ЗАЧЁТ ===== -->
+            <section class="mx-section" id="mx-standings" aria-labelledby="mxStTitle">
+                <header class="mx-section-head reveal">
+                    <p class="mx-eyebrow"><span>02</span> Чемпионат</p>
+                    <h2 id="mxStTitle" class="mx-h2">Борьба за <em>титул</em></h2>
+                </header>
+                <div class="mx-tabs glass-inset reveal" role="tablist" aria-label="Зачёт">
+                    <span class="mx-tabs-thumb" aria-hidden="true"></span>
+                    <button type="button" role="tab" id="mxTabDrivers" aria-selected="true" aria-controls="mxPanelDrivers">Личный зачёт</button>
+                    <button type="button" role="tab" id="mxTabTeams" aria-selected="false" aria-controls="mxPanelTeams" tabindex="-1">Кубок конструкторов</button>
+                </div>
+
+                <div class="mx-panel" id="mxPanelDrivers" role="tabpanel" aria-labelledby="mxTabDrivers">
+                    <div class="mx-podium" id="mxPodium"></div>
+                    <div class="mx-table glass" role="table" aria-label="Личный зачёт">
+                        <div class="mx-tr mx-th" role="row">
+                            <span role="columnheader">Поз.</span><span role="columnheader">Пилот</span>
+                            <span role="columnheader" class="mx-col-nat">Страна</span><span role="columnheader" class="mx-col-team">Команда</span>
+                            <span role="columnheader" class="mx-col-bar">Отрыв</span><span role="columnheader">Очки</span>
+                        </div>
+                        <div id="mxDrivers" role="rowgroup"></div>
+                    </div>
+                </div>
+
+                <div class="mx-panel" id="mxPanelTeams" role="tabpanel" aria-labelledby="mxTabTeams" hidden>
+                    <div class="mx-teams" id="mxTeams"></div>
+                </div>
+            </section>
+
+            <!-- ===== ТРАССА ===== -->
+            <section class="mx-section mx-track-section" id="mx-track" aria-labelledby="mxTrackTitle">
+                <header class="mx-section-head reveal">
+                    <p class="mx-eyebrow"><span>03</span> Ночной заезд</p>
+                    <h2 id="mxTrackTitle" class="mx-h2">Пятёрка лидеров <em>на трассе</em></h2>
+                    <p class="mx-lead">Визуализация: болиды в цветах команд пятёрки лидеров личного зачёта. Можно ускорить или поставить на паузу.</p>
+                </header>
+                <div class="mx-track-wrap reveal">
+                    <div class="mx-track glass">
+                        <svg class="mx-circuit" viewBox="0 0 800 420" role="img" aria-label="Анимация пяти болидов на схеме трассы">
+                            <defs>
+                                <path id="mxCircuitPath" d="M120 330 L110 170 Q105 90 185 85 L470 70 Q540 66 560 120 L585 205 Q597 240 632 232 L676 222 Q725 212 728 262 L732 315 Q735 360 690 362 L470 368 Q430 370 425 330 L418 250 Q414 214 378 220 L282 236 Q246 242 246 280 L248 332 Q250 372 205 372 L160 372 Q124 372 120 330 Z"/>
+                                <pattern id="chequer" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="3" height="3" fill="#fff"/><rect x="3" y="3" width="3" height="3" fill="#fff"/></pattern>
+                                <filter id="trailGlow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="4"/></filter>
+                            </defs>
+                            <use href="#mxCircuitPath" class="mx-kerb"/>
+                            <use href="#mxCircuitPath" class="mx-asphalt"/>
+                            <use href="#mxCircuitPath" class="mx-centre"/>
+                            <use href="#mxCircuitPath" class="mx-sweep"/>
+                            <g class="mx-startline"><rect x="100" y="286" width="30" height="6" fill="url(#chequer)"/></g>
+                            <text x="140" y="140" class="mx-sector">S1</text><text x="600" y="150" class="mx-sector">S2</text><text x="330" y="300" class="mx-sector">S3</text>
+                            <g id="mxCars"></g>
+                        </svg>
+                        <div class="mx-track-hud">
+                            <span class="mx-chip mx-chip-live"><span class="mx-live-dot"></span> Night session</span>
+                            <span class="mx-lap">LAP <b id="mxLap">1</b></span>
+                        </div>
+                    </div>
+                    <aside class="mx-track-side glass">
+                        <h3>Порядок</h3>
+                        <ol class="mx-order" id="mxOrder"></ol>
+                        <div class="mx-gauge" aria-hidden="true">
+                            <div class="mx-gauge-value"><b id="mxKmh">0</b><small>км/ч · лидер</small></div>
+                            <span class="mx-gauge-gear" id="mxGear">N</span>
+                        </div>
+                        <div class="mx-track-controls">
+                            <button type="button" class="mx-btn mx-btn-glass glass" id="mxPlay" aria-pressed="true">Пауза</button>
+                            <label class="mx-speed">Темп
+                                <input type="range" id="mxSpeed" min="0.5" max="3" step="0.5" value="1" aria-label="Скорость анимации">
+                                <output id="mxSpeedOut" for="mxSpeed">1×</output>
+                            </label>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <!-- ===== НОВОСТИ ===== -->
+            <section class="mx-section" id="mx-news" aria-labelledby="mxNewsTitle">
+                <header class="mx-section-head reveal">
+                    <p class="mx-eyebrow"><span>04</span> Паддок</p>
+                    <h2 id="mxNewsTitle" class="mx-h2">Новости <em>Формулы 1</em></h2>
+                    <p class="mx-lead" id="mxNewsUpdated">Загружаем ленту…</p>
+                </header>
+                <div class="mx-filters glass-inset reveal" role="radiogroup" aria-label="Фильтр новостей" id="mxNewsFilters">
+                    <button type="button" role="radio" aria-checked="true" data-news="all">Все</button>
+                    <button type="button" role="radio" aria-checked="false" data-news="racing">Гонки</button>
+                    <button type="button" role="radio" aria-checked="false" data-news="teams">Команды</button>
+                    <button type="button" role="radio" aria-checked="false" data-news="tech">Техника</button>
+                </div>
+                <div class="mx-news" id="mxNewsGrid" aria-live="polite"></div>
+            </section>
+
+            <!-- ===== ТРАНСЛЯЦИИ ===== -->
+            <section class="mx-section" id="mx-watch" aria-labelledby="mxWatchTitle">
+                <header class="mx-section-head reveal">
+                    <p class="mx-eyebrow"><span>05</span> Трансляции</p>
+                    <h2 id="mxWatchTitle" class="mx-h2">Где <em>смотреть</em></h2>
+                </header>
+                <div class="mx-watch">
+                    <a class="mx-watch-card glass reveal" href="https://www.formula1.com/" target="_blank" rel="noopener" style="--c:#e10600">
+                        <span class="mx-watch-ico">F1</span><b>Официальный сайт</b><small>formula1.com</small><span class="mx-arrow">↗</span></a>
+                    <a class="mx-watch-card glass reveal" href="https://rutube.ru/u/versporta/" target="_blank" rel="noopener" style="--c:#00a3ff">
+                        <span class="mx-watch-ico">▶</span><b>Трансляции на русском</b><small>RUTUBE · Вершина Автоспорта</small><span class="mx-arrow">↗</span></a>
+                    <a class="mx-watch-card glass reveal" href="https://t.me/formula_1_news" target="_blank" rel="noopener" style="--c:#2aabee">
+                        <span class="mx-watch-ico">✈</span><b>Telegram-канал</b><small>@formula_1_news</small><span class="mx-arrow">↗</span></a>
+                </div>
+                <h3 class="mx-h3 reveal">Команды сезона</h3>
+                <div class="mx-teamlinks" id="mxTeamLinks"></div>
+            </section>
+        </main>
+
+        <footer class="mx-footer">
+            <div class="mx-footer-flag" aria-hidden="true"></div>
+            <div class="mx-footer-inner">
+                <span class="mx-logo-text">F1<b>APEX</b></span>
+                <p>Данные: Jolpica / Ergast API · Новости: заголовки F1News, Motorsport, Autosport со ссылками на источник.</p>
+                <p>Неофициальный фан-проект. Formula 1 и F1 — товарные знаки Formula One Licensing B.V.</p>
+            </div>
+        </footer>
+
+        <!-- Результаты гонки -->
+        <dialog class="mx-dialog" id="mxDialog" aria-labelledby="mxDialogTitle">
+            <div class="mx-dialog-inner glass">
+                <header>
+                    <div>
+                        <p class="mx-eyebrow" id="mxDialogMeta">Результаты</p>
+                        <h2 id="mxDialogTitle">—</h2>
+                    </div>
+                    <button type="button" class="mx-close" id="mxDialogClose" aria-label="Закрыть">✕</button>
+                </header>
+                <div class="mx-tabs glass-inset" role="tablist" id="mxDialogTabs" aria-label="Сессия">
+                    <span class="mx-tabs-thumb" aria-hidden="true"></span>
+                    <button type="button" role="tab" aria-selected="true" data-session="race">Гонка</button>
+                    <button type="button" role="tab" aria-selected="false" data-session="sprint" tabindex="-1">Спринт</button>
+                </div>
+                <div class="mx-results" id="mxResults"></div>
+            </div>
+        </dialog>
+    </div>
+
     <script src="script.js"></script>
+    <script src="claude.js"></script>
+    <script src="switch.js"></script>
 
     <!-- Регистрация сервис-воркера (PWA) -->
     <script>

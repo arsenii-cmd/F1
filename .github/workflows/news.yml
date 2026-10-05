@@ -1,0 +1,45 @@
+name: Обновление новостей F1
+
+on:
+  schedule:
+    - cron: '23 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: f1-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Собрать заголовки из RSS
+        run: python scripts/fetch_news.py
+      - name: Сохранить ленту
+        id: save
+        run: |
+          if git diff --quiet -- data/news.json; then
+            echo 'Лента не изменилась.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/news.json
+          git commit -m 'Обновить новости F1'
+          git push
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+      - name: Пересобрать GitHub Pages
+        # Пуш от GITHUB_TOKEN сам не запускает сборку Pages из ветки.
+        if: steps.save.outputs.changed == 'true' && github.ref_name == github.event.repository.default_branch
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" --silent

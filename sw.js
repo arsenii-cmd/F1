@@ -1,5 +1,5 @@
 ﻿// ===== F1 2026 SERVICE WORKER =====
-const CACHE_NAME = 'f1-2026-v6'; // Обновлена версия для принудительного обновления
+const CACHE_NAME = 'f1-2026-v8'; // v8: три варианта сайта — старый, Codex (codex/) и Claude
 const CACHE_TIMEOUT = 10 * 60 * 1000; // 10 минут для API
 
 // Файлы для кэша при установке (оффлайн-оболочка)
@@ -8,6 +8,17 @@ const STATIC_ASSETS = [
     './index.html',
     './script.js',
     './styles.css',
+    './claude.css',
+    './claude.js',
+    './switch.css',
+    './switch.js',
+    './data/news.json',
+    './codex/',
+    './codex/index.html',
+    './codex/modern.css',
+    './codex/modern.js',
+    './codex/core.js',
+    './codex/season-data.js',
     './manifest.json',
     './icons/icon.svg',
 ];
@@ -63,8 +74,15 @@ self.addEventListener('fetch', event => {
         return;
     }
 
-    // Локальные файлы сайта (script.js, styles.css) — ВСЕГДА сеть для обновлений
-    if (url.pathname.includes('script.js') || url.pathname.includes('styles.css')) {
+    // Шрифты нового вида — из кэша, чтобы работали и без сети
+    if (url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com') {
+        event.respondWith(cacheFirstWithNetwork(request));
+        return;
+    }
+
+    // Страница, скрипты, стили и лента новостей — сначала сеть, чтобы обновления приходили сразу
+    if (url.origin === self.location.origin &&
+        (request.mode === 'navigate' || /\.(?:html|js|css|json)$/.test(url.pathname) || url.pathname.endsWith('/'))) {
         event.respondWith(networkFirstForAssets(request));
         return;
     }
