@@ -1,95 +1,167 @@
 {
-  "updatedAt": "2026-10-04T21:24:40.549875+00:00",
+  "updatedAt": "2026-10-05T17:12:26.740462+00:00",
   "articles": [
     {
-      "title": "Гран При Бахрейна: Все цитаты уик-энда",
-      "url": "https://www.f1news.ru/news/f1-191449.html",
+      "title": "Ферстаппен: Побеждать в Сепанге – настоящее удовольствие",
+      "url": "https://www.f1news.ru/interview/max_verstappen/191590.shtml",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-04T18:09:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191449.jpg"
-    },
-    {
-      "title": "Гран При Бахрейна: Комментарии после гонки",
-      "url": "https://www.f1news.ru/Championship/2026/bahrain/afterrace.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T18:08:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184336.jpg"
-    },
-    {
-      "title": "Гэри Андерсон: Red Bull наконец-то удалось собрать этот пазл",
-      "url": "https://www.f1news.ru/news/f1-191572.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T16:28:00+00:00",
+      "publishedAt": "2026-10-05T16:57:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/anderson/191572.jpg"
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191590.jpg"
     },
     {
-      "title": "Две машины в очках у Racing Bulls",
-      "url": "https://www.f1news.ru/news/f1-191571.html",
+      "title": "В конце года Ватанабе покинет пост президента HRC",
+      "url": "https://www.f1news.ru/news/f1-191587.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-04T15:08:00+00:00",
+      "publishedAt": "2026-10-05T15:03:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/191571.jpg"
+      "image": "https://c.f1news.ru/userfiles/watanabe/191587.jpg"
     },
     {
-      "title": "Валттери Боттас: Сегодня риск не окупился",
-      "url": "https://www.f1news.ru/news/f1-191570.html",
+      "title": "Шинтаро Орихара: Хороший результат для Honda",
+      "url": "https://www.f1news.ru/news/f1-191586.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-04T14:30:00+00:00",
+      "publishedAt": "2026-10-05T15:01:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/astonmartin/191586.jpg"
+    },
+    {
+      "title": "Антонелли: Мы пока не знаем, работают ли новинки",
+      "url": "https://www.f1news.ru/interview/antonelli/191583.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T14:11:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/191570.jpg"
+      "image": "https://c.f1news.ru/userfiles/antonelli/191583.jpg"
     },
     {
-      "title": "Норрис получил официальное предупреждение",
-      "url": "https://www.f1news.ru/news/f1-191569.html",
+      "title": "Фотогалерея: Финальный этап сезона REC 2026 на MRW",
+      "url": "https://www.f1news.ru/gallery/v/2026/other/rec_mrw/",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-04T14:15:00+00:00",
+      "publishedAt": "2026-10-05T13:30:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/191569.jpg"
-    },
-    {
-      "title": "Гран При Бахрейна: Порядок смены шин на дистанции",
-      "url": "https://www.f1news.ru/Championship/2026/bahrain/tyres.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T14:15:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184335.jpg"
-    },
-    {
-      "title": "Оскар Пиастри: Нам просто не хватало темпа",
-      "url": "https://www.f1news.ru/news/f1-191568.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T14:13:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/191568.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При Бахрейна, воскресенье",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/bahrain/0410/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T14:00:00+00:00",
-      "category": "racing",
       "image": ""
     },
     {
-      "title": "Габриэль Бортолето: Я испортил гонку и Сайнсу, и себе",
-      "url": "https://www.f1news.ru/news/f1-191567.html",
+      "title": "REC: Алешин и Ременяко стали чемпионами 2026 года",
+      "url": "https://www.f1news.ru/news/autosport-191584.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-04T13:52:00+00:00",
+      "publishedAt": "2026-10-05T13:26:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/aleshin/191584.jpg"
+    },
+    {
+      "title": "В Audi подготовили специальную раскраску для Сингапура",
+      "url": "https://www.f1news.ru/news/f1-191582.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T12:16:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/audi/191582.jpg"
+    },
+    {
+      "title": "Боттас едет из Малайзии в Сингапур на велосипеде",
+      "url": "https://www.f1news.ru/news/f1-191581.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T12:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/191581.jpg"
+    },
+    {
+      "title": "Гран При Бахрейна: Любопытная статистика",
+      "url": "https://www.f1news.ru/news/f1-191540.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T12:00:00+00:00",
       "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/191567.jpg"
+      "image": "https://c.f1news.ru/userfiles/191540.jpg"
+    },
+    {
+      "title": "Мекис: Это ещё один этапный момент в истории команды",
+      "url": "https://www.f1news.ru/news/f1-191580.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T11:32:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/191580.jpg"
+    },
+    {
+      "title": "The dire consequence of Russell's Bahrain GP in Malaysia retirement",
+      "url": "https://www.autosport.com/f1/news/the-added-consequence-of-george-russells-retirement-in-malaysia/10862235/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-05T11:15:02+00:00",
+      "category": "racing",
+      "image": "https://cdn-4.motorsport.com/images/amp/6zoDEVl0/s6/george-russell-mercedes.jpg"
+    },
+    {
+      "title": "Берман: Шансы бороться за очки выше, чем в середине года",
+      "url": "https://www.f1news.ru/news/f1-191579.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T11:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/191579.jpg"
+    },
+    {
+      "title": "Хэмилтон: Мы долго спорили, на каких шинах выезжать",
+      "url": "https://www.f1news.ru/interview/hamilton/191577.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T10:46:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191577.jpg"
+    },
+    {
+      "title": "Алекс Вурц: Кими в этом году всё идеально подходит",
+      "url": "https://www.f1news.ru/news/f1-191578.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T10:06:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/191578.jpg"
+    },
+    {
+      "title": "Лео Турини: Ferrari явно нужен метеоролог",
+      "url": "https://www.f1news.ru/news/f1-191576.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T09:40:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ferrari/191576.jpg"
+    },
+    {
+      "title": "Статистика прошедших Гран При: Гонки и гонщики",
+      "url": "https://www.f1news.ru/news/f1-191558.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T09:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191558.jpg"
+    },
+    {
+      "title": "Cтатистика прошедших Гран При: Квалификация",
+      "url": "https://www.f1news.ru/news/f1-191525.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T09:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/189319.jpg"
+    },
+    {
+      "title": "Honda HRC to get new boss with Watanabe set to retire",
+      "url": "https://www.autosport.com/f1/news/honda-hrc-to-get-new-boss-with-koji-watanabe-set-for-retirement/10862195/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-05T08:28:52+00:00",
+      "category": "teams",
+      "image": "https://cdn-4.motorsport.com/images/amp/YpbPZdZ0/s6/koji-watanabe-president-ceo-an.jpg"
     },
     {
       "title": "How FIA software bug caused chaos in Bahrain GP in Malaysia – and the emergency fix that saved the race",
@@ -98,34 +170,7 @@
       "language": "en",
       "publishedAt": "2026-10-04T13:50:48+00:00",
       "category": "racing",
-      "image": "https://cdn-9.motorsport.com/images/amp/6O7zBNP6/s6/max-verstappen-red-bull-racing-3.jpg"
-    },
-    {
-      "title": "Pirelli: Погода сыграла решающую роль",
-      "url": "https://www.f1news.ru/news/f1-191566.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T13:46:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/pirelli/191566.jpg"
-    },
-    {
-      "title": "Команда Audi получила денежный штраф",
-      "url": "https://www.f1news.ru/news/f1-191565.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T13:43:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hulkenberg/191565.jpg"
-    },
-    {
-      "title": "Айо Комацу: Мы решили разделить риски",
-      "url": "https://www.f1news.ru/news/f1-191564.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T13:28:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/191564.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/6O7zBNP6/s6/max-verstappen-red-bull-racing-3.jpg"
     },
     {
       "title": "The slick tyre gamble that hurt McLaren and Ferrari's chances in Bahrain GP in Malaysia",
@@ -133,8 +178,8 @@
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-04T13:14:54+00:00",
-      "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/6zoDEk70/s6/lando-norris-mclaren-2.jpg"
+      "category": "tech",
+      "image": "https://cdn-9.motorsport.com/images/amp/6zoDEk70/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "FIA explains software glitch that caused Bahrain GP in Malaysia race delay",
@@ -143,34 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-04T12:40:20+00:00",
       "category": "racing",
-      "image": "https://cdn-9.motorsport.com/images/amp/2y7QBvy6/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "Пауза на Сепанге была вызвана обновлением ПО двигателей",
-      "url": "https://www.f1news.ru/tech/191563.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T12:40:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/fia/191563.jpg"
-    },
-    {
-      "title": "Сайнс: Машина была повреждена, и я быстро откатился назад",
-      "url": "https://www.f1news.ru/news/f1-191562.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T12:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/albon_1/191562.jpg"
-    },
-    {
-      "title": "Флавио Бриаторе: Мы приняли неверные решения",
-      "url": "https://www.f1news.ru/news/f1-191561.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-04T12:33:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/191561.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/2y7QBvy6/s6/lewis-hamilton-ferrari-2.jpg"
     },
     {
       "title": "Russell: “You’ve got to laugh” at bad luck as F1 title drifts away",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-04T11:48:47+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/2jEApoP0/s6/george-russell-mercedes.jpg"
-    },
-    {
-      "title": "F1 Bahrain GP in Malaysia: Verstappen wins chaotic race from Antonelli as Russell retires late on",
-      "url": "https://www.autosport.com/f1/news/f1-bahrain-gp-in-malaysia-report/10861849/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-04T10:29:15+00:00",
-      "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/Y9lNRzq2/s6/max-verstappen-red-bull-racing-3.jpg"
-    },
-    {
-      "title": "F1 Bahrain GP in Malaysia descends into chaos as car trouble prompts red flag",
-      "url": "https://www.autosport.com/f1/news/f1-bahrain-gp-in-malaysia-descends-into-chaos-as-car-trouble-prompts-red-flag/10861807/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-04T07:58:47+00:00",
-      "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/68Vw9aB2/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/2jEApoP0/s6/george-russell-mercedes.jpg"
     }
   ]
 }
