@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-05T17:12:26.740462+00:00",
+  "updatedAt": "2026-10-06T01:19:35.620815+00:00",
   "articles": [
+    {
+      "title": "Ф2 и Ф3 представили календарь на 2027 год",
+      "url": "https://www.f1news.ru/news/autosport-191591.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-05T18:08:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sulayem/191591.jpg"
+    },
     {
       "title": "Ферстаппен: Побеждать в Сепанге – настоящее удовольствие",
       "url": "https://www.f1news.ru/interview/max_verstappen/191590.shtml",
@@ -144,15 +153,6 @@
       "publishedAt": "2026-10-05T09:05:00+00:00",
       "category": "racing",
       "image": "https://c.f1news.ru/userfiles/191558.jpg"
-    },
-    {
-      "title": "Cтатистика прошедших Гран При: Квалификация",
-      "url": "https://www.f1news.ru/news/f1-191525.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T09:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/189319.jpg"
     },
     {
       "title": "Honda HRC to get new boss with Watanabe set to retire",
