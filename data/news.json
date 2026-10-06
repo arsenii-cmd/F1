@@ -1,6 +1,87 @@
 {
-  "updatedAt": "2026-10-06T11:19:58.028979+00:00",
+  "updatedAt": "2026-10-06T18:27:00.301733+00:00",
   "articles": [
+    {
+      "title": "Пол Уильямс об особенностях уик-энда в Сингапуре",
+      "url": "https://www.f1news.ru/interview/Paul_Williams/191608.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T17:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/Paul_Williams/191608.jpg"
+    },
+    {
+      "title": "В FIA объяснили, что привело к сбою в Сепанге",
+      "url": "https://www.f1news.ru/tech/191607.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T16:22:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/tombazis/191607.jpg"
+    },
+    {
+      "title": "Хаккинен в Афинах прокатился на McLaren Айртона Сенны",
+      "url": "https://www.f1news.ru/news/f1-191606.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T15:04:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/senna/191606-1.jpg"
+    },
+    {
+      "title": "Гран При Руанды запланирован на 2030 год",
+      "url": "https://www.f1news.ru/news/f1-191605.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T15:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/domenicali/191605.jpg"
+    },
+    {
+      "title": "Russell to take grid penalty in Singapore due to Sepang retirement",
+      "url": "https://www.autosport.com/f1/news/russell-to-take-grid-penalty-in-singapore-due-to-sepang-retirement/10862556/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-06T14:45:22+00:00",
+      "category": "teams",
+      "image": "https://cdn-2.motorsport.com/images/amp/YP74dAG2/s6/george-russell-mercedes-2.jpg"
+    },
+    {
+      "title": "Виктор Мартен – резервный гонщик Williams в Сингапуре",
+      "url": "https://www.f1news.ru/news/f1-191604.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T14:23:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/williams/191604.jpg"
+    },
+    {
+      "title": "Боттас продолжает велопробег из Малайзии в Сингапур",
+      "url": "https://www.f1news.ru/news/f1-191603.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T14:08:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/191603.jpg"
+    },
+    {
+      "title": "Пьер Гасли отправился из Малайзии в Сингапур на машине",
+      "url": "https://www.f1news.ru/news/f1-191602.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T13:07:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/gasly/191602.jpg"
+    },
+    {
+      "title": "В Cadillac считают, что Марина-Бей подходит машине MAC-26",
+      "url": "https://www.f1news.ru/news/f1-191601.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T12:07:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/bottas/191601.jpg"
+    },
     {
       "title": "В McLaren настраиваются на борьбу за победу в Сингапуре",
       "url": "https://www.f1news.ru/news/f1-191600.html",
@@ -35,7 +116,7 @@
       "language": "en",
       "publishedAt": "2026-10-06T09:54:48+00:00",
       "category": "tech",
-      "image": "https://cdn-4.motorsport.com/images/amp/0R7BDzO2/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/0R7BDzO2/s6/andrea-kimi-antonelli-mercedes-3.jpg"
     },
     {
       "title": "Джорджа Расселла ждёт штраф в Сингапуре",
@@ -83,85 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/sainz-junior/191592.jpg"
     },
     {
-      "title": "Ф2 и Ф3 представили календарь на 2027 год",
-      "url": "https://www.f1news.ru/news/autosport-191591.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T18:08:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sulayem/191591.jpg"
-    },
-    {
-      "title": "Ферстаппен: Побеждать в Сепанге – настоящее удовольствие",
-      "url": "https://www.f1news.ru/interview/max_verstappen/191590.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T16:57:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191590.jpg"
-    },
-    {
-      "title": "В конце года Ватанабе покинет пост президента HRC",
-      "url": "https://www.f1news.ru/news/f1-191587.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T15:03:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/watanabe/191587.jpg"
-    },
-    {
-      "title": "Шинтаро Орихара: Хороший результат для Honda",
-      "url": "https://www.f1news.ru/news/f1-191586.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T15:01:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/astonmartin/191586.jpg"
-    },
-    {
-      "title": "Антонелли: Мы пока не знаем, работают ли новинки",
-      "url": "https://www.f1news.ru/interview/antonelli/191583.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T14:11:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/191583.jpg"
-    },
-    {
-      "title": "Фотогалерея: Финальный этап сезона REC 2026 на MRW",
-      "url": "https://www.f1news.ru/gallery/v/2026/other/rec_mrw/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T13:30:00+00:00",
-      "category": "teams",
-      "image": ""
-    },
-    {
-      "title": "REC: Алешин и Ременяко стали чемпионами 2026 года",
-      "url": "https://www.f1news.ru/news/autosport-191584.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T13:26:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/aleshin/191584.jpg"
-    },
-    {
-      "title": "В Audi подготовили специальную раскраску для Сингапура",
-      "url": "https://www.f1news.ru/news/f1-191582.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T12:16:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/audi/191582.jpg"
-    },
-    {
       "title": "The dire consequence of Russell's Bahrain GP in Malaysia retirement",
       "url": "https://www.autosport.com/f1/news/the-added-consequence-of-george-russells-retirement-in-malaysia/10862235/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-05T11:15:02+00:00",
       "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/6zoDEVl0/s6/george-russell-mercedes.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/6zoDEVl0/s6/george-russell-mercedes.jpg"
     },
     {
       "title": "Honda HRC to get new boss with Watanabe set to retire",
@@ -170,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-05T08:28:52+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/YpbPZdZ0/s6/koji-watanabe-president-ceo-an.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/YpbPZdZ0/s6/koji-watanabe-president-ceo-an.jpg"
     },
     {
       "title": "How FIA software bug caused chaos in Bahrain GP in Malaysia – and the emergency fix that saved the race",
@@ -179,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-04T13:50:48+00:00",
       "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/6O7zBNP6/s6/max-verstappen-red-bull-racing-3.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/6O7zBNP6/s6/max-verstappen-red-bull-racing-3.jpg"
     },
     {
       "title": "The slick tyre gamble that hurt McLaren and Ferrari's chances in Bahrain GP in Malaysia",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-04T13:14:54+00:00",
       "category": "tech",
-      "image": "https://cdn-3.motorsport.com/images/amp/6zoDEk70/s6/lando-norris-mclaren-2.jpg"
-    },
-    {
-      "title": "FIA explains software glitch that caused Bahrain GP in Malaysia race delay",
-      "url": "https://www.autosport.com/f1/news/fia-explains-software-glitch-that-caused-bahrain-gp-in-malaysia-race-delay/10861956/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-04T12:40:20+00:00",
-      "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/2y7QBvy6/s6/lewis-hamilton-ferrari-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/6zoDEk70/s6/lando-norris-mclaren-2.jpg"
     }
   ]
 }
