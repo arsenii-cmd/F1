@@ -1,6 +1,87 @@
 {
-  "updatedAt": "2026-10-06T01:19:35.620815+00:00",
+  "updatedAt": "2026-10-06T11:19:58.028979+00:00",
   "articles": [
+    {
+      "title": "В McLaren настраиваются на борьбу за победу в Сингапуре",
+      "url": "https://www.f1news.ru/news/f1-191600.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T11:17:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/mclaren/191600.jpg"
+    },
+    {
+      "title": "В Pirelli прогнозируют один пит-стоп на кольце Марина-Бей",
+      "url": "https://www.f1news.ru/news/f1-191598.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T10:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/pirelli/191598.jpg"
+    },
+    {
+      "title": "Марко: Макс считает, что сможет победить в Сингапуре",
+      "url": "https://www.f1news.ru/interview/marko/191597.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T10:40:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/marko/191597.jpg"
+    },
+    {
+      "title": "What caused Mercedes' pace deficit at Sepang despite upgraded W17?",
+      "url": "https://www.autosport.com/f1/news/the-mechanisms-at-play-behind-mercedes-difficult-bahrain-gp-weekend/10862473/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-06T09:54:48+00:00",
+      "category": "tech",
+      "image": "https://cdn-4.motorsport.com/images/amp/0R7BDzO2/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+    },
+    {
+      "title": "Джорджа Расселла ждёт штраф в Сингапуре",
+      "url": "https://www.f1news.ru/news/f1-191596.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T09:51:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/191596.jpg"
+    },
+    {
+      "title": "Киану Аль Азхари дебютирует в Формуле 3",
+      "url": "https://www.f1news.ru/news/autosport-191595.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T09:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191595.jpg"
+    },
+    {
+      "title": "Бортолето: Попробуем заработать очки в Сингапуре",
+      "url": "https://www.f1news.ru/news/f1-191594.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T08:40:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/191594.jpg"
+    },
+    {
+      "title": "Фернандо Алонсо собирается вновь проехать «Дакар»?",
+      "url": "https://www.f1news.ru/news/f1-191593.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T07:46:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/191593.jpg"
+    },
+    {
+      "title": "Сайнс: Ф1 должна самокритично взглянуть на саму себя",
+      "url": "https://www.f1news.ru/news/f1-191592.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-06T06:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/191592.jpg"
+    },
     {
       "title": "Ф2 и Ф3 представили календарь на 2027 год",
       "url": "https://www.f1news.ru/news/autosport-191591.html",
@@ -74,85 +155,13 @@
       "image": "https://c.f1news.ru/userfiles/audi/191582.jpg"
     },
     {
-      "title": "Боттас едет из Малайзии в Сингапур на велосипеде",
-      "url": "https://www.f1news.ru/news/f1-191581.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T12:15:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/191581.jpg"
-    },
-    {
-      "title": "Гран При Бахрейна: Любопытная статистика",
-      "url": "https://www.f1news.ru/news/f1-191540.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T12:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191540.jpg"
-    },
-    {
-      "title": "Мекис: Это ещё один этапный момент в истории команды",
-      "url": "https://www.f1news.ru/news/f1-191580.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T11:32:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/191580.jpg"
-    },
-    {
       "title": "The dire consequence of Russell's Bahrain GP in Malaysia retirement",
       "url": "https://www.autosport.com/f1/news/the-added-consequence-of-george-russells-retirement-in-malaysia/10862235/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-05T11:15:02+00:00",
       "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/6zoDEVl0/s6/george-russell-mercedes.jpg"
-    },
-    {
-      "title": "Берман: Шансы бороться за очки выше, чем в середине года",
-      "url": "https://www.f1news.ru/news/f1-191579.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T11:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/191579.jpg"
-    },
-    {
-      "title": "Хэмилтон: Мы долго спорили, на каких шинах выезжать",
-      "url": "https://www.f1news.ru/interview/hamilton/191577.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T10:46:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191577.jpg"
-    },
-    {
-      "title": "Алекс Вурц: Кими в этом году всё идеально подходит",
-      "url": "https://www.f1news.ru/news/f1-191578.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T10:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/191578.jpg"
-    },
-    {
-      "title": "Лео Турини: Ferrari явно нужен метеоролог",
-      "url": "https://www.f1news.ru/news/f1-191576.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T09:40:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/191576.jpg"
-    },
-    {
-      "title": "Статистика прошедших Гран При: Гонки и гонщики",
-      "url": "https://www.f1news.ru/news/f1-191558.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-05T09:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191558.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/6zoDEVl0/s6/george-russell-mercedes.jpg"
     },
     {
       "title": "Honda HRC to get new boss with Watanabe set to retire",
@@ -161,7 +170,7 @@
       "language": "en",
       "publishedAt": "2026-10-05T08:28:52+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/YpbPZdZ0/s6/koji-watanabe-president-ceo-an.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/YpbPZdZ0/s6/koji-watanabe-president-ceo-an.jpg"
     },
     {
       "title": "How FIA software bug caused chaos in Bahrain GP in Malaysia – and the emergency fix that saved the race",
@@ -170,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-04T13:50:48+00:00",
       "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/6O7zBNP6/s6/max-verstappen-red-bull-racing-3.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/6O7zBNP6/s6/max-verstappen-red-bull-racing-3.jpg"
     },
     {
       "title": "The slick tyre gamble that hurt McLaren and Ferrari's chances in Bahrain GP in Malaysia",
@@ -179,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-04T13:14:54+00:00",
       "category": "tech",
-      "image": "https://cdn-9.motorsport.com/images/amp/6zoDEk70/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/6zoDEk70/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "FIA explains software glitch that caused Bahrain GP in Malaysia race delay",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-04T12:40:20+00:00",
       "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/2y7QBvy6/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "Russell: “You’ve got to laugh” at bad luck as F1 title drifts away",
-      "url": "https://www.autosport.com/f1/news/russell-youve-got-to-laugh-at-bad-luck-as-f1-title-drifts-away/10861919/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-04T11:48:47+00:00",
-      "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/2jEApoP0/s6/george-russell-mercedes.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/2y7QBvy6/s6/lewis-hamilton-ferrari-2.jpg"
     }
   ]
 }
