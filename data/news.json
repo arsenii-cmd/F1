@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-10-07T15:36:04.266846+00:00",
+  "updatedAt": "2026-10-07T21:20:45.923640+00:00",
   "articles": [
+    {
+      "title": "Гран При Сингапура: Круглые числа",
+      "url": "https://www.f1news.ru/Championship/2026/singapore/stats.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T21:20:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184479.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Превью этапа",
+      "url": "https://www.f1news.ru/Championship/2026/singapore/preview.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T21:15:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/133782.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Комментарии перед этапом",
+      "url": "https://www.f1news.ru/Championship/2026/singapore/beforerace.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T21:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184502.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Прогноз погоды на уик-энд",
+      "url": "https://www.f1news.ru/news/f1-191609.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T21:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/131736.jpg"
+    },
+    {
+      "title": "В ЮАР планируют провести этап Формулы 1 до 2030-го",
+      "url": "https://www.f1news.ru/news/f1-191627.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T16:03:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191627.jpg"
+    },
+    {
+      "title": "Брендо Бадоер перешёл в Формулу 2 и выступит за Rodin",
+      "url": "https://www.f1news.ru/news/autosport-191626.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T15:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191626.jpg"
+    },
     {
       "title": "Ходжкинсон: Нам ещё многому предстоит научиться",
       "url": "https://www.f1news.ru/news/f1-191624.html",
@@ -35,7 +89,7 @@
       "language": "en",
       "publishedAt": "2026-10-07T12:08:31+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/YWKA5GxY/s6/fernando-alonso-aston-martin-r-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/YWKA5GxY/s6/fernando-alonso-aston-martin-r-2.jpg"
     },
     {
       "title": "Команды обсуждают изменения финансового регламента",
@@ -101,15 +155,6 @@
       "image": "https://c.f1news.ru/userfiles/187867.jpg"
     },
     {
-      "title": "Лоусон: Перед Сингапуром у нас есть поводы для оптимизма",
-      "url": "https://www.f1news.ru/news/f1-191613.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T09:40:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/191613.jpg"
-    },
-    {
       "title": "Mercedes confirms Russell's Singapore GP grid penalty following Sepang retirement",
       "url": "https://www.autosport.com/f1/news/russell-suffers-grid-penalty-for-singapore-gp/10862656/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -119,58 +164,13 @@
       "image": "https://cdn-7.motorsport.com/images/amp/6VyKmpNY/s6/george-russell-mercedes-2.jpg"
     },
     {
-      "title": "В Сингапуре Mercedes сравнит две версии машины",
-      "url": "https://www.f1news.ru/news/f1-191612.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T08:42:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/wolff/191159.jpg"
-    },
-    {
-      "title": "Дёльнер: Наш проект в Формуле 1 полностью автономен",
-      "url": "https://www.f1news.ru/news/f1-191611.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T08:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/audi/191611.jpg"
-    },
-    {
-      "title": "Red Bull Racing заплатила Хорнеру 33,5 млн. фунтов",
-      "url": "https://www.f1news.ru/news/f1-191610.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T07:31:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/horner/183027.jpg"
-    },
-    {
-      "title": "Пол Уильямс об особенностях уик-энда в Сингапуре",
-      "url": "https://www.f1news.ru/interview/Paul_Williams/191608.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-06T17:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/Paul_Williams/191608.jpg"
-    },
-    {
-      "title": "В FIA объяснили, что привело к сбою в Сепанге",
-      "url": "https://www.f1news.ru/tech/191607.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-06T16:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/tombazis/191607.jpg"
-    },
-    {
       "title": "Russell to take grid penalty in Singapore due to Sepang retirement",
       "url": "https://www.autosport.com/f1/news/russell-to-take-grid-penalty-in-singapore-due-to-sepang-retirement/10862556/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-06T14:45:22+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/YP74dAG2/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/YP74dAG2/s6/george-russell-mercedes-2.jpg"
     },
     {
       "title": "What caused Mercedes' pace deficit at Sepang despite upgraded W17?",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-06T09:54:48+00:00",
       "category": "tech",
-      "image": "https://cdn-6.motorsport.com/images/amp/0R7BDzO2/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/0R7BDzO2/s6/andrea-kimi-antonelli-mercedes-3.jpg"
     },
     {
       "title": "The dire consequence of Russell's Bahrain GP in Malaysia retirement",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-05T11:15:02+00:00",
       "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/6zoDEVl0/s6/george-russell-mercedes.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/6zoDEVl0/s6/george-russell-mercedes.jpg"
     },
     {
       "title": "Honda HRC to get new boss with Watanabe set to retire",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-05T08:28:52+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/YpbPZdZ0/s6/koji-watanabe-president-ceo-an.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/YpbPZdZ0/s6/koji-watanabe-president-ceo-an.jpg"
     }
   ]
 }
