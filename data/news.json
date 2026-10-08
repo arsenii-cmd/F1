@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-08T15:41:35.721641+00:00",
+  "updatedAt": "2026-10-08T21:22:41.982664+00:00",
   "articles": [
+    {
+      "title": "11:25 МСК: Прямая трансляция свободных заездов",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T18:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-170.jpg"
+    },
+    {
+      "title": "Макс Ферстаппен: Пусть меня помнят таким, какой я есть",
+      "url": "https://www.f1news.ru/interview/max_verstappen/191659.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T16:31:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191659.jpg"
+    },
+    {
+      "title": "Оскар Пиастри: Надеюсь, мы сможем вернуться в борьбу",
+      "url": "https://www.f1news.ru/news/f1-191655.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T16:10:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/piastri/191655.jpg"
+    },
     {
       "title": "Шарль Леклер: Не стоит полагаться на прошлые успехи",
       "url": "https://www.f1news.ru/news/f1-191658.html",
@@ -89,7 +116,7 @@
       "language": "en",
       "publishedAt": "2026-10-08T13:02:24+00:00",
       "category": "tech",
-      "image": "https://cdn-7.motorsport.com/images/amp/YBVjygzY/s6/nico-hulkenberg-audi-f1-team-g.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/YBVjygzY/s6/nico-hulkenberg-audi-f1-team-g.jpg"
     },
     {
       "title": "Сайнс: Новинки сработали, но этого недостаточно",
@@ -137,40 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/norris/191646.jpg"
     },
     {
-      "title": "Бортолето рассказал о новинках и фирменном мороженом",
-      "url": "https://www.f1news.ru/news/f1-191645.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-08T11:44:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/191645.jpg"
-    },
-    {
-      "title": "Хюлкенберг: Эта гонка – одна из самых сложных и долгих",
-      "url": "https://www.f1news.ru/news/f1-191644.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-08T11:42:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/hulkenberg/191644.jpg"
-    },
-    {
-      "title": "Лоусон: Пришлось привыкать к своей прежней машине",
-      "url": "https://www.f1news.ru/news/f1-191643.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-08T11:14:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/191643.jpg"
-    },
-    {
       "title": "FIA completes investigation into F1 chaos in Malaysia and announces measures",
       "url": "https://www.autosport.com/f1/news/fia-completes-investigation-into-f1-chaos-in-malaysia-and-reveals-next-steps/10862890/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-08T08:11:48+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/68VWnDB2/s6/nikolas-tombazis-fia.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/68VWnDB2/s6/nikolas-tombazis-fia.jpg"
     },
     {
       "title": "Inside Alonso's decision to contest the 2027 Dakar Rally with Aston Martin",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-07T09:09:42+00:00",
       "category": "racing",
-      "image": "https://cdn-5.motorsport.com/images/amp/6VyKmpNY/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/6VyKmpNY/s6/george-russell-mercedes-2.jpg"
     },
     {
       "title": "Russell to take grid penalty in Singapore due to Sepang retirement",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-06T14:45:22+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/YP74dAG2/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/YP74dAG2/s6/george-russell-mercedes-2.jpg"
     }
   ]
 }
