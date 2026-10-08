@@ -1,149 +1,176 @@
 {
-  "updatedAt": "2026-10-08T06:13:33.557094+00:00",
+  "updatedAt": "2026-10-08T15:41:35.721641+00:00",
   "articles": [
     {
-      "title": "Алекс Элбон: Нам не помешает, если пойдёт дождь",
-      "url": "https://www.f1news.ru/news/f1-191628.html",
+      "title": "Шарль Леклер: Не стоит полагаться на прошлые успехи",
+      "url": "https://www.f1news.ru/news/f1-191658.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-08T05:45:00+00:00",
+      "publishedAt": "2026-10-08T15:38:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/albon_1/191628.jpg"
+      "image": "https://c.f1news.ru/userfiles/leclerc/191658.jpg"
     },
     {
-      "title": "В FIA выпустили предупреждение о жаркой погоде",
-      "url": "https://www.f1news.ru/news/f1-191629.html",
+      "title": "Оливер Берман представил шлем для ночных гонок",
+      "url": "https://www.f1news.ru/news/f1-191657.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-08T05:39:00+00:00",
+      "publishedAt": "2026-10-08T15:28:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/fia/191629.jpg"
+      "image": "https://c.f1news.ru/userfiles/bearman/191657.jpg"
     },
     {
-      "title": "Гран При Сингапура: Пять прямых трансляций",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "title": "Пьер Гасли: Важно учесть допущенные ошибки",
+      "url": "https://www.f1news.ru/news/f1-191656.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-07T21:40:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-170.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Точка самого серьёзного торможения",
-      "url": "https://www.f1news.ru/news/f1-191588.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T21:35:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/190741.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Этап конкурса прогнозов",
-      "url": "https://www.f1news.ru/news/f1-191625.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T21:30:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191625.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Ставки букмекеров",
-      "url": "https://www.f1news.ru/news/f1-191622.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T21:25:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191622.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Круглые числа",
-      "url": "https://www.f1news.ru/Championship/2026/singapore/stats.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T21:20:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184479.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Превью этапа",
-      "url": "https://www.f1news.ru/Championship/2026/singapore/preview.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T21:15:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/133782.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Комментарии перед этапом",
-      "url": "https://www.f1news.ru/Championship/2026/singapore/beforerace.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T21:10:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184502.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Трасса и статистика",
-      "url": "https://www.f1news.ru/Championship/2026/singapore/index.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T21:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/99755.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Прогноз погоды на уик-энд",
-      "url": "https://www.f1news.ru/news/f1-191609.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T21:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/131736.jpg"
-    },
-    {
-      "title": "В ЮАР планируют провести этап Формулы 1 до 2030-го",
-      "url": "https://www.f1news.ru/news/f1-191627.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T16:03:00+00:00",
+      "publishedAt": "2026-10-08T15:01:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191627.jpg"
+      "image": "https://c.f1news.ru/userfiles/gasly/191656.jpg"
     },
     {
-      "title": "Брендо Бадоер перешёл в Формулу 2 и выступит за Rodin",
-      "url": "https://www.f1news.ru/news/autosport-191626.html",
+      "title": "Элбон: Трасса в Бангкоке больше похожа на Альберт-парк",
+      "url": "https://www.f1news.ru/news/f1-191654.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-07T15:38:00+00:00",
+      "publishedAt": "2026-10-08T14:29:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191626.jpg"
+      "image": "https://c.f1news.ru/userfiles/albon_1/191654.jpg"
     },
     {
-      "title": "Ходжкинсон: Нам ещё многому предстоит научиться",
-      "url": "https://www.f1news.ru/news/f1-191624.html",
+      "title": "Кими Антонелли: Было бы жаль отказываться от новинок",
+      "url": "https://www.f1news.ru/news/f1-191653.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-07T14:40:00+00:00",
+      "publishedAt": "2026-10-08T14:18:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/redbullracing/191624.jpg"
+      "image": "https://c.f1news.ru/userfiles/antonelli/191653.jpg"
     },
     {
-      "title": "Команда Williams подала в суд из-за пропавшей FW23",
-      "url": "https://www.f1news.ru/news/f1-191623.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T13:27:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/williams/191623.jpg"
+      "title": "McLaren targets Norris’ costly fuel system issue with Singapore F1 power unit fixes",
+      "url": "https://www.autosport.com/f1/news/mclaren-targets-lando-norris-costly-fuel-system-issue-with-singapore-f1-power-unit-fixes/10863087/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-08T14:06:38+00:00",
+      "category": "tech",
+      "image": "https://cdn-9.motorsport.com/images/amp/24QGlNqY/s6/lando-norris-mclaren-oscar-pia.jpg"
     },
     {
-      "title": "Мессина: Человеческий фактор играет решающую роль",
-      "url": "https://www.f1news.ru/news/f1-191618.html",
+      "title": "Айзек Хаджар: Я всегда хочу во всём разобраться",
+      "url": "https://www.f1news.ru/news/f1-191652.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-07T12:42:00+00:00",
+      "publishedAt": "2026-10-08T13:42:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/191618.jpg"
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/191652.jpg"
+    },
+    {
+      "title": "Расселл объяснил возврат к прошлой конфигурации W17",
+      "url": "https://www.f1news.ru/news/f1-191651.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T13:41:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/191651.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При Сингапура, четверг",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/singapore/0810/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T13:20:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "Audi F1 drivers reveal biggest engine limitation – and why they’re not worried",
+      "url": "https://www.autosport.com/f1/news/they-built-the-best-engines-audi-f1-drivers-reveal-biggest-limitation-and-how-to-address-it/10863056/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-08T13:02:24+00:00",
+      "category": "tech",
+      "image": "https://cdn-7.motorsport.com/images/amp/YBVjygzY/s6/nico-hulkenberg-audi-f1-team-g.jpg"
+    },
+    {
+      "title": "Сайнс: Новинки сработали, но этого недостаточно",
+      "url": "https://www.f1news.ru/news/f1-191650.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T12:58:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/191650.jpg"
+    },
+    {
+      "title": "Гонка в Сепанге напомнила Хэмилтону времена его юности",
+      "url": "https://www.f1news.ru/news/f1-191649.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T12:49:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191649.jpg"
+    },
+    {
+      "title": "Берман: Надеюсь, мы выступим лучше, чем в Малайзии",
+      "url": "https://www.f1news.ru/news/f1-191648.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T12:33:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/191648.jpg"
+    },
+    {
+      "title": "Арвид Линдблад: Я доволен своим прогрессом в этом году",
+      "url": "https://www.f1news.ru/news/f1-191647.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T12:14:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/191647.jpg"
+    },
+    {
+      "title": "Норрис уверяет, что пилотирует лучше, чем в прошлом году",
+      "url": "https://www.f1news.ru/news/f1-191646.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T12:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/191646.jpg"
+    },
+    {
+      "title": "Бортолето рассказал о новинках и фирменном мороженом",
+      "url": "https://www.f1news.ru/news/f1-191645.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T11:44:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/191645.jpg"
+    },
+    {
+      "title": "Хюлкенберг: Эта гонка – одна из самых сложных и долгих",
+      "url": "https://www.f1news.ru/news/f1-191644.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T11:42:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/hulkenberg/191644.jpg"
+    },
+    {
+      "title": "Лоусон: Пришлось привыкать к своей прежней машине",
+      "url": "https://www.f1news.ru/news/f1-191643.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T11:14:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/lawson_1/191643.jpg"
+    },
+    {
+      "title": "FIA completes investigation into F1 chaos in Malaysia and announces measures",
+      "url": "https://www.autosport.com/f1/news/fia-completes-investigation-into-f1-chaos-in-malaysia-and-reveals-next-steps/10862890/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-08T08:11:48+00:00",
+      "category": "teams",
+      "image": "https://cdn-5.motorsport.com/images/amp/68VWnDB2/s6/nikolas-tombazis-fia.jpg"
     },
     {
       "title": "Inside Alonso's decision to contest the 2027 Dakar Rally with Aston Martin",
@@ -152,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-07T12:08:31+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/YWKA5GxY/s6/fernando-alonso-aston-martin-r-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/YWKA5GxY/s6/fernando-alonso-aston-martin-r-2.jpg"
     },
     {
       "title": "Mercedes confirms Russell's Singapore GP grid penalty following Sepang retirement",
@@ -161,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-07T09:09:42+00:00",
       "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/6VyKmpNY/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/6VyKmpNY/s6/george-russell-mercedes-2.jpg"
     },
     {
       "title": "Russell to take grid penalty in Singapore due to Sepang retirement",
@@ -170,34 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-06T14:45:22+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/YP74dAG2/s6/george-russell-mercedes-2.jpg"
-    },
-    {
-      "title": "What caused Mercedes' pace deficit at Sepang despite upgraded W17?",
-      "url": "https://www.autosport.com/f1/news/the-mechanisms-at-play-behind-mercedes-difficult-bahrain-gp-weekend/10862473/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-06T09:54:48+00:00",
-      "category": "tech",
-      "image": "https://cdn-7.motorsport.com/images/amp/0R7BDzO2/s6/andrea-kimi-antonelli-mercedes-3.jpg"
-    },
-    {
-      "title": "The dire consequence of Russell's Bahrain GP in Malaysia retirement",
-      "url": "https://www.autosport.com/f1/news/the-added-consequence-of-george-russells-retirement-in-malaysia/10862235/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-05T11:15:02+00:00",
-      "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/6zoDEVl0/s6/george-russell-mercedes.jpg"
-    },
-    {
-      "title": "Honda HRC to get new boss with Watanabe set to retire",
-      "url": "https://www.autosport.com/f1/news/honda-hrc-to-get-new-boss-with-koji-watanabe-set-for-retirement/10862195/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-05T08:28:52+00:00",
-      "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/YpbPZdZ0/s6/koji-watanabe-president-ceo-an.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YP74dAG2/s6/george-russell-mercedes-2.jpg"
     }
   ]
 }
