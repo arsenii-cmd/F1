@@ -1,6 +1,60 @@
 {
-  "updatedAt": "2026-10-07T21:20:45.923640+00:00",
+  "updatedAt": "2026-10-08T06:13:33.557094+00:00",
   "articles": [
+    {
+      "title": "Алекс Элбон: Нам не помешает, если пойдёт дождь",
+      "url": "https://www.f1news.ru/news/f1-191628.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T05:45:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/191628.jpg"
+    },
+    {
+      "title": "В FIA выпустили предупреждение о жаркой погоде",
+      "url": "https://www.f1news.ru/news/f1-191629.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-08T05:39:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/fia/191629.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Пять прямых трансляций",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T21:40:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-170.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Точка самого серьёзного торможения",
+      "url": "https://www.f1news.ru/news/f1-191588.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T21:35:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/190741.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Этап конкурса прогнозов",
+      "url": "https://www.f1news.ru/news/f1-191625.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T21:30:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191625.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Ставки букмекеров",
+      "url": "https://www.f1news.ru/news/f1-191622.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T21:25:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191622.jpg"
+    },
     {
       "title": "Гран При Сингапура: Круглые числа",
       "url": "https://www.f1news.ru/Championship/2026/singapore/stats.shtml",
@@ -27,6 +81,15 @@
       "publishedAt": "2026-10-07T21:10:00+00:00",
       "category": "racing",
       "image": "https://c.f1news.ru/userfiles/184502.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Трасса и статистика",
+      "url": "https://www.f1news.ru/Championship/2026/singapore/index.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-07T21:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/99755.jpg"
     },
     {
       "title": "Гран При Сингапура: Прогноз погоды на уик-энд",
@@ -90,69 +153,6 @@
       "publishedAt": "2026-10-07T12:08:31+00:00",
       "category": "teams",
       "image": "https://cdn-5.motorsport.com/images/amp/YWKA5GxY/s6/fernando-alonso-aston-martin-r-2.jpg"
-    },
-    {
-      "title": "Команды обсуждают изменения финансового регламента",
-      "url": "https://www.f1news.ru/news/f1-191617.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T12:01:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/vowles/191617.jpg"
-    },
-    {
-      "title": "Валттери Боттас добрался до Сингапура",
-      "url": "https://www.f1news.ru/news/f1-191621.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T11:43:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/191621.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Изменения на трассе и зона обгонов",
-      "url": "https://www.f1news.ru/news/f1-191620.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T11:27:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/191620.jpg"
-    },
-    {
-      "title": "Педро Лами – третий стюард Гран При Сингапура",
-      "url": "https://www.f1news.ru/news/f1-191619.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T11:26:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/189936.jpg"
-    },
-    {
-      "title": "Вассёр: Гонка в Сингапуре – одна из самых сложных",
-      "url": "https://www.f1news.ru/news/f1-191616.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T10:44:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/vasseur/191616.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен: У меня пока нет побед в Сингапуре",
-      "url": "https://www.f1news.ru/news/f1-191615.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T10:07:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/191615.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Расписание пресс-конференций",
-      "url": "https://www.f1news.ru/news/f1-191614.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-07T10:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/187867.jpg"
     },
     {
       "title": "Mercedes confirms Russell's Singapore GP grid penalty following Sepang retirement",
