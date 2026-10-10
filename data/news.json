@@ -1,77 +1,167 @@
 {
-  "updatedAt": "2026-10-10T05:59:40.188130+00:00",
+  "updatedAt": "2026-10-10T14:30:31.771242+00:00",
   "articles": [
     {
-      "title": "11:55 МСК: Прямая трансляция спринта",
+      "title": "Алан Пермейн: Лучше всего не нажимать не те кнопки",
+      "url": "https://www.f1news.ru/news/f1-191700.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T13:29:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191700.jpg"
+    },
+    {
+      "title": "Берман: Конечно, нам повезло заработать очки в спринте",
+      "url": "https://www.f1news.ru/news/f1-191699.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T12:41:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/bearman/191699.jpg"
+    },
+    {
+      "title": "Verstappen urges Red Bull to fix race starts problem",
+      "url": "https://www.autosport.com/f1/news/verstappen-urges-red-bull-to-fix-starts-problem/10863868/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-10T11:53:59+00:00",
+      "category": "racing",
+      "image": "https://cdn-7.motorsport.com/images/amp/6x7LvnrY/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Алонсо: Консервативный подход был вполне разумным",
+      "url": "https://www.f1news.ru/news/f1-191698.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T11:48:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/191698.jpg"
+    },
+    {
+      "title": "Джордж Расселл: Я допустил глупую ошибку",
+      "url": "https://www.f1news.ru/news/f1-191697.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T11:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/191697.jpg"
+    },
+    {
+      "title": "16:25 МСК: Прямая трансляция квалификации",
       "url": "https://www.f1news.ru/news/f1-119347.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-09T21:05:00+00:00",
+      "publishedAt": "2026-10-10T11:10:00+00:00",
       "category": "racing",
       "image": "https://c.f1news.ru/userfiles/119347-170.jpg"
+    },
+    {
+      "title": "Квалификация в Сингапуре начнётся на полчаса позже",
+      "url": "https://www.f1news.ru/news/f1-191696.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T11:09:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/fia/191696.jpg"
+    },
+    {
+      "title": "Пиастри: Команде предстоит восстановить обе машины",
+      "url": "https://www.f1news.ru/news/f1-191695.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T11:03:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/piastri/191482.jpg"
+    },
+    {
+      "title": "Ферстаппен: Сегодняшнюю победу я не считаю победой",
+      "url": "https://www.f1news.ru/news/f1-191694.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T11:03:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191694.jpg"
+    },
+    {
+      "title": "Хэмилтон: Мы можем навязать борьбу Red Bull и Mercedes",
+      "url": "https://www.f1news.ru/news/f1-191693.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T11:01:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191693.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При Сингапура, суббота",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/singapore/1010/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T10:50:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "Спринт: Ферстаппен - Хэмилтон - Леклер",
+      "url": "https://www.f1news.ru/Championship/2026/singapore/sprint.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T10:22:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184508-1.jpg"
+    },
+    {
+      "title": "F1 Singapore GP: Verstappen wins chaotic wet sprint after Russell's crash",
+      "url": "https://www.autosport.com/f1/news/f1-singapore-gp-verstappen-wins-wet-sprint-after-russell-crash/10863787/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-10T10:18:42+00:00",
+      "category": "racing",
+      "image": "https://cdn-9.motorsport.com/images/amp/6zoDvWa0/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Зак Браун: Предвижу, что впереди захватывающая гонка!",
+      "url": "https://www.f1news.ru/news/f1-191690.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-10T09:15:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/brown/191690.jpg"
     },
     {
       "title": "Гран При Сингапура: Стартовое поле спринта",
       "url": "https://www.f1news.ru/Championship/2026/singapore/gridsprint.shtml",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-09T21:00:00+00:00",
+      "publishedAt": "2026-10-10T08:35:00+00:00",
       "category": "racing",
       "image": "https://c.f1news.ru/userfiles/184507.jpg"
     },
     {
-      "title": "Берра: Ключевой фактор – быстрый прогрев передних шин",
-      "url": "https://www.f1news.ru/news/f1-191685.html",
+      "title": "Тото Вольфф: Я всегда был открыт и честен с гонщиками",
+      "url": "https://www.f1news.ru/interview/wolff/191688.shtml",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-09T16:46:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/pirelli/191685.jpg"
+      "publishedAt": "2026-10-10T08:29:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/wolff/191688.jpg"
     },
     {
-      "title": "Серхио Перес: Трудная была квалификация",
-      "url": "https://www.f1news.ru/news/f1-191684.html",
+      "title": "Карлос Сайнс стартует с пит-лейн в спринте",
+      "url": "https://www.f1news.ru/news/f1-191687.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-09T16:35:00+00:00",
+      "publishedAt": "2026-10-10T08:26:00+00:00",
       "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/bottas/191684.jpg"
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/191687.jpg"
     },
     {
-      "title": "Берман: Главное в этот уик-энд – воскресная гонка",
-      "url": "https://www.f1news.ru/news/f1-191683.html",
+      "title": "Сайнс критикует FIA за несоблюдение принципа равенства",
+      "url": "https://www.f1news.ru/news/f1-191686.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-09T16:34:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/bearman/191683.jpg"
-    },
-    {
-      "title": "Ферстаппен обогнал под жёлтым флагом, но не оштрафован",
-      "url": "https://www.f1news.ru/news/f1-191682.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T16:05:00+00:00",
+      "publishedAt": "2026-10-10T07:14:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191682.jpg"
-    },
-    {
-      "title": "Фернандо Алонсо: Мне казалось, что я хорошо проехал круг",
-      "url": "https://www.f1news.ru/news/f1-191681.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T15:49:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stroll/191681.jpg"
-    },
-    {
-      "title": "Габриэль Бортолето: Настройки далеки от оптимальных",
-      "url": "https://www.f1news.ru/news/f1-191680.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T15:42:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/191680.jpg"
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/191686.jpg"
     },
     {
       "title": "Singapore sprint qualifying chaos leaves F1 teams furious",
@@ -80,43 +170,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T15:40:38+00:00",
       "category": "racing",
-      "image": "https://cdn-5.motorsport.com/images/amp/YP74NN82/s6/fernando-alonso-aston-martin-r-2.jpg"
-    },
-    {
-      "title": "Сайнс: Всё это расстраивает, но у нас будет ещё один шанс",
-      "url": "https://www.f1news.ru/news/f1-191679.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T15:40:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/albon_1/191679.jpg"
-    },
-    {
-      "title": "Пьер Гасли: На Soft ухудшилось сцепление с трассой",
-      "url": "https://www.f1news.ru/news/f1-191678.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T15:18:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/191678.jpg"
-    },
-    {
-      "title": "Оскар Пиастри: Результат отражает наши возможности",
-      "url": "https://www.f1news.ru/news/f1-191677.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T15:11:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/191677.jpg"
-    },
-    {
-      "title": "FIA: Сбой в квалификации связан с человеческим фактором",
-      "url": "https://www.f1news.ru/tech/191676.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T15:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/191676.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/YP74NN82/s6/fernando-alonso-aston-martin-r-2.jpg"
     },
     {
       "title": "FIA reveals \"human error\" caused latest software glitch in Singapore sprint qualifying",
@@ -125,43 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T14:44:34+00:00",
       "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/YK15NNX0/s6/carlos-sainz-williams.jpg"
-    },
-    {
-      "title": "Антонелли: Машина ведёт себя очень непредсказуемо",
-      "url": "https://www.f1news.ru/news/f1-191675.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T14:40:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/antonelli/191675.jpg"
-    },
-    {
-      "title": "Леклер: Сегодня мы просто недостаточно быстры",
-      "url": "https://www.f1news.ru/news/f1-191674.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T14:32:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191674.jpg"
-    },
-    {
-      "title": "Ферстаппен: На мягкой резине машина словно ожила",
-      "url": "https://www.f1news.ru/news/f1-191673.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T14:28:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191673.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При Сингапура, пятница",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/singapore/0910/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T14:20:00+00:00",
-      "category": "racing",
-      "image": ""
+      "image": "https://cdn-3.motorsport.com/images/amp/YK15NNX0/s6/carlos-sainz-williams.jpg"
     },
     {
       "title": "F1 Singapore GP: Verstappen storms to sprint pole with Antonelli only seventh",
@@ -170,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T13:47:20+00:00",
       "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/2y7Qvvn6/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/2y7Qvvn6/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "Is Antonelli favoured by Mercedes? Wolff responds to latest claims",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T11:46:49+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/6lmdBRj0/s6/andrea-kimi-antonelli-mercedes-3.jpg"
-    },
-    {
-      "title": "\"It should be banned\" - F1 drivers still divided over cooling vests",
-      "url": "https://www.autosport.com/f1/news/it-should-be-banned-f1-drivers-still-divided-over-cooling-vests/10863347/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-09T10:42:19+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/0R7BDqv2/s6/george-russell-mercedes.jpg"
-    },
-    {
-      "title": "F1 Singapore GP: Russell tops FP1 with Verstappen also impressing",
-      "url": "https://www.autosport.com/f1/news/f1-singapore-gp-russell-tops-fp1/10863304/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-09T09:42:25+00:00",
-      "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/YE9EN5pY/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/6lmdBRj0/s6/andrea-kimi-antonelli-mercedes-3.jpg"
     }
   ]
 }
