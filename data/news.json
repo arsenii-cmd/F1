@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-09T20:58:36.112682+00:00",
+  "updatedAt": "2026-10-10T05:59:40.188130+00:00",
   "articles": [
+    {
+      "title": "11:55 МСК: Прямая трансляция спринта",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-09T21:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-170.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Стартовое поле спринта",
+      "url": "https://www.f1news.ru/Championship/2026/singapore/gridsprint.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-09T21:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184507.jpg"
+    },
     {
       "title": "Берра: Ключевой фактор – быстрый прогрев передних шин",
       "url": "https://www.f1news.ru/news/f1-191685.html",
@@ -62,7 +80,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T15:40:38+00:00",
       "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/YP74NN82/s6/fernando-alonso-aston-martin-r-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/YP74NN82/s6/fernando-alonso-aston-martin-r-2.jpg"
     },
     {
       "title": "Сайнс: Всё это расстраивает, но у нас будет ещё один шанс",
@@ -107,7 +125,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T14:44:34+00:00",
       "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/YK15NNX0/s6/carlos-sainz-williams.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/YK15NNX0/s6/carlos-sainz-williams.jpg"
     },
     {
       "title": "Антонелли: Машина ведёт себя очень непредсказуемо",
@@ -152,25 +170,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T13:47:20+00:00",
       "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/2y7Qvvn6/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Арвид Линдблад: Не могу сказать, что допустил ошибку",
-      "url": "https://www.f1news.ru/news/f1-191672.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T13:47:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/191672.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен выиграл квалификацию к спринту",
-      "url": "https://www.f1news.ru/Championship/2026/singapore/qual_sprint.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-09T13:42:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184506.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/2y7Qvvn6/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "Is Antonelli favoured by Mercedes? Wolff responds to latest claims",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T11:46:49+00:00",
       "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/6lmdBRj0/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/6lmdBRj0/s6/andrea-kimi-antonelli-mercedes-3.jpg"
     },
     {
       "title": "\"It should be banned\" - F1 drivers still divided over cooling vests",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T10:42:19+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/0R7BDqv2/s6/george-russell-mercedes.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/0R7BDqv2/s6/george-russell-mercedes.jpg"
     },
     {
       "title": "F1 Singapore GP: Russell tops FP1 with Verstappen also impressing",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-09T09:42:25+00:00",
       "category": "racing",
-      "image": "https://cdn-5.motorsport.com/images/amp/YE9EN5pY/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/YE9EN5pY/s6/george-russell-mercedes-2.jpg"
     }
   ]
 }
