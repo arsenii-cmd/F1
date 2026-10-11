@@ -1,6 +1,177 @@
 {
-  "updatedAt": "2026-10-11T05:56:21.578977+00:00",
+  "updatedAt": "2026-10-11T14:57:05.161951+00:00",
   "articles": [
+    {
+      "title": "Кими Антонелли: Это была очень трудная гонка",
+      "url": "https://www.f1news.ru/news/f1-191735.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T14:51:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/antonelli/191735.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Круг за кругом",
+      "url": "https://www.f1news.ru/Championship/2026/singapore/laps.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T14:45:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/laps/2026/singapore/1.jpg"
+    },
+    {
+      "title": "Шарль Леклер: Я до последнего верил в возможную победу",
+      "url": "https://www.f1news.ru/news/f1-191734.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T14:33:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191734.jpg"
+    },
+    {
+      "title": "Hamilton takes blame for poor Singapore GP strategy call",
+      "url": "https://www.autosport.com/f1/news/lewis-hamilton-takes-blame-for-poor-singapore-gp-strategy/10864343/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-11T14:24:02+00:00",
+      "category": "racing",
+      "image": "https://cdn-5.motorsport.com/images/amp/6b8Zode2/s6/lewis-hamilton-ferrari-2.jpg"
+    },
+    {
+      "title": "Ферстаппен: К этой победе я шёл довольно долго!",
+      "url": "https://www.f1news.ru/news/f1-191732.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T14:21:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191732.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Ферстаппен - Леклер - Антонелли",
+      "url": "https://www.f1news.ru/Championship/2026/singapore/race.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T13:54:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184511-1.jpg"
+    },
+    {
+      "title": "F1 Singapore GP: Verstappen takes comfortable victory from Leclerc and Antonelli",
+      "url": "https://www.autosport.com/f1/news/f1-singapore-gp-report/10864312/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-11T13:53:45+00:00",
+      "category": "racing",
+      "image": "https://cdn-8.motorsport.com/images/amp/2GdKqjzY/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Зак Браун: Четыре команды примерно равны по скорости",
+      "url": "https://www.f1news.ru/news/f1-191729.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T11:58:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/brown/191729.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При Сингапура, воскресенье",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/singapore/1110/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T11:00:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "90 минут до старта: Комментарий Льюиса Хэмилтона",
+      "url": "https://www.f1news.ru/news/f1-191727.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T10:30:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191727.jpg"
+    },
+    {
+      "title": "100 минут до старта: Комментарий Оскара Пиастри",
+      "url": "https://www.f1news.ru/news/f1-191726.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T10:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/piastri/191726.jpg"
+    },
+    {
+      "title": "110 минут до старта: Комментарий Кими Антонелли",
+      "url": "https://www.f1news.ru/news/f1-191725.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T10:10:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/187706.jpg"
+    },
+    {
+      "title": "120 минут до старта: Комментарий Шарля Леклера",
+      "url": "https://www.f1news.ru/news/f1-191724.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T10:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/leclerc/187707.jpg"
+    },
+    {
+      "title": "Гран При Сингапура: Стартовое поле",
+      "url": "https://www.f1news.ru/Championship/2026/singapore/grid.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T09:53:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184510.jpg"
+    },
+    {
+      "title": "Трое гонщиков стартуют с пит-лейн в Сингапуре",
+      "url": "https://www.f1news.ru/news/f1-191723.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T09:52:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/191723.jpg"
+    },
+    {
+      "title": "Доступные комплекты шин перед стартом в Сингапуре",
+      "url": "https://www.f1news.ru/news/f1-191722.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T09:00:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/pirelli/187970.jpg"
+    },
+    {
+      "title": "Пиастри: Ситуацию даже сравнивать нельзя с прошлогодней",
+      "url": "https://www.f1news.ru/news/f1-191721.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T08:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/191721.jpg"
+    },
+    {
+      "title": "Вассёр: У нас будет возможность прессинговать Макса",
+      "url": "https://www.f1news.ru/news/f1-191720.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-11T07:21:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vasseur/191720.jpg"
+    },
+    {
+      "title": "FIA admits fairness was compromised in Singapore GP sprint qualifying “mess”",
+      "url": "https://www.autosport.com/f1/news/fia-admits-fairness-was-compromised-in-singapore-f1-sprint-qualifying-mess/10864155/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-11T07:02:49+00:00",
+      "category": "racing",
+      "image": "https://cdn-8.motorsport.com/images/amp/0arE17P2/s6/franco-colapinto-alpine-pierre-2.jpg"
+    },
     {
       "title": "Why McLaren considers Norris-Piastri Singapore clash so “serious”",
       "url": "https://www.autosport.com/f1/news/whats-so-serious-for-mclaren-about-the-norris-piastri-singapore-collision/10864087/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -8,16 +179,16 @@
       "language": "en",
       "publishedAt": "2026-10-10T19:54:03+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/25dLLLQ0/s6/andrea-stella-mclaren-2.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/25dLLLQ0/s6/andrea-stella-mclaren-2.jpg"
     },
     {
-      "title": "What Max Verstappen will change after Red Bull’s poor F1 starts in Malaysia and Singapore",
+      "title": "What Verstappen will change after Red Bull’s poor F1 starts in Malaysia and Singapore",
       "url": "https://www.autosport.com/f1/news/max-verstappen-hints-at-change-after-red-bulls-poor-f1-starts-in-malaysia-and-singapore/10864060/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-10T18:35:02+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/2dEoGn3Y/s6/max-verstappen-red-bull-racing.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/2dEoGn3Y/s6/max-verstappen-red-bull-racing.jpg"
     },
     {
       "title": "A \"better job\" or more engine power? Verstappen's Singapore pole unpicked",
@@ -26,34 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-10T17:45:04+00:00",
       "category": "tech",
-      "image": "https://cdn-2.motorsport.com/images/amp/68VwagD2/s6/max-verstappen-red-bull-racing.jpg"
-    },
-    {
-      "title": "McLaren to talk internally after \"simply not acceptable\" Norris-Piastri clash",
-      "url": "https://www.autosport.com/f1/news/andrea-stella-singapore-f1-sprint-collision-between-lando-norris-and-oscar-piastri-simply-not-accep/10864014/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-10T16:34:34+00:00",
-      "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/01QN4ve0/s6/lando-norris-mclaren-oscar-pia.jpg"
-    },
-    {
-      "title": "Russell bemoans \"very bad\" Saturday at Singapore GP",
-      "url": "https://www.autosport.com/f1/news/russell-bemoans-very-bad-saturday-at-singapore-gp/10863982/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-10T15:52:51+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/Y9lNg3X2/s6/george-russell-mercedes-3.jpg"
-    },
-    {
-      "title": "F1 Singapore GP: Verstappen continues recent dominance with pole",
-      "url": "https://www.autosport.com/f1/news/f1-singapore-gp-verstappen-on-pole/10863921/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-10T14:41:05+00:00",
-      "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/2GdKNaVY/s6/max-verstappen-red-bull-racing-3.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/68VwagD2/s6/max-verstappen-red-bull-racing.jpg"
     }
   ]
 }
