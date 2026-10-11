@@ -1,33 +1,6 @@
 {
-  "updatedAt": "2026-10-10T23:37:08.174296+00:00",
+  "updatedAt": "2026-10-11T05:56:21.578977+00:00",
   "articles": [
-    {
-      "title": "14:50 МСК: Прямая трансляция гонки",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T21:10:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-170.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Стартовое поле",
-      "url": "https://www.f1news.ru/Championship/2026/singapore/grid.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T21:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184510.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Прогноз погоды на гонку",
-      "url": "https://www.f1news.ru/news/f1-191715.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T21:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184784.jpg"
-    },
     {
       "title": "Why McLaren considers Norris-Piastri Singapore clash so “serious”",
       "url": "https://www.autosport.com/f1/news/whats-so-serious-for-mclaren-about-the-norris-piastri-singapore-collision/10864087/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -35,7 +8,7 @@
       "language": "en",
       "publishedAt": "2026-10-10T19:54:03+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/25dLLLQ0/s6/andrea-stella-mclaren-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/25dLLLQ0/s6/andrea-stella-mclaren-2.jpg"
     },
     {
       "title": "What Max Verstappen will change after Red Bull’s poor F1 starts in Malaysia and Singapore",
@@ -44,34 +17,7 @@
       "language": "en",
       "publishedAt": "2026-10-10T18:35:02+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/2dEoGn3Y/s6/max-verstappen-red-bull-racing.jpg"
-    },
-    {
-      "title": "Стелла: Когда наши машины сталкиваются, это неприемлемо",
-      "url": "https://www.f1news.ru/news/f1-191718.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T18:13:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/stella/191718.jpg"
-    },
-    {
-      "title": "Айзека Хаджара допустили на старт гонки",
-      "url": "https://www.f1news.ru/news/f1-191717.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T18:10:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/191717.jpg"
-    },
-    {
-      "title": "Некорректная работа силовой установки помешала Боттасу",
-      "url": "https://www.f1news.ru/news/f1-191716.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T18:01:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/191716.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/2dEoGn3Y/s6/max-verstappen-red-bull-racing.jpg"
     },
     {
       "title": "A \"better job\" or more engine power? Verstappen's Singapore pole unpicked",
@@ -80,34 +26,7 @@
       "language": "en",
       "publishedAt": "2026-10-10T17:45:04+00:00",
       "category": "tech",
-      "image": "https://cdn-5.motorsport.com/images/amp/68VwagD2/s6/max-verstappen-red-bull-racing.jpg"
-    },
-    {
-      "title": "Пьер Гасли: Одна из моих лучших квалификаций в сезоне",
-      "url": "https://www.f1news.ru/news/f1-191713.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T17:19:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/gasly/191713.jpg"
-    },
-    {
-      "title": "Карлос Сайнс: Мы слишком долго ждали в боксах",
-      "url": "https://www.f1news.ru/news/f1-191712.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T16:58:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/albon_1/191712.jpg"
-    },
-    {
-      "title": "Оливер Берман: Машина словно летела по трассе",
-      "url": "https://www.f1news.ru/news/f1-191711.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T16:51:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/bearman/191711.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/68VwagD2/s6/max-verstappen-red-bull-racing.jpg"
     },
     {
       "title": "McLaren to talk internally after \"simply not acceptable\" Norris-Piastri clash",
@@ -116,52 +35,7 @@
       "language": "en",
       "publishedAt": "2026-10-10T16:34:34+00:00",
       "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/01QN4ve0/s6/lando-norris-mclaren-oscar-pia.jpg"
-    },
-    {
-      "title": "Лиам Лоусон: Я перестарался на финальном круге",
-      "url": "https://www.f1news.ru/news/f1-191710.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T16:33:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/191710.jpg"
-    },
-    {
-      "title": "Хюлкенберг: В квалификации я полностью выложился",
-      "url": "https://www.f1news.ru/news/f1-191709.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T16:28:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/191709.jpg"
-    },
-    {
-      "title": "Ландо Норрис: С машиной слишком много сложностей",
-      "url": "https://www.f1news.ru/news/f1-191708.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T16:20:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/norris/191708.jpg"
-    },
-    {
-      "title": "Кими Антонелли: Будет здорово подняться на подиум",
-      "url": "https://www.f1news.ru/news/f1-191707.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T16:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/191707.jpg"
-    },
-    {
-      "title": "Фернандо Алонсо: В квалификации не хватило скорости",
-      "url": "https://www.f1news.ru/news/f1-191706.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T15:55:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/stroll/191706.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/01QN4ve0/s6/lando-norris-mclaren-oscar-pia.jpg"
     },
     {
       "title": "Russell bemoans \"very bad\" Saturday at Singapore GP",
@@ -170,25 +44,7 @@
       "language": "en",
       "publishedAt": "2026-10-10T15:52:51+00:00",
       "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/Y9lNg3X2/s6/george-russell-mercedes-3.jpg"
-    },
-    {
-      "title": "Ферстаппен: Именно такой результат мне хотелось показать",
-      "url": "https://www.f1news.ru/news/f1-191704.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T15:16:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191704.jpg"
-    },
-    {
-      "title": "Шарль Леклер: Был потенциал выиграть поул, но я ошибся",
-      "url": "https://www.f1news.ru/news/f1-191703.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-10T15:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191703.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/Y9lNg3X2/s6/george-russell-mercedes-3.jpg"
     },
     {
       "title": "F1 Singapore GP: Verstappen continues recent dominance with pole",
@@ -197,7 +53,7 @@
       "language": "en",
       "publishedAt": "2026-10-10T14:41:05+00:00",
       "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/2GdKNaVY/s6/max-verstappen-red-bull-racing-3.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/2GdKNaVY/s6/max-verstappen-red-bull-racing-3.jpg"
     }
   ]
 }
