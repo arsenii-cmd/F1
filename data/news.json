@@ -1,6 +1,87 @@
 {
-  "updatedAt": "2026-10-13T11:53:02.443216+00:00",
+  "updatedAt": "2026-10-13T19:20:44.579228+00:00",
   "articles": [
+    {
+      "title": "Five key takeaways from F1's big African Grand Prix reveal in Rwanda",
+      "url": "https://www.autosport.com/f1/news/five-key-takeaways-from-f1s-big-african-grand-prix-reveal-in-rwanda/10865014/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-13T18:19:27+00:00",
+      "category": "racing",
+      "image": "https://cdn-5.motorsport.com/images/amp/0o5AoeaY/s6/stefano-domenicali-at-african-.jpg"
+    },
+    {
+      "title": "Джолион Палмер об ошибке Хэмилтона в Сингапуре",
+      "url": "https://www.f1news.ru/news/f1-191773.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-13T17:03:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191773.jpg"
+    },
+    {
+      "title": "Херберт: Антонелли – это глоток свежего воздуха для Ф1",
+      "url": "https://www.f1news.ru/news/f1-191772.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-13T16:03:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/191772.jpg"
+    },
+    {
+      "title": "В Racing Bulls не поддержат предложение Ваулза",
+      "url": "https://www.f1news.ru/news/f1-191771.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-13T15:10:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vowles/191771.jpg"
+    },
+    {
+      "title": "В Pirelli объявили составы на Остин, Мехико и Сан-Паулу",
+      "url": "https://www.f1news.ru/tech/191770.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-13T14:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/pirelli/191770.jpg"
+    },
+    {
+      "title": "Бен Сулайем подтвердил переход на моторы V8 в 2030-м",
+      "url": "https://www.f1news.ru/news/f1-191769.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-13T13:57:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sulayem/191769.jpg"
+    },
+    {
+      "title": "Why McLaren cannot fix its F1 car handling until 2027",
+      "url": "https://www.autosport.com/f1/news/why-mclaren-cannot-fix-its-f1-car-handling-until-2027/10864932/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-13T13:11:49+00:00",
+      "category": "teams",
+      "image": "https://cdn-9.motorsport.com/images/amp/0R7BNPM2/s6/oscar-piastri-mclaren-2.jpg"
+    },
+    {
+      "title": "В Red Bull довольны работой Лорана Мекиса",
+      "url": "https://www.f1news.ru/news/f1-191768.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-13T12:40:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/mekies/191768.jpg"
+    },
+    {
+      "title": "Семь повесток и штрафы: у Пауля Арона проблемы в Эстонии",
+      "url": "https://www.f1news.ru/news/f1-191767.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-13T11:54:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alpinef1team/191767.jpg"
+    },
     {
       "title": "Хорнер: Мне так и не объяснили причину увольнения",
       "url": "https://www.f1news.ru/news/f1-191766.html",
@@ -26,7 +107,7 @@
       "language": "en",
       "publishedAt": "2026-10-13T09:20:07+00:00",
       "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/2GdKqV1Y/s6/rwanda-f1-track-for-african-gp-3.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/2GdKqV1Y/s6/rwanda-f1-track-for-african-gp-3.jpg"
     },
     {
       "title": "В Honda опровергают слова Алонсо о сломанной турбине",
@@ -89,7 +170,7 @@
       "language": "en",
       "publishedAt": "2026-10-12T15:53:57+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/25dL7LJ0/s6/charles-leclerc-ferrari-max-ve.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/25dL7LJ0/s6/charles-leclerc-ferrari-max-ve.jpg"
     },
     {
       "title": "В Renault признают, что несут убытки, но Alpine остаётся в Ф1",
@@ -101,76 +182,13 @@
       "image": "https://c.f1news.ru/userfiles/alpinef1team/191758.jpg"
     },
     {
-      "title": "Кими избежал штрафа благодаря вмешательству Mercedes",
-      "url": "https://www.f1news.ru/news/f1-191757.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-12T14:31:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/191757.jpg"
-    },
-    {
-      "title": "Шарль Леклер: Я доволен, но не в восторге",
-      "url": "https://www.f1news.ru/interview/leclerc/191754.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-12T14:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/leclerc/191754.jpg"
-    },
-    {
-      "title": "В McLaren готовят новинки к последним этапам",
-      "url": "https://www.f1news.ru/news/f1-191755.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-12T13:21:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stella/191755.jpg"
-    },
-    {
-      "title": "Лео Турини о том, чего вечно не хватает Ferrari",
-      "url": "https://www.f1news.ru/news/f1-191756.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-12T12:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/191756.jpg"
-    },
-    {
       "title": "The hidden factor that gives Verstappen and Red Bull extra hope for 2027",
       "url": "https://www.autosport.com/f1/news/the-hidden-factor-that-gives-max-verstappen-and-red-bull-extra-hope-for-2027/10864679/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-12T12:01:12+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/YpbAG3d0/s6/max-verstappen-red-bull-racing.jpg"
-    },
-    {
-      "title": "Гран При Сингапура: Любопытная статистика",
-      "url": "https://www.f1news.ru/news/f1-191705.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-12T12:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191705.jpg"
-    },
-    {
-      "title": "Хэмилтон: Я несу всю ответственность за свои решения",
-      "url": "https://www.f1news.ru/news/f1-191753.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-12T11:04:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191753.jpg"
-    },
-    {
-      "title": "Карлос Сайнс: Не знаю, что в этом году происходит с FIA",
-      "url": "https://www.f1news.ru/news/f1-191752.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-12T10:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sainz-junior/191752.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/YpbAG3d0/s6/max-verstappen-red-bull-racing.jpg"
     },
     {
       "title": "Why Antonelli avoided a penalty despite four track limits incidents in Singapore GP",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-12T08:53:15+00:00",
       "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/0Zq8yKV6/s6/andrea-kimi-antonelli-mercedes.jpg"
-    },
-    {
-      "title": "Verstappen jokes about coded messages as Red Bull phases in Lambiase’s successor",
-      "url": "https://www.autosport.com/f1/news/max-verstappen-jokes-about-coded-messages-as-red-bull-plans-first-races-for-gianpiero-lambiases-suc/10864455/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-11T17:30:02+00:00",
-      "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/2Qed4eP2/s6/max-verstappen-red-bull-racing.jpg"
-    },
-    {
-      "title": "Ferrari explains Hamilton’s failed Singapore GP gamble",
-      "url": "https://www.autosport.com/f1/news/ferrari-explains-hamiltons-failed-singapore-gp-gamble/10864421/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-11T16:23:39+00:00",
-      "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/2eZxnMlY/s6/lewis-hamilton-ferrari-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0Zq8yKV6/s6/andrea-kimi-antonelli-mercedes.jpg"
     }
   ]
 }
