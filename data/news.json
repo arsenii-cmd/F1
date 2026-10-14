@@ -1,6 +1,123 @@
 {
-  "updatedAt": "2026-10-14T05:00:34.675211+00:00",
+  "updatedAt": "2026-10-14T13:47:57.567496+00:00",
   "articles": [
+    {
+      "title": "Хорнер обсуждал контракт с Алонсо и Сайнсом",
+      "url": "https://www.f1news.ru/news/f1-191786.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T13:17:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/horner/191786.jpg"
+    },
+    {
+      "title": "Условия для досрочного титула Кими Антонелли в Остине",
+      "url": "https://www.f1news.ru/news/f1-191785.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T13:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/191785.jpg"
+    },
+    {
+      "title": "Росси: Макс станет для всех настоящей проблемой",
+      "url": "https://www.f1news.ru/news/autosport-191784.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T12:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191784.jpg"
+    },
+    {
+      "title": "Кристиан Хорнер о борьбе с паническими атаками",
+      "url": "https://www.f1news.ru/news/f1-191783.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T11:44:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/horner/191783.jpg"
+    },
+    {
+      "title": "Алан Макниш ответил на шутку Тото Вольффа",
+      "url": "https://www.f1news.ru/news/f1-191782.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T11:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/mcnish/191782.jpg"
+    },
+    {
+      "title": "Инженер Сайнса Кристина Манас об отличиях Формулы 1",
+      "url": "https://www.f1news.ru/news/f1-191780.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T10:22:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/williams/191780.jpg"
+    },
+    {
+      "title": "Ф3: Эван Дэвид перешёл в Van Amersfoort Racing",
+      "url": "https://www.f1news.ru/news/autosport-191781.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T10:01:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191781.jpg"
+    },
+    {
+      "title": "Раскрыты подробности о будущей трассе в Руанде",
+      "url": "https://www.f1news.ru/news/f1-191779.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T09:22:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/wurz/191779.jpg"
+    },
+    {
+      "title": "Трасса в Остине попадёт в Книгу рекордов Гиннесса",
+      "url": "https://www.f1news.ru/news/f1-191778.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T09:04:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191778.jpg"
+    },
+    {
+      "title": "Вассёр не считает Red Bull сильнейшей командой",
+      "url": "https://www.f1news.ru/news/f1-191777.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T08:01:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/182272.jpg"
+    },
+    {
+      "title": "Ландо Норрис стал акционером Seat Unique",
+      "url": "https://www.f1news.ru/news/f1-191776.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T07:44:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/191776.jpg"
+    },
+    {
+      "title": "Юки Цунода проведёт тесты в IndyCar",
+      "url": "https://www.f1news.ru/news/f1-191775.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T07:27:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/tsunoda/191775.jpg"
+    },
+    {
+      "title": "Трасса в Вегасе не пострадала из-за затопления",
+      "url": "https://www.f1news.ru/news/f1-191774.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-14T07:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191774.jpg"
+    },
     {
       "title": "Five key takeaways from F1's big African Grand Prix reveal in Rwanda",
       "url": "https://www.autosport.com/f1/news/five-key-takeaways-from-f1s-big-african-grand-prix-reveal-in-rwanda/10865014/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -8,7 +125,7 @@
       "language": "en",
       "publishedAt": "2026-10-13T18:19:27+00:00",
       "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/0o5AoeaY/s6/stefano-domenicali-at-african-.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0o5AoeaY/s6/stefano-domenicali-at-african-.jpg"
     },
     {
       "title": "Джолион Палмер об ошибке Хэмилтона в Сингапуре",
@@ -38,67 +155,13 @@
       "image": "https://c.f1news.ru/userfiles/vowles/191771.jpg"
     },
     {
-      "title": "В Pirelli объявили составы на Остин, Мехико и Сан-Паулу",
-      "url": "https://www.f1news.ru/tech/191770.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T14:38:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/pirelli/191770.jpg"
-    },
-    {
-      "title": "Бен Сулайем подтвердил переход на моторы V8 в 2030-м",
-      "url": "https://www.f1news.ru/news/f1-191769.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T13:57:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sulayem/191769.jpg"
-    },
-    {
       "title": "Why McLaren cannot fix its F1 car handling until 2027",
       "url": "https://www.autosport.com/f1/news/why-mclaren-cannot-fix-its-f1-car-handling-until-2027/10864932/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-13T13:11:49+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/0R7BNPM2/s6/oscar-piastri-mclaren-2.jpg"
-    },
-    {
-      "title": "В Red Bull довольны работой Лорана Мекиса",
-      "url": "https://www.f1news.ru/news/f1-191768.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T12:40:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/mekies/191768.jpg"
-    },
-    {
-      "title": "Семь повесток и штрафы: у Пауля Арона проблемы в Эстонии",
-      "url": "https://www.f1news.ru/news/f1-191767.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T11:54:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alpinef1team/191767.jpg"
-    },
-    {
-      "title": "Хорнер: Мне так и не объяснили причину увольнения",
-      "url": "https://www.f1news.ru/news/f1-191766.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T10:45:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/horner/184871.jpg"
-    },
-    {
-      "title": "Формула 1 и Руанда объявили о проведении Гран При Африки",
-      "url": "https://www.f1news.ru/news/f1-191765.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T09:30:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/sulayem/191765.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/0R7BNPM2/s6/oscar-piastri-mclaren-2.jpg"
     },
     {
       "title": "F1 signs historic 10-year Rwanda deal to host African Grand Prix",
@@ -107,61 +170,7 @@
       "language": "en",
       "publishedAt": "2026-10-13T09:20:07+00:00",
       "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/2GdKqV1Y/s6/rwanda-f1-track-for-african-gp-3.jpg"
-    },
-    {
-      "title": "В Honda опровергают слова Алонсо о сломанной турбине",
-      "url": "https://www.f1news.ru/news/f1-191764.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T09:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/191764.jpg"
-    },
-    {
-      "title": "В Сингапуре двоих арестовали из-за Гран При",
-      "url": "https://www.f1news.ru/news/f1-191763.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T09:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191763.jpg"
-    },
-    {
-      "title": "В Cadillac присматриваются к чемпиону Формулы 3",
-      "url": "https://www.f1news.ru/news/f1-191762.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T08:37:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/cadillacf1/191762.jpg"
-    },
-    {
-      "title": "Мартин Брандл об итогах Гран При Сингапура",
-      "url": "https://www.f1news.ru/news/f1-191761.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T07:50:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/brundle/191761.jpg"
-    },
-    {
-      "title": "Пьер Ваше: Нам ещё многое предстоит сделать",
-      "url": "https://www.f1news.ru/news/f1-191760.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-13T06:54:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/wache/191760.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен: Уик-энд сложился фантастически удачно!",
-      "url": "https://www.f1news.ru/interview/max_verstappen/191759.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-12T17:21:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191759.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/2GdKqV1Y/s6/rwanda-f1-track-for-african-gp-3.jpg"
     },
     {
       "title": "The not-so-obvious chance Leclerc missed to usurp Verstappen",
@@ -170,16 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-12T15:53:57+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/25dL7LJ0/s6/charles-leclerc-ferrari-max-ve.jpg"
-    },
-    {
-      "title": "В Renault признают, что несут убытки, но Alpine остаётся в Ф1",
-      "url": "https://www.f1news.ru/news/f1-191758.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-12T15:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alpinef1team/191758.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/25dL7LJ0/s6/charles-leclerc-ferrari-max-ve.jpg"
     },
     {
       "title": "The hidden factor that gives Verstappen and Red Bull extra hope for 2027",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-12T12:01:12+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/YpbAG3d0/s6/max-verstappen-red-bull-racing.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/YpbAG3d0/s6/max-verstappen-red-bull-racing.jpg"
     },
     {
       "title": "Why Antonelli avoided a penalty despite four track limits incidents in Singapore GP",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-12T08:53:15+00:00",
       "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/0Zq8yKV6/s6/andrea-kimi-antonelli-mercedes.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/0Zq8yKV6/s6/andrea-kimi-antonelli-mercedes.jpg"
     }
   ]
 }
