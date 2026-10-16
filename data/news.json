@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-10-16T04:39:07.059131+00:00",
+  "updatedAt": "2026-10-16T13:18:43.177916+00:00",
   "articles": [
+    {
+      "title": "Джок Клиа не сомневается в прогрессе Aston Martin",
+      "url": "https://www.f1news.ru/news/f1-191817.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-16T12:41:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/newey/191817.jpg"
+    },
+    {
+      "title": "Комацу: Неправильно называть Haas второй командой Ferrari",
+      "url": "https://www.f1news.ru/news/f1-191816.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-16T12:22:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/komatsu/191816.jpg"
+    },
+    {
+      "title": "FIA: Подтверждён список участников Гран При Макао",
+      "url": "https://www.f1news.ru/news/autosport-191815.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-16T11:07:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191815.jpg"
+    },
+    {
+      "title": "Who will win this year’s ultimate F1 dream ticket? You decide…",
+      "url": "https://www.autosport.com/general/news/who-will-win-this-years-ultimate-f1-dream-ticket-you-decide-/10865598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-16T11:00:05+00:00",
+      "category": "teams",
+      "image": "https://cdn-8.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
+    },
+    {
+      "title": "В Ferrari объявили состав Гоночной академии на 2027 год",
+      "url": "https://www.f1news.ru/news/autosport-191814.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-16T10:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/camara_1/191814.jpg"
+    },
+    {
+      "title": "Робин Райкконен: Всё хорошо, я готов к следующему году",
+      "url": "https://www.f1news.ru/news/autosport-191813.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-16T09:48:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/raikkonen/191813.jpg"
+    },
+    {
+      "title": "Вольфф: Новинки пока не дали ожидаемый прирост скорости",
+      "url": "https://www.f1news.ru/news/f1-191812.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-16T09:37:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/wolff/191812.jpg"
+    },
+    {
+      "title": "Гран При Испании получил титульного спонсора",
+      "url": "https://www.f1news.ru/news/f1-191811.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-16T09:01:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191811.jpg"
+    },
+    {
+      "title": "В Абу-Даби подготовка к гонке идёт по плану",
+      "url": "https://www.f1news.ru/news/f1-191810.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-16T08:45:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191810.jpg"
+    },
+    {
+      "title": "IndyCar: Dallara начинает производить новое шасси IR-28",
+      "url": "https://www.f1news.ru/news/autosport-191809.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-16T07:13:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/191809.jpg"
+    },
     {
       "title": "Нико Росберг: Антонелли выступает на уровне Шумахера",
       "url": "https://www.f1news.ru/news/f1-191808.html",
@@ -35,7 +125,7 @@
       "language": "en",
       "publishedAt": "2026-10-15T14:21:18+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/0kZXG7q6/s6/esteban-ocon-haas-f1-team.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0kZXG7q6/s6/esteban-ocon-haas-f1-team.jpg"
     },
     {
       "title": "Рафаэль Камара дебютирует в Формуле 1 в команде Haas",
@@ -62,7 +152,7 @@
       "language": "en",
       "publishedAt": "2026-10-15T14:01:00+00:00",
       "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/01WVnzmY/s6/f3-drivers-champion-and-race-w-2.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/01WVnzmY/s6/f3-drivers-champion-and-race-w-2.jpg"
     },
     {
       "title": "На трассе в Буэнос-Айресе укладывают асфальт",
@@ -83,94 +173,13 @@
       "image": "https://c.f1news.ru/userfiles/haasf1team/191802.jpg"
     },
     {
-      "title": "Ферстаппен: Келли понимает меня лучше других",
-      "url": "https://www.f1news.ru/news/f1-191801.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T12:15:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191801.jpg"
-    },
-    {
-      "title": "В Audi объявили о новом техническом поставщике",
-      "url": "https://www.f1news.ru/news/f1-191800.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T11:47:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/audi/191800.jpg"
-    },
-    {
-      "title": "Ферстаппен показал раскраску шлема для Остина",
-      "url": "https://www.f1news.ru/news/f1-191799.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T11:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191799.jpg"
-    },
-    {
-      "title": "Williams представила раскраску машины с Доктором Думом",
-      "url": "https://www.f1news.ru/news/f1-191798.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T10:58:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/williams/191798.jpg"
-    },
-    {
-      "title": "Хорнер объяснил причины срыва сделки Red Bull с Porsche",
-      "url": "https://www.f1news.ru/news/f1-191797.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T10:25:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/horner/191797.jpg"
-    },
-    {
-      "title": "Валттери Боттас: Мы постепенно прибавляем во всём",
-      "url": "https://www.f1news.ru/news/f1-191796.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T09:50:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/191796.jpg"
-    },
-    {
-      "title": "В Ferrari готовят новинки к Остину",
-      "url": "https://www.f1news.ru/news/f1-191793.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T09:08:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/191793.jpg"
-    },
-    {
-      "title": "В Red Bull показали комбинезоны для Гран При США",
-      "url": "https://www.f1news.ru/news/f1-191795.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T08:47:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/191795.jpg"
-    },
-    {
-      "title": "Рашид Аль-Дахери дебютирует в Формуле 3",
-      "url": "https://www.f1news.ru/news/autosport-191792.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T08:26:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/mercedes/191792.jpg"
-    },
-    {
       "title": "Mekies extends contract as Red Bull's F1 team boss",
       "url": "https://www.autosport.com/f1/news/laurent-mekies-extends-contract-as-red-bulls-f1-team-boss/10865235/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-14T16:36:46+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/YMXbOEv2/s6/laurent-mekies-red-bull-racing-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/YMXbOEv2/s6/laurent-mekies-red-bull-racing-2.jpg"
     },
     {
       "title": "Five key takeaways from F1's big African Grand Prix reveal in Rwanda",
@@ -179,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-13T18:19:27+00:00",
       "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/0o5AoeaY/s6/stefano-domenicali-at-african-.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/0o5AoeaY/s6/stefano-domenicali-at-african-.jpg"
     },
     {
       "title": "Why McLaren cannot fix its F1 car handling until 2027",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-13T13:11:49+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/0R7BNPM2/s6/oscar-piastri-mclaren-2.jpg"
-    },
-    {
-      "title": "F1 signs historic 10-year Rwanda deal to host African Grand Prix",
-      "url": "https://www.autosport.com/f1/news/f1-signs-historic-10-year-rwanda-deal-to-host-african-grand-prix/10864843/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-13T09:20:07+00:00",
-      "category": "racing",
-      "image": "https://cdn-9.motorsport.com/images/amp/2GdKqV1Y/s6/rwanda-f1-track-for-african-gp-3.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/0R7BNPM2/s6/oscar-piastri-mclaren-2.jpg"
     }
   ]
 }
