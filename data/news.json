@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-17T15:41:12.035993+00:00",
+  "updatedAt": "2026-10-17T18:32:54.517430+00:00",
   "articles": [
+    {
+      "title": "Хорнер: Создание RBPT – главный вызов за все годы карьеры",
+      "url": "https://www.f1news.ru/news/f1-191833.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-17T17:25:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/horner/191833.jpg"
+    },
+    {
+      "title": "WEC: В Барселоне команда Genesis впервые завоевала поул",
+      "url": "https://www.f1news.ru/news/autosport-191832.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-17T16:31:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191832.jpg"
+    },
     {
       "title": "У Mercedes было крыло типа Macarena, но от него отказались",
       "url": "https://www.f1news.ru/news/f1-191831.html",
@@ -162,24 +180,6 @@
       "publishedAt": "2026-10-16T11:00:05+00:00",
       "category": "teams",
       "image": "https://cdn-2.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
-    },
-    {
-      "title": "В Ferrari объявили состав Гоночной академии на 2027 год",
-      "url": "https://www.f1news.ru/news/autosport-191814.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T10:38:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/camara_1/191814.jpg"
-    },
-    {
-      "title": "Робин Райкконен: Всё хорошо, я готов к следующему году",
-      "url": "https://www.f1news.ru/news/autosport-191813.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T09:48:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/raikkonen/191813.jpg"
     },
     {
       "title": "Camara over Ocon - did Haas make the correct call for F1 2027?",
