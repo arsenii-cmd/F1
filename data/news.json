@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-10-17T04:36:27.951287+00:00",
+  "updatedAt": "2026-10-17T12:14:24.284428+00:00",
   "articles": [
+    {
+      "title": "Гонщики GT рады померяться силами с Ферстаппеном",
+      "url": "https://www.f1news.ru/news/autosport-191829.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-17T12:01:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191829.jpg"
+    },
+    {
+      "title": "Коллинз: Льюис Хэмилтон не доверяет своей команде",
+      "url": "https://www.f1news.ru/news/f1-191828.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-17T10:08:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191828.jpg"
+    },
+    {
+      "title": "Ферстаппен: За рулём машины GT выхожу из зоны комфорта",
+      "url": "https://www.f1news.ru/news/autosport-191827.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-17T08:40:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191827.jpg"
+    },
+    {
+      "title": "What Verstappen knew about Red Bull’s big upgrade when he signed his new F1 deal",
+      "url": "https://www.autosport.com/f1/news/did-max-verstappen-already-know-the-impact-of-red-bulls-big-upgrade-when-he-signed-his-new-deal/10865791/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-17T08:17:38+00:00",
+      "category": "tech",
+      "image": "https://cdn-8.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Алонсо уже приступил к тестам машины для Дакара-2027",
+      "url": "https://www.f1news.ru/news/autosport-191826.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-17T06:48:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/alonso/191826.jpg"
+    },
     {
       "title": "Кристиан Даннер: Хюлкенберга отличает особое упорство",
       "url": "https://www.f1news.ru/news/f1-191825.html",
@@ -26,7 +71,7 @@
       "language": "en",
       "publishedAt": "2026-10-16T15:32:39+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine-2.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine-2.jpg"
     },
     {
       "title": "Изображение Годзиллы вернётся на машины Haas",
@@ -89,7 +134,7 @@
       "language": "en",
       "publishedAt": "2026-10-16T11:00:05+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
     },
     {
       "title": "В Ferrari объявили состав Гоночной академии на 2027 год",
@@ -128,42 +173,6 @@
       "image": "https://c.f1news.ru/userfiles/191811.jpg"
     },
     {
-      "title": "В Абу-Даби подготовка к гонке идёт по плану",
-      "url": "https://www.f1news.ru/news/f1-191810.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T08:45:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191810.jpg"
-    },
-    {
-      "title": "IndyCar: Dallara начинает производить новое шасси IR-28",
-      "url": "https://www.f1news.ru/news/autosport-191809.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T07:13:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/191809.jpg"
-    },
-    {
-      "title": "Нико Росберг: Антонелли выступает на уровне Шумахера",
-      "url": "https://www.f1news.ru/news/f1-191808.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T16:23:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/191808.jpg"
-    },
-    {
-      "title": "Рафаэль Камара выбрал гоночный номер",
-      "url": "https://www.f1news.ru/news/f1-191807.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-15T16:17:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/camara_1/191807.jpg"
-    },
-    {
       "title": "Camara over Ocon - did Haas make the correct call for F1 2027?",
       "url": "https://www.autosport.com/f1/news/camara-over-ocon-did-haas-make-the-correct-call-for-f1-2027/10865424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -179,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-15T14:01:00+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/01WVnzmY/s6/f3-drivers-champion-and-race-w-2.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/01WVnzmY/s6/f3-drivers-champion-and-race-w-2.jpg"
     },
     {
       "title": "Mekies extends contract as Red Bull's F1 team boss",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-14T16:36:46+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/YMXbOEv2/s6/laurent-mekies-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Five key takeaways from F1's big African Grand Prix reveal in Rwanda",
-      "url": "https://www.autosport.com/f1/news/five-key-takeaways-from-f1s-big-african-grand-prix-reveal-in-rwanda/10865014/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-13T18:19:27+00:00",
-      "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/0o5AoeaY/s6/stefano-domenicali-at-african-.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/YMXbOEv2/s6/laurent-mekies-red-bull-racing-2.jpg"
     }
   ]
 }
