@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-17T12:14:24.284428+00:00",
+  "updatedAt": "2026-10-17T15:41:12.035993+00:00",
   "articles": [
+    {
+      "title": "У Mercedes было крыло типа Macarena, но от него отказались",
+      "url": "https://www.f1news.ru/news/f1-191831.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-17T14:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/simone-resta/191831-1.jpg"
+    },
+    {
+      "title": "Критика хвалит книгу Кристиана Хорнера за дерзость",
+      "url": "https://www.f1news.ru/news/f1-191830.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-17T13:51:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/191830.jpg"
+    },
+    {
+      "title": "What drives Bortoleto as his junior rivals hit new heights in F1",
+      "url": "https://www.autosport.com/f1/news/what-drives-bortoleto-as-his-junior-rivals-hit-new-heights-in-f1/10865865/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-17T13:15:36+00:00",
+      "category": "teams",
+      "image": "https://cdn-8.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
+    },
     {
       "title": "Гонщики GT рады померяться силами с Ферстаппеном",
       "url": "https://www.f1news.ru/news/autosport-191829.html",
@@ -71,7 +98,7 @@
       "language": "en",
       "publishedAt": "2026-10-16T15:32:39+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine-2.jpg"
     },
     {
       "title": "Изображение Годзиллы вернётся на машины Haas",
@@ -134,7 +161,7 @@
       "language": "en",
       "publishedAt": "2026-10-16T11:00:05+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
     },
     {
       "title": "В Ferrari объявили состав Гоночной академии на 2027 год",
@@ -155,31 +182,13 @@
       "image": "https://c.f1news.ru/userfiles/raikkonen/191813.jpg"
     },
     {
-      "title": "Вольфф: Новинки пока не дали ожидаемый прирост скорости",
-      "url": "https://www.f1news.ru/news/f1-191812.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T09:37:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/wolff/191812.jpg"
-    },
-    {
-      "title": "Гран При Испании получил титульного спонсора",
-      "url": "https://www.f1news.ru/news/f1-191811.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T09:01:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191811.jpg"
-    },
-    {
       "title": "Camara over Ocon - did Haas make the correct call for F1 2027?",
       "url": "https://www.autosport.com/f1/news/camara-over-ocon-did-haas-make-the-correct-call-for-f1-2027/10865424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-15T14:21:18+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/0kZXG7q6/s6/esteban-ocon-haas-f1-team.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/0kZXG7q6/s6/esteban-ocon-haas-f1-team.jpg"
     },
     {
       "title": "Camara to make F1 debut as Ocon's replacement at Haas in 2027",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-15T14:01:00+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/01WVnzmY/s6/f3-drivers-champion-and-race-w-2.jpg"
-    },
-    {
-      "title": "Mekies extends contract as Red Bull's F1 team boss",
-      "url": "https://www.autosport.com/f1/news/laurent-mekies-extends-contract-as-red-bulls-f1-team-boss/10865235/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-14T16:36:46+00:00",
-      "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/YMXbOEv2/s6/laurent-mekies-red-bull-racing-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/01WVnzmY/s6/f3-drivers-champion-and-race-w-2.jpg"
     }
   ]
 }
