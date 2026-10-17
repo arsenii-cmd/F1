@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-17T18:32:54.517430+00:00",
+  "updatedAt": "2026-10-17T22:24:39.815618+00:00",
   "articles": [
+    {
+      "title": "Ферстаппен не смог выиграть гонку GT по вине напарника",
+      "url": "https://www.f1news.ru/news/autosport-191835.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-17T19:26:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191835.jpg"
+    },
+    {
+      "title": "Палоу не ожидал, что опередит всех на тестах Indy NXT",
+      "url": "https://www.f1news.ru/news/autosport-191834.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-17T18:57:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191834.jpg"
+    },
     {
       "title": "Хорнер: Создание RBPT – главный вызов за все годы карьеры",
       "url": "https://www.f1news.ru/news/f1-191833.html",
@@ -153,24 +171,6 @@
       "publishedAt": "2026-10-16T12:41:00+00:00",
       "category": "teams",
       "image": "https://c.f1news.ru/userfiles/newey/191817.jpg"
-    },
-    {
-      "title": "Комацу: Неправильно называть Haas второй командой Ferrari",
-      "url": "https://www.f1news.ru/news/f1-191816.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T12:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/komatsu/191816.jpg"
-    },
-    {
-      "title": "FIA: Подтверждён список участников Гран При Макао",
-      "url": "https://www.f1news.ru/news/autosport-191815.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T11:07:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191815.jpg"
     },
     {
       "title": "Who will win this year’s ultimate F1 dream ticket? You decide…",
