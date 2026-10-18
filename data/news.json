@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-10-18T18:40:09.719366+00:00",
+  "updatedAt": "2026-10-18T22:27:37.162661+00:00",
   "articles": [
+    {
+      "title": "Гран При США: Пять прямых трансляций",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T21:15:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-171.jpg"
+    },
+    {
+      "title": "Гран При США: Этап конкурса прогнозов",
+      "url": "https://www.f1news.ru/news/f1-191821.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T21:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191821.jpg"
+    },
+    {
+      "title": "Гран При США: Ставки букмекеров",
+      "url": "https://www.f1news.ru/news/f1-191820.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T21:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191820.jpg"
+    },
+    {
+      "title": "Гран При США: Предварительный прогноз погоды",
+      "url": "https://www.f1news.ru/news/f1-191819.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T21:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191819.jpg"
+    },
+    {
+      "title": "Лоусон: Пока не знаю, что будет происходить в 2027 году",
+      "url": "https://www.f1news.ru/news/f1-191844.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T19:30:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lawson_1/191844.jpg"
+    },
     {
       "title": "WEC: Победный дубль Toyota, Ferrari на подиуме",
       "url": "https://www.f1news.ru/news/autosport-191843.html",
@@ -53,7 +98,7 @@
       "language": "en",
       "publishedAt": "2026-10-18T11:00:03+00:00",
       "category": "tech",
-      "image": "https://cdn-8.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
     },
     {
       "title": "Хэмилтон уверен: Ferrari нужно лучше работать с резиной",
@@ -119,58 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/horner/191833.jpg"
     },
     {
-      "title": "WEC: В Барселоне команда Genesis впервые завоевала поул",
-      "url": "https://www.f1news.ru/news/autosport-191832.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-17T16:31:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191832.jpg"
-    },
-    {
-      "title": "У Mercedes было крыло типа Macarena, но от него отказались",
-      "url": "https://www.f1news.ru/news/f1-191831.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-17T14:38:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/simone-resta/191831-1.jpg"
-    },
-    {
-      "title": "Критика хвалит книгу Кристиана Хорнера за дерзость",
-      "url": "https://www.f1news.ru/news/f1-191830.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-17T13:51:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sainz-junior/191830.jpg"
-    },
-    {
       "title": "What drives Bortoleto as his junior rivals hit new heights in F1",
       "url": "https://www.autosport.com/f1/news/what-drives-bortoleto-as-his-junior-rivals-hit-new-heights-in-f1/10865865/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-17T13:15:36+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
-    },
-    {
-      "title": "Гонщики GT рады померяться силами с Ферстаппеном",
-      "url": "https://www.f1news.ru/news/autosport-191829.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-17T12:01:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191829.jpg"
-    },
-    {
-      "title": "Коллинз: Льюис Хэмилтон не доверяет своей команде",
-      "url": "https://www.f1news.ru/news/f1-191828.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-17T10:08:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191828.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
     },
     {
       "title": "What Verstappen knew about Red Bull’s big upgrade when he signed his new F1 deal",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-17T08:17:38+00:00",
       "category": "tech",
-      "image": "https://cdn-3.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "Colapinto urges fans to stop online abuse: “You’re not helping me or my future”",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-16T15:32:39+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine-2.jpg"
     },
     {
       "title": "Who will win this year’s ultimate F1 dream ticket? You decide…",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-16T11:00:05+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
     }
   ]
 }
