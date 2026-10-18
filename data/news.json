@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-18T12:38:47.200298+00:00",
+  "updatedAt": "2026-10-18T18:40:09.719366+00:00",
   "articles": [
+    {
+      "title": "WEC: Победный дубль Toyota, Ferrari на подиуме",
+      "url": "https://www.f1news.ru/news/autosport-191843.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T17:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/buemi/191843.jpg"
+    },
+    {
+      "title": "Робин Райкконен стал чемпионом в классе Mini Max",
+      "url": "https://www.f1news.ru/news/autosport-191842.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T16:06:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/raikkonen/191842.jpg"
+    },
+    {
+      "title": "Хорнер: Штайнер выстроил карьеру благодаря сериалу Netflix",
+      "url": "https://www.f1news.ru/news/f1-191841.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T14:35:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/steiner/191841.jpg"
+    },
     {
       "title": "Макс Ферстаппен высказался в защиту напарника",
       "url": "https://www.f1news.ru/news/autosport-191840.html",
@@ -26,7 +53,7 @@
       "language": "en",
       "publishedAt": "2026-10-18T11:00:03+00:00",
       "category": "tech",
-      "image": "https://cdn-6.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
     },
     {
       "title": "Хэмилтон уверен: Ferrari нужно лучше работать с резиной",
@@ -146,15 +173,6 @@
       "image": "https://c.f1news.ru/userfiles/hamilton/191828.jpg"
     },
     {
-      "title": "Ферстаппен: За рулём машины GT выхожу из зоны комфорта",
-      "url": "https://www.f1news.ru/news/autosport-191827.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-17T08:40:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191827.jpg"
-    },
-    {
       "title": "What Verstappen knew about Red Bull’s big upgrade when he signed his new F1 deal",
       "url": "https://www.autosport.com/f1/news/did-max-verstappen-already-know-the-impact-of-red-bulls-big-upgrade-when-he-signed-his-new-deal/10865791/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -164,31 +182,13 @@
       "image": "https://cdn-3.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
-      "title": "Алонсо уже приступил к тестам машины для Дакара-2027",
-      "url": "https://www.f1news.ru/news/autosport-191826.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-17T06:48:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/alonso/191826.jpg"
-    },
-    {
-      "title": "Кристиан Даннер: Хюлкенберга отличает особое упорство",
-      "url": "https://www.f1news.ru/news/f1-191825.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T16:46:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hulkenberg/191825.jpg"
-    },
-    {
       "title": "Colapinto urges fans to stop online abuse: “You’re not helping me or my future”",
       "url": "https://www.autosport.com/f1/news/colapinto-urges-fans-to-stop-the-abuse-youre-not-helping-me-or-my-future/10865685/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-16T15:32:39+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine-2.jpg"
     },
     {
       "title": "Who will win this year’s ultimate F1 dream ticket? You decide…",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-16T11:00:05+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
     }
   ]
 }
