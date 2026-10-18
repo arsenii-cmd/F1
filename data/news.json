@@ -1,6 +1,69 @@
 {
-  "updatedAt": "2026-10-18T04:41:42.848072+00:00",
+  "updatedAt": "2026-10-18T12:38:47.200298+00:00",
   "articles": [
+    {
+      "title": "Макс Ферстаппен высказался в защиту напарника",
+      "url": "https://www.f1news.ru/news/autosport-191840.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T12:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191840.jpg"
+    },
+    {
+      "title": "Ваше: Сомнений в способности добиться успеха у нас нет",
+      "url": "https://www.f1news.ru/news/f1-191839.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T11:14:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/wache/191839.jpg"
+    },
+    {
+      "title": "Mercedes explains why its upgrade made its F1 car harder to drive",
+      "url": "https://www.autosport.com/f1/news/mercedes-explains-why-its-upgrade-made-its-f1-car-harder-to-drive/10866035/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-18T11:00:03+00:00",
+      "category": "tech",
+      "image": "https://cdn-6.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
+    },
+    {
+      "title": "Хэмилтон уверен: Ferrari нужно лучше работать с резиной",
+      "url": "https://www.f1news.ru/news/f1-191838.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T10:24:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191838.jpg"
+    },
+    {
+      "title": "Участие Норриса в тестах MCL-HY не входит в планы McLaren",
+      "url": "https://www.f1news.ru/news/f1-191837.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T09:08:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/191837.jpg"
+    },
+    {
+      "title": "The maths behind when Mercedes could become F1 world champions in 2026",
+      "url": "https://www.autosport.com/f1/news/the-maths-behind-when-mercedes-could-become-f1-world-champions-in-2026/10866008/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-18T08:13:32+00:00",
+      "category": "teams",
+      "image": "https://cdn-5.motorsport.com/images/amp/0Ld53Zj0/s6/george-russell-mercedes-andrea-2.jpg"
+    },
+    {
+      "title": "Макс Ферстаппен: Я получил удовольствие",
+      "url": "https://www.f1news.ru/news/autosport-191836.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-18T07:27:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191836.jpg"
+    },
     {
       "title": "Ферстаппен не смог выиграть гонку GT по вине напарника",
       "url": "https://www.f1news.ru/news/autosport-191835.html",
@@ -62,7 +125,7 @@
       "language": "en",
       "publishedAt": "2026-10-17T13:15:36+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
     },
     {
       "title": "Гонщики GT рады померяться силами с Ферстаппеном",
@@ -98,7 +161,7 @@
       "language": "en",
       "publishedAt": "2026-10-17T08:17:38+00:00",
       "category": "tech",
-      "image": "https://cdn-8.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "Алонсо уже приступил к тестам машины для Дакара-2027",
@@ -119,15 +182,6 @@
       "image": "https://c.f1news.ru/userfiles/hulkenberg/191825.jpg"
     },
     {
-      "title": "Ф3: Алессандро Джусти перешёл в Rodin Motorsport",
-      "url": "https://www.f1news.ru/news/autosport-191824.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T15:40:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191824.jpg"
-    },
-    {
       "title": "Colapinto urges fans to stop online abuse: “You’re not helping me or my future”",
       "url": "https://www.autosport.com/f1/news/colapinto-urges-fans-to-stop-the-abuse-youre-not-helping-me-or-my-future/10865685/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -137,67 +191,13 @@
       "image": "https://cdn-4.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine-2.jpg"
     },
     {
-      "title": "Изображение Годзиллы вернётся на машины Haas",
-      "url": "https://www.f1news.ru/news/f1-191823.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T14:57:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/komatsu/191823.jpg"
-    },
-    {
-      "title": "Лиам Лоусон представил гитару, которая носит его имя",
-      "url": "https://www.f1news.ru/news/f1-191822.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T14:56:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/191822.jpg"
-    },
-    {
-      "title": "Ф3: Салим Ханна продолжит карьеру в Campos Racing",
-      "url": "https://www.f1news.ru/news/autosport-191818.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T13:38:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191818.jpg"
-    },
-    {
-      "title": "Джок Клиа не сомневается в прогрессе Aston Martin",
-      "url": "https://www.f1news.ru/news/f1-191817.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-16T12:41:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/newey/191817.jpg"
-    },
-    {
       "title": "Who will win this year’s ultimate F1 dream ticket? You decide…",
       "url": "https://www.autosport.com/general/news/who-will-win-this-years-ultimate-f1-dream-ticket-you-decide-/10865598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-16T11:00:05+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
-    },
-    {
-      "title": "Camara over Ocon - did Haas make the correct call for F1 2027?",
-      "url": "https://www.autosport.com/f1/news/camara-over-ocon-did-haas-make-the-correct-call-for-f1-2027/10865424/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-15T14:21:18+00:00",
-      "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/0kZXG7q6/s6/esteban-ocon-haas-f1-team.jpg"
-    },
-    {
-      "title": "Camara to make F1 debut as Ocon's replacement at Haas in 2027",
-      "url": "https://www.autosport.com/f1/news/camara-to-make-f1-debut-at-haas-replacing-ocon/10865325/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-15T14:01:00+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/01WVnzmY/s6/f3-drivers-champion-and-race-w-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
     }
   ]
 }
