@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-10-19T15:41:58.065494+00:00",
+  "updatedAt": "2026-10-19T21:07:32.186796+00:00",
   "articles": [
+    {
+      "title": "В Остине ждут Ф1 даже те, кто не собирается на гонку",
+      "url": "https://www.f1news.ru/news/f1-191859.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T18:23:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191859.jpg"
+    },
+    {
+      "title": "Трасса в Барселоне примет этап IndyCar в 2027-м",
+      "url": "https://www.f1news.ru/news/autosport-191858.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T16:51:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191858.jpg"
+    },
+    {
+      "title": "Haas F1 представила раскраску VF-26 для Гран При США",
+      "url": "https://www.f1news.ru/news/f1-191857.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T15:44:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/bearman/191857.jpg"
+    },
     {
       "title": "Рафаэль Камара рассказал о проблемах со зрением",
       "url": "https://www.f1news.ru/news/f1-191856.html",
@@ -80,7 +107,7 @@
       "language": "en",
       "publishedAt": "2026-10-19T11:01:36+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/25dL7gx0/s6/leonardo-fornaroli-mclaren.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/25dL7gx0/s6/leonardo-fornaroli-mclaren.jpg"
     },
     {
       "title": "В Red Bull поздравили Хорнера после недавних побед",
@@ -107,7 +134,7 @@
       "language": "en",
       "publishedAt": "2026-10-19T08:37:56+00:00",
       "category": "tech",
-      "image": "https://cdn-9.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
     },
     {
       "title": "McLaren продаёт пять уникальных машин Формулы 1",
@@ -137,40 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/191821.jpg"
     },
     {
-      "title": "Гран При США: Ставки букмекеров",
-      "url": "https://www.f1news.ru/news/f1-191820.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T21:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191820.jpg"
-    },
-    {
-      "title": "Гран При США: Предварительный прогноз погоды",
-      "url": "https://www.f1news.ru/news/f1-191819.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T21:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191819.jpg"
-    },
-    {
-      "title": "Лоусон: Пока не знаю, что будет происходить в 2027 году",
-      "url": "https://www.f1news.ru/news/f1-191844.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T19:30:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/191844.jpg"
-    },
-    {
       "title": "Mercedes explains why its upgrade made its F1 car harder to drive",
       "url": "https://www.autosport.com/f1/news/mercedes-explains-why-its-upgrade-made-its-f1-car-harder-to-drive/10866035/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-18T11:00:03+00:00",
       "category": "tech",
-      "image": "https://cdn-6.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
     },
     {
       "title": "The maths behind when Mercedes could become F1 world champions in 2026",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-18T08:13:32+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/0Ld53Zj0/s6/george-russell-mercedes-andrea-2.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/0Ld53Zj0/s6/george-russell-mercedes-andrea-2.jpg"
     },
     {
       "title": "What drives Bortoleto as his junior rivals hit new heights in F1",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-17T13:15:36+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
     },
     {
       "title": "What Verstappen knew about Red Bull’s big upgrade when he signed his new F1 deal",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-17T08:17:38+00:00",
       "category": "tech",
-      "image": "https://cdn-9.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
     }
   ]
 }
