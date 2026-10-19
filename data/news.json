@@ -1,6 +1,123 @@
 {
-  "updatedAt": "2026-10-19T04:50:06.522220+00:00",
+  "updatedAt": "2026-10-19T15:41:58.065494+00:00",
   "articles": [
+    {
+      "title": "Рафаэль Камара рассказал о проблемах со зрением",
+      "url": "https://www.f1news.ru/news/f1-191856.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T15:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/camara_1/191856.jpg"
+    },
+    {
+      "title": "В Racing Bulls представили нового партнёра",
+      "url": "https://www.f1news.ru/news/f1-191855.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T14:25:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/peter_bayer/191855.jpg"
+    },
+    {
+      "title": "Формула E: Команда Porsche делает ставку на стабильность",
+      "url": "https://www.f1news.ru/news/autosport-191854.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T13:43:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/wehrlein/191854.jpg"
+    },
+    {
+      "title": "Ф3: Маттиа Кольнаги продолжит карьеру в Campos Racing",
+      "url": "https://www.f1news.ru/news/autosport-191853.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T12:46:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191853.jpg"
+    },
+    {
+      "title": "В Williams объявили о партнёрстве с Klaviyo",
+      "url": "https://www.f1news.ru/news/f1-191852.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T12:25:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vowles/191852.jpg"
+    },
+    {
+      "title": "Ф3: Команда Ландо Норриса объявила состав на 2027-й",
+      "url": "https://www.f1news.ru/news/autosport-191851.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T12:08:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/191851.jpg"
+    },
+    {
+      "title": "Лео Форнароли станет гонщиком McLaren Hypercar Team",
+      "url": "https://www.f1news.ru/news/autosport-191850.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T11:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/fornaroli/191850.jpg"
+    },
+    {
+      "title": "Несколько фактов биографии нового инженера Ферстаппена",
+      "url": "https://www.f1news.ru/news/f1-191849.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T11:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lambiase/191849.jpg"
+    },
+    {
+      "title": "McLaren retains Fornaroli as F1 reserve and hands him WEC programme for 2027",
+      "url": "https://www.autosport.com/f1/news/mclaren-retains-fornaroli-as-f1-reserve-and-hands-him-wec-programme-for-2027/10866226/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-19T11:01:36+00:00",
+      "category": "teams",
+      "image": "https://cdn-9.motorsport.com/images/amp/25dL7gx0/s6/leonardo-fornaroli-mclaren.jpg"
+    },
+    {
+      "title": "В Red Bull поздравили Хорнера после недавних побед",
+      "url": "https://www.f1news.ru/news/f1-191848.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T10:07:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/horner/191848.jpg"
+    },
+    {
+      "title": "Эмерсон Фиттипальди верит в Хэмилтона и Ferrari",
+      "url": "https://www.f1news.ru/news/f1-191847.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T08:58:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191847.jpg"
+    },
+    {
+      "title": "Inside the competition building F1’s future engineering talent",
+      "url": "https://www.autosport.com/f1/news/inside-the-competition-building-f1s-future-engineering-talent/10866194/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-19T08:37:56+00:00",
+      "category": "tech",
+      "image": "https://cdn-9.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
+    },
+    {
+      "title": "McLaren продаёт пять уникальных машин Формулы 1",
+      "url": "https://www.f1news.ru/news/f1-191845.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-19T07:37:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/brown/191845.jpg"
+    },
     {
       "title": "Гран При США: Пять прямых трансляций",
       "url": "https://www.f1news.ru/news/f1-119347.html",
@@ -47,76 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/lawson_1/191844.jpg"
     },
     {
-      "title": "WEC: Победный дубль Toyota, Ferrari на подиуме",
-      "url": "https://www.f1news.ru/news/autosport-191843.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T17:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/buemi/191843.jpg"
-    },
-    {
-      "title": "Робин Райкконен стал чемпионом в классе Mini Max",
-      "url": "https://www.f1news.ru/news/autosport-191842.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T16:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/raikkonen/191842.jpg"
-    },
-    {
-      "title": "Хорнер: Штайнер выстроил карьеру благодаря сериалу Netflix",
-      "url": "https://www.f1news.ru/news/f1-191841.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T14:35:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/steiner/191841.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен высказался в защиту напарника",
-      "url": "https://www.f1news.ru/news/autosport-191840.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T12:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191840.jpg"
-    },
-    {
-      "title": "Ваше: Сомнений в способности добиться успеха у нас нет",
-      "url": "https://www.f1news.ru/news/f1-191839.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T11:14:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/wache/191839.jpg"
-    },
-    {
       "title": "Mercedes explains why its upgrade made its F1 car harder to drive",
       "url": "https://www.autosport.com/f1/news/mercedes-explains-why-its-upgrade-made-its-f1-car-harder-to-drive/10866035/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-18T11:00:03+00:00",
       "category": "tech",
-      "image": "https://cdn-5.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
-    },
-    {
-      "title": "Хэмилтон уверен: Ferrari нужно лучше работать с резиной",
-      "url": "https://www.f1news.ru/news/f1-191838.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T10:24:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191838.jpg"
-    },
-    {
-      "title": "Участие Норриса в тестах MCL-HY не входит в планы McLaren",
-      "url": "https://www.f1news.ru/news/f1-191837.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T09:08:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/191837.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
     },
     {
       "title": "The maths behind when Mercedes could become F1 world champions in 2026",
@@ -128,49 +182,13 @@
       "image": "https://cdn-1.motorsport.com/images/amp/0Ld53Zj0/s6/george-russell-mercedes-andrea-2.jpg"
     },
     {
-      "title": "Макс Ферстаппен: Я получил удовольствие",
-      "url": "https://www.f1news.ru/news/autosport-191836.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-18T07:27:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191836.jpg"
-    },
-    {
-      "title": "Ферстаппен не смог выиграть гонку GT по вине напарника",
-      "url": "https://www.f1news.ru/news/autosport-191835.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-17T19:26:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191835.jpg"
-    },
-    {
-      "title": "Палоу не ожидал, что опередит всех на тестах Indy NXT",
-      "url": "https://www.f1news.ru/news/autosport-191834.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-17T18:57:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191834.jpg"
-    },
-    {
-      "title": "Хорнер: Создание RBPT – главный вызов за все годы карьеры",
-      "url": "https://www.f1news.ru/news/f1-191833.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-17T17:25:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/horner/191833.jpg"
-    },
-    {
       "title": "What drives Bortoleto as his junior rivals hit new heights in F1",
       "url": "https://www.autosport.com/f1/news/what-drives-bortoleto-as-his-junior-rivals-hit-new-heights-in-f1/10865865/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-17T13:15:36+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
     },
     {
       "title": "What Verstappen knew about Red Bull’s big upgrade when he signed his new F1 deal",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-17T08:17:38+00:00",
       "category": "tech",
-      "image": "https://cdn-7.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Colapinto urges fans to stop online abuse: “You’re not helping me or my future”",
-      "url": "https://www.autosport.com/f1/news/colapinto-urges-fans-to-stop-the-abuse-youre-not-helping-me-or-my-future/10865685/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-16T15:32:39+00:00",
-      "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/2jEAoKq0/s6/franco-colapinto-alpine-2.jpg"
-    },
-    {
-      "title": "Who will win this year’s ultimate F1 dream ticket? You decide…",
-      "url": "https://www.autosport.com/general/news/who-will-win-this-years-ultimate-f1-dream-ticket-you-decide-/10865598/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-16T11:00:05+00:00",
-      "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/YE9EqVPY/s6/heineken-season-ticket-2027.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
     }
   ]
 }
