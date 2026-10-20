@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-10-20T13:37:34.793409+00:00",
+  "updatedAt": "2026-10-20T20:01:43.889791+00:00",
   "articles": [
+    {
+      "title": "Формула E: Митч Эванс связывает большие надежды с Opel",
+      "url": "https://www.f1news.ru/news/autosport-191881.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-20T18:43:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/evans/191881.jpg"
+    },
+    {
+      "title": "Пьер Гасли: В Остине интересно гоняться!",
+      "url": "https://www.f1news.ru/news/f1-191880.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-20T17:56:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/191506.jpg"
+    },
+    {
+      "title": "FIA expects F1 races in Qatar and Abu Dhabi to run as planned",
+      "url": "https://www.autosport.com/f1/news/fia-expects-f1-races-in-qatar-and-abu-dhabi-to-run-as-planned/10866553/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-20T17:10:41+00:00",
+      "category": "racing",
+      "image": "https://cdn-3.motorsport.com/images/amp/0rVxVem0/s6/lando-norris-mclaren-max-verst-2.jpg"
+    },
+    {
+      "title": "Ф3: Накамура-Берта лидирует в первый день тестов",
+      "url": "https://www.f1news.ru/news/autosport-191879.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-20T17:04:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191879.jpg"
+    },
+    {
+      "title": "Марк Хьюз об уловке Red Bull, которую запретят в 2027 году",
+      "url": "https://www.f1news.ru/tech/191878.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-20T16:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/audi/191878.jpg"
+    },
+    {
+      "title": "Регламент разделит сотрудников команд и других отделов",
+      "url": "https://www.f1news.ru/tech/191876.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-20T16:00:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/fia/189065.jpg"
+    },
+    {
+      "title": "Машины Cadillac в Остине оформлены в ковбойском стиле",
+      "url": "https://www.f1news.ru/news/f1-191877.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-20T15:09:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/cadillacf1/191877.jpg"
+    },
+    {
+      "title": "В 2028-м дистанция гонок станет прежней",
+      "url": "https://www.f1news.ru/news/f1-191875.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-20T15:01:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/fia/190888.jpg"
+    },
+    {
+      "title": "Introl – новый технический партнёр Racing Bulls",
+      "url": "https://www.f1news.ru/news/f1-191874.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-20T14:29:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/peter_bayer/191874.jpg"
+    },
+    {
+      "title": "Пол Уильямс об особенностях уик-энда в Остине",
+      "url": "https://www.f1news.ru/news/f1-191873.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-20T14:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/williams/191448.jpg"
+    },
     {
       "title": "Антонелли: Мы просто должны довести дело до конца",
       "url": "https://www.f1news.ru/news/f1-191872.html",
@@ -65,94 +155,13 @@
       "image": "https://c.f1news.ru/userfiles/bottas/191865.jpg"
     },
     {
-      "title": "Алан Макниш: Теперь нужно сделать следующий шаг",
-      "url": "https://www.f1news.ru/news/f1-191864.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-20T09:53:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/191535.jpg"
-    },
-    {
-      "title": "Pirelli: Одним из факторов может стать повышенный износ",
-      "url": "https://www.f1news.ru/news/f1-191863.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-20T09:14:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/pirelli/191863.jpg"
-    },
-    {
-      "title": "В Aston Martin поздравили Honda с 500-м Гран При",
-      "url": "https://www.f1news.ru/news/f1-191862.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-20T09:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191862.jpg"
-    },
-    {
-      "title": "Серхио Перес: 2026-й – один из лучших в моей карьере",
-      "url": "https://www.f1news.ru/news/f1-191861.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-20T08:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/perez/191861.jpg"
-    },
-    {
-      "title": "IndyCar: Контракт о гонке в Барселоне пока не подписан",
-      "url": "https://www.f1news.ru/news/autosport-191860.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-20T07:44:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191860.jpg"
-    },
-    {
-      "title": "В Остине ждут Ф1 даже те, кто не собирается на гонку",
-      "url": "https://www.f1news.ru/news/f1-191859.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-19T18:23:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191859.jpg"
-    },
-    {
-      "title": "Трасса в Барселоне примет этап IndyCar в 2027-м",
-      "url": "https://www.f1news.ru/news/autosport-191858.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-19T16:51:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191858.jpg"
-    },
-    {
-      "title": "Haas F1 представила раскраску VF-26 для Гран При США",
-      "url": "https://www.f1news.ru/news/f1-191857.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-19T15:44:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/bearman/191857.jpg"
-    },
-    {
-      "title": "Рафаэль Камара рассказал о проблемах со зрением",
-      "url": "https://www.f1news.ru/news/f1-191856.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-19T15:18:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/camara_1/191856.jpg"
-    },
-    {
       "title": "McLaren retains Fornaroli as F1 reserve and hands him WEC programme for 2027",
       "url": "https://www.autosport.com/f1/news/mclaren-retains-fornaroli-as-f1-reserve-and-hands-him-wec-programme-for-2027/10866226/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-19T11:01:36+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/25dL7gx0/s6/leonardo-fornaroli-mclaren.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/25dL7gx0/s6/leonardo-fornaroli-mclaren.jpg"
     },
     {
       "title": "Inside the competition building F1’s future engineering talent",
@@ -161,7 +170,7 @@
       "language": "en",
       "publishedAt": "2026-10-19T08:37:56+00:00",
       "category": "tech",
-      "image": "https://cdn-9.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
     },
     {
       "title": "Mercedes explains why its upgrade made its F1 car harder to drive",
@@ -170,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-18T11:00:03+00:00",
       "category": "tech",
-      "image": "https://cdn-2.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
     },
     {
       "title": "The maths behind when Mercedes could become F1 world champions in 2026",
@@ -179,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-18T08:13:32+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/0Ld53Zj0/s6/george-russell-mercedes-andrea-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/0Ld53Zj0/s6/george-russell-mercedes-andrea-2.jpg"
     },
     {
       "title": "What drives Bortoleto as his junior rivals hit new heights in F1",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-17T13:15:36+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
-    },
-    {
-      "title": "What Verstappen knew about Red Bull’s big upgrade when he signed his new F1 deal",
-      "url": "https://www.autosport.com/f1/news/did-max-verstappen-already-know-the-impact-of-red-bulls-big-upgrade-when-he-signed-his-new-deal/10865791/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-17T08:17:38+00:00",
-      "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/2GdKNQ1Y/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/24vPom46/s6/gabriel-bortoleto-invicta-raci.jpg"
     }
   ]
 }
