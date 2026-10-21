@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-10-21T13:53:06.955139+00:00",
+  "updatedAt": "2026-10-21T20:13:14.923796+00:00",
   "articles": [
+    {
+      "title": "Гран При США: Расписание пресс-конференций",
+      "url": "https://www.f1news.ru/news/f1-191904.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T17:21:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/fia/191904.jpg"
+    },
+    {
+      "title": "Тим Госс о подготовке Racing Bulls к Гран При США",
+      "url": "https://www.f1news.ru/news/f1-191903.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T17:14:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/goss/191903.jpg"
+    },
+    {
+      "title": "В Aston Martin показали раскраску машины для Остина",
+      "url": "https://www.f1news.ru/news/f1-191902.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T16:15:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/lawrence_stroll/191902.jpg"
+    },
+    {
+      "title": "Вассёр: Мы много работали, чтобы закрепить прогресс",
+      "url": "https://www.f1news.ru/news/f1-191900.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T16:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vasseur/191900.jpg"
+    },
+    {
+      "title": "Ф3: Маседу быстрее всех во второй день тестов в Хересе",
+      "url": "https://www.f1news.ru/news/autosport-191901.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T15:55:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191901.jpg"
+    },
+    {
+      "title": "В Маранелло усиливают отдел работы на симуляторе",
+      "url": "https://www.f1news.ru/news/f1-191899.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T15:32:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ferrari/190331.jpg"
+    },
+    {
+      "title": "Апелляцию по делу Фелипе Массы рассмотрят в феврале",
+      "url": "https://www.f1news.ru/news/f1-191898.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T15:04:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ecclestone/191898.jpg"
+    },
+    {
+      "title": "Астронавт Рид Уайсмен стал послом команды Mercedes",
+      "url": "https://www.f1news.ru/news/f1-191897.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T14:31:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/mercedes/191897.jpg"
+    },
+    {
+      "title": "Макс Ферстаппен: Важно сохранить набранный темп",
+      "url": "https://www.f1news.ru/news/f1-191896.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T14:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/191896.jpg"
+    },
+    {
+      "title": "Биография Фернандо Алонсо выйдет 2 марта",
+      "url": "https://www.f1news.ru/news/f1-191894.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T14:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/190765.jpg"
+    },
     {
       "title": "В Катаре готовятся к этапам MotoGP и Формулы 1",
       "url": "https://www.f1news.ru/news/f1-191895.html",
@@ -56,58 +146,13 @@
       "image": "https://c.f1news.ru/userfiles/horner/181843.jpg"
     },
     {
-      "title": "В Остине у Антонелли и Расселла будут одинаковые машины",
-      "url": "https://www.f1news.ru/news/f1-191888.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T09:28:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/wolff/191888.jpg"
-    },
-    {
       "title": "FIA set to close F1 cost cap loophole with new rules",
       "url": "https://www.autosport.com/f1/news/fia-set-to-close-f1-cost-cap-loophole/10866649/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-21T08:52:58+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/6AErNjN6/s6/f1-and-fia-logo-2.jpg"
-    },
-    {
-      "title": "Ландо Норрис: Я отвечаю за свои ошибки и учусь на них",
-      "url": "https://www.f1news.ru/news/f1-191886.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T08:44:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stella/191886.jpg"
-    },
-    {
-      "title": "В Mercedes показали раскраску машин для Остина",
-      "url": "https://www.f1news.ru/news/f1-191885.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T08:33:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/mercedes/191885.jpg"
-    },
-    {
-      "title": "Сулайем: Гонки в Катаре и Абу-Даби состоятся",
-      "url": "https://www.f1news.ru/news/f1-191884.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T07:50:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/sulayem/189067.jpg"
-    },
-    {
-      "title": "Формула 1 и Leica выпустили фотоаппарат",
-      "url": "https://www.f1news.ru/news/f1-191883.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T07:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191883.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/6AErNjN6/s6/f1-and-fia-logo-2.jpg"
     },
     {
       "title": "Norris promises to make \"better decisions\" following fresh talks over Singapore GP clash",
@@ -116,34 +161,7 @@
       "language": "en",
       "publishedAt": "2026-10-21T07:17:51+00:00",
       "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren-2.jpg"
-    },
-    {
-      "title": "FIA и Формула 1 открыли Центр дистанционного управления",
-      "url": "https://www.f1news.ru/news/f1-191882.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T06:16:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sulayem/191882.jpg"
-    },
-    {
-      "title": "Формула E: Митч Эванс связывает большие надежды с Opel",
-      "url": "https://www.f1news.ru/news/autosport-191881.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-20T18:43:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/evans/191881.jpg"
-    },
-    {
-      "title": "Пьер Гасли: В Остине интересно гоняться!",
-      "url": "https://www.f1news.ru/news/f1-191880.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-20T17:56:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/191506.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "FIA expects F1 races in Qatar and Abu Dhabi to run as planned",
@@ -152,25 +170,7 @@
       "language": "en",
       "publishedAt": "2026-10-20T17:10:41+00:00",
       "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/0rVxVem0/s6/lando-norris-mclaren-max-verst-2.jpg"
-    },
-    {
-      "title": "Ф3: Накамура-Берта лидирует в первый день тестов",
-      "url": "https://www.f1news.ru/news/autosport-191879.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-20T17:04:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191879.jpg"
-    },
-    {
-      "title": "Марк Хьюз об уловке Red Bull, которую запретят в 2027 году",
-      "url": "https://www.f1news.ru/tech/191878.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-20T16:47:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/audi/191878.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/0rVxVem0/s6/lando-norris-mclaren-max-verst-2.jpg"
     },
     {
       "title": "McLaren retains Fornaroli as F1 reserve and hands him WEC programme for 2027",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-19T11:01:36+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/25dL7gx0/s6/leonardo-fornaroli-mclaren.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/25dL7gx0/s6/leonardo-fornaroli-mclaren.jpg"
     },
     {
       "title": "Inside the competition building F1’s future engineering talent",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-19T08:37:56+00:00",
       "category": "tech",
-      "image": "https://cdn-2.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
     },
     {
       "title": "Mercedes explains why its upgrade made its F1 car harder to drive",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-18T11:00:03+00:00",
       "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
     }
   ]
 }
