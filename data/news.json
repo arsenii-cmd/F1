@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-10-21T20:13:14.923796+00:00",
+  "updatedAt": "2026-10-21T23:25:09.572025+00:00",
   "articles": [
+    {
+      "title": "Гран При США: Пять прямых трансляций",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T21:35:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-171.jpg"
+    },
+    {
+      "title": "Гран При США: Точка самого серьёзного торможения",
+      "url": "https://www.f1news.ru/news/f1-191887.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T21:30:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/190741.jpg"
+    },
+    {
+      "title": "Гран При США: Этап конкурса прогнозов",
+      "url": "https://www.f1news.ru/news/f1-191821.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T21:25:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/191821.jpg"
+    },
+    {
+      "title": "Гран При США: Круглые числа",
+      "url": "https://www.f1news.ru/Championship/2026/usa/stats.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T21:20:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184479.jpg"
+    },
+    {
+      "title": "Гран При США: Превью этапа",
+      "url": "https://www.f1news.ru/Championship/2026/usa/preview.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T21:15:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/150021.jpg"
+    },
+    {
+      "title": "Гран При США: Комментарии перед этапом",
+      "url": "https://www.f1news.ru/Championship/2026/usa/beforerace.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T21:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184516.jpg"
+    },
+    {
+      "title": "Гран При США: Трасса и статистика",
+      "url": "https://www.f1news.ru/Championship/2026/usa/index.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T21:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/99819.jpg"
+    },
+    {
+      "title": "Гран При США: Прогноз погоды на уик-энд",
+      "url": "https://www.f1news.ru/news/f1-191866.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-21T21:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/132575.jpg"
+    },
     {
       "title": "Гран При США: Расписание пресс-конференций",
       "url": "https://www.f1news.ru/news/f1-191904.html",
@@ -72,78 +144,6 @@
       "publishedAt": "2026-10-21T14:31:00+00:00",
       "category": "teams",
       "image": "https://c.f1news.ru/userfiles/mercedes/191897.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен: Важно сохранить набранный темп",
-      "url": "https://www.f1news.ru/news/f1-191896.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T14:18:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/191896.jpg"
-    },
-    {
-      "title": "Биография Фернандо Алонсо выйдет 2 марта",
-      "url": "https://www.f1news.ru/news/f1-191894.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T14:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/190765.jpg"
-    },
-    {
-      "title": "В Катаре готовятся к этапам MotoGP и Формулы 1",
-      "url": "https://www.f1news.ru/news/f1-191895.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T13:39:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191895.jpg"
-    },
-    {
-      "title": "В FIA запретят менять колёсные диски после квалификации",
-      "url": "https://www.f1news.ru/news/f1-191893.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T13:25:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/191893.jpg"
-    },
-    {
-      "title": "Бывший моторист Mercedes приступил к работе в Ferrari",
-      "url": "https://www.f1news.ru/news/f1-191892.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T12:36:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/191892.jpg"
-    },
-    {
-      "title": "Пьеро Феррари: Команде нужны дела, а не разговоры",
-      "url": "https://www.f1news.ru/news/f1-191891.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T12:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/Piero_Ferrari/191891.jpg"
-    },
-    {
-      "title": "Серхио Перес намекнул на скорое завершение карьеры",
-      "url": "https://www.f1news.ru/news/f1-191890.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T11:45:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/perez/191890.jpg"
-    },
-    {
-      "title": "Хорнер: Гонщики слишком рано попадали в Red Bull",
-      "url": "https://www.f1news.ru/news/f1-191889.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T10:08:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/horner/181843.jpg"
     },
     {
       "title": "FIA set to close F1 cost cap loophole with new rules",
