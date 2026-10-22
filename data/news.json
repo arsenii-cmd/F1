@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-10-22T04:58:21.289144+00:00",
+  "updatedAt": "2026-10-22T13:51:50.270621+00:00",
   "articles": [
+    {
+      "title": "Будковски: В Формуле 1 нет простых решений",
+      "url": "https://www.f1news.ru/news/f1-191912.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T13:07:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/budkowski/191912.jpg"
+    },
+    {
+      "title": "MotoGP \"can’t just copy\" F1’s Drive to Survive success – Chase Carey",
+      "url": "https://www.autosport.com/motogp/news/motogp-cant-simply-copy-f1s-drive-to-survive-success-chase-carey/10866969/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-22T12:11:51+00:00",
+      "category": "teams",
+      "image": "https://cdn-9.motorsport.com/images/amp/6DGgmVKY/s6/liz-claman-and-chase-carey.jpg"
+    },
+    {
+      "title": "В Хоккенхайме рассказали о переговорах с Формулой 1",
+      "url": "https://www.f1news.ru/news/f1-191911.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T12:11:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191911.jpg"
+    },
+    {
+      "title": "Гран При США: Изменения на трассе и зоны обгонов",
+      "url": "https://www.f1news.ru/news/f1-191910.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T11:51:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/fia/191910.jpg"
+    },
+    {
+      "title": "Педро Лами – третий стюард Гран При США",
+      "url": "https://www.f1news.ru/news/f1-191909.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T11:20:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/fia/189936.jpg"
+    },
+    {
+      "title": "Horner reveals Red Bull call to thank him for F1 engine project after maiden win",
+      "url": "https://www.autosport.com/f1/news/red-bull-called-christian-horner-to-thank-him-for-f1-engine-project-after-maiden-win/10866939/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-22T11:04:27+00:00",
+      "category": "tech",
+      "image": "https://cdn-3.motorsport.com/images/amp/6grQdMbY/s6/errol-barnett-and-christian-ho-3.jpg"
+    },
+    {
+      "title": "Алекс Элбон: У меня впереди ещё много гонок за Williams",
+      "url": "https://www.f1news.ru/news/f1-191908.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T10:17:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/191908.jpg"
+    },
+    {
+      "title": "Марко о книге Хорнера: Сборник низкопробной лжи",
+      "url": "https://www.f1news.ru/news/f1-191907.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T09:37:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/horner/191907.jpg"
+    },
+    {
+      "title": "В Ferrari представили раскраску SF-26 для Гран При США",
+      "url": "https://www.f1news.ru/news/f1-191906.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T08:29:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/ferrari/191906.jpg"
+    },
+    {
+      "title": "Aston Martin в 2028-м может получить двигатели Red Bull?",
+      "url": "https://www.f1news.ru/news/f1-191905.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T07:58:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/astonmartin/191905.jpg"
+    },
     {
       "title": "Гран При США: Пять прямых трансляций",
       "url": "https://www.f1news.ru/news/f1-119347.html",
@@ -74,85 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/132575.jpg"
     },
     {
-      "title": "Гран При США: Расписание пресс-конференций",
-      "url": "https://www.f1news.ru/news/f1-191904.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T17:21:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/191904.jpg"
-    },
-    {
-      "title": "Тим Госс о подготовке Racing Bulls к Гран При США",
-      "url": "https://www.f1news.ru/news/f1-191903.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T17:14:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/goss/191903.jpg"
-    },
-    {
-      "title": "В Aston Martin показали раскраску машины для Остина",
-      "url": "https://www.f1news.ru/news/f1-191902.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T16:15:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/lawrence_stroll/191902.jpg"
-    },
-    {
-      "title": "Вассёр: Мы много работали, чтобы закрепить прогресс",
-      "url": "https://www.f1news.ru/news/f1-191900.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T16:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/vasseur/191900.jpg"
-    },
-    {
-      "title": "Ф3: Маседу быстрее всех во второй день тестов в Хересе",
-      "url": "https://www.f1news.ru/news/autosport-191901.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T15:55:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191901.jpg"
-    },
-    {
-      "title": "В Маранелло усиливают отдел работы на симуляторе",
-      "url": "https://www.f1news.ru/news/f1-191899.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T15:32:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/190331.jpg"
-    },
-    {
-      "title": "Апелляцию по делу Фелипе Массы рассмотрят в феврале",
-      "url": "https://www.f1news.ru/news/f1-191898.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T15:04:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ecclestone/191898.jpg"
-    },
-    {
-      "title": "Астронавт Рид Уайсмен стал послом команды Mercedes",
-      "url": "https://www.f1news.ru/news/f1-191897.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-21T14:31:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/mercedes/191897.jpg"
-    },
-    {
       "title": "FIA set to close F1 cost cap loophole with new rules",
       "url": "https://www.autosport.com/f1/news/fia-set-to-close-f1-cost-cap-loophole/10866649/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-21T08:52:58+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/6AErNjN6/s6/f1-and-fia-logo-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/6AErNjN6/s6/f1-and-fia-logo-2.jpg"
     },
     {
       "title": "Norris promises to make \"better decisions\" following fresh talks over Singapore GP clash",
@@ -161,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-21T07:17:51+00:00",
       "category": "racing",
-      "image": "https://cdn-9.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "FIA expects F1 races in Qatar and Abu Dhabi to run as planned",
@@ -170,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-20T17:10:41+00:00",
       "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/0rVxVem0/s6/lando-norris-mclaren-max-verst-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0rVxVem0/s6/lando-norris-mclaren-max-verst-2.jpg"
     },
     {
       "title": "McLaren retains Fornaroli as F1 reserve and hands him WEC programme for 2027",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-19T11:01:36+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/25dL7gx0/s6/leonardo-fornaroli-mclaren.jpg"
-    },
-    {
-      "title": "Inside the competition building F1’s future engineering talent",
-      "url": "https://www.autosport.com/f1/news/inside-the-competition-building-f1s-future-engineering-talent/10866194/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-19T08:37:56+00:00",
-      "category": "tech",
-      "image": "https://cdn-7.motorsport.com/images/amp/68VwdPX2/s6/stem-racing-world-final-2026-s.jpg"
-    },
-    {
-      "title": "Mercedes explains why its upgrade made its F1 car harder to drive",
-      "url": "https://www.autosport.com/f1/news/mercedes-explains-why-its-upgrade-made-its-f1-car-harder-to-drive/10866035/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-18T11:00:03+00:00",
-      "category": "tech",
-      "image": "https://cdn-9.motorsport.com/images/amp/2jEAGLp0/s6/andrea-kimi-antonelli-mercedes.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/25dL7gx0/s6/leonardo-fornaroli-mclaren.jpg"
     }
   ]
 }
