@@ -1,14 +1,176 @@
 {
-  "updatedAt": "2026-10-22T20:11:27.689682+00:00",
+  "updatedAt": "2026-10-22T23:26:26.733168+00:00",
   "articles": [
     {
-      "title": "Пиастри: То, что работало раньше, обернулось проблемами",
-      "url": "https://www.f1news.ru/news/f1-191928.html",
+      "title": "Арвид Линдблад: Я жду просто нормального уик-энда",
+      "url": "https://www.f1news.ru/news/f1-191942.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-22T20:04:00+00:00",
+      "publishedAt": "2026-10-22T23:02:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/piastri/191928.jpg"
+      "image": "https://c.f1news.ru/userfiles/lindblad/191942.jpg"
+    },
+    {
+      "title": "Лоусон: Надеюсь, машина способна на хорошую скорость",
+      "url": "https://www.f1news.ru/news/f1-191943.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T22:55:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/lawson_1/191943.jpg"
+    },
+    {
+      "title": "Алекс Элбон: Трасса COTA не подходит нашей машине",
+      "url": "https://www.f1news.ru/news/f1-191941.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T22:42:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/albon_1/191941.jpg"
+    },
+    {
+      "title": "Норрис: Верю, мы сможем выиграть ещё одну гонку",
+      "url": "https://www.f1news.ru/news/f1-191940.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T22:35:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/norris/191940.jpg"
+    },
+    {
+      "title": "Ферстаппен: Стараемся не слишком предаваться мечтаниям",
+      "url": "https://www.f1news.ru/news/f1-191939.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T22:31:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191939.jpg"
+    },
+    {
+      "title": "How Antonelli will manage the pressure as F1 coronation looms",
+      "url": "https://www.autosport.com/f1/news/how-antonelli-will-manage-the-pressure-as-f1-coronation-looms/10867178/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-22T22:20:25+00:00",
+      "category": "teams",
+      "image": "https://cdn-5.motorsport.com/images/amp/6grQoqmY/s6/andrea-kimi-antonelli-mercedes.jpg"
+    },
+    {
+      "title": "Расселл: Этот сезон стал испытанием для моего характера",
+      "url": "https://www.f1news.ru/news/f1-191938.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T22:14:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/191938.jpg"
+    },
+    {
+      "title": "Леклер: Постараемся несколько раз выиграть до конца года",
+      "url": "https://www.f1news.ru/news/f1-191937.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T22:09:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/leclerc/191937.jpg"
+    },
+    {
+      "title": "Verstappen warns COTA bumps are “unacceptable” and “out of control”",
+      "url": "https://www.autosport.com/f1/news/verstappen-warns-cota-bumps-are-unacceptable/10867175/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-22T22:04:03+00:00",
+      "category": "teams",
+      "image": "https://cdn-3.motorsport.com/images/amp/6zQG5BkY/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Нико Хюлкенберг: Надеюсь, добьёмся хорошего результата",
+      "url": "https://www.f1news.ru/news/f1-191936.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T21:27:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hulkenberg/191936.jpg"
+    },
+    {
+      "title": "Бортолето: Камара заслуживает места в Формуле 1",
+      "url": "https://www.f1news.ru/news/f1-191935.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T21:10:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/191935.jpg"
+    },
+    {
+      "title": "Боттас: Следить за прогрессом Кими невероятно интересно!",
+      "url": "https://www.f1news.ru/news/f1-191934.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T21:10:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/191934.jpg"
+    },
+    {
+      "title": "Оливер Берман готов стать лидером Haas",
+      "url": "https://www.f1news.ru/news/f1-191933.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T20:59:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/191933.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При США, четверг",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2210/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T20:55:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "Why Colapinto spoke out against abuse targeting his own F1 team",
+      "url": "https://www.autosport.com/f1/news/why-colapinto-spoke-out-against-online-abuse/10867150/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-22T20:44:09+00:00",
+      "category": "teams",
+      "image": "https://cdn-2.motorsport.com/images/amp/YP74eaj2/s6/franco-colapinto-alpine-3.jpg"
+    },
+    {
+      "title": "Пьер Гасли: Нет ничего невозможного",
+      "url": "https://www.f1news.ru/news/f1-191932.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T20:40:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/191932.jpg"
+    },
+    {
+      "title": "Серхио Перес: Другие команды добились большего прогресса",
+      "url": "https://www.f1news.ru/news/f1-191931.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T20:34:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/perez/191931.jpg"
+    },
+    {
+      "title": "Хэмилтон: Нужно постоянно выходить за рамки",
+      "url": "https://www.f1news.ru/news/f1-191930.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T20:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191930.jpg"
+    },
+    {
+      "title": "Кими Антонелли: Титул станет исполнением моей мечты",
+      "url": "https://www.f1news.ru/news/f1-191929.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-22T20:14:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/191929.jpg"
     },
     {
       "title": "Sainz yet to be \"convinced\" that F1 2026 will finish in the Middle East",
@@ -17,97 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-22T19:28:20+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/6zoDgL70/s6/carlos-sainz-williams-2.jpg"
-    },
-    {
-      "title": "Карлос Сайнс: Формула 1 стала похожа на футбол",
-      "url": "https://www.f1news.ru/news/f1-191927.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T19:26:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sainz-junior/191927.jpg"
-    },
-    {
-      "title": "Фернандо Алонсо: Мы не можем рассказывать обо всём",
-      "url": "https://www.f1news.ru/news/f1-191926.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T19:14:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/191926.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При США, четверг",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2210/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T19:10:00+00:00",
-      "category": "racing",
-      "image": ""
-    },
-    {
-      "title": "Майк Крак: У меня оптимистичный настрой",
-      "url": "https://www.f1news.ru/news/f1-191925.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T19:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/krack/191925.jpg"
-    },
-    {
-      "title": "Хаджар: Не думаю, что у нас самая быстрая машина",
-      "url": "https://www.f1news.ru/news/f1-191924.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T18:58:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/191924.jpg"
-    },
-    {
-      "title": "Эстебан Окон прокомментировал контракт Камары с Haas",
-      "url": "https://www.f1news.ru/news/f1-191923.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T18:50:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ocon/191923.jpg"
-    },
-    {
-      "title": "Колапинто: Оскорбления в соцсетях перешли все границы",
-      "url": "https://www.f1news.ru/news/f1-191922.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T18:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/colapinto/191922.jpg"
-    },
-    {
-      "title": "Компания Renault продала базу в Вири",
-      "url": "https://www.f1news.ru/news/f1-191921.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T17:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/meo/177748.jpg"
-    },
-    {
-      "title": "Кроуфорд заменит Стролла на тренировке в Мехико",
-      "url": "https://www.f1news.ru/news/f1-191920.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T16:55:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/crawford/191920.jpg"
-    },
-    {
-      "title": "В декабре откроется база по производству моторов Cadillac",
-      "url": "https://www.f1news.ru/news/f1-191919.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T16:48:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/cadillacf1/191919.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/6zoDgL70/s6/carlos-sainz-williams-2.jpg"
     },
     {
       "title": "When Cadillac will open its F1 engine factory",
@@ -116,25 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-22T16:00:02+00:00",
       "category": "tech",
-      "image": "https://cdn-9.motorsport.com/images/amp/27NolvK0/s6/sergio-perez-cadillac-racing-2.jpg"
-    },
-    {
-      "title": "Фредди Слейтер дебютирует в Формуле 1 на этапе в Мехико",
-      "url": "https://www.f1news.ru/news/f1-191917.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T15:28:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/mcnish/191917.jpg"
-    },
-    {
-      "title": "В Сан-Паулу представили победный кубок",
-      "url": "https://www.f1news.ru/news/f1-191916.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T15:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191916.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/27NolvK0/s6/sergio-perez-cadillac-racing-2.jpg"
     },
     {
       "title": "Slater set for F1 practice debut with Audi in Mexico",
@@ -144,60 +198,6 @@
       "publishedAt": "2026-10-22T15:02:14+00:00",
       "category": "racing",
       "image": "https://cdn-3.motorsport.com/images/amp/6VyKAZVY/s6/freddie-slater-audi.jpg"
-    },
-    {
-      "title": "В Германии премьера нового фильма о Себастьяне Феттеле",
-      "url": "https://www.f1news.ru/news/f1-191915.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T14:48:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191915.jpg"
-    },
-    {
-      "title": "Хорнер: Марко опасался перехода Хэмилтона в Red Bull",
-      "url": "https://www.f1news.ru/news/f1-191914.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T14:46:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/horner/191914.jpg"
-    },
-    {
-      "title": "В Alpine объявили о начале сотрудничества с Adobe",
-      "url": "https://www.f1news.ru/news/f1-191913.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T14:14:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alpinef1team/191913.jpg"
-    },
-    {
-      "title": "MotoGP \"can’t just copy\" F1’s Drive to Survive success – Chase Carey",
-      "url": "https://www.autosport.com/motogp/news/motogp-cant-simply-copy-f1s-drive-to-survive-success-chase-carey/10866969/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-22T12:11:51+00:00",
-      "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/6DGgmVKY/s6/liz-claman-and-chase-carey.jpg"
-    },
-    {
-      "title": "Horner reveals Red Bull call to thank him for F1 engine project after maiden win",
-      "url": "https://www.autosport.com/f1/news/red-bull-called-christian-horner-to-thank-him-for-f1-engine-project-after-maiden-win/10866939/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-22T11:04:27+00:00",
-      "category": "tech",
-      "image": "https://cdn-8.motorsport.com/images/amp/6grQdMbY/s6/errol-barnett-and-christian-ho-3.jpg"
-    },
-    {
-      "title": "FIA set to close F1 cost cap loophole with new rules",
-      "url": "https://www.autosport.com/f1/news/fia-set-to-close-f1-cost-cap-loophole/10866649/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-21T08:52:58+00:00",
-      "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/6AErNjN6/s6/f1-and-fia-logo-2.jpg"
     }
   ]
 }
