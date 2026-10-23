@@ -1,6 +1,69 @@
 {
-  "updatedAt": "2026-10-23T19:58:24.821236+00:00",
+  "updatedAt": "2026-10-23T23:12:22.459496+00:00",
   "articles": [
+    {
+      "title": "Ландо Норрис: Пока есть вопросы к управляемости",
+      "url": "https://www.f1news.ru/news/f1-191965.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T23:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/191965.jpg"
+    },
+    {
+      "title": "McLaren's aims for its final F1 2026 upgrades amid decline in form",
+      "url": "https://www.autosport.com/f1/news/mclarens-aims-for-final-f1-2026-upgrades/10867609/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-23T23:04:52+00:00",
+      "category": "tech",
+      "image": "https://cdn-8.motorsport.com/images/amp/0arEdGM2/s6/lando-norris-mclaren-2.jpg"
+    },
+    {
+      "title": "Ньюи: Мы с Кристианом Хорнером остаёмся друзьями",
+      "url": "https://www.f1news.ru/interview/newey/191964.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T22:32:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/newey/191964.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При США, пятница",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2310/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T22:15:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "F1 United States GP: Leclerc pips Antonelli to top FP2 while McLaren struggles",
+      "url": "https://www.autosport.com/f1/news/f1-united-states-gp-leclerc-pips-antonelli/10867584/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-23T22:10:00+00:00",
+      "category": "racing",
+      "image": "https://cdn-3.motorsport.com/images/amp/6zoDqZk0/s6/charles-leclerc-ferrari-2.jpg"
+    },
+    {
+      "title": "Шарль Леклер лидирует во второй тренировке",
+      "url": "https://www.f1news.ru/Championship/2026/usa/friday-free.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T22:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/184519.jpg"
+    },
+    {
+      "title": "The reasons behind Ferrari's US GP upgrades",
+      "url": "https://www.autosport.com/f1/news/the-reasons-behind-ferraris-us-gp-upgrades/10867545/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-23T20:05:02+00:00",
+      "category": "tech",
+      "image": "https://cdn-5.motorsport.com/images/amp/2y7Q4ag6/s6/ferrari-floor-detail-2.jpg"
+    },
     {
       "title": "Будковски: Важнее всего правильно расставлять приоритеты",
       "url": "https://www.f1news.ru/news/f1-191962.html",
@@ -9,15 +72,6 @@
       "publishedAt": "2026-10-23T19:54:00+00:00",
       "category": "teams",
       "image": "https://c.f1news.ru/userfiles/budkowski/191962.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При США, пятница",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2310/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T18:58:00+00:00",
-      "category": "racing",
-      "image": ""
     },
     {
       "title": "Трое гонщиков потеряют позиции на старте в Остине",
@@ -35,25 +89,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T18:40:35+00:00",
       "category": "tech",
-      "image": "https://cdn-6.motorsport.com/images/amp/2jEAvOg0/s6/charles-leclerc-ferrari-2.jpg"
-    },
-    {
-      "title": "23:55 МСК: Прямая трансляция свободных заездов",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T18:36:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-171.jpg"
-    },
-    {
-      "title": "Шарль Леклер быстрее всех в первой тренировке",
-      "url": "https://www.f1news.ru/Championship/2026/usa/friday-free.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T18:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191959.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/2jEAvOg0/s6/charles-leclerc-ferrari-2.jpg"
     },
     {
       "title": "Технические новинки, представленные командами в Остине",
@@ -143,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T09:39:18+00:00",
       "category": "tech",
-      "image": "https://cdn-4.motorsport.com/images/amp/0L19edW2/s6/aerial-view-of-the-renault-fac-3.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/0L19edW2/s6/aerial-view-of-the-renault-fac-3.jpg"
     },
     {
       "title": "\"It's pretty bad\" – Why Norris needs headache tablets for bumpy Austin circuit",
@@ -152,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T09:17:33+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
     },
     {
       "title": "В Остине ждут рекордную прибыль от Гран При",
@@ -162,42 +198,6 @@
       "publishedAt": "2026-10-23T09:08:00+00:00",
       "category": "racing",
       "image": "https://c.f1news.ru/userfiles/191948.jpg"
-    },
-    {
-      "title": "Алонсо: «Дакар» – прямая противоположность Формуле 1",
-      "url": "https://www.f1news.ru/news/f1-191947.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T08:42:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/191947.jpg"
-    },
-    {
-      "title": "Why it's now Bearman versus Camara for the next Ferrari vacancy",
-      "url": "https://www.autosport.com/f1/news/why-its-now-bearman-versus-camara-for-the-next-ferrari-vacancy/10867288/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-23T07:48:41+00:00",
-      "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/25dLQGn0/s6/oliver-bearman-haas-f1-team-2.jpg"
-    },
-    {
-      "title": "How Antonelli will manage the pressure as F1 coronation looms",
-      "url": "https://www.autosport.com/f1/news/how-antonelli-will-manage-the-pressure-as-f1-coronation-looms/10867178/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-22T22:20:25+00:00",
-      "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/6grQoqmY/s6/andrea-kimi-antonelli-mercedes.jpg"
-    },
-    {
-      "title": "Verstappen warns COTA bumps are “unacceptable” and “out of control”",
-      "url": "https://www.autosport.com/f1/news/verstappen-warns-cota-bumps-are-unacceptable/10867175/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-22T22:04:03+00:00",
-      "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/6zQG5BkY/s6/max-verstappen-red-bull-racing-2.jpg"
     }
   ]
 }
