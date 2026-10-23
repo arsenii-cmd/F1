@@ -1,14 +1,104 @@
 {
-  "updatedAt": "2026-10-23T13:32:00.317300+00:00",
+  "updatedAt": "2026-10-23T19:58:24.821236+00:00",
   "articles": [
     {
-      "title": "20:25 МСК: Прямая трансляция свободных заездов",
+      "title": "Будковски: Важнее всего правильно расставлять приоритеты",
+      "url": "https://www.f1news.ru/news/f1-191962.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T19:54:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/budkowski/191962.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При США, пятница",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2310/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T18:58:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "Трое гонщиков потеряют позиции на старте в Остине",
+      "url": "https://www.f1news.ru/news/f1-191960.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T18:49:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/191960.jpg"
+    },
+    {
+      "title": "F1 United States GP: Leclerc beats Verstappen to top FP1 in upgraded Ferrari",
+      "url": "https://www.autosport.com/f1/news/f1-united-states-gp-leclerc-beats-verstappen-to-top-fp1/10867509/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-23T18:40:35+00:00",
+      "category": "tech",
+      "image": "https://cdn-6.motorsport.com/images/amp/2jEAvOg0/s6/charles-leclerc-ferrari-2.jpg"
+    },
+    {
+      "title": "23:55 МСК: Прямая трансляция свободных заездов",
       "url": "https://www.f1news.ru/news/f1-119347.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-23T12:30:00+00:00",
+      "publishedAt": "2026-10-23T18:36:00+00:00",
       "category": "racing",
       "image": "https://c.f1news.ru/userfiles/119347-171.jpg"
+    },
+    {
+      "title": "Шарль Леклер быстрее всех в первой тренировке",
+      "url": "https://www.f1news.ru/Championship/2026/usa/friday-free.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T18:34:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191959.jpg"
+    },
+    {
+      "title": "Технические новинки, представленные командами в Остине",
+      "url": "https://www.f1news.ru/tech/191957.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T16:51:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/191957.jpg"
+    },
+    {
+      "title": "Гран При США: Элементы силовых установок",
+      "url": "https://www.f1news.ru/news/f1-191956.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T15:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/fia/190564.jpg"
+    },
+    {
+      "title": "Tenex – новый партнёр Haas в области кибербезопасности",
+      "url": "https://www.f1news.ru/news/f1-191955.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T14:55:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/komatsu/191955.jpg"
+    },
+    {
+      "title": "Официально: Барселона примет этап IndyCar в 2027-м",
+      "url": "https://www.f1news.ru/news/autosport-191954.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T14:31:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/191954.jpg"
+    },
+    {
+      "title": "Норрис: Нам по-прежнему разрешают бороться",
+      "url": "https://www.f1news.ru/news/f1-191952.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T13:35:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/191952.jpg"
     },
     {
       "title": "В FIA рассчитывают снизить вес машин на 80 кг",
@@ -53,7 +143,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T09:39:18+00:00",
       "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/0L19edW2/s6/aerial-view-of-the-renault-fac-3.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0L19edW2/s6/aerial-view-of-the-renault-fac-3.jpg"
     },
     {
       "title": "\"It's pretty bad\" – Why Norris needs headache tablets for bumpy Austin circuit",
@@ -62,7 +152,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T09:17:33+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
     },
     {
       "title": "В Остине ждут рекордную прибыль от Гран При",
@@ -83,85 +173,13 @@
       "image": "https://c.f1news.ru/userfiles/alonso/191947.jpg"
     },
     {
-      "title": "Хэмилтон: Африка заслуживает своего Гран При",
-      "url": "https://www.f1news.ru/news/f1-191946.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T08:01:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191946.jpg"
-    },
-    {
       "title": "Why it's now Bearman versus Camara for the next Ferrari vacancy",
       "url": "https://www.autosport.com/f1/news/why-its-now-bearman-versus-camara-for-the-next-ferrari-vacancy/10867288/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-23T07:48:41+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/25dLQGn0/s6/oliver-bearman-haas-f1-team-2.jpg"
-    },
-    {
-      "title": "Сайнсу пришлось извиниться…",
-      "url": "https://www.f1news.ru/news/f1-191945.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T07:28:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sainz-junior/191945.jpg"
-    },
-    {
-      "title": "Перес: Без Карлоса Слима меня бы здесь не было",
-      "url": "https://www.f1news.ru/news/f1-191944.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T07:09:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/perez/191944.jpg"
-    },
-    {
-      "title": "Арвид Линдблад: Я жду просто нормального уик-энда",
-      "url": "https://www.f1news.ru/news/f1-191942.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T23:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/191942.jpg"
-    },
-    {
-      "title": "Лоусон: Надеюсь, машина способна на хорошую скорость",
-      "url": "https://www.f1news.ru/news/f1-191943.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T22:55:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/191943.jpg"
-    },
-    {
-      "title": "Алекс Элбон: Трасса COTA не подходит нашей машине",
-      "url": "https://www.f1news.ru/news/f1-191941.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T22:42:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/albon_1/191941.jpg"
-    },
-    {
-      "title": "Норрис: Верю, мы сможем выиграть ещё одну гонку",
-      "url": "https://www.f1news.ru/news/f1-191940.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T22:35:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/norris/191940.jpg"
-    },
-    {
-      "title": "Ферстаппен: Стараемся не слишком предаваться мечтаниям",
-      "url": "https://www.f1news.ru/news/f1-191939.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T22:31:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191939.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/25dLQGn0/s6/oliver-bearman-haas-f1-team-2.jpg"
     },
     {
       "title": "How Antonelli will manage the pressure as F1 coronation looms",
@@ -170,16 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-22T22:20:25+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/6grQoqmY/s6/andrea-kimi-antonelli-mercedes.jpg"
-    },
-    {
-      "title": "Расселл: Этот сезон стал испытанием для моего характера",
-      "url": "https://www.f1news.ru/news/f1-191938.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-22T22:14:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/russell/191938.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/6grQoqmY/s6/andrea-kimi-antonelli-mercedes.jpg"
     },
     {
       "title": "Verstappen warns COTA bumps are “unacceptable” and “out of control”",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-22T22:04:03+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/6zQG5BkY/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Why Colapinto spoke out against abuse targeting his own F1 team",
-      "url": "https://www.autosport.com/f1/news/why-colapinto-spoke-out-against-online-abuse/10867150/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-22T20:44:09+00:00",
-      "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/YP74eaj2/s6/franco-colapinto-alpine-3.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/6zQG5BkY/s6/max-verstappen-red-bull-racing-2.jpg"
     }
   ]
 }
