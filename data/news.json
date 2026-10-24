@@ -1,6 +1,114 @@
 {
-  "updatedAt": "2026-10-23T23:12:22.459496+00:00",
+  "updatedAt": "2026-10-24T04:44:42.611754+00:00",
   "articles": [
+    {
+      "title": "20:25 МСК: Прямая трансляция свободных заездов",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T03:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-171.jpg"
+    },
+    {
+      "title": "Лоусон: Посмотрим, какая деградация будет в субботу",
+      "url": "https://www.f1news.ru/news/f1-191976.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T01:10:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/191976.jpg"
+    },
+    {
+      "title": "Леклер: Новинки сработали так, как мы ожидали",
+      "url": "https://www.f1news.ru/news/f1-191975.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T00:58:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191975.jpg"
+    },
+    {
+      "title": "Ферстаппен: Кочки ещё больше усложняют задачу в Остине",
+      "url": "https://www.f1news.ru/news/f1-191974.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T00:39:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/191974.jpg"
+    },
+    {
+      "title": "Пьер Гасли: Мы знаем, в чём нужно прибавить",
+      "url": "https://www.f1news.ru/news/f1-191973.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T00:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/191973.jpg"
+    },
+    {
+      "title": "Карлос Сайнс: Мы знали, что в Остине будет непросто",
+      "url": "https://www.f1news.ru/news/f1-191972.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T00:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/191972.jpg"
+    },
+    {
+      "title": "Колтон Херта: Мы движемся в верном направлении",
+      "url": "https://www.f1news.ru/news/f1-191971.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T00:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/191971.jpg"
+    },
+    {
+      "title": "В Audi экспериментировали с настройками",
+      "url": "https://www.f1news.ru/news/f1-191970.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T00:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/191970.jpg"
+    },
+    {
+      "title": "Антонелли: Нужно прибавить, чтобы побороться за победу",
+      "url": "https://www.f1news.ru/news/f1-191969.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T23:54:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/191969.jpg"
+    },
+    {
+      "title": "Pirelli: Важно найти компромисс в настройках",
+      "url": "https://www.f1news.ru/news/f1-191968.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T23:52:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/pirelli/191968.jpg"
+    },
+    {
+      "title": "Оливер Берман: Я настроен оптимистично!",
+      "url": "https://www.f1news.ru/news/f1-191967.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T23:32:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/191967.jpg"
+    },
+    {
+      "title": "Стролл: В Остине мы выглядим лучше, чем в Сингапуре",
+      "url": "https://www.f1news.ru/news/f1-191966.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-23T23:22:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/stroll/191966.jpg"
+    },
     {
       "title": "Ландо Норрис: Пока есть вопросы к управляемости",
       "url": "https://www.f1news.ru/news/f1-191965.html",
@@ -17,7 +125,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T23:04:52+00:00",
       "category": "tech",
-      "image": "https://cdn-8.motorsport.com/images/amp/0arEdGM2/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/0arEdGM2/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "Ньюи: Мы с Кристианом Хорнером остаёмся друзьями",
@@ -44,7 +152,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T22:10:00+00:00",
       "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/6zoDqZk0/s6/charles-leclerc-ferrari-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/6zoDqZk0/s6/charles-leclerc-ferrari-2.jpg"
     },
     {
       "title": "Шарль Леклер лидирует во второй тренировке",
@@ -62,25 +170,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T20:05:02+00:00",
       "category": "tech",
-      "image": "https://cdn-5.motorsport.com/images/amp/2y7Q4ag6/s6/ferrari-floor-detail-2.jpg"
-    },
-    {
-      "title": "Будковски: Важнее всего правильно расставлять приоритеты",
-      "url": "https://www.f1news.ru/news/f1-191962.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T19:54:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/budkowski/191962.jpg"
-    },
-    {
-      "title": "Трое гонщиков потеряют позиции на старте в Остине",
-      "url": "https://www.f1news.ru/news/f1-191960.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T18:49:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/191960.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/2y7Q4ag6/s6/ferrari-floor-detail-2.jpg"
     },
     {
       "title": "F1 United States GP: Leclerc beats Verstappen to top FP1 in upgraded Ferrari",
@@ -89,88 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T18:40:35+00:00",
       "category": "tech",
-      "image": "https://cdn-5.motorsport.com/images/amp/2jEAvOg0/s6/charles-leclerc-ferrari-2.jpg"
-    },
-    {
-      "title": "Технические новинки, представленные командами в Остине",
-      "url": "https://www.f1news.ru/tech/191957.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T16:51:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/191957.jpg"
-    },
-    {
-      "title": "Гран При США: Элементы силовых установок",
-      "url": "https://www.f1news.ru/news/f1-191956.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T15:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/190564.jpg"
-    },
-    {
-      "title": "Tenex – новый партнёр Haas в области кибербезопасности",
-      "url": "https://www.f1news.ru/news/f1-191955.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T14:55:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/komatsu/191955.jpg"
-    },
-    {
-      "title": "Официально: Барселона примет этап IndyCar в 2027-м",
-      "url": "https://www.f1news.ru/news/autosport-191954.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T14:31:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191954.jpg"
-    },
-    {
-      "title": "Норрис: Нам по-прежнему разрешают бороться",
-      "url": "https://www.f1news.ru/news/f1-191952.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T13:35:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/191952.jpg"
-    },
-    {
-      "title": "В FIA рассчитывают снизить вес машин на 80 кг",
-      "url": "https://www.f1news.ru/tech/191953.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T12:08:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/tombazis/191953.jpg"
-    },
-    {
-      "title": "Расселл: Асфальт на трассах нужно менять раз в пару лет",
-      "url": "https://www.f1news.ru/news/f1-191949.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T11:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/191949.jpg"
-    },
-    {
-      "title": "Риккардо приехал в Остин – и побывал на концерте Лоусона",
-      "url": "https://www.f1news.ru/news/f1-191950.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T10:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ricciardo/191950.jpg"
-    },
-    {
-      "title": "Ваулз: На базе в Гроуве все занимаются машиной 2027 года",
-      "url": "https://www.f1news.ru/news/f1-191951.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T09:49:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/vowles/191951.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/2jEAvOg0/s6/charles-leclerc-ferrari-2.jpg"
     },
     {
       "title": "Renault to sell former F1 engine facility in Viry",
@@ -179,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T09:39:18+00:00",
       "category": "tech",
-      "image": "https://cdn-5.motorsport.com/images/amp/0L19edW2/s6/aerial-view-of-the-renault-fac-3.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/0L19edW2/s6/aerial-view-of-the-renault-fac-3.jpg"
     },
     {
       "title": "\"It's pretty bad\" – Why Norris needs headache tablets for bumpy Austin circuit",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T09:17:33+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
-    },
-    {
-      "title": "В Остине ждут рекордную прибыль от Гран При",
-      "url": "https://www.f1news.ru/news/f1-191948.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T09:08:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191948.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
     }
   ]
 }
