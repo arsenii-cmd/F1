@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-10-24T04:44:42.611754+00:00",
+  "updatedAt": "2026-10-24T12:44:18.474692+00:00",
   "articles": [
+    {
+      "title": "Макниш: Сотрудники видят, что у команды есть цель",
+      "url": "https://www.f1news.ru/interview/mcnish/191982.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T12:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/mcnish/191982.jpg"
+    },
+    {
+      "title": "IndyCar: Палоу зовёт Алонсо выступить в гонке в Барселоне",
+      "url": "https://www.f1news.ru/news/autosport-191981.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T11:32:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/alonso/191981.jpg"
+    },
+    {
+      "title": "Марко считает, что Racing Bulls нужно выбрать Цолова",
+      "url": "https://www.f1news.ru/news/f1-191980.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T11:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lawson_1/191980.jpg"
+    },
+    {
+      "title": "Вассёр: Разница в скорости очень невелика",
+      "url": "https://www.f1news.ru/news/f1-191979.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T10:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vasseur/191979.jpg"
+    },
+    {
+      "title": "Будковски отказался говорить о составе Cadillac в 2027 году",
+      "url": "https://www.f1news.ru/news/f1-191978.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T09:57:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/herta/191978.jpg"
+    },
+    {
+      "title": "The unexpected issue Honda faced with upgraded F1 power unit",
+      "url": "https://www.autosport.com/f1/news/the-unexpected-issue-honda-faced-with-upgraded-f1-power-unit/10867646/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-24T09:30:02+00:00",
+      "category": "tech",
+      "image": "https://cdn-7.motorsport.com/images/amp/24QGlpeY/s6/fernando-alonso-aston-martin-r-2.jpg"
+    },
+    {
+      "title": "Брэдли Лорд: В гонке борьба будет плотной",
+      "url": "https://www.f1news.ru/news/f1-191977.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T08:35:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/mercedes/191977.jpg"
+    },
+    {
+      "title": "Red Bull identifies two \"key focus\" areas after Max Verstappen's promising start in Austin",
+      "url": "https://www.autosport.com/f1/news/red-bull-identifies-two-key-focus-areas-after-max-verstappens-promising-start-in-austin/10867770/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-24T08:12:42+00:00",
+      "category": "teams",
+      "image": "https://cdn-8.motorsport.com/images/amp/6n7bdem0/s6/max-verstappen-red-bull-racing.jpg"
+    },
     {
       "title": "20:25 МСК: Прямая трансляция свободных заездов",
       "url": "https://www.f1news.ru/news/f1-119347.html",
@@ -92,58 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/pirelli/191968.jpg"
     },
     {
-      "title": "Оливер Берман: Я настроен оптимистично!",
-      "url": "https://www.f1news.ru/news/f1-191967.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T23:32:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/191967.jpg"
-    },
-    {
-      "title": "Стролл: В Остине мы выглядим лучше, чем в Сингапуре",
-      "url": "https://www.f1news.ru/news/f1-191966.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T23:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stroll/191966.jpg"
-    },
-    {
-      "title": "Ландо Норрис: Пока есть вопросы к управляемости",
-      "url": "https://www.f1news.ru/news/f1-191965.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T23:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/191965.jpg"
-    },
-    {
       "title": "McLaren's aims for its final F1 2026 upgrades amid decline in form",
       "url": "https://www.autosport.com/f1/news/mclarens-aims-for-final-f1-2026-upgrades/10867609/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-23T23:04:52+00:00",
       "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/0arEdGM2/s6/lando-norris-mclaren-2.jpg"
-    },
-    {
-      "title": "Ньюи: Мы с Кристианом Хорнером остаёмся друзьями",
-      "url": "https://www.f1news.ru/interview/newey/191964.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T22:32:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/newey/191964.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При США, пятница",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2310/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T22:15:00+00:00",
-      "category": "racing",
-      "image": ""
+      "image": "https://cdn-4.motorsport.com/images/amp/0arEdGM2/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "F1 United States GP: Leclerc pips Antonelli to top FP2 while McLaren struggles",
@@ -152,16 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T22:10:00+00:00",
       "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/6zoDqZk0/s6/charles-leclerc-ferrari-2.jpg"
-    },
-    {
-      "title": "Шарль Леклер лидирует во второй тренировке",
-      "url": "https://www.f1news.ru/Championship/2026/usa/friday-free.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-23T22:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/184519.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/6zoDqZk0/s6/charles-leclerc-ferrari-2.jpg"
     },
     {
       "title": "The reasons behind Ferrari's US GP upgrades",
@@ -170,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T20:05:02+00:00",
       "category": "tech",
-      "image": "https://cdn-6.motorsport.com/images/amp/2y7Q4ag6/s6/ferrari-floor-detail-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/2y7Q4ag6/s6/ferrari-floor-detail-2.jpg"
     },
     {
       "title": "F1 United States GP: Leclerc beats Verstappen to top FP1 in upgraded Ferrari",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T18:40:35+00:00",
       "category": "tech",
-      "image": "https://cdn-2.motorsport.com/images/amp/2jEAvOg0/s6/charles-leclerc-ferrari-2.jpg"
-    },
-    {
-      "title": "Renault to sell former F1 engine facility in Viry",
-      "url": "https://www.autosport.com/f1/news/renault-to-sell-former-f1-engine-facility-in-viry/10867332/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-23T09:39:18+00:00",
-      "category": "tech",
-      "image": "https://cdn-8.motorsport.com/images/amp/0L19edW2/s6/aerial-view-of-the-renault-fac-3.jpg"
-    },
-    {
-      "title": "\"It's pretty bad\" – Why Norris needs headache tablets for bumpy Austin circuit",
-      "url": "https://www.autosport.com/f1/news/its-pretty-bad-why-norris-needs-headache-tablets-for-bumpy-austin-circuit/10867192/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-23T09:17:33+00:00",
-      "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/YE9ENP1Y/s6/lando-norris-mclaren.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/2jEAvOg0/s6/charles-leclerc-ferrari-2.jpg"
     }
   ]
 }
