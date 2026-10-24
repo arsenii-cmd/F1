@@ -1,6 +1,69 @@
 {
-  "updatedAt": "2026-10-24T18:49:52.547110+00:00",
+  "updatedAt": "2026-10-24T22:32:16.044550+00:00",
   "articles": [
+    {
+      "title": "Гран При США: Поул у Антонелли",
+      "url": "https://www.f1news.ru/Championship/2026/usa/qual.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T22:16:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184521.jpg"
+    },
+    {
+      "title": "F1 United States GP: Antonelli beats Verstappen to pole with Russell only sixth",
+      "url": "https://www.autosport.com/f1/news/f1-united-states-gp-antonelli-beats-verstappen-to-pole/10867984/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-24T22:15:50+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/Y9lN4oX2/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+    },
+    {
+      "title": "Хюлкенберг не наказан, Хаджар и Бортолето предупреждены",
+      "url": "https://www.f1news.ru/news/f1-191993.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T21:36:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/191993.jpg"
+    },
+    {
+      "title": "Бортолето вновь заменили узлы силовой установки",
+      "url": "https://www.f1news.ru/news/f1-191992.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T20:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/colapinto/191992.jpg"
+    },
+    {
+      "title": "Может ли в Cadillac полностью смениться состав?",
+      "url": "https://www.f1news.ru/news/f1-191991.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T20:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/191991.jpg"
+    },
+    {
+      "title": "Гонщики Audi и Хаджар вызваны к стюардам",
+      "url": "https://www.f1news.ru/news/f1-191989.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T19:23:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/191989.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При США, суббота",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2410/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T18:52:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
     {
       "title": "F1 United States GP: Ferrari completes perfect practice record as Hamilton tops FP3",
       "url": "https://www.autosport.com/f1/news/f1-united-states-gp-hamilton-tops-fp3/10867933/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -8,16 +71,7 @@
       "language": "en",
       "publishedAt": "2026-10-24T18:42:14+00:00",
       "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/6lmA3bD0/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "23:55 МСК: Прямая трансляция квалификации",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T18:36:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-171.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/6lmA3bD0/s6/lewis-hamilton-ferrari-2.jpg"
     },
     {
       "title": "Хэмилтон быстрее всех в третьей тренировке",
@@ -71,7 +125,7 @@
       "language": "en",
       "publishedAt": "2026-10-24T13:00:02+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/Y9lNWzL2/s6/valtteri-bottas-cadillac-racin-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/Y9lNWzL2/s6/valtteri-bottas-cadillac-racin-2.jpg"
     },
     {
       "title": "Макниш: Сотрудники видят, что у команды есть цель",
@@ -128,58 +182,13 @@
       "image": "https://cdn-1.motorsport.com/images/amp/24QGlpeY/s6/fernando-alonso-aston-martin-r-2.jpg"
     },
     {
-      "title": "Брэдли Лорд: В гонке борьба будет плотной",
-      "url": "https://www.f1news.ru/news/f1-191977.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T08:35:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/mercedes/191977.jpg"
-    },
-    {
       "title": "Verstappen enjoys promising start to US GP - but Red Bull pinpoints areas of improvement",
       "url": "https://www.autosport.com/f1/news/red-bull-pinpoints-areas-of-improvement-at-us-gp/10867770/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-24T08:12:42+00:00",
       "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/YE9EmkPY/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Лоусон: Посмотрим, какая деградация будет в субботу",
-      "url": "https://www.f1news.ru/news/f1-191976.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T01:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/191976.jpg"
-    },
-    {
-      "title": "Леклер: Новинки сработали так, как мы ожидали",
-      "url": "https://www.f1news.ru/news/f1-191975.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T00:58:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191975.jpg"
-    },
-    {
-      "title": "Ферстаппен: Кочки ещё больше усложняют задачу в Остине",
-      "url": "https://www.f1news.ru/news/f1-191974.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T00:39:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/191974.jpg"
-    },
-    {
-      "title": "Пьер Гасли: Мы знаем, в чём нужно прибавить",
-      "url": "https://www.f1news.ru/news/f1-191973.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T00:38:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/191973.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YE9EmkPY/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "McLaren's aims for its final F1 2026 upgrades amid decline in form",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-23T23:04:52+00:00",
       "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/0arEdGM2/s6/lando-norris-mclaren-2.jpg"
-    },
-    {
-      "title": "F1 United States GP: Leclerc pips Antonelli to top FP2 while McLaren struggles",
-      "url": "https://www.autosport.com/f1/news/f1-united-states-gp-leclerc-pips-antonelli/10867584/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-23T22:10:00+00:00",
-      "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/6zoDqZk0/s6/charles-leclerc-ferrari-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0arEdGM2/s6/lando-norris-mclaren-2.jpg"
     }
   ]
 }
