@@ -1,6 +1,150 @@
 {
-  "updatedAt": "2026-10-24T22:32:16.044550+00:00",
+  "updatedAt": "2026-10-25T04:51:27.071859+00:00",
   "articles": [
+    {
+      "title": "Гасли: Результат отражает наш уровень в этот уик-энд",
+      "url": "https://www.f1news.ru/news/f1-192007.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T00:40:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/192007.jpg"
+    },
+    {
+      "title": "Джеймс Ваулз: Мы расстроены, что так много проиграли",
+      "url": "https://www.f1news.ru/news/f1-192006.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T00:17:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/192006.jpg"
+    },
+    {
+      "title": "Antonelli pole shows Mercedes is 'finally seeing the results' of car upgrades",
+      "url": "https://www.autosport.com/f1/news/antonelli-pole-shows-mercedes-is-seeing-results-of-car-upgrades/10868072/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-25T00:13:34+00:00",
+      "category": "tech",
+      "image": "https://cdn-5.motorsport.com/images/amp/01QNoJo0/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+    },
+    {
+      "title": "Норрис: Самая сложная в управлении машина в моей жизни",
+      "url": "https://www.f1news.ru/news/f1-192005.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T00:10:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/norris/192005.jpg"
+    },
+    {
+      "title": "В Pirelli ждут одного пит-стопа",
+      "url": "https://www.f1news.ru/news/f1-192004.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T00:08:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/pirelli/192004.jpg"
+    },
+    {
+      "title": "Leclerc and Hamilton's differing theories behind Ferrari's Austin qualifying disappointment",
+      "url": "https://www.autosport.com/f1/news/leclerc-and-hamilton-theories-on-ferrari-qualifying-performance/10868059/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-24T23:58:33+00:00",
+      "category": "racing",
+      "image": "https://cdn-7.motorsport.com/images/amp/27Noedo0/s6/charles-leclerc-ferrari-4.jpg"
+    },
+    {
+      "title": "Хюлкенберг: Гонка будет долгой и физически сложной",
+      "url": "https://www.f1news.ru/news/f1-192003.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T23:55:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192003.jpg"
+    },
+    {
+      "title": "Берман: Непонятно, насколько ты близок к границе трассы",
+      "url": "https://www.f1news.ru/news/f1-192002.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T23:41:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192002.jpg"
+    },
+    {
+      "title": "Перес: Мне не удалось выжать из машины максимум",
+      "url": "https://www.f1news.ru/news/f1-192001.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T23:34:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/bottas/192001.jpg"
+    },
+    {
+      "title": "Лоусон объяснил, почему не выезжал в финале…",
+      "url": "https://www.f1news.ru/news/f1-192000.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T23:27:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192000.jpg"
+    },
+    {
+      "title": "Norris frustrated after United States GP qualifying: \"I did a very bad job\"",
+      "url": "https://www.autosport.com/f1/news/norris-frustrated-after-united-states-gp-qualifying/10868036/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-24T23:26:49+00:00",
+      "category": "racing",
+      "image": "https://cdn-7.motorsport.com/images/amp/YN7vAja6/s6/lando-norris-mclaren-3.jpg"
+    },
+    {
+      "title": "Алонсо: В гонке придётся больше обороняться, чем атаковать",
+      "url": "https://www.f1news.ru/news/f1-191999.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T23:17:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/stroll/191999.jpg"
+    },
+    {
+      "title": "Леклер: Я уже побеждал в Остине с четвёртого места",
+      "url": "https://www.f1news.ru/news/f1-191997.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T23:01:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191997.jpg"
+    },
+    {
+      "title": "Ферстаппен: На кочке машина подпрыгнула как кенгуру",
+      "url": "https://www.f1news.ru/news/f1-191996.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T22:36:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/191996.jpg"
+    },
+    {
+      "title": "Антонелли: Теперь постараемся выиграть и гонку",
+      "url": "https://www.f1news.ru/news/f1-191995.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T22:35:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/antonelli/191995-1.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При США, суббота",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2410/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-24T22:30:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
     {
       "title": "Гран При США: Поул у Антонелли",
       "url": "https://www.f1news.ru/Championship/2026/usa/qual.shtml",
@@ -8,7 +152,7 @@
       "language": "ru",
       "publishedAt": "2026-10-24T22:16:00+00:00",
       "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184521.jpg"
+      "image": "https://c.f1news.ru/userfiles/184521-1.jpg"
     },
     {
       "title": "F1 United States GP: Antonelli beats Verstappen to pole with Russell only sixth",
@@ -17,7 +161,7 @@
       "language": "en",
       "publishedAt": "2026-10-24T22:15:50+00:00",
       "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/Y9lN4oX2/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/Y9lN4oX2/s6/andrea-kimi-antonelli-mercedes-3.jpg"
     },
     {
       "title": "Хюлкенберг не наказан, Хаджар и Бортолето предупреждены",
@@ -38,85 +182,13 @@
       "image": "https://c.f1news.ru/userfiles/colapinto/191992.jpg"
     },
     {
-      "title": "Может ли в Cadillac полностью смениться состав?",
-      "url": "https://www.f1news.ru/news/f1-191991.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T20:18:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/191991.jpg"
-    },
-    {
-      "title": "Гонщики Audi и Хаджар вызваны к стюардам",
-      "url": "https://www.f1news.ru/news/f1-191989.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T19:23:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/191989.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При США, суббота",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2410/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T18:52:00+00:00",
-      "category": "racing",
-      "image": ""
-    },
-    {
       "title": "F1 United States GP: Ferrari completes perfect practice record as Hamilton tops FP3",
       "url": "https://www.autosport.com/f1/news/f1-united-states-gp-hamilton-tops-fp3/10867933/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-24T18:42:14+00:00",
       "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/6lmA3bD0/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "Хэмилтон быстрее всех в третьей тренировке",
-      "url": "https://www.f1news.ru/Championship/2026/usa/saturday-free.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T18:35:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/184520.jpg"
-    },
-    {
-      "title": "Перед Гран При США сыграет американская группа Train",
-      "url": "https://www.f1news.ru/news/f1-191986.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T16:49:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/191986.jpg"
-    },
-    {
-      "title": "Бобби Эпстайн: Трасса сейчас в очень хорошем состоянии",
-      "url": "https://www.f1news.ru/news/f1-191985.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T15:42:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/191985.jpg"
-    },
-    {
-      "title": "Андретти: Я не из тех, кто говорит, что раньше было лучше",
-      "url": "https://www.f1news.ru/news/f1-191983.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T14:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/191983.jpg"
-    },
-    {
-      "title": "Монтойя: В Red Bull не станут ничего менять под Хаджара",
-      "url": "https://www.f1news.ru/news/f1-191984.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T13:21:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/191984.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/6lmA3bD0/s6/lewis-hamilton-ferrari-2.jpg"
     },
     {
       "title": "The intrigue caused by Cadillac's F1 boss dodging driver market question",
@@ -125,79 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-24T13:00:02+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/Y9lNWzL2/s6/valtteri-bottas-cadillac-racin-2.jpg"
-    },
-    {
-      "title": "Макниш: Сотрудники видят, что у команды есть цель",
-      "url": "https://www.f1news.ru/interview/mcnish/191982.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T12:15:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/mcnish/191982.jpg"
-    },
-    {
-      "title": "IndyCar: Палоу зовёт Алонсо выступить в гонке в Барселоне",
-      "url": "https://www.f1news.ru/news/autosport-191981.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T11:32:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/alonso/191981.jpg"
-    },
-    {
-      "title": "Марко считает, что Racing Bulls нужно выбрать Цолова",
-      "url": "https://www.f1news.ru/news/f1-191980.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T11:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/191980.jpg"
-    },
-    {
-      "title": "Вассёр: Разница в скорости очень невелика",
-      "url": "https://www.f1news.ru/news/f1-191979.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T10:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/vasseur/191979.jpg"
-    },
-    {
-      "title": "Будковски отказался говорить о составе Cadillac в 2027 году",
-      "url": "https://www.f1news.ru/news/f1-191978.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-24T09:57:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/herta/191978.jpg"
-    },
-    {
-      "title": "The unexpected issue Honda faced with upgraded F1 power unit",
-      "url": "https://www.autosport.com/f1/news/the-unexpected-issue-honda-faced-with-upgraded-f1-power-unit/10867646/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-24T09:30:02+00:00",
-      "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/24QGlpeY/s6/fernando-alonso-aston-martin-r-2.jpg"
-    },
-    {
-      "title": "Verstappen enjoys promising start to US GP - but Red Bull pinpoints areas of improvement",
-      "url": "https://www.autosport.com/f1/news/red-bull-pinpoints-areas-of-improvement-at-us-gp/10867770/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-24T08:12:42+00:00",
-      "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/YE9EmkPY/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "McLaren's aims for its final F1 2026 upgrades amid decline in form",
-      "url": "https://www.autosport.com/f1/news/mclarens-aims-for-final-f1-2026-upgrades/10867609/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-23T23:04:52+00:00",
-      "category": "tech",
-      "image": "https://cdn-4.motorsport.com/images/amp/0arEdGM2/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/Y9lNWzL2/s6/valtteri-bottas-cadillac-racin-2.jpg"
     }
   ]
 }
