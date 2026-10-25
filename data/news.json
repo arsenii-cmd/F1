@@ -1,6 +1,87 @@
 {
-  "updatedAt": "2026-10-25T19:05:59.180315+00:00",
+  "updatedAt": "2026-10-25T22:37:01.306203+00:00",
   "articles": [
+    {
+      "title": "The maths behind Antonelli becoming F1 world champion at Mexico GP",
+      "url": "https://www.autosport.com/f1/news/the-maths-behind-antonelli-becoming-f1-world-champion-at-mexico-gp/10868378/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-25T22:31:48+00:00",
+      "category": "racing",
+      "image": "https://cdn-6.motorsport.com/images/amp/YBVj4KvY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При США, воскресенье",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2510/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T22:25:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "Макс Ферстаппен: Наш темп оказался недостаточно хорош",
+      "url": "https://www.f1news.ru/news/f1-192034.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T22:16:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/192034.jpg"
+    },
+    {
+      "title": "Кими Антонелли: Именно такой результат нам и нужен!",
+      "url": "https://www.f1news.ru/news/f1-192033.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T22:14:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192033.jpg"
+    },
+    {
+      "title": "Леклер: До победы не хватило совсем немного",
+      "url": "https://www.f1news.ru/news/f1-192032.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T22:11:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/leclerc/192032.jpg"
+    },
+    {
+      "title": "Гран При США: Круг за кругом",
+      "url": "https://www.f1news.ru/Championship/2026/usa/laps.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T22:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184524-1.jpg"
+    },
+    {
+      "title": "F1 United States GP: Antonelli dominates from pole - but forced to wait for title",
+      "url": "https://www.autosport.com/f1/news/f1-united-states-gp-antonelli-wins/10868343/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-25T21:50:12+00:00",
+      "category": "racing",
+      "image": "https://cdn-4.motorsport.com/images/amp/27No4RE0/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+    },
+    {
+      "title": "Гран При США: Антонелли - Леклер - Ферстаппен",
+      "url": "https://www.f1news.ru/Championship/2026/usa/race.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T21:47:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184523-1.jpg"
+    },
+    {
+      "title": "50 минут до старта: Комментарий Ландо Норриса",
+      "url": "https://www.f1news.ru/news/f1-192030.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-25T19:10:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/187714.jpg"
+    },
     {
       "title": "60 минут до старта: Комментарий Джорджа Расселла",
       "url": "https://www.f1news.ru/news/f1-192029.html",
@@ -74,15 +155,6 @@
       "image": "https://c.f1news.ru/userfiles/redbullracing/192022.jpg"
     },
     {
-      "title": "Фотогалерея: Гран При США, воскресенье",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2510/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T17:30:00+00:00",
-      "category": "racing",
-      "image": ""
-    },
-    {
       "title": "Гран При США: Стартовое поле",
       "url": "https://www.f1news.ru/Championship/2026/usa/grid.shtml",
       "source": "F1News",
@@ -92,67 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/184522.jpg"
     },
     {
-      "title": "Лэнс Стролл стартует с пит-лейн в Остине",
-      "url": "https://www.f1news.ru/news/f1-192020.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T16:40:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stroll/192020.jpg"
-    },
-    {
-      "title": "22:50 МСК: Прямая трансляция гонки",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T16:15:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-171.jpg"
-    },
-    {
-      "title": "Алонсо: На трассе в Остине у нас несколько меньше проблем",
-      "url": "https://www.f1news.ru/news/f1-192019.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T15:54:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/192019.jpg"
-    },
-    {
-      "title": "Дакар: В 2027 году ралли-рейд пройдёт в другой стране",
-      "url": "https://www.f1news.ru/news/autosport-192018.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T14:46:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192018.jpg"
-    },
-    {
-      "title": "Формула 1 показала Кубок для победителя Гран При",
-      "url": "https://www.f1news.ru/news/f1-192017.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T14:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192017.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен ответил Бобби Эпстайну",
-      "url": "https://www.f1news.ru/news/f1-192015.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T13:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192015.jpg"
-    },
-    {
       "title": "Inside COTA's Turn 1 clubhouse and its plans to build a second track",
       "url": "https://www.autosport.com/f1/news/inside-cotas-turn-1-clubhouse-and-its-plans-to-build-a-second-track/10868244/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-25T13:15:54+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/2QedgGJ2/s6/alexander-albon-williams-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/2QedgGJ2/s6/alexander-albon-williams-2.jpg"
     },
     {
       "title": "Red Bull no longer falls away on difficult days: What Austin qualifying reveals about its progress",
@@ -161,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-25T11:59:20+00:00",
       "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/0JXRAZpY/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/0JXRAZpY/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "Verstappen responds to COTA boss and proposes drastic measures to tackle bumps",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-25T00:13:34+00:00",
       "category": "tech",
-      "image": "https://cdn-8.motorsport.com/images/amp/01QNoJo0/s6/andrea-kimi-antonelli-mercedes-3.jpg"
-    },
-    {
-      "title": "Leclerc and Hamilton's differing theories behind Ferrari's Austin qualifying disappointment",
-      "url": "https://www.autosport.com/f1/news/leclerc-and-hamilton-theories-on-ferrari-qualifying-performance/10868059/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-24T23:58:33+00:00",
-      "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/27Noedo0/s6/charles-leclerc-ferrari-4.jpg"
-    },
-    {
-      "title": "Norris frustrated after United States GP qualifying: \"I did a very bad job\"",
-      "url": "https://www.autosport.com/f1/news/norris-frustrated-after-united-states-gp-qualifying/10868036/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-24T23:26:49+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/YN7vAja6/s6/lando-norris-mclaren-3.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/01QNoJo0/s6/andrea-kimi-antonelli-mercedes-3.jpg"
     }
   ]
 }
