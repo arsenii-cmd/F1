@@ -1,6 +1,132 @@
 {
-  "updatedAt": "2026-10-26T04:55:49.560665+00:00",
+  "updatedAt": "2026-10-26T15:15:13.938049+00:00",
   "articles": [
+    {
+      "title": "Джеймс Ваулз: Мы продолжаем отставать",
+      "url": "https://www.f1news.ru/news/f1-192052.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T14:55:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vowles/192052.jpg"
+    },
+    {
+      "title": "Леклер: В этом году у нас ещё будет шанс на победу",
+      "url": "https://www.f1news.ru/interview/leclerc/192050.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T14:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/leclerc/192050.jpg"
+    },
+    {
+      "title": "Фиттипальди: Успех Антонелли вдохновит очень многих",
+      "url": "https://www.f1news.ru/interview/fittipaldi/192051.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T13:36:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/fittipaldi/192051.jpg"
+    },
+    {
+      "title": "Лео Турини: Я ждал этого момента всю жизнь",
+      "url": "https://www.f1news.ru/news/f1-192049.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T12:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192049.jpg"
+    },
+    {
+      "title": "Гран При США: Любопытная статистика",
+      "url": "https://www.f1news.ru/news/f1-192012.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T12:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192012.jpg"
+    },
+    {
+      "title": "Тото Вольфф: Кими превзошёл возможности машины",
+      "url": "https://www.f1news.ru/news/f1-192048.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T11:00:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192048.jpg"
+    },
+    {
+      "title": "Лоран Мекис: В гонке мы потеряли в скорости",
+      "url": "https://www.f1news.ru/news/f1-192047.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T10:53:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/mekies/192047.jpg"
+    },
+    {
+      "title": "Макс Ферстаппен: Слишком многое пошло не так",
+      "url": "https://www.f1news.ru/interview/max_verstappen/192046.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T10:22:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/192046.jpg"
+    },
+    {
+      "title": "Вассёр: Мы движемся вперёд, но меня устроит только победа",
+      "url": "https://www.f1news.ru/news/f1-192045.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T09:55:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vasseur/192045.jpg"
+    },
+    {
+      "title": "Статистика прошедших Гран При: Гонки и гонщики",
+      "url": "https://www.f1news.ru/news/f1-192016.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T09:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192016.jpg"
+    },
+    {
+      "title": "Cтатистика прошедших Гран При: Квалификация",
+      "url": "https://www.f1news.ru/news/f1-191990.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T09:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/189319.jpg"
+    },
+    {
+      "title": "DHL Fastest Pit Stop Award: Лучший пит-стоп у McLaren",
+      "url": "https://www.f1news.ru/news/f1-192044.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T08:39:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/piastri/192044.jpg"
+    },
+    {
+      "title": "The two recurring issues that hampered Verstappen and Red Bull again at the US GP",
+      "url": "https://www.autosport.com/f1/news/max-verstappen-pinpoints-two-recurring-red-bull-problems-we-should-use-sign-language/10868501/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-26T06:57:41+00:00",
+      "category": "racing",
+      "image": "https://cdn-4.motorsport.com/images/amp/0JXRrqoY/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Alonso criticises quality of F1 backmarkers after Albon clash at United States GP",
+      "url": "https://www.autosport.com/f1/news/alonso-criticises-f1-backmarkers-after-albon-clash/10868469/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-26T06:14:23+00:00",
+      "category": "racing",
+      "image": "https://cdn-8.motorsport.com/images/amp/0rVPZwO0/s6/fernando-alonso-aston-martin-r-2.jpg"
+    },
     {
       "title": "Гран При США: Все цитаты уик-энда",
       "url": "https://www.f1news.ru/news/f1-191794.html",
@@ -38,85 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/lindblad/192042.jpg"
     },
     {
-      "title": "Гран При США: Порядок смены шин на дистанции",
-      "url": "https://www.f1news.ru/Championship/2026/usa/tyres.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T00:22:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/184525.jpg"
-    },
-    {
-      "title": "Перес: Я уже начинаю готовиться к этапу в Мехико",
-      "url": "https://www.f1news.ru/news/f1-192041.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T00:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/192041.jpg"
-    },
-    {
-      "title": "Нико Хюлкенберг: Я сделал всё, что мог",
-      "url": "https://www.f1news.ru/news/f1-192040.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T00:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/192040.jpg"
-    },
-    {
-      "title": "Пьер Гасли: Хороший результат, учитывая обстоятельства",
-      "url": "https://www.f1news.ru/news/f1-192039.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T23:47:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/192039.jpg"
-    },
-    {
-      "title": "Алекс Элбон: Нам по-прежнему не хватает скорости",
-      "url": "https://www.f1news.ru/news/f1-192038.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T23:47:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/albon_1/192038.jpg"
-    },
-    {
       "title": "Russell scrambling for answers after \"not being quick enough\" at US GP",
       "url": "https://www.autosport.com/f1/news/russell-scrambling-for-answers-after-not-being-quick-enough-at-us-gp/10868425/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-25T23:44:47+00:00",
       "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/6DGg4jDY/s6/george-russell-mercedes-2.jpg"
-    },
-    {
-      "title": "Оливер Берман: Мы не можем не рисковать",
-      "url": "https://www.f1news.ru/news/f1-192037.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T23:33:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/192037.jpg"
-    },
-    {
-      "title": "Ландо Норрис: Мы использовали все шансы в гонке",
-      "url": "https://www.f1news.ru/news/f1-192036.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T23:16:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/norris/192036.jpg"
-    },
-    {
-      "title": "Алонсо: Нам всё испортил инцидент на первом круге",
-      "url": "https://www.f1news.ru/news/f1-192035.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T23:16:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stroll/192035.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/6DGg4jDY/s6/george-russell-mercedes-2.jpg"
     },
     {
       "title": "The maths behind Antonelli becoming F1 world champion at Mexico GP",
@@ -125,43 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-25T22:31:48+00:00",
       "category": "racing",
-      "image": "https://cdn-5.motorsport.com/images/amp/YBVj4KvY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При США, воскресенье",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/usa/2510/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T22:25:00+00:00",
-      "category": "racing",
-      "image": ""
-    },
-    {
-      "title": "Макс Ферстаппен: Наш темп оказался недостаточно хорош",
-      "url": "https://www.f1news.ru/news/f1-192034.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T22:16:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192034.jpg"
-    },
-    {
-      "title": "Кими Антонелли: Именно такой результат нам и нужен!",
-      "url": "https://www.f1news.ru/news/f1-192033.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T22:14:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192033.jpg"
-    },
-    {
-      "title": "Леклер: До победы не хватило совсем немного",
-      "url": "https://www.f1news.ru/news/f1-192032.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-25T22:11:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/leclerc/192032.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/YBVj4KvY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
     },
     {
       "title": "F1 United States GP: Antonelli dominates from pole - but forced to wait for title",
@@ -170,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-25T21:50:12+00:00",
       "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/Y9lN4gb2/s6/andrea-kimi-antonelli-mercedes-4.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/Y9lN4gb2/s6/andrea-kimi-antonelli-mercedes-4.jpg"
     },
     {
       "title": "Inside COTA's Turn 1 clubhouse and its plans to build a second track",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-25T13:15:54+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/2QedgGJ2/s6/alexander-albon-williams-2.jpg"
-    },
-    {
-      "title": "Red Bull no longer falls away on difficult days: What Austin qualifying reveals about its progress",
-      "url": "https://www.autosport.com/f1/news/max-verstappen-puzzled-by-q3-grip-loss-but-austin-shows-how-far-red-bull-has-progressed/10868230/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-25T11:59:20+00:00",
-      "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/0JXRAZpY/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Verstappen responds to COTA boss and proposes drastic measures to tackle bumps",
-      "url": "https://www.autosport.com/f1/news/max-verstappen-responds-to-cota-boss-he-can-drive-my-car-after-five-laps-he-wont-be-able-to-walk/10868204/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-25T09:22:10+00:00",
-      "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/6zoDqGp0/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/2QedgGJ2/s6/alexander-albon-williams-2.jpg"
     }
   ]
 }
