@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-10-26T15:15:13.938049+00:00",
+  "updatedAt": "2026-10-26T21:03:23.984605+00:00",
   "articles": [
+    {
+      "title": "Ф3: Маттео де Пало лидирует в первый день тестов",
+      "url": "https://www.f1news.ru/news/autosport-192056.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T17:36:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192056.jpg"
+    },
+    {
+      "title": "Why being \"very adaptive\" gave Norris the edge over Piastri at US GP",
+      "url": "https://www.autosport.com/f1/news/why-being-very-adaptive-gave-norris-edge-over-piastri-at-us-gp/10868691/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-26T17:20:16+00:00",
+      "category": "racing",
+      "image": "https://cdn-8.motorsport.com/images/amp/6lmANoK0/s6/oscar-piastri-mclaren-lando-no-2.jpg"
+    },
+    {
+      "title": "Кими Антонелли: Год проходит на удивление неплохо",
+      "url": "https://www.f1news.ru/interview/antonelli/192055.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T16:41:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192055.jpg"
+    },
+    {
+      "title": "Bridgestone вернётся в Формулу 1?",
+      "url": "https://www.f1news.ru/news/f1-192053.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-26T15:49:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bridgestone/192053.jpg"
+    },
     {
       "title": "Джеймс Ваулз: Мы продолжаем отставать",
       "url": "https://www.f1news.ru/news/f1-192052.html",
@@ -116,7 +152,7 @@
       "language": "en",
       "publishedAt": "2026-10-26T06:57:41+00:00",
       "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/0JXRrqoY/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/0JXRrqoY/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "Alonso criticises quality of F1 backmarkers after Albon clash at United States GP",
@@ -137,40 +173,13 @@
       "image": "https://c.f1news.ru/userfiles/191794.jpg"
     },
     {
-      "title": "Гран При США: Комментарии после гонки",
-      "url": "https://www.f1news.ru/Championship/2026/usa/afterrace.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T01:26:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184526.jpg"
-    },
-    {
-      "title": "Шинники Pirell довольны стабильной работой резины",
-      "url": "https://www.f1news.ru/news/f1-192043.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T00:41:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/pirelli/192043.jpg"
-    },
-    {
-      "title": "Лиам Лоусон: Мы лучшие среди команд средней группы",
-      "url": "https://www.f1news.ru/news/f1-192042.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T00:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192042.jpg"
-    },
-    {
       "title": "Russell scrambling for answers after \"not being quick enough\" at US GP",
       "url": "https://www.autosport.com/f1/news/russell-scrambling-for-answers-after-not-being-quick-enough-at-us-gp/10868425/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-25T23:44:47+00:00",
       "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/6DGg4jDY/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/6DGg4jDY/s6/george-russell-mercedes-2.jpg"
     },
     {
       "title": "The maths behind Antonelli becoming F1 world champion at Mexico GP",
@@ -179,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-25T22:31:48+00:00",
       "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/YBVj4KvY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YBVj4KvY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
     },
     {
       "title": "F1 United States GP: Antonelli dominates from pole - but forced to wait for title",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-25T21:50:12+00:00",
       "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/Y9lN4gb2/s6/andrea-kimi-antonelli-mercedes-4.jpg"
-    },
-    {
-      "title": "Inside COTA's Turn 1 clubhouse and its plans to build a second track",
-      "url": "https://www.autosport.com/f1/news/inside-cotas-turn-1-clubhouse-and-its-plans-to-build-a-second-track/10868244/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-25T13:15:54+00:00",
-      "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/2QedgGJ2/s6/alexander-albon-williams-2.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/Y9lN4gb2/s6/andrea-kimi-antonelli-mercedes-4.jpg"
     }
   ]
 }
