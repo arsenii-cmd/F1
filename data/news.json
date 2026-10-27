@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-10-27T14:36:28.046132+00:00",
+  "updatedAt": "2026-10-27T20:44:56.610369+00:00",
   "articles": [
+    {
+      "title": "Перес представил шлем, посвящённый его 300-й гонке",
+      "url": "https://www.f1news.ru/news/f1-192073.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-27T20:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/perez/192073.jpg"
+    },
+    {
+      "title": "Форнароли проведёт тренировки в Мехико и Сан-Паулу",
+      "url": "https://www.f1news.ru/news/f1-192072.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-27T18:31:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/fornaroli/192072.jpg"
+    },
+    {
+      "title": "Габриэле Мини дебютирует в Формуле 1 в Мехико",
+      "url": "https://www.f1news.ru/news/f1-192071.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-27T18:04:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/192071.jpg"
+    },
+    {
+      "title": "Берман: Гонка в Мехико сложна по многим причинам",
+      "url": "https://www.f1news.ru/news/f1-192070.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-27T17:33:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/bearman/192070.jpg"
+    },
+    {
+      "title": "Хюлкенберг: Большая высота создаёт сложности в Мехико",
+      "url": "https://www.f1news.ru/news/f1-192069.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-27T17:17:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192069.jpg"
+    },
+    {
+      "title": "Болельщики в Мексике недовольны постером Cadillac",
+      "url": "https://www.f1news.ru/news/f1-192068.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-27T17:06:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/perez/192068.jpg"
+    },
+    {
+      "title": "Mercedes has a Russell-sized problem and it is sharing responsibility",
+      "url": "https://www.autosport.com/f1/news/mercedes-has-a-russell-sized-problem-and-it-is-sharing-responsibility/10868909/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-27T16:57:28+00:00",
+      "category": "teams",
+      "image": "https://cdn-6.motorsport.com/images/amp/0JXRr4RY/s6/george-russell-mercedes.jpg"
+    },
+    {
+      "title": "Ф3: Като показал лучшее время в финальный день тестов",
+      "url": "https://www.f1news.ru/news/autosport-192067.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-27T16:28:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192067.jpg"
+    },
+    {
+      "title": "Мартин Брандл о главных событиях Гран При США",
+      "url": "https://www.f1news.ru/news/f1-192066.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-27T15:20:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192066.jpg"
+    },
+    {
+      "title": "The role Friday practice played in Hamilton failing to achieve a podium at the US GP",
+      "url": "https://www.autosport.com/f1/news/the-role-friday-practice-played-in-hamilton-failing-to-achieve-podium-at-us-gp/10868872/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-27T15:00:02+00:00",
+      "category": "racing",
+      "image": "https://cdn-4.motorsport.com/images/amp/YP74yNe2/s6/lewis-hamilton-ferrari-2.jpg"
+    },
     {
       "title": "Люк Браунинг проведёт тренировки в Мехико и Сан-Паулу",
       "url": "https://www.f1news.ru/news/f1-192065.html",
@@ -62,7 +152,7 @@
       "language": "en",
       "publishedAt": "2026-10-27T09:46:28+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/6b8ZNKw2/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/6b8ZNKw2/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "Майк Крак: У нас долгосрочное партнёрство с Honda",
@@ -83,85 +173,13 @@
       "image": "https://c.f1news.ru/userfiles/antonelli/192058.jpg"
     },
     {
-      "title": "Таурисс намекнул, что состав Cadillac может измениться",
-      "url": "https://www.f1news.ru/news/f1-192057.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-27T07:07:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/towriss/192057.jpg"
-    },
-    {
-      "title": "Ф3: Маттео де Пало лидирует в первый день тестов",
-      "url": "https://www.f1news.ru/news/autosport-192056.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T17:36:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192056.jpg"
-    },
-    {
       "title": "Why being \"very adaptive\" gave Norris the edge over Piastri at US GP",
       "url": "https://www.autosport.com/f1/news/why-being-very-adaptive-gave-norris-edge-over-piastri-at-us-gp/10868691/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-26T17:20:16+00:00",
       "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/6lmANoK0/s6/oscar-piastri-mclaren-lando-no-2.jpg"
-    },
-    {
-      "title": "Кими Антонелли: Год проходит на удивление неплохо",
-      "url": "https://www.f1news.ru/interview/antonelli/192055.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T16:41:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192055.jpg"
-    },
-    {
-      "title": "Bridgestone вернётся в Формулу 1?",
-      "url": "https://www.f1news.ru/news/f1-192053.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T15:49:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bridgestone/192053.jpg"
-    },
-    {
-      "title": "Джеймс Ваулз: Мы продолжаем отставать",
-      "url": "https://www.f1news.ru/news/f1-192052.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T14:55:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/vowles/192052.jpg"
-    },
-    {
-      "title": "Леклер: В этом году у нас ещё будет шанс на победу",
-      "url": "https://www.f1news.ru/interview/leclerc/192050.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T14:15:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/leclerc/192050.jpg"
-    },
-    {
-      "title": "Фиттипальди: Успех Антонелли вдохновит очень многих",
-      "url": "https://www.f1news.ru/interview/fittipaldi/192051.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T13:36:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/fittipaldi/192051.jpg"
-    },
-    {
-      "title": "Лео Турини: Я ждал этого момента всю жизнь",
-      "url": "https://www.f1news.ru/news/f1-192049.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-26T12:15:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192049.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/6lmANoK0/s6/oscar-piastri-mclaren-lando-no-2.jpg"
     },
     {
       "title": "The two recurring issues that hampered Verstappen and Red Bull again at the US GP",
@@ -170,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-26T06:57:41+00:00",
       "category": "racing",
-      "image": "https://cdn-9.motorsport.com/images/amp/0JXRrqoY/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/0JXRrqoY/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "Alonso criticises quality of F1 backmarkers after Albon clash at United States GP",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-26T06:14:23+00:00",
       "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/0rVPZwO0/s6/fernando-alonso-aston-martin-r-2.jpg"
-    },
-    {
-      "title": "Russell scrambling for answers after \"not being quick enough\" at US GP",
-      "url": "https://www.autosport.com/f1/news/russell-scrambling-for-answers-after-not-being-quick-enough-at-us-gp/10868425/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-25T23:44:47+00:00",
-      "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/6DGg4jDY/s6/george-russell-mercedes-2.jpg"
-    },
-    {
-      "title": "The maths behind Antonelli becoming F1 world champion at Mexico GP",
-      "url": "https://www.autosport.com/f1/news/the-maths-behind-antonelli-becoming-f1-world-champion-at-mexico-gp/10868378/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-25T22:31:48+00:00",
-      "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/YBVj4KvY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/0rVPZwO0/s6/fernando-alonso-aston-martin-r-2.jpg"
     }
   ]
 }
