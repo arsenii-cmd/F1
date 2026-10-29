@@ -1,6 +1,150 @@
 {
-  "updatedAt": "2026-10-29T05:55:42.614671+00:00",
+  "updatedAt": "2026-10-29T15:16:32.827554+00:00",
   "articles": [
+    {
+      "title": "Kings of Leon – гвоздь культурной программы в Абу-Даби",
+      "url": "https://www.f1news.ru/news/f1-192113.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T15:11:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192113.jpg"
+    },
+    {
+      "title": "Условия победы Mercedes в Кубке конструкторов в Мехико",
+      "url": "https://www.f1news.ru/news/f1-192112.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T14:03:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ferrari/192112.jpg"
+    },
+    {
+      "title": "Вести: Настройка машины в Мехико – непростая задача",
+      "url": "https://www.f1news.ru/news/f1-192111.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T13:43:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/mercedes/192111.jpg"
+    },
+    {
+      "title": "Cadillac 'honoured' to have Perez as special 300th race celebration planned for Mexico GP",
+      "url": "https://www.autosport.com/f1/news/cadillac-honoured-to-have-perez-as-special-300th-race-celebration-planned-for-mexico-gp/10869139/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-29T13:00:03+00:00",
+      "category": "racing",
+      "image": "https://cdn-6.motorsport.com/images/amp/63QaoRw2/s6/sergio-perez-cadillac-racing-2.jpg"
+    },
+    {
+      "title": "Какие задачи решают в Ferrari, готовя SF-26 к этапу в Мехико",
+      "url": "https://www.f1news.ru/tech/192110.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T12:13:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ferrari/192110.jpg"
+    },
+    {
+      "title": "Кими Антонелли планирует открыть гоночную академию",
+      "url": "https://www.f1news.ru/news/f1-192109.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T11:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192109.jpg"
+    },
+    {
+      "title": "Как победа Мальдонадо помогла Вольффу получить работу",
+      "url": "https://www.f1news.ru/news/f1-192108.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T11:03:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/wolff/190084.jpg"
+    },
+    {
+      "title": "Монтойя: В Кими впечатляет способность адаптироваться",
+      "url": "https://www.f1news.ru/news/f1-192107.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T10:41:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192107.jpg"
+    },
+    {
+      "title": "У Формулы 1 появился повод для отмены Катара и Абу-Даби",
+      "url": "https://www.f1news.ru/news/f1-192106.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T10:06:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192106.jpg"
+    },
+    {
+      "title": "Лоран Мекис похвально отозвался о дебюте Тома Харта",
+      "url": "https://www.f1news.ru/news/f1-192105.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T09:35:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lambiase/192105.jpg"
+    },
+    {
+      "title": "Риккардо: Мне не нравится, как закончилась моя карьера",
+      "url": "https://www.f1news.ru/news/f1-192104.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T09:34:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ricciardo/192104.jpg"
+    },
+    {
+      "title": "Себастьян Наварро: Я чувствую любовь и гордость",
+      "url": "https://www.f1news.ru/news/f1-192102.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T09:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ferrari/192102.jpg"
+    },
+    {
+      "title": "Десять замен в первой тренировке в Мехико",
+      "url": "https://www.f1news.ru/news/f1-192103.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T08:27:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alpinef1team/192103.jpg"
+    },
+    {
+      "title": "Заезды Переса в Мехико собрали более 100 тысяч человек",
+      "url": "https://www.f1news.ru/news/f1-192101.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T08:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/perez/192101.jpg"
+    },
+    {
+      "title": "Гран При Мехико: Изменения на трассе и зоны обгонов",
+      "url": "https://www.f1news.ru/news/f1-192100.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T07:20:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192100.jpg"
+    },
+    {
+      "title": "Дерек Уорик – третий стюард Гран При Мехико",
+      "url": "https://www.f1news.ru/news/f1-192099.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T06:49:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/warwick/185858.jpg"
+    },
     {
       "title": "Гран При Мехико: Пять прямых трансляций",
       "url": "https://www.f1news.ru/news/f1-119347.html",
@@ -11,148 +155,13 @@
       "image": "https://c.f1news.ru/userfiles/119347-172.jpg"
     },
     {
-      "title": "Гран При Мехико: Точка самого серьёзного торможения",
-      "url": "https://www.f1news.ru/news/f1-192054.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T21:35:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/190741.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Этап конкурса прогнозов",
-      "url": "https://www.f1news.ru/news/f1-192086.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T21:30:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192086.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Ставки букмекеров",
-      "url": "https://www.f1news.ru/news/f1-192085.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T21:25:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192085.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Круглые числа",
-      "url": "https://www.f1news.ru/Championship/2026/mexico/stats.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T21:20:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184479.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Превью этапа",
-      "url": "https://www.f1news.ru/Championship/2026/mexico/preview.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T21:15:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/150037.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Комментарии перед этапом",
-      "url": "https://www.f1news.ru/Championship/2026/mexico/beforerace.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T21:10:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184528.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Трасса и статистика",
-      "url": "https://www.f1news.ru/Championship/2026/mexico/index.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T21:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/108758.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Прогноз погоды на уик-энд",
-      "url": "https://www.f1news.ru/news/f1-192075.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T21:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192075.jpg"
-    },
-    {
-      "title": "Вассёр: Большая высота станет ещё одним фактором",
-      "url": "https://www.f1news.ru/news/f1-192098.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T17:41:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/182272.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Расписание пресс-конференций",
-      "url": "https://www.f1news.ru/news/f1-192097.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T17:33:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/192097.jpg"
-    },
-    {
-      "title": "Никола Цолов заменит Лоусона в тренировке в Мехико",
-      "url": "https://www.f1news.ru/news/f1-192096.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T17:24:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/permane/192096.jpg"
-    },
-    {
-      "title": "Вольфф: Размышления о титуле не помогут его выиграть",
-      "url": "https://www.f1news.ru/news/f1-192095.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T16:28:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/wolff/192095.jpg"
-    },
-    {
-      "title": "Аюму Иваса заменит Ферстаппена в первой тренировке",
-      "url": "https://www.f1news.ru/news/f1-192094.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T16:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192094.jpg"
-    },
-    {
-      "title": "Фернандо Алонсо станет глобальным послом Pepperstone",
-      "url": "https://www.f1news.ru/news/f1-192093.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T15:30:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/192093.jpg"
-    },
-    {
       "title": "F1 publishes first Social Impact Report; key student scholarship renewed",
       "url": "https://www.autosport.com/f1/news/f1-publishes-first-social-impact-report-key-student-scholarship-renewed/10869116/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-28T15:26:42+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/0arE7LG2/s6/stem-racing-world-final-2026-s.jpg"
-    },
-    {
-      "title": "Серхио Перес и Cadillac продлили контракт",
-      "url": "https://www.f1news.ru/news/f1-192092.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T15:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/perez/192092.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/0arE7LG2/s6/stem-racing-world-final-2026-s.jpg"
     },
     {
       "title": "The unusual Aston Martin, Honda and Red Bull Powertrains rumours put into perspective",
@@ -161,7 +170,7 @@
       "language": "en",
       "publishedAt": "2026-10-28T09:41:41+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/0JXRjNyY/s6/lance-stroll-aston-martin-raci-3.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/0JXRjNyY/s6/lance-stroll-aston-martin-raci-3.jpg"
     },
     {
       "title": "FIA announces new partnership to help drive future F1 regulations",
@@ -179,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-27T16:57:28+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/0JXRr4RY/s6/george-russell-mercedes.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0JXRr4RY/s6/george-russell-mercedes.jpg"
     },
     {
       "title": "The role Friday practice played in Hamilton failing to achieve a podium at the US GP",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-27T15:00:02+00:00",
       "category": "racing",
-      "image": "https://cdn-5.motorsport.com/images/amp/YP74yNe2/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "Red Bull explains why Verstappen and Hadjar's 'silly' problems won't all be fixed in 2026",
-      "url": "https://www.autosport.com/f1/news/red-bull-explains-why-verstappen-and-hadjar-silly-problems-wont-be-fixed-in-2026/10868779/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-27T09:46:28+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/6b8ZNKw2/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/YP74yNe2/s6/lewis-hamilton-ferrari-2.jpg"
     }
   ]
 }
