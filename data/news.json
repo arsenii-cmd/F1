@@ -1,6 +1,132 @@
 {
-  "updatedAt": "2026-10-29T15:16:32.827554+00:00",
+  "updatedAt": "2026-10-29T21:12:33.203207+00:00",
   "articles": [
+    {
+      "title": "Серхио Перес: У нас впереди три года",
+      "url": "https://www.f1news.ru/news/f1-192124.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T21:04:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/perez/192124.jpg"
+    },
+    {
+      "title": "Бермана больше волнует результат команды, чем его личный",
+      "url": "https://www.f1news.ru/news/f1-192123.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T21:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192123.jpg"
+    },
+    {
+      "title": "Пьер Гасли: Отставание от пятого места слишком велико",
+      "url": "https://www.f1news.ru/news/f1-192122.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T20:41:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/192122.jpg"
+    },
+    {
+      "title": "Джордж Расселл: Формула 1 чем-то похожа на гольф",
+      "url": "https://www.f1news.ru/news/f1-192121.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T20:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/192121.jpg"
+    },
+    {
+      "title": "Фернандо Алонсо: Я вижу многое, о чём не могу рассказать",
+      "url": "https://www.f1news.ru/news/f1-192120.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T20:09:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/192120.jpg"
+    },
+    {
+      "title": "Alonso doubles down on poor F1 driving standards – and says those targeted know who they are",
+      "url": "https://www.autosport.com/f1/news/fernando-alonso-doubles-down-on-poor-f1-driving-standards-we-all-know-who-were-talking-about/10869405/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-29T20:05:13+00:00",
+      "category": "teams",
+      "image": "https://cdn-8.motorsport.com/images/amp/Y9lNWdq2/s6/fernando-alonso-aston-martin-r-3.jpg"
+    },
+    {
+      "title": "В Honda признают, что в Мехико возможны сложности",
+      "url": "https://www.f1news.ru/tech/192119.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T19:52:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/krack/192119.jpg"
+    },
+    {
+      "title": "Окон: Для пропуска сессии эта трасса вполне подходит",
+      "url": "https://www.f1news.ru/news/f1-192118.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T19:43:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ocon/192118.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При Мехико, четверг",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/mexico/2910/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T18:01:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "Антонелли и Боттас приболели и не приехали на трассу",
+      "url": "https://www.f1news.ru/news/f1-192116.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T17:41:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192116.jpg"
+    },
+    {
+      "title": "Шварцман настроен на долгое сотрудничество с Peugeot",
+      "url": "https://www.f1news.ru/news/f1-192115.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T17:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/Shwartzman/192115.jpg"
+    },
+    {
+      "title": "Antonelli skips F1 Mexico GP media day due to illness",
+      "url": "https://www.autosport.com/f1/news/unwell-kimi-antonelli-skips-f1-mexico-gp-media-day/10869370/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-29T17:07:23+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/YBVjm5KY/s6/andrea-kimi-antonelli-mercedes.jpg"
+    },
+    {
+      "title": "Нико Росберг о первых тестах за рулём Формулы 1",
+      "url": "https://www.f1news.ru/news/f1-192114.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-29T16:35:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/nrosberg/157664.jpg"
+    },
+    {
+      "title": "Why Ricciardo would consider a comeback at Le Mans",
+      "url": "https://www.autosport.com/wec/news/why-daniel-ricciardo-would-consider-a-comeback-at-le-mans/10869337/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-29T16:00:04+00:00",
+      "category": "teams",
+      "image": "https://cdn-8.motorsport.com/images/amp/Y99DKwAY/s6/daniel-ricciardo-visa-cash-app-2.jpg"
+    },
     {
       "title": "Kings of Leon – гвоздь культурной программы в Абу-Даби",
       "url": "https://www.f1news.ru/news/f1-192113.html",
@@ -35,7 +161,7 @@
       "language": "en",
       "publishedAt": "2026-10-29T13:00:03+00:00",
       "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/63QaoRw2/s6/sergio-perez-cadillac-racing-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/63QaoRw2/s6/sergio-perez-cadillac-racing-2.jpg"
     },
     {
       "title": "Какие задачи решают в Ferrari, готовя SF-26 к этапу в Мехико",
@@ -56,105 +182,6 @@
       "image": "https://c.f1news.ru/userfiles/antonelli/192109.jpg"
     },
     {
-      "title": "Как победа Мальдонадо помогла Вольффу получить работу",
-      "url": "https://www.f1news.ru/news/f1-192108.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T11:03:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/wolff/190084.jpg"
-    },
-    {
-      "title": "Монтойя: В Кими впечатляет способность адаптироваться",
-      "url": "https://www.f1news.ru/news/f1-192107.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T10:41:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192107.jpg"
-    },
-    {
-      "title": "У Формулы 1 появился повод для отмены Катара и Абу-Даби",
-      "url": "https://www.f1news.ru/news/f1-192106.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T10:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192106.jpg"
-    },
-    {
-      "title": "Лоран Мекис похвально отозвался о дебюте Тома Харта",
-      "url": "https://www.f1news.ru/news/f1-192105.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T09:35:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lambiase/192105.jpg"
-    },
-    {
-      "title": "Риккардо: Мне не нравится, как закончилась моя карьера",
-      "url": "https://www.f1news.ru/news/f1-192104.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T09:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ricciardo/192104.jpg"
-    },
-    {
-      "title": "Себастьян Наварро: Я чувствую любовь и гордость",
-      "url": "https://www.f1news.ru/news/f1-192102.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T09:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/192102.jpg"
-    },
-    {
-      "title": "Десять замен в первой тренировке в Мехико",
-      "url": "https://www.f1news.ru/news/f1-192103.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T08:27:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alpinef1team/192103.jpg"
-    },
-    {
-      "title": "Заезды Переса в Мехико собрали более 100 тысяч человек",
-      "url": "https://www.f1news.ru/news/f1-192101.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T08:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/perez/192101.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Изменения на трассе и зоны обгонов",
-      "url": "https://www.f1news.ru/news/f1-192100.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T07:20:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192100.jpg"
-    },
-    {
-      "title": "Дерек Уорик – третий стюард Гран При Мехико",
-      "url": "https://www.f1news.ru/news/f1-192099.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T06:49:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/warwick/185858.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Пять прямых трансляций",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-28T21:40:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-172.jpg"
-    },
-    {
       "title": "F1 publishes first Social Impact Report; key student scholarship renewed",
       "url": "https://www.autosport.com/f1/news/f1-publishes-first-social-impact-report-key-student-scholarship-renewed/10869116/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -170,34 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-28T09:41:41+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/0JXRjNyY/s6/lance-stroll-aston-martin-raci-3.jpg"
-    },
-    {
-      "title": "FIA announces new partnership to help drive future F1 regulations",
-      "url": "https://www.autosport.com/f1/news/fia-announces-new-partnership-to-help-drive-future-f1-regulations/10868916/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-28T08:00:03+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/0rVPM870/s6/fia-logo-2.jpg"
-    },
-    {
-      "title": "Mercedes has a Russell-sized problem and it is sharing responsibility",
-      "url": "https://www.autosport.com/f1/news/mercedes-has-a-russell-sized-problem-and-it-is-sharing-responsibility/10868909/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-27T16:57:28+00:00",
-      "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/0JXRr4RY/s6/george-russell-mercedes.jpg"
-    },
-    {
-      "title": "The role Friday practice played in Hamilton failing to achieve a podium at the US GP",
-      "url": "https://www.autosport.com/f1/news/the-role-friday-practice-played-in-hamilton-failing-to-achieve-podium-at-us-gp/10868872/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-27T15:00:02+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/YP74yNe2/s6/lewis-hamilton-ferrari-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/0JXRjNyY/s6/lance-stroll-aston-martin-raci-3.jpg"
     }
   ]
 }
