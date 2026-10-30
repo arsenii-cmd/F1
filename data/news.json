@@ -1,6 +1,105 @@
 {
-  "updatedAt": "2026-10-30T05:56:47.680846+00:00",
+  "updatedAt": "2026-10-30T15:05:26.379262+00:00",
   "articles": [
+    {
+      "title": "Сайнс вступился за напарника и ответил на критику Алонсо",
+      "url": "https://www.f1news.ru/news/f1-192144.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-30T14:01:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/192144.jpg"
+    },
+    {
+      "title": "Why “ignorance is a superpower” for Antonelli in F1",
+      "url": "https://www.autosport.com/f1/news/why-ignorance-is-a-superpower-for-antonelli-in-f1/10869685/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-30T13:30:04+00:00",
+      "category": "teams",
+      "image": "https://cdn-6.motorsport.com/images/amp/0kZXN3o6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+    },
+    {
+      "title": "21:25 МСК: Прямая трансляция свободных заездов",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-30T13:30:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-172.jpg"
+    },
+    {
+      "title": "Феттель: Ferrari сильно мешал страх потерпеть поражение",
+      "url": "https://www.f1news.ru/news/f1-192143.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-30T13:14:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192143.jpg"
+    },
+    {
+      "title": "Сайнс собирается выступать в Ф1 так же долго, как Алонсо",
+      "url": "https://www.f1news.ru/news/f1-192142.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-30T12:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/192142.jpg"
+    },
+    {
+      "title": "Норрис: С опытом понимаешь, чего лучше избегать",
+      "url": "https://www.f1news.ru/news/f1-192140.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-30T11:25:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/191776.jpg"
+    },
+    {
+      "title": "Официально: Объявлен маршрут «Дакара-2027»",
+      "url": "https://www.f1news.ru/news/autosport-192141.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-30T10:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192141.jpg"
+    },
+    {
+      "title": "Why F1 teams and manufacturers face more unknowns in Mexico than ever",
+      "url": "https://www.autosport.com/f1/news/why-f1-teams-and-manufacturers-face-more-unknowns-in-mexico-than-ever/10869626/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-30T09:58:09+00:00",
+      "category": "teams",
+      "image": "https://cdn-3.motorsport.com/images/amp/6x7ZZ84Y/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Палмер: В Мехико машины постоянно на грани",
+      "url": "https://www.f1news.ru/news/f1-192139.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-30T09:17:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/Jolyon_Palmer/192139.jpg"
+    },
+    {
+      "title": "F1 stalwart Zehnder set for Audi exit",
+      "url": "https://www.autosport.com/f1/news/f1-stalwart-zehnder-set-for-audi-exit/10869600/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-30T09:10:59+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/YN1zReV2/s6/beat-zehnder-sauber-manager-2.jpg"
+    },
+    {
+      "title": "Заявление Audi: Уход Беата Цендера",
+      "url": "https://www.f1news.ru/news/f1-192138.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-30T08:32:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/zehnder/192138.jpg"
+    },
     {
       "title": "Норрис: Нашу машину слишком сложно пилотировать",
       "url": "https://www.f1news.ru/news/f1-192137.html",
@@ -74,85 +173,13 @@
       "image": "https://c.f1news.ru/userfiles/sainz-junior/192130.jpg"
     },
     {
-      "title": "Лиам Лоусон: Я практически не задумываюсь о будущем",
-      "url": "https://www.f1news.ru/news/f1-192129.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T22:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/192129.jpg"
-    },
-    {
-      "title": "Бортолето: Надеюсь заработать несколько очков",
-      "url": "https://www.f1news.ru/news/f1-192128.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T21:52:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/192128.jpg"
-    },
-    {
-      "title": "Леклер: Не могу согласиться, что мы фавориты в этот уик-энд",
-      "url": "https://www.f1news.ru/news/f1-192127.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T21:37:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/leclerc/192127.jpg"
-    },
-    {
-      "title": "Алекс Элбон: Я уважаю Фернандо, но не согласен с ним",
-      "url": "https://www.f1news.ru/news/f1-192126.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T21:30:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/albon_1/192126.jpg"
-    },
-    {
-      "title": "Колапинто: Эта гонка всегда одна из лучших в сезоне",
-      "url": "https://www.f1news.ru/news/f1-192125.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T21:26:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/colapinto/192125.jpg"
-    },
-    {
-      "title": "Серхио Перес: У нас впереди три года",
-      "url": "https://www.f1news.ru/news/f1-192124.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T21:04:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/perez/192124.jpg"
-    },
-    {
-      "title": "Бермана больше волнует результат команды, чем его личный",
-      "url": "https://www.f1news.ru/news/f1-192123.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T21:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/192123.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При Мехико, четверг",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/mexico/2910/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-29T20:55:00+00:00",
-      "category": "racing",
-      "image": ""
-    },
-    {
       "title": "Alonso doubles down on poor F1 driving standards – and says those targeted know who they are",
       "url": "https://www.autosport.com/f1/news/fernando-alonso-doubles-down-on-poor-f1-driving-standards-we-all-know-who-were-talking-about/10869405/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-29T20:05:13+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/Y9lNWdq2/s6/fernando-alonso-aston-martin-r-3.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/Y9lNWdq2/s6/fernando-alonso-aston-martin-r-3.jpg"
     },
     {
       "title": "Antonelli skips F1 Mexico GP media day due to illness",
@@ -161,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-29T17:07:23+00:00",
       "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/YBVjm5KY/s6/andrea-kimi-antonelli-mercedes.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YBVjm5KY/s6/andrea-kimi-antonelli-mercedes.jpg"
     },
     {
       "title": "Why Ricciardo would consider a comeback at Le Mans",
@@ -170,34 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-29T16:00:04+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/Y99DKwAY/s6/daniel-ricciardo-visa-cash-app-2.jpg"
-    },
-    {
-      "title": "Cadillac 'honoured' to have Perez as special 300th race celebration planned for Mexico GP",
-      "url": "https://www.autosport.com/f1/news/cadillac-honoured-to-have-perez-as-special-300th-race-celebration-planned-for-mexico-gp/10869139/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-29T13:00:03+00:00",
-      "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/63QaoRw2/s6/sergio-perez-cadillac-racing-2.jpg"
-    },
-    {
-      "title": "F1 publishes first Social Impact Report; key student scholarship renewed",
-      "url": "https://www.autosport.com/f1/news/f1-publishes-first-social-impact-report-key-student-scholarship-renewed/10869116/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-28T15:26:42+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/0arE7LG2/s6/stem-racing-world-final-2026-s.jpg"
-    },
-    {
-      "title": "The unusual Aston Martin, Honda and Red Bull Powertrains rumours put into perspective",
-      "url": "https://www.autosport.com/f1/news/why-aston-martin-and-red-bull-were-asked-about-an-unlikely-f1-engine-partnership/10869017/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-28T09:41:41+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/0JXRjNyY/s6/lance-stroll-aston-martin-raci-3.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/Y99DKwAY/s6/daniel-ricciardo-visa-cash-app-2.jpg"
     }
   ]
 }
