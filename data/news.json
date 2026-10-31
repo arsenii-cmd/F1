@@ -1,32 +1,176 @@
 {
-  "updatedAt": "2026-10-30T20:51:48.922323+00:00",
+  "updatedAt": "2026-10-31T05:53:14.706316+00:00",
   "articles": [
+    {
+      "title": "20:25 МСК: Прямая трансляция свободных заездов",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T05:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-172.jpg"
+    },
+    {
+      "title": "Stewards penalize Verstappen, Lawson after “unacceptable” F1 Mexico GP practice clash",
+      "url": "https://www.autosport.com/f1/news/max-verstappen-and-liam-lawson-handed-f1-mexico-gp-grid-penalties-after-practice-clash/10869942/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-31T03:22:01+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/25dLDwx0/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Габриэле Мини доволен дебютом в Формуле 1",
+      "url": "https://www.f1news.ru/news/f1-192173.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T02:42:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/192173.jpg"
+    },
+    {
+      "title": "Линдблад: Тренировки мы провели на достойном уровне",
+      "url": "https://www.f1news.ru/news/f1-192172.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T02:29:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192172.jpg"
+    },
+    {
+      "title": "Сайнс: В тренировках экспериментировали с настройками",
+      "url": "https://www.f1news.ru/news/f1-192171.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T02:11:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/192171.jpg"
+    },
+    {
+      "title": "Шарль Леклер: Пока результаты выглядят неплохо",
+      "url": "https://www.f1news.ru/news/f1-192170.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T01:07:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192170.jpg"
+    },
+    {
+      "title": "Окон: Мне всё ещё не вполне комфортно за рулём",
+      "url": "https://www.f1news.ru/news/f1-192169.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T01:04:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192169.jpg"
+    },
+    {
+      "title": "Нико Хюлкенберг: Надеюсь, мы найдем ответы",
+      "url": "https://www.f1news.ru/news/f1-192168.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T01:01:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192168.jpg"
+    },
+    {
+      "title": "Алонсо: В Мехико мы ближе к соперникам, чем обычно",
+      "url": "https://www.f1news.ru/news/f1-192167.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T00:48:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/crawford/192167.jpg"
+    },
+    {
+      "title": "Берра: Состояние трассы быстро меняется",
+      "url": "https://www.f1news.ru/news/f1-192166.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T00:45:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/pirelli/192166.jpg"
+    },
+    {
+      "title": "Оскар Пиастри: Всё не так сложно, как я предполагал",
+      "url": "https://www.f1news.ru/news/f1-192165.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T00:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/piastri/192165.jpg"
+    },
+    {
+      "title": "Херта: Когда пилотирую машину Формулы 1, всегда улыбаюсь",
+      "url": "https://www.f1news.ru/news/f1-192164.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-31T00:20:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/herta/192164.jpg"
+    },
+    {
+      "title": "Ферстаппен: На месте Лоусона я бы вёл себя умнее",
+      "url": "https://www.f1news.ru/news/f1-192163.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-30T23:54:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/192163.jpg"
+    },
     {
       "title": "Фотогалерея: Гран При Мехико, пятница",
       "url": "https://www.f1news.ru/gallery/v/2026/gp/mexico/3010/",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-30T20:07:00+00:00",
+      "publishedAt": "2026-10-30T23:50:00+00:00",
       "category": "racing",
       "image": ""
     },
     {
-      "title": "Боттас получит штраф с потерей 50 позиций на старте",
-      "url": "https://www.f1news.ru/news/f1-192153.html",
+      "title": "Джордж Расселл: Пока Ferrari выглядит сильнее остальных",
+      "url": "https://www.f1news.ru/news/f1-192162.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-30T19:56:00+00:00",
+      "publishedAt": "2026-10-30T23:39:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192153.jpg"
+      "image": "https://c.f1news.ru/userfiles/russell/192162.jpg"
     },
     {
-      "title": "00:55 МСК: Прямая трансляция свободных заездов",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "title": "Алонсо вновь превысил скорость на пит-лейн",
+      "url": "https://www.f1news.ru/news/f1-192161.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-10-30T19:45:00+00:00",
+      "publishedAt": "2026-10-30T23:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/192161.jpg"
+    },
+    {
+      "title": "The confusion surrounding Colton Herta's F1 superlicence explained",
+      "url": "https://www.autosport.com/f1/news/the-confusion-surrounding-colton-hertas-f1-superlicence-explained/10869858/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-30T23:22:54+00:00",
+      "category": "teams",
+      "image": "https://cdn-7.motorsport.com/images/amp/6AlvxRvY/s6/colton-herta-cadillac-racing-2.jpg"
+    },
+    {
+      "title": "F1 Mexico GP: Leclerc pips McLaren and Mercedes to top FP2",
+      "url": "https://www.autosport.com/f1/news/f1-mexico-gp-leclerc-pips-mclaren-and-mercedes-to-top-fp2/10869852/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-10-30T23:08:22+00:00",
       "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-172.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/2eZxbA9Y/s6/charles-leclerc-ferrari.jpg"
+    },
+    {
+      "title": "Шарль Леклер лидирует во второй тренировке",
+      "url": "https://www.f1news.ru/Championship/2026/mexico/friday-free.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-10-30T23:06:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/184531-1.jpg"
     },
     {
       "title": "F1 Mexico GP: Leclerc beats Antonelli to top FP1",
@@ -35,34 +179,7 @@
       "language": "en",
       "publishedAt": "2026-10-30T19:39:56+00:00",
       "category": "racing",
-      "image": "https://cdn-9.motorsport.com/images/amp/6b8ZXKB2/s6/charles-leclerc-ferrari-3.jpg"
-    },
-    {
-      "title": "Леклер быстрее всех в первой тренировке",
-      "url": "https://www.f1news.ru/Championship/2026/mexico/friday-free.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T19:35:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192152.jpg"
-    },
-    {
-      "title": "Технические новинки, представленные командами в Мехико",
-      "url": "https://www.f1news.ru/tech/192150.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T17:19:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/192150.jpg"
-    },
-    {
-      "title": "Риккардо: Молодость – это суперсила Антонелли",
-      "url": "https://www.f1news.ru/news/f1-192148.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T17:03:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192148.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/6b8ZXKB2/s6/charles-leclerc-ferrari-3.jpg"
     },
     {
       "title": "Hamilton on why he is “built differently” to stay in F1 for the “foreseeable future”",
@@ -71,52 +188,7 @@
       "language": "en",
       "publishedAt": "2026-10-30T16:30:03+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/27No4lK0/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "Серхио Пересу тоже нездоровится",
-      "url": "https://www.f1news.ru/news/f1-192149.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T16:26:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/perez/192149.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Элементы силовых установок",
-      "url": "https://www.f1news.ru/news/f1-192146.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T16:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/190564.jpg"
-    },
-    {
-      "title": "Хэмилтон: Время покажет, останусь ли я в Ф1 в 30-е годы",
-      "url": "https://www.f1news.ru/news/f1-192147.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T15:55:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192147.jpg"
-    },
-    {
-      "title": "В Cadillac нет единого мнения о составе команды",
-      "url": "https://www.f1news.ru/news/f1-192145.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T15:17:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/192145.jpg"
-    },
-    {
-      "title": "Сайнс вступился за напарника и ответил на критику Алонсо",
-      "url": "https://www.f1news.ru/news/f1-192144.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T14:01:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sainz-junior/192144.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/27No4lK0/s6/lewis-hamilton-ferrari-2.jpg"
     },
     {
       "title": "Why “ignorance is a superpower” for Antonelli in F1",
@@ -126,78 +198,6 @@
       "publishedAt": "2026-10-30T13:30:04+00:00",
       "category": "teams",
       "image": "https://cdn-9.motorsport.com/images/amp/0kZXN3o6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
-    },
-    {
-      "title": "Феттель: Ferrari сильно мешал страх потерпеть поражение",
-      "url": "https://www.f1news.ru/news/f1-192143.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T13:14:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192143.jpg"
-    },
-    {
-      "title": "Сайнс собирается выступать в Ф1 так же долго, как Алонсо",
-      "url": "https://www.f1news.ru/news/f1-192142.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T12:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sainz-junior/192142.jpg"
-    },
-    {
-      "title": "Норрис: С опытом понимаешь, чего лучше избегать",
-      "url": "https://www.f1news.ru/news/f1-192140.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T11:25:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/191776.jpg"
-    },
-    {
-      "title": "Официально: Объявлен маршрут «Дакара-2027»",
-      "url": "https://www.f1news.ru/news/autosport-192141.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T10:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192141.jpg"
-    },
-    {
-      "title": "Why F1 teams and manufacturers face more unknowns in Mexico than ever",
-      "url": "https://www.autosport.com/f1/news/why-f1-teams-and-manufacturers-face-more-unknowns-in-mexico-than-ever/10869626/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-30T09:58:09+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/6x7ZZ84Y/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Палмер: В Мехико машины постоянно на грани",
-      "url": "https://www.f1news.ru/news/f1-192139.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-30T09:17:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/Jolyon_Palmer/192139.jpg"
-    },
-    {
-      "title": "F1 stalwart Zehnder set for Audi exit",
-      "url": "https://www.autosport.com/f1/news/f1-stalwart-zehnder-set-for-audi-exit/10869600/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-30T09:10:59+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/YN1zReV2/s6/beat-zehnder-sauber-manager-2.jpg"
-    },
-    {
-      "title": "Alonso doubles down on poor F1 driving standards – and says those targeted know who they are",
-      "url": "https://www.autosport.com/f1/news/fernando-alonso-doubles-down-on-poor-f1-driving-standards-we-all-know-who-were-talking-about/10869405/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-29T20:05:13+00:00",
-      "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/Y9lNWdq2/s6/fernando-alonso-aston-martin-r-3.jpg"
     }
   ]
 }
