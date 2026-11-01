@@ -1,6 +1,105 @@
 {
-  "updatedAt": "2026-11-01T06:17:28.258232+00:00",
+  "updatedAt": "2026-11-01T15:15:20.773452+00:00",
   "articles": [
+    {
+      "title": "Хэмилтон: Не представляю, как поведёт себя машина",
+      "url": "https://www.f1news.ru/news/f1-192222.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T14:18:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192222.jpg"
+    },
+    {
+      "title": "Вся семья Антонелли собралась в Мехико",
+      "url": "https://www.f1news.ru/news/f1-192221.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T13:30:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192221.jpg"
+    },
+    {
+      "title": "Тото Вольфф: Льюис завоевал поул вполне заслуженно",
+      "url": "https://www.f1news.ru/news/f1-192220.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T12:48:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/192220.jpg"
+    },
+    {
+      "title": "The changes Hamilton thinks are behind his Mexico GP pole",
+      "url": "https://www.autosport.com/f1/news/the-changes-hamilton-thinks-are-behind-his-mexico-gp-pole/10870570/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-01T11:49:56+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/6O7zXbN6/s6/lewis-hamilton-ferrari-rafa-ma.jpg"
+    },
+    {
+      "title": "Фредерик Вассёр: Для нас важно выиграть эту гонку",
+      "url": "https://www.f1news.ru/news/f1-192219.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T11:26:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192219.jpg"
+    },
+    {
+      "title": "22:50 МСК: Прямая трансляция гонки",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T11:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-172.jpg"
+    },
+    {
+      "title": "В FIA попросили гонщиков быть спокойнее на тренировках",
+      "url": "https://www.f1news.ru/news/f1-192218.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T10:42:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/fia/192218.jpg"
+    },
+    {
+      "title": "Джордж Расселл: Я никогда не сомневался в себе",
+      "url": "https://www.f1news.ru/news/f1-192215.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T09:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/192215.jpg"
+    },
+    {
+      "title": "Алонсо поменяют узлы силовой установки",
+      "url": "https://www.f1news.ru/news/f1-192214.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T08:37:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/192156.jpg"
+    },
+    {
+      "title": "Гран При Мехико: Стартовое поле",
+      "url": "https://www.f1news.ru/Championship/2026/mexico/grid.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T07:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184534.jpg"
+    },
+    {
+      "title": "Гран При Мехико: Прогноз погоды на гонку",
+      "url": "https://www.f1news.ru/news/f1-192210.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T07:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/107756.jpg"
+    },
     {
       "title": "Lawson disqualified from F1 qualifying in Mexico – here's why",
       "url": "https://www.autosport.com/f1/news/lawson-disqualified-from-f1-qualifying-in-mexico-heres-why/10870411/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -8,7 +107,7 @@
       "language": "en",
       "publishedAt": "2026-11-01T01:54:48+00:00",
       "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/YpbA99Z0/s6/liam-lawson-racing-bulls.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YpbA99Z0/s6/liam-lawson-racing-bulls.jpg"
     },
     {
       "title": "Лиам Лоусон дисквалифицирован и допущен к старту",
@@ -44,7 +143,7 @@
       "language": "en",
       "publishedAt": "2026-11-01T00:28:51+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/2eZxbVKY/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/2eZxbVKY/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "Серхио Перес: Я доволен своим быстрым кругом",
@@ -62,7 +161,7 @@
       "language": "en",
       "publishedAt": "2026-11-01T00:09:23+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/YvKB13G6/s6/andrea-kimi-antonelli-mercedes.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/YvKB13G6/s6/andrea-kimi-antonelli-mercedes.jpg"
     },
     {
       "title": "Карлос Сайнс: Корректируя настройки, мы перестарались",
@@ -83,103 +182,13 @@
       "image": "https://c.f1news.ru/userfiles/bearman/192207.jpg"
     },
     {
-      "title": "Лиам Лоусон: Я извинился перед Максом за инцидент",
-      "url": "https://www.f1news.ru/news/f1-192206.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-31T23:58:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192206.jpg"
-    },
-    {
-      "title": "Хюлкенберг: Жаль, что я не прошёл в финал",
-      "url": "https://www.f1news.ru/news/f1-192205.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-31T23:46:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/192205.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При Мехико, суббота",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/mexico/3110/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-31T23:45:00+00:00",
-      "category": "racing",
-      "image": ""
-    },
-    {
-      "title": "Стюарды разъяснили, за что будут штрафовать в гонке",
-      "url": "https://www.f1news.ru/news/f1-192204.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-31T23:35:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/192204.jpg"
-    },
-    {
-      "title": "Лиам Лоусон может быть дисквалифицирован",
-      "url": "https://www.f1news.ru/news/f1-192203.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-31T23:35:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/192203.jpg"
-    },
-    {
-      "title": "Ферстаппен: В квалификации мы смогли прибавить",
-      "url": "https://www.f1news.ru/news/f1-192202.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-31T23:21:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192202.jpg"
-    },
-    {
       "title": "Ocon denies physical altercation rumours in first statement since being dropped by Haas for Mexico GP",
       "url": "https://www.autosport.com/f1/news/ocon-denies-physical-altercation-rumours-in-first-statement-since-being-dropped-by-haas-for-mexico-/10870348/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-10-31T23:13:59+00:00",
       "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/0qgKEB8Y/s6/esteban-ocon-haas-f1-team-3.jpg"
-    },
-    {
-      "title": "Пиастри впервые в сезоне не вышел в финал квалификации",
-      "url": "https://www.f1news.ru/news/f1-192201.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-31T23:12:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/norris/192201.jpg"
-    },
-    {
-      "title": "Фернандо Алонсо: Завтрашний день будет сложным",
-      "url": "https://www.f1news.ru/news/f1-192200.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-31T23:03:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stroll/192200.jpg"
-    },
-    {
-      "title": "Льюис Хэмилтон: У меня нет слов!..",
-      "url": "https://www.f1news.ru/news/f1-192199.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-31T22:58:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192199.jpg"
-    },
-    {
-      "title": "Заявление Эстебана Окона",
-      "url": "https://www.f1news.ru/news/f1-192198.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-10-31T22:49:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/191401.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/0qgKEB8Y/s6/esteban-ocon-haas-f1-team-3.jpg"
     },
     {
       "title": "F1 Mexico GP: Hamilton takes pole from Russell and Leclerc",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-10-31T22:21:54+00:00",
       "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/YBVjz7vY/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "F1 Mexico GP: Norris tops final practice by 0.001s from Antonelli",
-      "url": "https://www.autosport.com/f1/news/f1-mexico-gp-norris-tops-final-practice-by-0001s-from-antonelli/10870228/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-31T18:44:34+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/2wlKOl3Y/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/YBVjz7vY/s6/lewis-hamilton-ferrari-2.jpg"
     }
   ]
 }
