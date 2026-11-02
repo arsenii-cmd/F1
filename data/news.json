@@ -1,203 +1,203 @@
 {
-  "updatedAt": "2026-11-01T20:33:43.882996+00:00",
+  "updatedAt": "2026-11-02T06:19:19.699194+00:00",
   "articles": [
     {
-      "title": "Вассёр: Прежде всего надо хорошо стартовать",
-      "url": "https://www.f1news.ru/news/f1-192237.html",
+      "title": "Гран При Мехико: Все цитаты уик-энда",
+      "url": "https://www.f1news.ru/news/f1-192076.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-01T19:59:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/vasseur/192237.jpg"
-    },
-    {
-      "title": "22:50 МСК: Прямая трансляция гонки",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-01T19:20:00+00:00",
+      "publishedAt": "2026-11-02T04:01:00+00:00",
       "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-172.jpg"
+      "image": "https://c.f1news.ru/userfiles/192076.jpg"
     },
     {
-      "title": "50 минут до старта: Комментарий Ландо Норриса",
-      "url": "https://www.f1news.ru/news/f1-192236.html",
+      "title": "Гран При Мехико: Комментарии после гонки",
+      "url": "https://www.f1news.ru/Championship/2026/mexico/afterrace.shtml",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-01T19:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/187714.jpg"
+      "publishedAt": "2026-11-02T04:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184538.jpg"
     },
     {
-      "title": "60 минут до старта: Комментарий Айзека Хаджара",
-      "url": "https://www.f1news.ru/news/f1-192235.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-01T19:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/187712.jpg"
-    },
-    {
-      "title": "70 минут до старта: Комментарий Макса Ферстаппена",
-      "url": "https://www.f1news.ru/news/f1-192233.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-01T18:50:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/187709.jpg"
-    },
-    {
-      "title": "80 минут до старта: Комментарий Джорджа Расселла",
-      "url": "https://www.f1news.ru/news/f1-192234.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-01T18:40:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/russell/187708.jpg"
-    },
-    {
-      "title": "90 минут до старта: Комментарий Кими Антонелли",
-      "url": "https://www.f1news.ru/news/f1-192232.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-01T18:30:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192023.jpg"
-    },
-    {
-      "title": "100 минут до старта: Комментарий Льюиса Хэмилтона",
-      "url": "https://www.f1news.ru/news/f1-192231.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-01T18:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191727.jpg"
-    },
-    {
-      "title": "What does Yamaha’s shock MotoGP boycott mean for F1 in Qatar and Abu Dhabi?",
-      "url": "https://www.autosport.com/f1/news/what-does-yamahas-shock-motogp-boycott-mean-for-f1-in-qatar-and-abu-dhabi/10870666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "title": "Piastri out of F1 Mexico GP points after post-race penalty for Lindblad clash",
+      "url": "https://www.autosport.com/f1/news/penalty-drops-oscar-piastri-out-of-f1-mexico-gp-points/10870864/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
-      "publishedAt": "2026-11-01T18:18:22+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/0R7w7jE2/s6/a-general-view-of-the-grid-dur.jpg"
-    },
-    {
-      "title": "110 минут до старта: Комментарий Шарля Леклера",
-      "url": "https://www.f1news.ru/news/f1-192230.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-01T18:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/leclerc/187707.jpg"
-    },
-    {
-      "title": "Гран При Мехико: Стартовое поле",
-      "url": "https://www.f1news.ru/Championship/2026/mexico/grid.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-01T17:56:00+00:00",
+      "publishedAt": "2026-11-02T02:19:42+00:00",
       "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184534.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0mXyZvk6/s6/oscar-piastri-mclaren-2.jpg"
     },
     {
-      "title": "Лиам Лоусон стартует с пит-лейн в Мехико",
-      "url": "https://www.f1news.ru/news/f1-192229.html",
+      "title": "Пьер Гасли: Итоги дня расстраивают",
+      "url": "https://www.f1news.ru/news/f1-192256.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-01T17:48:00+00:00",
+      "publishedAt": "2026-11-02T02:18:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/192229.jpg"
+      "image": "https://c.f1news.ru/userfiles/gasly/192256.jpg"
+    },
+    {
+      "title": "Gasly and Colapinto penalised post-race, Hirakawa scores on F1 debut at Mexico GP",
+      "url": "https://www.autosport.com/f1/news/gasly-and-colapinto-penalised-post-race-hirakawa-scores-on-f1-debut-at-mexico-gp/10870863/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-02T02:16:28+00:00",
+      "category": "racing",
+      "image": "https://cdn-4.motorsport.com/images/amp/0mXyZ4G6/s6/pierre-gasly-alpine-franco-col.jpg"
+    },
+    {
+      "title": "Лиам Лоусон заработал очки после старта с пит-лейн",
+      "url": "https://www.f1news.ru/news/f1-192255.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-02T02:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192255.jpg"
+    },
+    {
+      "title": "Гонщики Alpine оштрафованы и потеряли заработанные очки",
+      "url": "https://www.f1news.ru/news/f1-192254.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-02T01:59:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/192254.jpg"
+    },
+    {
+      "title": "Mercedes оштрафовали за отказ Расселла выйти к прессе",
+      "url": "https://www.f1news.ru/news/f1-192253.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-02T01:53:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192253.jpg"
+    },
+    {
+      "title": "Хэмилтон: У Леклера подход – или побеждает он, или никто",
+      "url": "https://www.f1news.ru/news/f1-192252.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-02T01:37:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192252.jpg"
     },
     {
       "title": "Фотогалерея: Гран При Мехико, воскресенье",
       "url": "https://www.f1news.ru/gallery/v/2026/gp/mexico/0111/",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-01T17:40:00+00:00",
+      "publishedAt": "2026-11-02T01:30:00+00:00",
       "category": "racing",
-      "image": ""
+      "image": "https://c.f1news.ru/userfiles/192228.jpg"
     },
     {
-      "title": "FIA не разрешила привезти чемпионский кубок в Мехико",
-      "url": "https://www.f1news.ru/news/f1-192227.html",
+      "title": "Cadillac проведёт детальное расследование аварии Боттаса",
+      "url": "https://www.f1news.ru/news/f1-192251.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-01T17:40:00+00:00",
+      "publishedAt": "2026-11-02T01:26:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192227.jpg"
+      "image": "https://c.f1news.ru/userfiles/bottas/192251.jpg"
     },
     {
-      "title": "Оливер Берман прокомментировал отстранение Окона",
-      "url": "https://www.f1news.ru/news/f1-192226.html",
+      "title": "Гран При Мехико: Порядок смены шин на дистанции",
+      "url": "https://www.f1news.ru/Championship/2026/mexico/tyres.shtml",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-01T17:04:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/192226.jpg"
-    },
-    {
-      "title": "Валттери Боттас уверен, что останется в Cadillac",
-      "url": "https://www.f1news.ru/news/f1-192225.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-01T16:46:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/192225.jpg"
-    },
-    {
-      "title": "Стелла: За поведение машины отвечает команда",
-      "url": "https://www.f1news.ru/news/f1-192224.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-01T16:38:00+00:00",
+      "publishedAt": "2026-11-02T01:25:00+00:00",
       "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/stella/192224.jpg"
+      "image": "https://c.f1news.ru/userfiles/184537.jpg"
     },
     {
-      "title": "Lawson disqualified from F1 qualifying in Mexico – here's why",
-      "url": "https://www.autosport.com/f1/news/lawson-disqualified-from-f1-qualifying-in-mexico-heres-why/10870411/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-01T01:54:48+00:00",
-      "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/YpbA99Z0/s6/liam-lawson-racing-bulls.jpg"
-    },
-    {
-      "title": "Verstappen clears the air with Lawson, but keeps opinion on Racing Bulls F1 seat to himself",
-      "url": "https://www.autosport.com/f1/news/verstappen-clears-the-air-with-lawson-but-keeps-opinion-on-racing-bulls-f1-seat-to-himself/10870388/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-01T00:28:51+00:00",
+      "title": "Pirelli: Состав Soft вновь оказался лучшим",
+      "url": "https://www.f1news.ru/news/f1-192250.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-02T00:44:00+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/2eZxbVKY/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://c.f1news.ru/userfiles/pirelli/192250.jpg"
     },
     {
-      "title": "Antonelli admits to driving \"tense\" and \"tired\" on cusp of F1 title",
-      "url": "https://www.autosport.com/f1/news/ill-bombard-myself-with-melatonin-kimi-antonelli-admits-to-driving-tense-and-tired-on-cusp-of-f1-ti/10870380/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-01T00:09:23+00:00",
+      "title": "Норрис: У меня не было шансов – Шарль отлично справился",
+      "url": "https://www.f1news.ru/news/f1-192249.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-02T00:36:00+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/YvKB13G6/s6/andrea-kimi-antonelli-mercedes.jpg"
+      "image": "https://c.f1news.ru/userfiles/norris/192249.jpg"
     },
     {
-      "title": "Ocon denies physical altercation rumours in first statement since being dropped by Haas for Mexico GP",
-      "url": "https://www.autosport.com/f1/news/ocon-denies-physical-altercation-rumours-in-first-statement-since-being-dropped-by-haas-for-mexico-/10870348/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-10-31T23:13:59+00:00",
-      "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/0qgKEB8Y/s6/esteban-ocon-haas-f1-team-3.jpg"
+      "title": "Карлос Сайнс: Мы больше не в состоянии бороться с Haas",
+      "url": "https://www.f1news.ru/news/f1-192248.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-02T00:35:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/192248.jpg"
     },
     {
-      "title": "F1 Mexico GP: Hamilton takes pole from Russell and Leclerc",
-      "url": "https://www.autosport.com/f1/news/f1-mexico-gp-lewis-hamilton-beats-george-russell-and-charles-leclerc-to-pole/10870295/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "title": "Оскар Пиастри получил 10-секундный штраф",
+      "url": "https://www.f1news.ru/news/f1-192247.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-02T00:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/piastri/192247.jpg"
+    },
+    {
+      "title": "Why Leclerc didn’t give up Mexico GP lead after cutting Turn 5",
+      "url": "https://www.autosport.com/f1/news/why-leclerc-didnt-give-up-mexico-gp-lead-after-cutting-turn-5/10870807/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
-      "publishedAt": "2026-10-31T22:21:54+00:00",
+      "publishedAt": "2026-11-02T00:06:00+00:00",
       "category": "racing",
-      "image": "https://cdn-9.motorsport.com/images/amp/YBVjz7vY/s6/lewis-hamilton-ferrari-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/6O7zXQX6/s6/charles-leclerc-ferrari-lewis--3.jpg"
+    },
+    {
+      "title": "Четверо гонщиков вызваны к стюардам",
+      "url": "https://www.f1news.ru/news/f1-192246.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-02T00:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192246.jpg"
+    },
+    {
+      "title": "Габриэль Бортолето: Гонка прошла позитивно",
+      "url": "https://www.f1news.ru/news/f1-192245.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-01T23:59:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192245.jpg"
+    },
+    {
+      "title": "Hamilton demands “serious talks” at Ferrari after Leclerc clash in Mexico GP “lost us the win”",
+      "url": "https://www.autosport.com/f1/news/lewis-hamilton-demands-serious-talks-at-ferrari-after-charles-leclerc-clash-that-lost-us-the-win-to/10870772/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-01T23:14:33+00:00",
+      "category": "racing",
+      "image": "https://cdn-6.motorsport.com/images/amp/63QaE1D2/s6/charles-leclerc-ferrari-lewis-.jpg"
+    },
+    {
+      "title": "F1 Mexico GP: Antonelli becomes youngest world champion as Verstappen holds off Hamilton for victory",
+      "url": "https://www.autosport.com/f1/news/f1-mexico-gp-kimi-antonelli-clinches-world-title-as-max-verstappen-holds-off-lewis-hamilton-for-vic/10870724/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-01T22:38:22+00:00",
+      "category": "racing",
+      "image": "https://cdn-2.motorsport.com/images/amp/63Qa3m72/s6/lewis-hamilton-ferrari-max-ver-5.jpg"
+    },
+    {
+      "title": "FIA stewards explain Leclerc’s five-second penalty in F1 Mexico GP",
+      "url": "https://www.autosport.com/f1/news/fia-stewards-explain-charles-leclercs-five-second-penalty-in-f1-mexico-gp/10870705/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-01T21:14:16+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/YMXb5Q12/s6/charles-leclerc-ferrari.jpg"
     }
   ]
 }
