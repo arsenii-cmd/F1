@@ -1,6 +1,123 @@
 {
-  "updatedAt": "2026-11-03T11:59:47.071821+00:00",
+  "updatedAt": "2026-11-03T19:32:35.352112+00:00",
   "articles": [
+    {
+      "title": "Why Bearman is yet to be announced as a Haas driver for F1 2027",
+      "url": "https://www.autosport.com/f1/news/why-bearman-is-yet-to-be-announced-as-a-haas-driver-for-f1-2027/10871339/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-03T17:39:09+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/YK15R8O0/s6/oliver-bearman-haas-f1-team.jpg"
+    },
+    {
+      "title": "Абила: Только сейчас начинаю понимать, чего мы достигли",
+      "url": "https://www.f1news.ru/news/f1-192290.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-03T17:11:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192290.jpg"
+    },
+    {
+      "title": "Условия победы Mercedes в Кубке конструкторов в Сан-Паулу",
+      "url": "https://www.f1news.ru/news/f1-192289.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-03T17:09:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/mercedes/192289.jpg"
+    },
+    {
+      "title": "Форнароли вернётся за руль McLaren на этапе в Бразилии",
+      "url": "https://www.f1news.ru/news/f1-192288.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-03T16:53:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/fornaroli/192288.jpg"
+    },
+    {
+      "title": "McLaren to bring upgrades to Brazil GP with F1 2027 in mind",
+      "url": "https://www.autosport.com/f1/news/mclaren-to-bring-upgrades-to-brazil-gp-with-f1-2027-in-mind/10871328/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-03T16:48:36+00:00",
+      "category": "tech",
+      "image": "https://cdn-7.motorsport.com/images/amp/YP741QG2/s6/lando-norris-mclaren-2.jpg"
+    },
+    {
+      "title": "Мини заменит Гасли в первой тренировке в Сан-Паулу",
+      "url": "https://www.f1news.ru/news/f1-192287.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-03T16:16:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/192287.jpg"
+    },
+    {
+      "title": "Pirelli готовит для Интерлагоса три самых мягких состава",
+      "url": "https://www.f1news.ru/news/f1-192286.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-03T15:55:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/pirelli/192286.jpg"
+    },
+    {
+      "title": "Бортолето: В Бразилии у меня невероятная поддержка",
+      "url": "https://www.f1news.ru/news/f1-192285.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-03T14:44:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192285.jpg"
+    },
+    {
+      "title": "Формула E: Команда Fortescue пытается уговорить Риккардо",
+      "url": "https://www.f1news.ru/news/autosport-192283.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-03T13:52:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ricciardo/192283.jpg"
+    },
+    {
+      "title": "The reason behind Honda’s power unit lasting five laps in Mexico GP",
+      "url": "https://www.autosport.com/f1/news/the-reason-behind-hondas-power-unit-lasting-five-laps-in-mexico/10871286/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-03T13:45:54+00:00",
+      "category": "tech",
+      "image": "https://cdn-8.motorsport.com/images/amp/6x7Lb1rY/s6/lance-stroll-aston-martin-raci-2.jpg"
+    },
+    {
+      "title": "Макс Ферстаппен представил шлем для этапа в Сан-Паулу",
+      "url": "https://www.f1news.ru/news/f1-192281.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-03T12:59:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/192281.jpg"
+    },
+    {
+      "title": "Red Bull's key strategy call behind Verstappen's Mexico win",
+      "url": "https://www.autosport.com/f1/news/red-bulls-key-strategy-call-behind-verstappens-mexico-win-10871260/10871260/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-03T12:04:20+00:00",
+      "category": "teams",
+      "image": "https://cdn-8.motorsport.com/images/amp/Y9lNZvb2/s6/max-verstappen-red-bull-racing-3.jpg"
+    },
+    {
+      "title": "Калле Рованперя возвращается в ралли",
+      "url": "https://www.f1news.ru/news/autosport-192280.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-03T11:59:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192280.jpg"
+    },
     {
       "title": "В Honda взяли на себя ответственность за сход в Мехико",
       "url": "https://www.f1news.ru/news/f1-192279.html",
@@ -65,76 +182,13 @@
       "image": "https://c.f1news.ru/userfiles/russell/192271.jpg"
     },
     {
-      "title": "Команда Cadillac всё-таки может быть продана?",
-      "url": "https://www.f1news.ru/news/f1-192270.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T07:25:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/cadillacf1/192270.jpg"
-    },
-    {
-      "title": "Алонсо: Мы недооценили нагрузку на силовую установку",
-      "url": "https://www.f1news.ru/news/f1-192269.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-02T17:01:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/192269.jpg"
-    },
-    {
-      "title": "Ферстаппен: Я рад, что не допустил ни одной ошибки",
-      "url": "https://www.f1news.ru/interview/max_verstappen/192266.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-02T16:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192266.jpg"
-    },
-    {
       "title": "What was Antonelli’s best moment of his F1 title-winning campaign? Our writers have their say",
       "url": "https://www.autosport.com/f1/news/what-was-antonellis-best-moment-of-his-f1-title-winning-campaign-our-writers-have-their-say/10871078/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-02T15:59:08+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/63Qa3m72/s6/lewis-hamilton-ferrari-max-ver-2.jpg"
-    },
-    {
-      "title": "Тото Вольфф: Из-за Кими от нас ушли два спонсора",
-      "url": "https://www.f1news.ru/news/f1-192268.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-02T15:51:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192268.jpg"
-    },
-    {
-      "title": "Льюис Хэмилтон: Мы сами отдали победу Максу",
-      "url": "https://www.f1news.ru/interview/hamilton/192267.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-02T15:36:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192267.jpg"
-    },
-    {
-      "title": "Марко Антонелли: У меня просто нет слов!",
-      "url": "https://www.f1news.ru/news/f1-192265.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-02T14:03:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192265.jpg"
-    },
-    {
-      "title": "Нико Росберг: Вассёру пора вмешаться",
-      "url": "https://www.f1news.ru/news/f1-192264.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-02T13:47:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/nrosberg/192264.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/63Qa3m72/s6/lewis-hamilton-ferrari-max-ver-2.jpg"
     },
     {
       "title": "Hamilton slams Leclerc for \"do or die\" attitude after Mexico GP clash",
@@ -143,61 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-02T12:40:22+00:00",
       "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/27No4lK0/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "Стали известны подробности конфликта Окона и Комацу",
-      "url": "https://www.f1news.ru/news/f1-192263.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-02T12:33:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ocon/192263.jpg"
-    },
-    {
-      "title": "Лео Турини: Какая же прекрасная история!",
-      "url": "https://www.f1news.ru/news/f1-192262.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-02T12:01:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192262.jpg"
-    },
-    {
-      "title": "Piastri out of F1 Mexico GP points after post-race penalty for Lindblad clash",
-      "url": "https://www.autosport.com/f1/news/penalty-drops-oscar-piastri-out-of-f1-mexico-gp-points/10870864/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-02T02:19:42+00:00",
-      "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/0mXyZvk6/s6/oscar-piastri-mclaren-2.jpg"
-    },
-    {
-      "title": "Gasly and Colapinto penalised post-race, Hirakawa scores on F1 debut at Mexico GP",
-      "url": "https://www.autosport.com/f1/news/gasly-and-colapinto-penalised-post-race-hirakawa-scores-on-f1-debut-at-mexico-gp/10870863/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-02T02:16:28+00:00",
-      "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/0mXyZ4G6/s6/pierre-gasly-alpine-franco-col.jpg"
-    },
-    {
-      "title": "Why Leclerc didn’t give up Mexico GP lead after cutting Turn 5",
-      "url": "https://www.autosport.com/f1/news/why-leclerc-didnt-give-up-mexico-gp-lead-after-cutting-turn-5/10870807/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-02T00:06:00+00:00",
-      "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/6O7zXQX6/s6/charles-leclerc-ferrari-lewis--3.jpg"
-    },
-    {
-      "title": "Hamilton demands “serious talks” at Ferrari after Leclerc clash in Mexico GP “lost us the win”",
-      "url": "https://www.autosport.com/f1/news/lewis-hamilton-demands-serious-talks-at-ferrari-after-charles-leclerc-clash-that-lost-us-the-win-to/10870772/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-01T23:14:33+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/63QaE1D2/s6/charles-leclerc-ferrari-lewis-.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/27No4lK0/s6/lewis-hamilton-ferrari-2.jpg"
     }
   ]
 }
