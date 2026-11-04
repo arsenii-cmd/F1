@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-11-03T19:32:35.352112+00:00",
+  "updatedAt": "2026-11-04T00:39:12.199047+00:00",
   "articles": [
+    {
+      "title": "Камара станет напарником Бермана в Сан-Паулу",
+      "url": "https://www.f1news.ru/news/f1-192291.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-03T20:50:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192291.jpg"
+    },
+    {
+      "title": "Rafa Camara to debut in F1 Brazil GP as Esteban Ocon out at Haas",
+      "url": "https://www.autosport.com/f1/news/rafa-camara-to-debut-in-f1-brazil-gp-as-esteban-ocon-out-at-haas/10871378/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-03T20:47:12+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/6VyKwXGY/s6/rafael-camara-joins-haas-f1-te.jpg"
+    },
     {
       "title": "Why Bearman is yet to be announced as a Haas driver for F1 2027",
       "url": "https://www.autosport.com/f1/news/why-bearman-is-yet-to-be-announced-as-a-haas-driver-for-f1-2027/10871339/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -8,7 +26,7 @@
       "language": "en",
       "publishedAt": "2026-11-03T17:39:09+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/YK15R8O0/s6/oliver-bearman-haas-f1-team.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/YK15R8O0/s6/oliver-bearman-haas-f1-team.jpg"
     },
     {
       "title": "Абила: Только сейчас начинаю понимать, чего мы достигли",
@@ -44,7 +62,7 @@
       "language": "en",
       "publishedAt": "2026-11-03T16:48:36+00:00",
       "category": "tech",
-      "image": "https://cdn-7.motorsport.com/images/amp/YP741QG2/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/YP741QG2/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "Мини заменит Гасли в первой тренировке в Сан-Паулу",
@@ -89,7 +107,7 @@
       "language": "en",
       "publishedAt": "2026-11-03T13:45:54+00:00",
       "category": "tech",
-      "image": "https://cdn-8.motorsport.com/images/amp/6x7Lb1rY/s6/lance-stroll-aston-martin-raci-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/6x7Lb1rY/s6/lance-stroll-aston-martin-raci-2.jpg"
     },
     {
       "title": "Макс Ферстаппен представил шлем для этапа в Сан-Паулу",
@@ -107,7 +125,7 @@
       "language": "en",
       "publishedAt": "2026-11-03T12:04:20+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/Y9lNZvb2/s6/max-verstappen-red-bull-racing-3.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/Y9lNZvb2/s6/max-verstappen-red-bull-racing-3.jpg"
     },
     {
       "title": "Калле Рованперя возвращается в ралли",
@@ -173,31 +191,13 @@
       "image": "https://c.f1news.ru/userfiles/antonelli/192274.jpg"
     },
     {
-      "title": "Джордж Расселл: Этот год оказался не моим",
-      "url": "https://www.f1news.ru/news/f1-192271.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T08:31:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/russell/192271.jpg"
-    },
-    {
       "title": "What was Antonelli’s best moment of his F1 title-winning campaign? Our writers have their say",
       "url": "https://www.autosport.com/f1/news/what-was-antonellis-best-moment-of-his-f1-title-winning-campaign-our-writers-have-their-say/10871078/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-02T15:59:08+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/63Qa3m72/s6/lewis-hamilton-ferrari-max-ver-2.jpg"
-    },
-    {
-      "title": "Hamilton slams Leclerc for \"do or die\" attitude after Mexico GP clash",
-      "url": "https://www.autosport.com/f1/news/hamilton-slams-leclerc-for-do-or-die-attitude-after-mexico-gp-clash/10871033/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-02T12:40:22+00:00",
-      "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/27No4lK0/s6/lewis-hamilton-ferrari-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/63Qa3m72/s6/lewis-hamilton-ferrari-max-ver-2.jpg"
     }
   ]
 }
