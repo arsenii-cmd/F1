@@ -1,6 +1,87 @@
 {
-  "updatedAt": "2026-11-04T12:15:07.865809+00:00",
+  "updatedAt": "2026-11-04T19:50:57.500860+00:00",
   "articles": [
+    {
+      "title": "Баттон вспоминает, как в 2009-м в Бразилии выиграл титул",
+      "url": "https://www.f1news.ru/news/f1-192306.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T17:03:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/button/192306.jpg"
+    },
+    {
+      "title": "Линдблад: Уик-энд обещает быть интересным",
+      "url": "https://www.f1news.ru/news/f1-192307.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T16:54:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/191647.jpg"
+    },
+    {
+      "title": "В Alpine изменят раскраску комбинезонов в Бразилии",
+      "url": "https://www.f1news.ru/news/f1-192305.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T15:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alpinef1team/192305.jpg"
+    },
+    {
+      "title": "Вассёр: Погода может сделать уик-энд непредсказуемым",
+      "url": "https://www.f1news.ru/news/f1-192304.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T14:40:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vasseur/191900.jpg"
+    },
+    {
+      "title": "Liverpool FC owners emerge as potential buyers of Cadillac F1 shares amid TWG uncertainty",
+      "url": "https://www.autosport.com/f1/news/liverpool-fc-owners-emerge-as-potential-buyers-of-cadillac-f1-shares-amid-twg-uncertainty/10871500/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-04T14:34:40+00:00",
+      "category": "teams",
+      "image": "https://cdn-6.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
+    },
+    {
+      "title": "Камара: Понимаю, что мне предстоит многому научиться",
+      "url": "https://www.f1news.ru/news/f1-192303.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T14:31:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192303.jpg"
+    },
+    {
+      "title": "Ферстаппен: В Интерлагосе я всегда хорошо выступал",
+      "url": "https://www.f1news.ru/news/f1-192302.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T13:33:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/191286.jpg"
+    },
+    {
+      "title": "Антонелли в Бразилии принимала семья Айртона Сенны",
+      "url": "https://www.f1news.ru/news/f1-192301.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T12:56:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192301.jpg"
+    },
+    {
+      "title": "Шарль Леклер стал отцом",
+      "url": "https://www.f1news.ru/news/f1-192300.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T12:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/leclerc/192300.jpg"
+    },
     {
       "title": "Владельцы клуба «Ливерпуль» претендуют на долю в Cadillac",
       "url": "https://www.f1news.ru/news/f1-192299.html",
@@ -35,7 +116,7 @@
       "language": "en",
       "publishedAt": "2026-11-04T10:38:04+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/2eZxl1aY/s6/esteban-ocon-haas-f1-team-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/2eZxl1aY/s6/esteban-ocon-haas-f1-team-2.jpg"
     },
     {
       "title": "Mercedes takes blame for Russell's poor Mexico GP: \"We let him down\"",
@@ -44,7 +125,7 @@
       "language": "en",
       "publishedAt": "2026-11-04T10:00:55+00:00",
       "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/25dLDgN0/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/25dLDgN0/s6/george-russell-mercedes-2.jpg"
     },
     {
       "title": "В Cadillac приняли меры после аварии Боттаса",
@@ -62,7 +143,7 @@
       "language": "en",
       "publishedAt": "2026-11-04T09:42:43+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team-2.jpg"
     },
     {
       "title": "NTT станет официальным партнёром McLaren",
@@ -107,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-03T20:47:12+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/27No9rm0/s6/esteban-ocon-haas-f1-team-4.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/27No9rm0/s6/esteban-ocon-haas-f1-team-4.jpg"
     },
     {
       "title": "Why Bearman is yet to be announced as a Haas driver for F1 2027",
@@ -116,88 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-03T17:39:09+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/YK15R8O0/s6/oliver-bearman-haas-f1-team.jpg"
-    },
-    {
-      "title": "Абила: Только сейчас начинаю понимать, чего мы достигли",
-      "url": "https://www.f1news.ru/news/f1-192290.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T17:11:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192290.jpg"
-    },
-    {
-      "title": "Условия победы Mercedes в Кубке конструкторов в Сан-Паулу",
-      "url": "https://www.f1news.ru/news/f1-192289.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T17:09:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/mercedes/192289.jpg"
-    },
-    {
-      "title": "Форнароли вернётся за руль McLaren на этапе в Бразилии",
-      "url": "https://www.f1news.ru/news/f1-192288.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T16:53:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/fornaroli/192288.jpg"
-    },
-    {
-      "title": "McLaren to bring upgrades to Brazil GP with F1 2027 in mind",
-      "url": "https://www.autosport.com/f1/news/mclaren-to-bring-upgrades-to-brazil-gp-with-f1-2027-in-mind/10871328/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-03T16:48:36+00:00",
-      "category": "tech",
-      "image": "https://cdn-6.motorsport.com/images/amp/YP741QG2/s6/lando-norris-mclaren-2.jpg"
-    },
-    {
-      "title": "Мини заменит Гасли в первой тренировке в Сан-Паулу",
-      "url": "https://www.f1news.ru/news/f1-192287.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T16:16:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/192287.jpg"
-    },
-    {
-      "title": "Pirelli готовит для Интерлагоса три самых мягких состава",
-      "url": "https://www.f1news.ru/news/f1-192286.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T15:55:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/pirelli/192286.jpg"
-    },
-    {
-      "title": "Бортолето: В Бразилии у меня невероятная поддержка",
-      "url": "https://www.f1news.ru/news/f1-192285.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T14:44:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/192285.jpg"
-    },
-    {
-      "title": "Формула E: Команда Fortescue пытается уговорить Риккардо",
-      "url": "https://www.f1news.ru/news/autosport-192283.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T13:52:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ricciardo/192283.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен представил шлем для этапа в Сан-Паулу",
-      "url": "https://www.f1news.ru/news/f1-192281.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T12:59:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192281.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/YK15R8O0/s6/oliver-bearman-haas-f1-team.jpg"
     }
   ]
 }
