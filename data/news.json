@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-11-04T00:39:12.199047+00:00",
+  "updatedAt": "2026-11-04T12:15:07.865809+00:00",
   "articles": [
+    {
+      "title": "Владельцы клуба «Ливерпуль» претендуют на долю в Cadillac",
+      "url": "https://www.f1news.ru/news/f1-192299.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T12:06:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/cadillacf1/192299.jpg"
+    },
+    {
+      "title": "Гэри Андерсон о предстоящем дебюте Рафаэля Камары",
+      "url": "https://www.f1news.ru/news/f1-192298.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T11:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/camara_1/192298.jpg"
+    },
+    {
+      "title": "Штрафные баллы перед Гран При Сан-Паулу",
+      "url": "https://www.f1news.ru/news/f1-192297.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T10:50:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192297-1.jpg"
+    },
+    {
+      "title": "Ocon's F1 story is one of success, even if this is the end",
+      "url": "https://www.autosport.com/f1/news/ocons-f1-story-is-one-of-success/10871449/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-04T10:38:04+00:00",
+      "category": "teams",
+      "image": "https://cdn-3.motorsport.com/images/amp/2eZxl1aY/s6/esteban-ocon-haas-f1-team-2.jpg"
+    },
+    {
+      "title": "Mercedes takes blame for Russell's poor Mexico GP: \"We let him down\"",
+      "url": "https://www.autosport.com/f1/news/mercedes-takes-blame-for-russells-poor-mexico-gp/10871439/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-04T10:00:55+00:00",
+      "category": "racing",
+      "image": "https://cdn-2.motorsport.com/images/amp/25dLDgN0/s6/george-russell-mercedes-2.jpg"
+    },
+    {
+      "title": "В Cadillac приняли меры после аварии Боттаса",
+      "url": "https://www.f1news.ru/news/f1-192296.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T09:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/192296.jpg"
+    },
+    {
+      "title": "Herta to contest FP1 for Cadillac in Brazil to obtain final superlicence point",
+      "url": "https://www.autosport.com/f1/news/herta-to-contest-fp1-in-brazil/10871438/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-04T09:42:43+00:00",
+      "category": "teams",
+      "image": "https://cdn-5.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team-2.jpg"
+    },
+    {
+      "title": "NTT станет официальным партнёром McLaren",
+      "url": "https://www.f1news.ru/news/f1-192295.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T08:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/mclaren/192295.jpg"
+    },
+    {
+      "title": "Пол Уильямс об особенностях Гран При Сан-Паулу",
+      "url": "https://www.f1news.ru/interview/Paul_Williams/192293.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T07:52:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/Paul_Williams/192293.jpg"
+    },
+    {
+      "title": "Многие в паддоке не хотят лететь в Катар и Абу-Даби",
+      "url": "https://www.f1news.ru/news/f1-192292.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-04T06:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192292.jpg"
+    },
     {
       "title": "Камара станет напарником Бермана в Сан-Паулу",
       "url": "https://www.f1news.ru/news/f1-192291.html",
@@ -11,13 +101,13 @@
       "image": "https://c.f1news.ru/userfiles/192291.jpg"
     },
     {
-      "title": "Rafa Camara to debut in F1 Brazil GP as Esteban Ocon out at Haas",
-      "url": "https://www.autosport.com/f1/news/rafa-camara-to-debut-in-f1-brazil-gp-as-esteban-ocon-out-at-haas/10871378/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "title": "Ocon to skip the rest of F1 2026 with Camara to debut for Haas in Brazil",
+      "url": "https://www.autosport.com/f1/news/ocon-to-skip-the-rest-of-f1-2026-with-camara-to-debut-in-brazil/10871378/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-03T20:47:12+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/6VyKwXGY/s6/rafael-camara-joins-haas-f1-te.jpg"
+      "category": "teams",
+      "image": "https://cdn-2.motorsport.com/images/amp/27No9rm0/s6/esteban-ocon-haas-f1-team-4.jpg"
     },
     {
       "title": "Why Bearman is yet to be announced as a Haas driver for F1 2027",
@@ -26,7 +116,7 @@
       "language": "en",
       "publishedAt": "2026-11-03T17:39:09+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/YK15R8O0/s6/oliver-bearman-haas-f1-team.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/YK15R8O0/s6/oliver-bearman-haas-f1-team.jpg"
     },
     {
       "title": "Абила: Только сейчас начинаю понимать, чего мы достигли",
@@ -62,7 +152,7 @@
       "language": "en",
       "publishedAt": "2026-11-03T16:48:36+00:00",
       "category": "tech",
-      "image": "https://cdn-9.motorsport.com/images/amp/YP741QG2/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YP741QG2/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "Мини заменит Гасли в первой тренировке в Сан-Паулу",
@@ -101,15 +191,6 @@
       "image": "https://c.f1news.ru/userfiles/ricciardo/192283.jpg"
     },
     {
-      "title": "The reason behind Honda’s power unit lasting five laps in Mexico GP",
-      "url": "https://www.autosport.com/f1/news/the-reason-behind-hondas-power-unit-lasting-five-laps-in-mexico/10871286/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-03T13:45:54+00:00",
-      "category": "tech",
-      "image": "https://cdn-5.motorsport.com/images/amp/6x7Lb1rY/s6/lance-stroll-aston-martin-raci-2.jpg"
-    },
-    {
       "title": "Макс Ферстаппен представил шлем для этапа в Сан-Паулу",
       "url": "https://www.f1news.ru/news/f1-192281.html",
       "source": "F1News",
@@ -117,87 +198,6 @@
       "publishedAt": "2026-11-03T12:59:00+00:00",
       "category": "teams",
       "image": "https://c.f1news.ru/userfiles/max_verstappen/192281.jpg"
-    },
-    {
-      "title": "Red Bull's key strategy call behind Verstappen's Mexico win",
-      "url": "https://www.autosport.com/f1/news/red-bulls-key-strategy-call-behind-verstappens-mexico-win-10871260/10871260/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-03T12:04:20+00:00",
-      "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/Y9lNZvb2/s6/max-verstappen-red-bull-racing-3.jpg"
-    },
-    {
-      "title": "Калле Рованперя возвращается в ралли",
-      "url": "https://www.f1news.ru/news/autosport-192280.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T11:59:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192280.jpg"
-    },
-    {
-      "title": "В Honda взяли на себя ответственность за сход в Мехико",
-      "url": "https://www.f1news.ru/news/f1-192279.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T11:53:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/astonmartin/192279.jpg"
-    },
-    {
-      "title": "Мартин Брандл: В этом сезоне Кими просто непобедим",
-      "url": "https://www.f1news.ru/news/f1-192278.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T10:51:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192278.jpg"
-    },
-    {
-      "title": "Линдблад представил шлем в честь праздника Дивали",
-      "url": "https://www.f1news.ru/news/f1-192277.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T10:28:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192277.jpg"
-    },
-    {
-      "title": "Льюис Хэмилтон: Мой путь в Ferrari только начинается",
-      "url": "https://www.f1news.ru/news/f1-192276.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T09:56:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192276.jpg"
-    },
-    {
-      "title": "Норрис: Кими заставил всех остальных выглядеть глупо",
-      "url": "https://www.f1news.ru/news/f1-192275.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T09:16:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192275.jpg"
-    },
-    {
-      "title": "Экклстоун: Антонелли станет вторым Ферстаппеном",
-      "url": "https://www.f1news.ru/news/f1-192274.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-03T09:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192274.jpg"
-    },
-    {
-      "title": "What was Antonelli’s best moment of his F1 title-winning campaign? Our writers have their say",
-      "url": "https://www.autosport.com/f1/news/what-was-antonellis-best-moment-of-his-f1-title-winning-campaign-our-writers-have-their-say/10871078/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-02T15:59:08+00:00",
-      "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/63Qa3m72/s6/lewis-hamilton-ferrari-max-ver-2.jpg"
     }
   ]
 }
