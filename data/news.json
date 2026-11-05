@@ -1,6 +1,132 @@
 {
-  "updatedAt": "2026-11-05T00:55:45.912735+00:00",
+  "updatedAt": "2026-11-05T12:27:54.038404+00:00",
   "articles": [
+    {
+      "title": "На первой тренировке Леклера заменит Дино Беганович",
+      "url": "https://www.f1news.ru/news/f1-192323.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T12:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192323.jpg"
+    },
+    {
+      "title": "Лэнс Стролл приболел и не приедет на трассу в четверг",
+      "url": "https://www.f1news.ru/news/f1-192322.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T12:11:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/stroll/192322.jpg"
+    },
+    {
+      "title": "Байер: Миссия Racing Bulls – воспитывать новых гонщиков",
+      "url": "https://www.f1news.ru/news/f1-192321.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T11:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lawson_1/192321.jpg"
+    },
+    {
+      "title": "Слейтер может заменить Камару в Формуле 2",
+      "url": "https://www.f1news.ru/news/autosport-192320.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T11:24:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/camara_1/192320.jpg"
+    },
+    {
+      "title": "Экклстоун: Рано или поздно Антонелли окажется в Ferrari",
+      "url": "https://www.f1news.ru/news/f1-192319.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T10:29:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192319.jpg"
+    },
+    {
+      "title": "Дэн Таурисс: Боттас может сохранить место в команде",
+      "url": "https://www.f1news.ru/news/f1-192318.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T10:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/192318.jpg"
+    },
+    {
+      "title": "How Mercedes can win the F1 world constructors’ title in Brazil",
+      "url": "https://www.autosport.com/f1/news/how-mercedes-can-win-the-f1-world-constructors-title-in-brazil/10871661/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-05T09:52:25+00:00",
+      "category": "teams",
+      "image": "https://cdn-5.motorsport.com/images/amp/2GdKZbEY/s6/george-russell-mercedes-andrea-2.jpg"
+    },
+    {
+      "title": "Заявление Williams в связи с уходом из жизни Алана Джонса",
+      "url": "https://www.f1news.ru/news/f1-192317.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T09:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/jones/192317.jpg"
+    },
+    {
+      "title": "1980 F1 world champion Alan Jones dies aged 80",
+      "url": "https://www.autosport.com/f1/news/1980-f1-world-champion-alan-jones-dies-aged-80/10871644/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-05T08:58:53+00:00",
+      "category": "teams",
+      "image": "https://cdn-9.motorsport.com/images/amp/6zQ9lGlY/s6/alan-jones-williams-fw07b-ford-2.jpg"
+    },
+    {
+      "title": "Дерек Дэли: Ferrari необходим жёсткий лидер",
+      "url": "https://www.f1news.ru/news/f1-192316.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T08:56:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vasseur/192316.jpg"
+    },
+    {
+      "title": "Кими Антонелли был близок к сходу в Мехико",
+      "url": "https://www.f1news.ru/news/f1-192315.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T08:36:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192315.jpg"
+    },
+    {
+      "title": "WEC: В McLaren подтвердили контракт с Грегуаром Соси",
+      "url": "https://www.f1news.ru/news/autosport-192314.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T07:16:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/brown/192314.jpg"
+    },
+    {
+      "title": "В Audi показали раскраску машины для Бразилии",
+      "url": "https://www.f1news.ru/news/f1-192313.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T06:21:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/audi/192313.jpg"
+    },
+    {
+      "title": "Алан Джонс: 1946 - 2026",
+      "url": "https://www.f1news.ru/news/f1-192312.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T05:51:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192312.jpg"
+    },
     {
       "title": "Витантонио Лиуцци – третий стюард Гран При Сан-Паулу",
       "url": "https://www.f1news.ru/news/f1-192310.html",
@@ -38,121 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/190741.jpg"
     },
     {
-      "title": "Гран При Сан-Паулу: Этап конкурса прогнозов",
-      "url": "https://www.f1news.ru/news/f1-192284.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T21:30:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192284.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Ставки букмекеров",
-      "url": "https://www.f1news.ru/news/f1-192282.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T21:25:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192282.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Круглые числа",
-      "url": "https://www.f1news.ru/Championship/2026/saopaulo/stats.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T21:20:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184479.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Превью этапа",
-      "url": "https://www.f1news.ru/Championship/2026/saopaulo/preview.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T21:15:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/150053.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Комментарии перед этапом",
-      "url": "https://www.f1news.ru/Championship/2026/saopaulo/beforerace.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T21:10:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184540.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Трасса и статистика",
-      "url": "https://www.f1news.ru/Championship/2026/saopaulo/index.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T21:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/108774.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Прогноз погоды на уик-энд",
-      "url": "https://www.f1news.ru/news/f1-192294.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T21:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/164059.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Расписание пресс-конференций",
-      "url": "https://www.f1news.ru/news/f1-192309.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T20:55:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/187867.jpg"
-    },
-    {
-      "title": "Хюлкенберг представил шлем для Гран При Сан-Паулу",
-      "url": "https://www.f1news.ru/news/f1-192308.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T20:37:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/hulkenberg/192308.jpg"
-    },
-    {
-      "title": "Баттон вспоминает, как в 2009-м в Бразилии выиграл титул",
-      "url": "https://www.f1news.ru/news/f1-192306.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T17:03:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/button/192306.jpg"
-    },
-    {
-      "title": "Линдблад: Уик-энд обещает быть интересным",
-      "url": "https://www.f1news.ru/news/f1-192307.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T16:54:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/191647.jpg"
-    },
-    {
-      "title": "В Alpine изменят раскраску комбинезонов в Бразилии",
-      "url": "https://www.f1news.ru/news/f1-192305.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T15:38:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alpinef1team/192305.jpg"
-    },
-    {
       "title": "Liverpool FC owners emerge as potential buyers of Cadillac F1 shares amid TWG uncertainty",
       "url": "https://www.autosport.com/f1/news/liverpool-fc-owners-emerge-as-potential-buyers-of-cadillac-f1-shares-amid-twg-uncertainty/10871500/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-04T14:34:40+00:00",
       "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
     },
     {
       "title": "Ocon's F1 story is one of success, even if this is the end",
@@ -161,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-04T10:38:04+00:00",
       "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/2eZxl1aY/s6/esteban-ocon-haas-f1-team-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/2eZxl1aY/s6/esteban-ocon-haas-f1-team-2.jpg"
     },
     {
       "title": "Mercedes takes blame for Russell's poor Mexico GP: \"We let him down\"",
@@ -170,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-04T10:00:55+00:00",
       "category": "racing",
-      "image": "https://cdn-9.motorsport.com/images/amp/25dLDgN0/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/25dLDgN0/s6/george-russell-mercedes-2.jpg"
     },
     {
       "title": "Herta to contest FP1 for Cadillac in Brazil to obtain final superlicence point",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-04T09:42:43+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team-2.jpg"
-    },
-    {
-      "title": "Ocon to skip the rest of F1 2026 with Camara to debut for Haas in Brazil",
-      "url": "https://www.autosport.com/f1/news/ocon-to-skip-the-rest-of-f1-2026-with-camara-to-debut-in-brazil/10871378/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-03T20:47:12+00:00",
-      "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/27No9rm0/s6/esteban-ocon-haas-f1-team-4.jpg"
-    },
-    {
-      "title": "Why Bearman is yet to be announced as a Haas driver for F1 2027",
-      "url": "https://www.autosport.com/f1/news/why-bearman-is-yet-to-be-announced-as-a-haas-driver-for-f1-2027/10871339/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-03T17:39:09+00:00",
-      "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/YK15R8O0/s6/oliver-bearman-haas-f1-team.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team-2.jpg"
     }
   ]
 }
