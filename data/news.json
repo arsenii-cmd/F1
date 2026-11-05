@@ -1,59 +1,167 @@
 {
-  "updatedAt": "2026-11-05T12:27:54.038404+00:00",
+  "updatedAt": "2026-11-05T22:05:07.298699+00:00",
   "articles": [
     {
-      "title": "На первой тренировке Леклера заменит Дино Беганович",
-      "url": "https://www.f1news.ru/news/f1-192323.html",
+      "title": "Ландо Норрис готов к любой погоде…",
+      "url": "https://www.f1news.ru/news/f1-192350.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-05T12:20:00+00:00",
+      "publishedAt": "2026-11-05T21:21:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192323.jpg"
+      "image": "https://c.f1news.ru/userfiles/norris/192350.jpg"
     },
     {
-      "title": "Лэнс Стролл приболел и не приедет на трассу в четверг",
-      "url": "https://www.f1news.ru/news/f1-192322.html",
+      "title": "Оскар Пиастри: Оспорить мой штраф довольно сложно",
+      "url": "https://www.f1news.ru/news/f1-192349.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-05T12:11:00+00:00",
+      "publishedAt": "2026-11-05T21:14:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stroll/192322.jpg"
+      "image": "https://c.f1news.ru/userfiles/piastri/192349.jpg"
     },
     {
-      "title": "Байер: Миссия Racing Bulls – воспитывать новых гонщиков",
-      "url": "https://www.f1news.ru/news/f1-192321.html",
+      "title": "Кими Антонелли: Это были потрясающие два дня",
+      "url": "https://www.f1news.ru/news/f1-192348.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-05T11:38:00+00:00",
+      "publishedAt": "2026-11-05T21:04:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/192321.jpg"
+      "image": "https://c.f1news.ru/userfiles/antonelli/192348.jpg"
     },
     {
-      "title": "Слейтер может заменить Камару в Формуле 2",
-      "url": "https://www.f1news.ru/news/autosport-192320.html",
+      "title": "Расселл: Все эти бесконечные проблемы давят на психику",
+      "url": "https://www.f1news.ru/news/f1-192347.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-05T11:24:00+00:00",
+      "publishedAt": "2026-11-05T20:58:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/camara_1/192320.jpg"
+      "image": "https://c.f1news.ru/userfiles/russell/192347.jpg"
     },
     {
-      "title": "Экклстоун: Рано или поздно Антонелли окажется в Ferrari",
-      "url": "https://www.f1news.ru/news/f1-192319.html",
+      "title": "Айзек Хаджар: Вопрос времени, когда всё наладится",
+      "url": "https://www.f1news.ru/news/f1-192346.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-05T10:29:00+00:00",
+      "publishedAt": "2026-11-05T20:26:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192319.jpg"
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/192346.jpg"
     },
     {
-      "title": "Дэн Таурисс: Боттас может сохранить место в команде",
-      "url": "https://www.f1news.ru/news/f1-192318.html",
+      "title": "Фотогалерея: Гран При Сан-Паулу, четверг",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/saopaulo/0511/",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-05T10:05:00+00:00",
+      "publishedAt": "2026-11-05T20:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192326.jpg"
+    },
+    {
+      "title": "Элбон: Будет дождь – будут шансы заработать очки",
+      "url": "https://www.f1news.ru/news/f1-192345.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T20:05:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/192318.jpg"
+      "image": "https://c.f1news.ru/userfiles/albon_1/192345.jpg"
+    },
+    {
+      "title": "Антонелли представил шлем в цветах Сенны",
+      "url": "https://www.f1news.ru/news/f1-192344.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T19:56:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192344.jpg"
+    },
+    {
+      "title": "Хэмилтон: Со мной Леклер борется жёстче, чем с другими",
+      "url": "https://www.f1news.ru/news/f1-192343.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T19:55:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192343.jpg"
+    },
+    {
+      "title": "Сайнс: Не думаю, что мы можем рассчитывать на очки",
+      "url": "https://www.f1news.ru/news/f1-192342.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T19:34:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/192342.jpg"
+    },
+    {
+      "title": "Хюлкенберг: Сан-Паулу – город с особой энергетикой",
+      "url": "https://www.f1news.ru/news/f1-192341.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T19:16:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hulkenberg/192341.jpg"
+    },
+    {
+      "title": "Hamilton backs claims Leclerc races him harder than F1 rivals",
+      "url": "https://www.autosport.com/f1/news/lewis-hamilton-backs-claims-charles-leclerc-races-him-harder-than-f1-rivals/10871859/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-05T18:58:43+00:00",
+      "category": "racing",
+      "image": "https://cdn-7.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari-2.jpg"
+    },
+    {
+      "title": "Лиам Лоусон: Неопределённость с будущим омрачает",
+      "url": "https://www.f1news.ru/news/f1-192340.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T18:48:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lawson_1/192340.jpg"
+    },
+    {
+      "title": "Серхио Перес: Надеюсь, мы выступим неплохо",
+      "url": "https://www.f1news.ru/news/f1-192339.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T18:36:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/perez/192339.jpg"
+    },
+    {
+      "title": "Берман: С тем, что произошло в Мехико, трудно смириться",
+      "url": "https://www.f1news.ru/news/f1-192338.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T18:34:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192338.jpg"
+    },
+    {
+      "title": "Макс Ферстаппен: Я установил антивирус на свою машину!",
+      "url": "https://www.f1news.ru/news/f1-192337.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T18:17:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/192337.jpg"
+    },
+    {
+      "title": "Алонсо: В последних гонках мы явно прибавили",
+      "url": "https://www.f1news.ru/news/f1-192336.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T18:13:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/alonso/192336.jpg"
+    },
+    {
+      "title": "How rough diamond Camara feels ahead of 'very surprising' F1 home debut",
+      "url": "https://www.autosport.com/f1/news/how-rough-diamond-camara-feels-ahead-of-very-surprising-f1-home-debut/10871811/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-05T17:37:33+00:00",
+      "category": "teams",
+      "image": "https://cdn-2.motorsport.com/images/amp/YE9EpZ1Y/s6/rafael-camara-haas-f1-team-2.jpg"
     },
     {
       "title": "How Mercedes can win the F1 world constructors’ title in Brazil",
@@ -62,16 +170,7 @@
       "language": "en",
       "publishedAt": "2026-11-05T09:52:25+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/2GdKZbEY/s6/george-russell-mercedes-andrea-2.jpg"
-    },
-    {
-      "title": "Заявление Williams в связи с уходом из жизни Алана Джонса",
-      "url": "https://www.f1news.ru/news/f1-192317.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-05T09:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/jones/192317.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/2GdKZbEY/s6/george-russell-mercedes-andrea-2.jpg"
     },
     {
       "title": "1980 F1 world champion Alan Jones dies aged 80",
@@ -80,88 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-05T08:58:53+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/6zQ9lGlY/s6/alan-jones-williams-fw07b-ford-2.jpg"
-    },
-    {
-      "title": "Дерек Дэли: Ferrari необходим жёсткий лидер",
-      "url": "https://www.f1news.ru/news/f1-192316.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-05T08:56:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/vasseur/192316.jpg"
-    },
-    {
-      "title": "Кими Антонелли был близок к сходу в Мехико",
-      "url": "https://www.f1news.ru/news/f1-192315.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-05T08:36:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192315.jpg"
-    },
-    {
-      "title": "WEC: В McLaren подтвердили контракт с Грегуаром Соси",
-      "url": "https://www.f1news.ru/news/autosport-192314.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-05T07:16:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/brown/192314.jpg"
-    },
-    {
-      "title": "В Audi показали раскраску машины для Бразилии",
-      "url": "https://www.f1news.ru/news/f1-192313.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-05T06:21:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/audi/192313.jpg"
-    },
-    {
-      "title": "Алан Джонс: 1946 - 2026",
-      "url": "https://www.f1news.ru/news/f1-192312.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-05T05:51:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192312.jpg"
-    },
-    {
-      "title": "Витантонио Лиуцци – третий стюард Гран При Сан-Паулу",
-      "url": "https://www.f1news.ru/news/f1-192310.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T22:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/liuzzi/185668.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Изменения на трассе и зоны обгонов",
-      "url": "https://www.f1news.ru/news/f1-192311.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T21:50:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192311.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Пять прямых трансляций",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T21:40:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-173.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Точка самого серьёзного торможения",
-      "url": "https://www.f1news.ru/news/f1-192272.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-04T21:35:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/190741.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/6zQ9lGlY/s6/alan-jones-williams-fw07b-ford-2.jpg"
     },
     {
       "title": "Liverpool FC owners emerge as potential buyers of Cadillac F1 shares amid TWG uncertainty",
@@ -170,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-04T14:34:40+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
     },
     {
       "title": "Ocon's F1 story is one of success, even if this is the end",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-04T10:38:04+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/2eZxl1aY/s6/esteban-ocon-haas-f1-team-2.jpg"
-    },
-    {
-      "title": "Mercedes takes blame for Russell's poor Mexico GP: \"We let him down\"",
-      "url": "https://www.autosport.com/f1/news/mercedes-takes-blame-for-russells-poor-mexico-gp/10871439/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-04T10:00:55+00:00",
-      "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/25dLDgN0/s6/george-russell-mercedes-2.jpg"
-    },
-    {
-      "title": "Herta to contest FP1 for Cadillac in Brazil to obtain final superlicence point",
-      "url": "https://www.autosport.com/f1/news/herta-to-contest-fp1-in-brazil/10871438/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-04T09:42:43+00:00",
-      "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/6n7ABxe0/s6/colton-herta-cadillac-f1-team-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/2eZxl1aY/s6/esteban-ocon-haas-f1-team-2.jpg"
     }
   ]
 }
