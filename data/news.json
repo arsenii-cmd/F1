@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-11-05T22:05:07.298699+00:00",
+  "updatedAt": "2026-11-06T06:56:32.705173+00:00",
   "articles": [
+    {
+      "title": "18:25 МСК: Прямая трансляция свободных заездов",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-05T23:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-173.jpg"
+    },
     {
       "title": "Ландо Норрис готов к любой погоде…",
       "url": "https://www.f1news.ru/news/f1-192350.html",
@@ -107,7 +116,7 @@
       "language": "en",
       "publishedAt": "2026-11-05T18:58:43+00:00",
       "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari-2.jpg"
     },
     {
       "title": "Лиам Лоусон: Неопределённость с будущим омрачает",
@@ -146,22 +155,13 @@
       "image": "https://c.f1news.ru/userfiles/max_verstappen/192337.jpg"
     },
     {
-      "title": "Алонсо: В последних гонках мы явно прибавили",
-      "url": "https://www.f1news.ru/news/f1-192336.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-05T18:13:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/alonso/192336.jpg"
-    },
-    {
       "title": "How rough diamond Camara feels ahead of 'very surprising' F1 home debut",
       "url": "https://www.autosport.com/f1/news/how-rough-diamond-camara-feels-ahead-of-very-surprising-f1-home-debut/10871811/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-05T17:37:33+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/YE9EpZ1Y/s6/rafael-camara-haas-f1-team-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/YE9EpZ1Y/s6/rafael-camara-haas-f1-team-2.jpg"
     },
     {
       "title": "How Mercedes can win the F1 world constructors’ title in Brazil",
@@ -170,7 +170,7 @@
       "language": "en",
       "publishedAt": "2026-11-05T09:52:25+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/2GdKZbEY/s6/george-russell-mercedes-andrea-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/2GdKZbEY/s6/george-russell-mercedes-andrea-2.jpg"
     },
     {
       "title": "1980 F1 world champion Alan Jones dies aged 80",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-05T08:58:53+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/6zQ9lGlY/s6/alan-jones-williams-fw07b-ford-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/6zQ9lGlY/s6/alan-jones-williams-fw07b-ford-2.jpg"
     },
     {
       "title": "Liverpool FC owners emerge as potential buyers of Cadillac F1 shares amid TWG uncertainty",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-04T14:34:40+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/0Zq8bZL6/s6/sergio-perez-cadillac.jpg"
     },
     {
       "title": "Ocon's F1 story is one of success, even if this is the end",
