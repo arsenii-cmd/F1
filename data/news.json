@@ -1,6 +1,132 @@
 {
-  "updatedAt": "2026-11-06T15:58:38.143243+00:00",
+  "updatedAt": "2026-11-06T21:34:39.193380+00:00",
   "articles": [
+    {
+      "title": "Бортолето: Думаю, мне удаётся учиться на своих ошибках",
+      "url": "https://www.f1news.ru/news/f1-192376.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-06T21:34:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192376.jpg"
+    },
+    {
+      "title": "Камара получил предупреждение за инцидент с Леклером",
+      "url": "https://www.f1news.ru/news/f1-192375.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-06T21:27:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/camara_1/192375.jpg"
+    },
+    {
+      "title": "Норрис: Новинки дали эффект, на который мы рассчитывали",
+      "url": "https://www.f1news.ru/news/f1-192374.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-06T21:08:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/192374.jpg"
+    },
+    {
+      "title": "Камара: Перед началом тренировок я разволновался",
+      "url": "https://www.f1news.ru/news/f1-192373.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-06T21:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/camara_1/192373.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При Сан-Паулу, пятница",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/saopaulo/0611/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-06T20:25:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "F1 Brazilian GP: Antonelli quickest in tricky FP2",
+      "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-kimi-antonelli-fastest-in-tricky-fp2/10872299/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-06T20:07:29+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/68VwEnB2/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+    },
+    {
+      "title": "Кими Антонелли лидирует во второй тренировке",
+      "url": "https://www.f1news.ru/Championship/2026/saopaulo/friday-free.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-06T20:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/184543.jpg"
+    },
+    {
+      "title": "Вассёр: У выстроенной нами системы есть недостаток",
+      "url": "https://www.f1news.ru/news/f1-192371.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-06T19:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vasseur/192371.jpg"
+    },
+    {
+      "title": "Vasseur issues reminder to Hamilton and Leclerc in post-Mexico Ferrari talks",
+      "url": "https://www.autosport.com/f1/news/we-failed-so-we-had-to-react-fred-vasseur-on-ferrari-driver-talks-and-mexico-f1-fallout/10872249/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-06T18:46:02+00:00",
+      "category": "teams",
+      "image": "https://cdn-3.motorsport.com/images/amp/0R7BMbg2/s6/fred-vasseur-ferrari-2.jpg"
+    },
+    {
+      "title": "Ваулз: Ресурс техники приходится использовать до предела",
+      "url": "https://www.f1news.ru/news/f1-192370.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-06T17:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vowles/192370.jpg"
+    },
+    {
+      "title": "Herta qualifies for F1 superlicence as Bottas remains bullish on 2027 seat",
+      "url": "https://www.autosport.com/f1/news/herta-qualifies-for-f1-superlicence-as-bottas-remains-bullish-on-2027-seat/10872179/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-06T16:57:16+00:00",
+      "category": "teams",
+      "image": "https://cdn-4.motorsport.com/images/amp/01QNpEx0/s6/colton-herta-cadillac-f1-team.jpg"
+    },
+    {
+      "title": "Франко Колапинто превысил скорость на пит-лейн",
+      "url": "https://www.f1news.ru/news/f1-192368.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-06T16:56:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/colapinto/192368.jpg"
+    },
+    {
+      "title": "Двум гонщиками поменяли элементы силовой установки",
+      "url": "https://www.f1news.ru/news/f1-192367.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-06T16:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/192367.jpg"
+    },
+    {
+      "title": "F1 Brazilian GP: Norris fastest in opening practice from new champion Antonelli",
+      "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-norris-fastest-in-opening-practice-from-new-champion-antonelli/10872162/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-06T16:41:55+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/24QGzjNY/s6/lando-norris-mclaren-2.jpg"
+    },
     {
       "title": "\"Exhausted\" Russell set for Brazilian F1 grid penalty",
       "url": "https://www.autosport.com/f1/news/exhausted-russell-set-for-brazilian-f1-grid-penalty/10872138/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -8,7 +134,7 @@
       "language": "en",
       "publishedAt": "2026-11-06T15:37:02+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/YK15qjD0/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/YK15qjD0/s6/george-russell-mercedes-2.jpg"
     },
     {
       "title": "Технические новинки появились только на машинах McLaren",
@@ -18,15 +144,6 @@
       "publishedAt": "2026-11-06T15:23:00+00:00",
       "category": "tech",
       "image": "https://c.f1news.ru/userfiles/fia/192364.jpg"
-    },
-    {
-      "title": "18:25 МСК: Прямая трансляция свободных заездов",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T15:20:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-173.jpg"
     },
     {
       "title": "Рафаэль Камара выступит под номером 51",
@@ -74,130 +191,13 @@
       "image": "https://c.f1news.ru/userfiles/astonmartin/190658.jpg"
     },
     {
-      "title": "Алонсо приветствует Хэмилтона в «Клубе 400»",
-      "url": "https://www.f1news.ru/news/f1-192358.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T12:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192358.jpg"
-    },
-    {
-      "title": "Ватанабе советует Цуноде оставаться в Формуле 1",
-      "url": "https://www.f1news.ru/news/f1-192357.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T11:51:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/watanabe/192357.jpg"
-    },
-    {
-      "title": "Доменикали: Мы хотим провести все оставшиеся гонки",
-      "url": "https://www.f1news.ru/news/f1-192356.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T11:11:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192356.jpg"
-    },
-    {
       "title": "Ferrari set for crunch meeting as Hamilton and Leclerc tension reaches Brazil",
       "url": "https://www.autosport.com/f1/news/ferrari-set-for-crunch-meeting-as-hamilton-and-leclerc-tension-reaches-brazil/10872030/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-06T11:09:53+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/63QaE1D2/s6/charles-leclerc-ferrari-lewis--2.jpg"
-    },
-    {
-      "title": "Джордж Расселл потеряет пять мест на старте",
-      "url": "https://www.f1news.ru/news/f1-192355.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T10:13:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/russell/192355.jpg"
-    },
-    {
-      "title": "Гюнтер Штайнер: Фредерику Вассёру я не завидую",
-      "url": "https://www.f1news.ru/news/f1-192354.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T10:04:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/steiner/192354.jpg"
-    },
-    {
-      "title": "Сайнс: Шарля и Льюиса невозможно призвать к спокойствию",
-      "url": "https://www.f1news.ru/news/f1-192353.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T09:29:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sainz-junior/192353.jpg"
-    },
-    {
-      "title": "Permane signs new Racing Bulls F1 deal",
-      "url": "https://www.autosport.com/f1/news/permane-signs-new-racing-bulls-f1-deal/10871999/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-06T09:24:07+00:00",
-      "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/24QebeqY/s6/alan-permane-racing-bulls-2.jpg"
-    },
-    {
-      "title": "Алан Пермейн будет руководить Racing Bulls до 2031 года",
-      "url": "https://www.f1news.ru/news/f1-192352.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T09:04:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/permane/192352.jpg"
-    },
-    {
-      "title": "Перес: Чем меньше отвлекающих факторов, тем лучше",
-      "url": "https://www.f1news.ru/news/f1-192351.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T08:37:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/perez/192351.jpg"
-    },
-    {
-      "title": "Ландо Норрис готов к любой погоде…",
-      "url": "https://www.f1news.ru/news/f1-192350.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-05T21:21:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/192350.jpg"
-    },
-    {
-      "title": "Hamilton backs claims Leclerc races him harder than F1 rivals",
-      "url": "https://www.autosport.com/f1/news/lewis-hamilton-backs-claims-charles-leclerc-races-him-harder-than-f1-rivals/10871859/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-05T18:58:43+00:00",
-      "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "How rough diamond Camara feels ahead of 'very surprising' F1 home debut",
-      "url": "https://www.autosport.com/f1/news/how-rough-diamond-camara-feels-ahead-of-very-surprising-f1-home-debut/10871811/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-05T17:37:33+00:00",
-      "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/YE9EpZ1Y/s6/rafael-camara-haas-f1-team-2.jpg"
-    },
-    {
-      "title": "How Mercedes can win the F1 world constructors’ title in Brazil",
-      "url": "https://www.autosport.com/f1/news/how-mercedes-can-win-the-f1-world-constructors-title-in-brazil/10871661/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-05T09:52:25+00:00",
-      "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/2GdKZbEY/s6/george-russell-mercedes-andrea-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/63QaE1D2/s6/charles-leclerc-ferrari-lewis--2.jpg"
     }
   ]
 }
