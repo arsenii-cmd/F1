@@ -1,6 +1,132 @@
 {
-  "updatedAt": "2026-11-07T14:56:03.562140+00:00",
+  "updatedAt": "2026-11-07T20:17:16.924521+00:00",
   "articles": [
+    {
+      "title": "Фредерик Вассёр: Таких условий мы ещё не видели!",
+      "url": "https://www.f1news.ru/news/f1-192406.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T19:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vasseur/192406.jpg"
+    },
+    {
+      "title": "Бинотто: Вряд ли можно подготовиться к сюрпризам погоды",
+      "url": "https://www.f1news.ru/news/f1-192405.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T19:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/binotto_1/192405.jpg"
+    },
+    {
+      "title": "WEC: Ferrari стартует с поула в финале сезона в Монце",
+      "url": "https://www.f1news.ru/news/autosport-192404.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T18:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192404.jpg"
+    },
+    {
+      "title": "20:55 МСК: Прямая трансляция квалификации",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T17:33:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-173.jpg"
+    },
+    {
+      "title": "Hamilton set for new penalty, will start F1 Brazilian GP from back of grid",
+      "url": "https://www.autosport.com/f1/news/hamilton-set-for-new-penalty-will-start-f1-brazilian-gp-from-back-of-grid/10872645/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-07T17:32:44+00:00",
+      "category": "racing",
+      "image": "https://cdn-7.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari-2.jpg"
+    },
+    {
+      "title": "Хэмилтону ещё раз заменили мотор",
+      "url": "https://www.f1news.ru/news/f1-192403.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T17:32:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192403.jpg"
+    },
+    {
+      "title": "Серхио Перес получил предупреждение",
+      "url": "https://www.f1news.ru/news/f1-192402.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T17:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/perez/192402.jpg"
+    },
+    {
+      "title": "Тото Вольфф рассказал о том, чем он больше всего гордится",
+      "url": "https://www.f1news.ru/news/f1-192401.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T16:49:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192401.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При Сан-Паулу, суббота",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/saopaulo/0711/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T15:50:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "F1 Brazilian GP: Verstappen edges out Antonelli to top FP3 as Hamilton hits mechanical trouble",
+      "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-verstappen-edges-out-antonelli-to-top-fp3-as-hamilton-hits-mechanical-trouble/10872582/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-07T15:37:40+00:00",
+      "category": "racing",
+      "image": "https://cdn-5.motorsport.com/images/amp/6x7L93jY/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Ферстаппен быстрее всех в третьей тренировке",
+      "url": "https://www.f1news.ru/Championship/2026/saopaulo/saturday-free.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T15:35:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/184544.jpg"
+    },
+    {
+      "title": "Гонщики Ferrari, Ферстаппен и Перес потеряют позиции",
+      "url": "https://www.f1news.ru/news/f1-192396.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T15:29:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/fia/192396.jpg"
+    },
+    {
+      "title": "Hamilton, Leclerc and Verstappen hit with F1 grid penalties for Brazilian GP",
+      "url": "https://www.autosport.com/f1/news/lewis-hamilton-charles-leclerc-and-max-verstappen-hit-with-f1-grid-penalties-for-brazilian-gp/10872564/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-07T15:05:04+00:00",
+      "category": "racing",
+      "image": "https://cdn-2.motorsport.com/images/amp/YBVj1bMY/s6/lewis-hamilton-ferrari-max-ver.jpg"
+    },
+    {
+      "title": "Гран При Сан-Паулу останется в календаре до 2035 года",
+      "url": "https://www.f1news.ru/news/f1-192395.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-07T14:59:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/domenicali/192395.jpg"
+    },
     {
       "title": "На машине Ферстаппена заменят силовую установку",
       "url": "https://www.f1news.ru/news/f1-192394.html",
@@ -17,7 +143,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T14:31:52+00:00",
       "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/6O7zlya6/s6/gabriel-bortoleto-audi-f1-team.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/6O7zlya6/s6/gabriel-bortoleto-audi-f1-team.jpg"
     },
     {
       "title": "Две команды нарушили правило комендантского часа",
@@ -27,15 +153,6 @@
       "publishedAt": "2026-11-07T13:51:00+00:00",
       "category": "teams",
       "image": "https://c.f1news.ru/userfiles/192393.jpg"
-    },
-    {
-      "title": "17:25 МСК: Прямая трансляция свободных заездов",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T13:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-173.jpg"
     },
     {
       "title": "Хэмилтон потеряет места на стартовом поле",
@@ -62,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T11:00:49+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/0rVPoPO0/s6/esteban-ocon-haas-f1-team-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/0rVPoPO0/s6/esteban-ocon-haas-f1-team-2.jpg"
     },
     {
       "title": "Руководители команд о судьбе Эстебана Окона",
@@ -74,130 +191,13 @@
       "image": "https://c.f1news.ru/userfiles/permane/192390.jpg"
     },
     {
-      "title": "Расселл: Только в шести гонках у меня не было проблем",
-      "url": "https://www.f1news.ru/news/f1-192389.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T10:26:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/russell/192389.jpg"
-    },
-    {
-      "title": "Шарль Леклер: Я всегда хотел стать молодым отцом",
-      "url": "https://www.f1news.ru/news/f1-192388.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T10:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/leclerc/192388.jpg"
-    },
-    {
-      "title": "Алан Пермейн: Мы уже близки к принятию решения",
-      "url": "https://www.f1news.ru/news/f1-192387.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T09:14:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/permane/192387.jpg"
-    },
-    {
-      "title": "В Red Bull объяснили проблемы с машиной Ферстаппена",
-      "url": "https://www.f1news.ru/news/f1-192386.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T08:32:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192386.jpg"
-    },
-    {
-      "title": "Шарль Леклер: Нам нужно прибавить в скорости",
-      "url": "https://www.f1news.ru/news/f1-192385.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T23:14:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192385.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен: Надеюсь на небольшой дождь",
-      "url": "https://www.f1news.ru/news/f1-192384.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T23:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192384.jpg"
-    },
-    {
-      "title": "Лиам Лоусон: Нужно учесть все факторы",
-      "url": "https://www.f1news.ru/news/f1-192383.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T22:45:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192383.jpg"
-    },
-    {
-      "title": "В Cadillac могут заменить двигатель на машине Переса",
-      "url": "https://www.f1news.ru/news/f1-192382.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T22:44:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/bottas/192382.jpg"
-    },
-    {
-      "title": "Кими Антонелли: Найти правильный баланс было непросто",
-      "url": "https://www.f1news.ru/news/f1-192381.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T22:18:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192381.jpg"
-    },
-    {
-      "title": "Симоне Берра: Тренировки прошли в разных условиях",
-      "url": "https://www.f1news.ru/news/f1-192380.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-06T22:17:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/pirelli/192380.jpg"
-    },
-    {
       "title": "F1 Brazilian GP: Antonelli quickest in tricky FP2",
       "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-kimi-antonelli-fastest-in-tricky-fp2/10872299/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-06T20:07:29+00:00",
       "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/68VwEnB2/s6/andrea-kimi-antonelli-mercedes-2.jpg"
-    },
-    {
-      "title": "Vasseur issues reminder to Hamilton and Leclerc in post-Mexico Ferrari talks",
-      "url": "https://www.autosport.com/f1/news/we-failed-so-we-had-to-react-fred-vasseur-on-ferrari-driver-talks-and-mexico-f1-fallout/10872249/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-06T18:46:02+00:00",
-      "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/0R7BMbg2/s6/fred-vasseur-ferrari-2.jpg"
-    },
-    {
-      "title": "Herta qualifies for F1 superlicence as Bottas remains bullish on 2027 seat",
-      "url": "https://www.autosport.com/f1/news/herta-qualifies-for-f1-superlicence-as-bottas-remains-bullish-on-2027-seat/10872179/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-06T16:57:16+00:00",
-      "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/01QNpEx0/s6/colton-herta-cadillac-f1-team.jpg"
-    },
-    {
-      "title": "F1 Brazilian GP: Norris fastest in opening practice from new champion Antonelli",
-      "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-norris-fastest-in-opening-practice-from-new-champion-antonelli/10872162/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-06T16:41:55+00:00",
-      "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/24QGzjNY/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/68VwEnB2/s6/andrea-kimi-antonelli-mercedes-2.jpg"
     }
   ]
 }
