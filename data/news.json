@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-07T23:40:06.111045+00:00",
+  "updatedAt": "2026-11-08T06:12:53.268492+00:00",
   "articles": [
+    {
+      "title": "19:50 МСК: Прямая трансляция гонки",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T05:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-173.jpg"
+    },
+    {
+      "title": "Гран При Сан-Паулу: Стартовое поле",
+      "url": "https://www.f1news.ru/Championship/2026/saopaulo/grid.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T05:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184546.jpg"
+    },
+    {
+      "title": "Гран При Сан-Паулу: Прогноз погоды на гонку",
+      "url": "https://www.f1news.ru/news/f1-192399.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T05:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/164059.jpg"
+    },
     {
       "title": "На сухой трассе в Pirelli ждут двух пит-стопов",
       "url": "https://www.f1news.ru/news/f1-192420.html",
@@ -80,7 +107,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T21:48:47+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/6DGgbp7Y/s6/charles-leclerc-ferrari-lewis--2.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/6DGgbp7Y/s6/charles-leclerc-ferrari-lewis--2.jpg"
     },
     {
       "title": "Оливер Берман: Я доволен тем, как справился",
@@ -143,34 +170,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T20:33:59+00:00",
       "category": "racing",
-      "image": "https://cdn-9.motorsport.com/images/amp/6b8ZM8L2/s6/lando-norris-mclaren-3.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Поул у Норриса",
-      "url": "https://www.f1news.ru/Championship/2026/saopaulo/qual.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T20:33:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184545.jpg"
-    },
-    {
-      "title": "Фредерик Вассёр: Таких условий мы ещё не видели!",
-      "url": "https://www.f1news.ru/news/f1-192406.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T19:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/vasseur/192406.jpg"
-    },
-    {
-      "title": "Бинотто: Вряд ли можно подготовиться к сюрпризам погоды",
-      "url": "https://www.f1news.ru/news/f1-192405.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T19:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/binotto_1/192405.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/6b8ZM8L2/s6/lando-norris-mclaren-3.jpg"
     },
     {
       "title": "Hamilton set for new penalty, will start F1 Brazilian GP from back of grid",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T15:37:40+00:00",
       "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/6x7L93jY/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/6x7L93jY/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
       "title": "Hamilton, Leclerc and Verstappen hit with F1 grid penalties for Brazilian GP",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T15:05:04+00:00",
       "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/YBVj1bMY/s6/lewis-hamilton-ferrari-max-ver.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/YBVj1bMY/s6/lewis-hamilton-ferrari-max-ver.jpg"
     }
   ]
 }
