@@ -1,14 +1,131 @@
 {
-  "updatedAt": "2026-11-08T06:12:53.268492+00:00",
+  "updatedAt": "2026-11-08T15:19:10.494051+00:00",
   "articles": [
+    {
+      "title": "Бурдэ: Когда карьера закончится, пути назад уже не будет",
+      "url": "https://www.f1news.ru/news/autosport-192433.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T15:16:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bourdais/192433.jpg"
+    },
+    {
+      "title": "120 минут до старта: Комментарий Кими Антонелли",
+      "url": "https://www.f1news.ru/news/f1-192432.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T15:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192023.jpg"
+    },
+    {
+      "title": "Линдблад и Бортолето потеряют позиции на старте",
+      "url": "https://www.f1news.ru/news/f1-192431.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T14:46:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192431.jpg"
+    },
+    {
+      "title": "WEC: В Монце за два часа до финиша лидирует Cadillac",
+      "url": "https://www.f1news.ru/news/autosport-192430.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T14:25:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192430-1.jpg"
+    },
     {
       "title": "19:50 МСК: Прямая трансляция гонки",
       "url": "https://www.f1news.ru/news/f1-119347.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-08T05:10:00+00:00",
+      "publishedAt": "2026-11-08T14:05:00+00:00",
       "category": "racing",
       "image": "https://c.f1news.ru/userfiles/119347-173.jpg"
+    },
+    {
+      "title": "Макс Ферстаппен: Я вообще не интересуюсь политикой",
+      "url": "https://www.f1news.ru/news/f1-192429.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T14:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/192429.jpg"
+    },
+    {
+      "title": "Официальный прогноз погоды FIA на гонку",
+      "url": "https://www.f1news.ru/news/f1-192428.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T13:48:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192428.jpg"
+    },
+    {
+      "title": "Can Hamilton and Verstappen fight back for F1 Brazilian GP victory?",
+      "url": "https://www.autosport.com/f1/news/ill-try-to-win-somehow-can-lewis-hamilton-and-max-verstappen-fight-back-for-f1-brazilian-gp-victory/10872922/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-08T13:29:32+00:00",
+      "category": "racing",
+      "image": "https://cdn-7.motorsport.com/images/amp/YBVj1bMY/s6/lewis-hamilton-ferrari-max-ver-2.jpg"
+    },
+    {
+      "title": "Авария дрона в Интерлагосе вызвала вопросы у FIA",
+      "url": "https://www.f1news.ru/news/f1-192426.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T12:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192426.jpg"
+    },
+    {
+      "title": "В Honda применили особые настройки в расчёте на дождь",
+      "url": "https://www.f1news.ru/news/f1-192424.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T11:23:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/192424.jpg"
+    },
+    {
+      "title": "Ландо Норрис: Я надеюсь на дождевую гонку",
+      "url": "https://www.f1news.ru/news/f1-192422.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T11:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/norris/192422.jpg"
+    },
+    {
+      "title": "The wet-weather challenges thrown up by Brazilian GP qualifying",
+      "url": "https://www.autosport.com/f1/news/the-wet-weather-challenges-thrown-up-by-brazilian-gp-qualifying/10872894/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-08T11:09:51+00:00",
+      "category": "racing",
+      "image": "https://cdn-2.motorsport.com/images/amp/0qgK1NQY/s6/rafael-camara-haas-f1-team-3.jpg"
+    },
+    {
+      "title": "Фредерик Вассёр: Мы решили приберечь шины для гонки",
+      "url": "https://www.f1news.ru/news/f1-192423.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T10:44:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/vasseur/192423.jpg"
+    },
+    {
+      "title": "Стелла: Поул ещё не значит, что машина стала самой быстрой",
+      "url": "https://www.f1news.ru/news/f1-192421.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T09:48:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/stella/192421.jpg"
     },
     {
       "title": "Гран При Сан-Паулу: Стартовое поле",
@@ -47,58 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/albon_1/192419.jpg"
     },
     {
-      "title": "Нико Хюлкенберг: Гонка не будет простой",
-      "url": "https://www.f1news.ru/news/f1-192417.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T22:39:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/192417.jpg"
-    },
-    {
-      "title": "Валттери Боттас: Темп выглядел многообещающим",
-      "url": "https://www.f1news.ru/news/f1-192416.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T22:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/192416.jpg"
-    },
-    {
-      "title": "Лоусон: Наша машина быстра при любой погоде",
-      "url": "https://www.f1news.ru/news/f1-192415.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T22:19:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192415.jpg"
-    },
-    {
       "title": "Why Russell was so angry in Brazilian GP qualifying despite already having a grid penalty",
       "url": "https://www.autosport.com/f1/news/why-russell-was-so-angry-in-brazilian-gp-qualifying-despite-already-having-a-grid-penalty/10872788/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-07T22:15:40+00:00",
       "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/0kZX9Qy6/s6/george-russell-mercedes.jpg"
-    },
-    {
-      "title": "Ферстаппен: Если бы не штраф, я бы поборолся за поул",
-      "url": "https://www.f1news.ru/news/f1-192414.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T21:55:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192414.jpg"
-    },
-    {
-      "title": "Колапинто: На мокрой трассе мы оказались не так быстры",
-      "url": "https://www.f1news.ru/news/f1-192413.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T21:55:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/192413.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/0kZX9Qy6/s6/george-russell-mercedes.jpg"
     },
     {
       "title": "Hamilton insists Ferrari tensions with Leclerc are over: \"We've squashed it\"",
@@ -107,61 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T21:48:47+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/6DGgbp7Y/s6/charles-leclerc-ferrari-lewis--2.jpg"
-    },
-    {
-      "title": "Оливер Берман: Я доволен тем, как справился",
-      "url": "https://www.f1news.ru/news/f1-192412.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T21:42:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/192412.jpg"
-    },
-    {
-      "title": "Алонсо: В воскресенье меня больше устроит дождь",
-      "url": "https://www.f1news.ru/news/f1-192411.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T21:37:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/192411.jpg"
-    },
-    {
-      "title": "Льюис Хэмилтон: Мы с Шарлем уладили все разногласия",
-      "url": "https://www.f1news.ru/news/f1-192410.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T21:24:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192410.jpg"
-    },
-    {
-      "title": "Ландо Норрис: Я просто рад, что завоевал поул!",
-      "url": "https://www.f1news.ru/news/f1-192409.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T20:57:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/192409.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При Сан-Паулу, суббота",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/saopaulo/0711/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T20:55:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192398.jpg"
-    },
-    {
-      "title": "Расселл: У нас с командой произошло недопонимание",
-      "url": "https://www.f1news.ru/news/f1-192408.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-07T20:50:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192408.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/6DGgbp7Y/s6/charles-leclerc-ferrari-lewis--2.jpg"
     },
     {
       "title": "F1 Brazilian GP: Norris splashes to pole from Russell",
@@ -170,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T20:33:59+00:00",
       "category": "racing",
-      "image": "https://cdn-5.motorsport.com/images/amp/6b8ZM8L2/s6/lando-norris-mclaren-3.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/6b8ZM8L2/s6/lando-norris-mclaren-3.jpg"
     },
     {
       "title": "Hamilton set for new penalty, will start F1 Brazilian GP from back of grid",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T17:32:44+00:00",
       "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "F1 Brazilian GP: Verstappen edges out Antonelli to top FP3 as Hamilton hits mechanical trouble",
-      "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-verstappen-edges-out-antonelli-to-top-fp3-as-hamilton-hits-mechanical-trouble/10872582/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-07T15:37:40+00:00",
-      "category": "racing",
-      "image": "https://cdn-7.motorsport.com/images/amp/6x7L93jY/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Hamilton, Leclerc and Verstappen hit with F1 grid penalties for Brazilian GP",
-      "url": "https://www.autosport.com/f1/news/lewis-hamilton-charles-leclerc-and-max-verstappen-hit-with-f1-grid-penalties-for-brazilian-gp/10872564/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-07T15:05:04+00:00",
-      "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/YBVj1bMY/s6/lewis-hamilton-ferrari-max-ver.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/0qgKrwgY/s6/lewis-hamilton-ferrari-2.jpg"
     }
   ]
 }
