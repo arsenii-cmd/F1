@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-11-08T20:32:02.510227+00:00",
+  "updatedAt": "2026-11-09T06:46:30.726962+00:00",
   "articles": [
+    {
+      "title": "Гран При Сан-Паулу: Все цитаты уик-энда",
+      "url": "https://www.f1news.ru/news/f1-192273.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-09T00:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192273.jpg"
+    },
+    {
+      "title": "Гран При Сан-Паулу: Комментарии после гонки",
+      "url": "https://www.f1news.ru/Championship/2026/saopaulo/afterrace.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-09T00:03:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184550.jpg"
+    },
+    {
+      "title": "В Pirelli отметили, что работа шин соответствовала расчётам",
+      "url": "https://www.f1news.ru/news/f1-192458.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T22:32:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/pirelli/192458.jpg"
+    },
+    {
+      "title": "Лоусон: Серия из трёх гонок оставила немало позитива",
+      "url": "https://www.f1news.ru/news/f1-192457.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T22:06:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192457.jpg"
+    },
+    {
+      "title": "Leclerc penalised for Lawson clash; Antonelli and Oliver Bearman also punished after F1 Brazilian GP",
+      "url": "https://www.autosport.com/f1/news/leclerc-penalised-for-lawson-clash-antonelli-and-oliver-bearman-also-punished-after-f1-brazilian-gp/10873166/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-08T21:59:31+00:00",
+      "category": "racing",
+      "image": "https://cdn-3.motorsport.com/images/amp/0Zq8VdL6/s6/charles-leclerc-ferrari-arvid-.jpg"
+    },
+    {
+      "title": "Гран При Сан-Паулу: Порядок смены шин на дистанции",
+      "url": "https://www.f1news.ru/Championship/2026/saopaulo/tyres.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T21:58:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/184549.jpg"
+    },
+    {
+      "title": "Кими Антонелли получил 5-секундный штраф",
+      "url": "https://www.f1news.ru/news/f1-192456.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T21:52:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192456.jpg"
+    },
+    {
+      "title": "Шарль Леклер оштрафован и потерял позицию",
+      "url": "https://www.f1news.ru/news/f1-192455.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T21:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lawson_1/192455.jpg"
+    },
+    {
+      "title": "Хюлкенберг: Гонка получилась богатой на события",
+      "url": "https://www.f1news.ru/news/f1-192454.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T21:35:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192454.jpg"
+    },
+    {
+      "title": "Оливер Берман получил 5-секундный штраф",
+      "url": "https://www.f1news.ru/news/f1-192453.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T21:26:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192453.jpg"
+    },
+    {
+      "title": "Берман: Хочется вернуться домой и восстановить силы",
+      "url": "https://www.f1news.ru/news/f1-192452.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T21:13:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192452.jpg"
+    },
+    {
+      "title": "Алекс Элбон: Я получил удовольствие от борьбы",
+      "url": "https://www.f1news.ru/news/f1-192451.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T21:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/192451.jpg"
+    },
+    {
+      "title": "Боттас не стартовал из-за заклинившей колесной гайки",
+      "url": "https://www.f1news.ru/news/f1-192450.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T20:58:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/192450.jpg"
+    },
+    {
+      "title": "Antonelli explains \"weird\" spin and car instability which cost F1 Brazilian GP win",
+      "url": "https://www.autosport.com/f1/news/antonelli-explains-weird-spin-and-car-instability-which-cost-f1-brazilian-gp-win/10873132/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-08T20:57:57+00:00",
+      "category": "racing",
+      "image": "https://cdn-2.motorsport.com/images/amp/2eZx8n9Y/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+    },
+    {
+      "title": "Бриаторе: Наше слабое место - мокрая трасса",
+      "url": "https://www.f1news.ru/news/f1-192449.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-08T20:45:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/192449.jpg"
+    },
     {
       "title": "Льюис Хэмилтон: Команда заслуживала лучшего результата",
       "url": "https://www.f1news.ru/news/f1-192448.html",
@@ -29,130 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/stroll/192446.jpg"
     },
     {
-      "title": "Команда Mercedes выиграла 9-й Кубок конструкторов",
-      "url": "https://www.f1news.ru/news/f1-192445.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T19:51:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192445.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При Сан-Паулу, воскресенье",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/saopaulo/0811/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T19:30:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192438.jpg"
-    },
-    {
-      "title": "Пятеро получили предупреждения, Элбон – штрафные баллы",
-      "url": "https://www.f1news.ru/news/f1-192444.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T19:27:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192444.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен: Первые круги были очень важны",
-      "url": "https://www.f1news.ru/news/f1-192443.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T19:23:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192443.jpg"
-    },
-    {
-      "title": "Ландо Норрис: Здорово вернуться на вершину подиума!",
-      "url": "https://www.f1news.ru/news/f1-192442.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T19:20:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/norris/192442-1.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Круг за кругом",
-      "url": "https://www.f1news.ru/Championship/2026/saopaulo/laps.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T19:16:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184548.jpg"
-    },
-    {
       "title": "F1 Brazilian GP: Norris wins in mixed conditions, Mercedes clinch constructors’ title",
       "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-lando-norris-wins-in-mixed-conditions-mercedes-clinches-constructors-title/10873048/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-08T18:50:51+00:00",
       "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/0JXRprQY/s6/lando-norris-mclaren-4.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Норрис - Ферстаппен - Хаджар",
-      "url": "https://www.f1news.ru/Championship/2026/saopaulo/race.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T18:49:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184547-1.jpg"
-    },
-    {
-      "title": "WEC: Команда Cadillac выиграла финальную гонку сезона",
-      "url": "https://www.f1news.ru/news/autosport-192440.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T16:51:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192440.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Стартовое поле",
-      "url": "https://www.f1news.ru/Championship/2026/saopaulo/grid.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T16:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184546.jpg"
-    },
-    {
-      "title": "70 минут до старта: Комментарий Льюиса Хэмилтона",
-      "url": "https://www.f1news.ru/news/f1-192439.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T15:50:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/191727.jpg"
-    },
-    {
-      "title": "80 минут до старта: Комментарий Лиама Лоусона",
-      "url": "https://www.f1news.ru/news/f1-192437.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T15:40:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/192437.jpg"
-    },
-    {
-      "title": "90 минут до старта: Комментарий Ландо Норриса",
-      "url": "https://www.f1news.ru/news/f1-192436.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T15:30:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/187714.jpg"
-    },
-    {
-      "title": "100 минут до старта: Комментарий Макса Ферстаппена",
-      "url": "https://www.f1news.ru/news/f1-192435.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-08T15:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/187709.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/0JXRprQY/s6/lando-norris-mclaren-4.jpg"
     },
     {
       "title": "Can Hamilton and Verstappen fight back for F1 Brazilian GP victory?",
@@ -161,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-08T13:29:32+00:00",
       "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/YBVj1bMY/s6/lewis-hamilton-ferrari-max-ver-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/YBVj1bMY/s6/lewis-hamilton-ferrari-max-ver-2.jpg"
     },
     {
       "title": "The wet-weather challenges thrown up by Brazilian GP qualifying",
@@ -170,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-08T11:09:51+00:00",
       "category": "racing",
-      "image": "https://cdn-4.motorsport.com/images/amp/0qgK1NQY/s6/rafael-camara-haas-f1-team-3.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/0qgK1NQY/s6/rafael-camara-haas-f1-team-3.jpg"
     },
     {
       "title": "Why Russell was so angry in Brazilian GP qualifying despite already having a grid penalty",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-07T22:15:40+00:00",
       "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/0kZX9Qy6/s6/george-russell-mercedes.jpg"
-    },
-    {
-      "title": "Hamilton insists Ferrari tensions with Leclerc are over: \"We've squashed it\"",
-      "url": "https://www.autosport.com/f1/news/lewis-hamilton-insists-ferrari-tensions-with-charles-leclerc-are-over-weve-squashed-it/10872775/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-07T21:48:47+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/6DGgbp7Y/s6/charles-leclerc-ferrari-lewis--2.jpg"
-    },
-    {
-      "title": "F1 Brazilian GP: Norris splashes to pole from Russell",
-      "url": "https://www.autosport.com/f1/news/f1-brazilian-gp-lando-norris-takes-pole-in-soaking-wet-qualifying/10872710/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-07T20:33:59+00:00",
-      "category": "racing",
-      "image": "https://cdn-2.motorsport.com/images/amp/6b8ZM8L2/s6/lando-norris-mclaren-3.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0kZX9Qy6/s6/george-russell-mercedes.jpg"
     }
   ]
 }
