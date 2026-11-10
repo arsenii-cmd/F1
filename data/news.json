@@ -1,6 +1,96 @@
 {
-  "updatedAt": "2026-11-10T12:44:00.224026+00:00",
+  "updatedAt": "2026-11-10T21:50:05.385525+00:00",
   "articles": [
+    {
+      "title": "Мартин Брандл об итогах Гран При Сан-Паулу",
+      "url": "https://www.f1news.ru/news/f1-192489.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-10T18:15:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192489.jpg"
+    },
+    {
+      "title": "Алан Пермейн: Хочется определиться с составом команды",
+      "url": "https://www.f1news.ru/news/f1-192488.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-10T17:22:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/permane/192488.jpg"
+    },
+    {
+      "title": "Авиакомпания Etihad оформила самолёт в честь McLaren",
+      "url": "https://www.f1news.ru/news/f1-192487.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-10T16:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/brown/192487.jpg"
+    },
+    {
+      "title": "Опубликован календарь F1 ACADEMY 2027 года",
+      "url": "https://www.f1news.ru/news/autosport-192486.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-10T16:04:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192486.jpg"
+    },
+    {
+      "title": "Хаджар: Важно, чтобы был тот, кто видит твой потенциал",
+      "url": "https://www.f1news.ru/news/f1-192485.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-10T15:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/192485.jpg"
+    },
+    {
+      "title": "Финал сезона пройдёт не в Имоле",
+      "url": "https://www.f1news.ru/news/f1-192484.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-10T14:53:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ferrari/191015.jpg"
+    },
+    {
+      "title": "F1 2026 calendar update: Imola off the table, no plan B if Iran war escalates",
+      "url": "https://www.autosport.com/f1/news/f1-2026-calendar-update-imola-off-the-table-no-plan-b-if-iran-war-escalates/10873643/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-10T14:52:26+00:00",
+      "category": "teams",
+      "image": "https://cdn-6.motorsport.com/images/amp/6x7Lz8jY/s6/lando-norris-mclaren-liam-laws-2.jpg"
+    },
+    {
+      "title": "Ваулз: С самого начала и до конца у нас были сложности",
+      "url": "https://www.f1news.ru/news/f1-192483.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-10T13:26:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vowles/192483.jpg"
+    },
+    {
+      "title": "Эстебан Окон поблагодарил всех за поддержку",
+      "url": "https://www.f1news.ru/news/f1-192482.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-10T13:10:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ocon/191019.jpg"
+    },
+    {
+      "title": "Льюис Хэмилтон побывал в Египте",
+      "url": "https://www.f1news.ru/news/f1-192481.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-10T12:45:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192481.jpg"
+    },
     {
       "title": "В FIA отчитались о третьем периоде ADUO в 2026 году",
       "url": "https://www.f1news.ru/news/f1-192480.html",
@@ -17,7 +107,7 @@
       "language": "en",
       "publishedAt": "2026-11-10T11:45:39+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws-2.jpg"
     },
     {
       "title": "IndyCar: Мик Шумахер рассказал о травме кисти",
@@ -74,94 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/vandoorne/192474.jpg"
     },
     {
-      "title": "WEC: Состав команды McLaren окончательно сформирован",
-      "url": "https://www.f1news.ru/news/autosport-192473.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-10T07:17:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192473.jpg"
-    },
-    {
-      "title": "В FIA отменят возрастные ограничения для руководства",
-      "url": "https://www.f1news.ru/news/f1-192472.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-09T17:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sulayem/189820.jpg"
-    },
-    {
-      "title": "Ландо Норрис: Одна из лучших гонок в моей карьере",
-      "url": "https://www.f1news.ru/interview/norris/192471.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-09T16:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/192471.jpg"
-    },
-    {
       "title": "What's behind Piastri's split with Webber – and what it means for his F1 career",
       "url": "https://www.autosport.com/f1/news/whats-behind-piastris-split-with-webber-and-what-it-means-for-his-f1-career/10873410/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-09T15:53:07+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/6DGg5rKY/s6/oscar-piastri-mclaren-with-mar.jpg"
-    },
-    {
-      "title": "Льюис Хэмилтон обратился к болельщикам…",
-      "url": "https://www.f1news.ru/news/f1-192470.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-09T15:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192470.jpg"
-    },
-    {
-      "title": "Мекис: Ферстаппен раз за разом превосходит прогнозы",
-      "url": "https://www.f1news.ru/news/f1-192469.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-09T14:18:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192469.jpg"
-    },
-    {
-      "title": "Ферстаппен: На мокрой трассе обгонять даже легче",
-      "url": "https://www.f1news.ru/interview/max_verstappen/192468.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-09T14:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192468.jpg"
-    },
-    {
-      "title": "Стелла: Прохладная погода помогла победить в Сан-Паулу",
-      "url": "https://www.f1news.ru/news/f1-192467.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-09T13:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stella/192467.jpg"
-    },
-    {
-      "title": "Хаджар: Я рад, что проверил себя в сложных условиях",
-      "url": "https://www.f1news.ru/news/f1-192466.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-09T12:33:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192466.jpg"
-    },
-    {
-      "title": "Гран При Сан-Паулу: Любопытная статистика",
-      "url": "https://www.f1news.ru/news/f1-192425.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-09T12:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192425.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/6DGg5rKY/s6/oscar-piastri-mclaren-with-mar.jpg"
     },
     {
       "title": "How the Racing Bulls pendulum is swinging back towards Lawson",
@@ -170,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-09T11:54:39+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/YK15ARz0/s6/liam-lawson-racing-bulls-3.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YK15ARz0/s6/liam-lawson-racing-bulls-3.jpg"
     },
     {
       "title": "Piastri and Webber terminate management agreement",
@@ -179,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-09T08:43:40+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/0Zq8VN46/s6/oscar-piastri-mclaren-with-mar-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0Zq8VN46/s6/oscar-piastri-mclaren-with-mar-2.jpg"
     },
     {
       "title": "Leclerc penalised for Lawson clash; Antonelli and Oliver Bearman also punished after F1 Brazilian GP",
@@ -188,16 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-08T21:59:31+00:00",
       "category": "racing",
-      "image": "https://cdn-5.motorsport.com/images/amp/0Zq8VdL6/s6/charles-leclerc-ferrari-arvid-.jpg"
-    },
-    {
-      "title": "Antonelli explains \"weird\" spin and car instability which cost F1 Brazilian GP win",
-      "url": "https://www.autosport.com/f1/news/antonelli-explains-weird-spin-and-car-instability-which-cost-f1-brazilian-gp-win/10873132/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-08T20:57:57+00:00",
-      "category": "racing",
-      "image": "https://cdn-6.motorsport.com/images/amp/2eZx8n9Y/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0Zq8VdL6/s6/charles-leclerc-ferrari-arvid-.jpg"
     }
   ]
 }
