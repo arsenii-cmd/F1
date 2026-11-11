@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-11-11T16:16:20.828952+00:00",
+  "updatedAt": "2026-11-11T22:45:02.800827+00:00",
   "articles": [
+    {
+      "title": "Клэр Уильямс: Однажды у Williams всё получится",
+      "url": "https://www.f1news.ru/news/f1-192505.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-11T17:13:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/claire_williams/192505.jpg"
+    },
+    {
+      "title": "Леклер обошёл Хэмилтона в рейтинге SportsPro",
+      "url": "https://www.f1news.ru/news/f1-192504.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-11T16:44:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192504.jpg"
+    },
     {
       "title": "Крак: К сожалению, мы вновь не заработали очки",
       "url": "https://www.f1news.ru/news/f1-192503.html",
@@ -89,7 +107,7 @@
       "language": "en",
       "publishedAt": "2026-11-11T09:23:42+00:00",
       "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/Y9lNzqb2/s6/oscar-piastri-mclaren-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/Y9lNzqb2/s6/oscar-piastri-mclaren-2.jpg"
     },
     {
       "title": "Камара не знает, выйдет ли на старт гонки в Лас-Вегасе",
@@ -137,31 +155,13 @@
       "image": "https://c.f1news.ru/userfiles/piastri/192490.jpg"
     },
     {
-      "title": "Мартин Брандл об итогах Гран При Сан-Паулу",
-      "url": "https://www.f1news.ru/news/f1-192489.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-10T18:15:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192489.jpg"
-    },
-    {
-      "title": "Алан Пермейн: Хочется определиться с составом команды",
-      "url": "https://www.f1news.ru/news/f1-192488.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-10T17:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/permane/192488.jpg"
-    },
-    {
       "title": "F1 2026 calendar update: Imola off the table, no plan B if Iran war escalates",
       "url": "https://www.autosport.com/f1/news/f1-2026-calendar-update-imola-off-the-table-no-plan-b-if-iran-war-escalates/10873643/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-10T14:52:26+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/6x7Lz8jY/s6/lando-norris-mclaren-liam-laws-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/6x7Lz8jY/s6/lando-norris-mclaren-liam-laws-2.jpg"
     },
     {
       "title": "FIA reveals ADUO results in final review of 2026 F1 season",
@@ -170,7 +170,7 @@
       "language": "en",
       "publishedAt": "2026-11-10T11:45:39+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws-2.jpg"
     },
     {
       "title": "What's behind Piastri's split with Webber – and what it means for his F1 career",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-09T15:53:07+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/6DGg5rKY/s6/oscar-piastri-mclaren-with-mar.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/6DGg5rKY/s6/oscar-piastri-mclaren-with-mar.jpg"
     },
     {
       "title": "How the Racing Bulls pendulum is swinging back towards Lawson",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-09T11:54:39+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/YK15ARz0/s6/liam-lawson-racing-bulls-3.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/YK15ARz0/s6/liam-lawson-racing-bulls-3.jpg"
     },
     {
       "title": "Piastri and Webber terminate management agreement",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-09T08:43:40+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/0Zq8VN46/s6/oscar-piastri-mclaren-with-mar-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/0Zq8VN46/s6/oscar-piastri-mclaren-with-mar-2.jpg"
     }
   ]
 }
