@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-11-13T01:10:01.571259+00:00",
+  "updatedAt": "2026-11-13T12:18:29.268893+00:00",
   "articles": [
+    {
+      "title": "Экономический эффект от этапа в Мадриде выше прогнозов",
+      "url": "https://www.f1news.ru/news/f1-192531.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-13T12:09:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192531.jpg"
+    },
+    {
+      "title": "Оскар Пиастри: Гонки на выносливость – это интересно",
+      "url": "https://www.f1news.ru/news/f1-192530.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-13T11:37:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/piastri/192530.jpg"
+    },
+    {
+      "title": "Палмовски – участница молодёжной программы Red Bull",
+      "url": "https://www.f1news.ru/news/autosport-192529.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-13T10:39:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/mekies/192529.jpg"
+    },
+    {
+      "title": "The Antonelli you don't know: Inside the Mercedes garage with F1's new world champion",
+      "url": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion/10874265/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-13T10:04:48+00:00",
+      "category": "teams",
+      "image": "https://cdn-2.motorsport.com/images/amp/0o5AwKwY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+    },
+    {
+      "title": "Кими Антонелли: Жажда успеха стала ещё сильнее",
+      "url": "https://www.f1news.ru/news/f1-192528.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-13T09:54:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192528.jpg"
+    },
+    {
+      "title": "Роман Грожан завершил карьеру в «формулах»",
+      "url": "https://www.f1news.ru/news/autosport-192527.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-13T09:16:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/grosjean/192527.jpg"
+    },
+    {
+      "title": "Тото Вольфф несколько раз пытался уйти в отставку",
+      "url": "https://www.f1news.ru/news/f1-192526.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-13T08:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/wolff/192526.jpg"
+    },
+    {
+      "title": "Карлос Сайнс: Отец поделился со мной секретом успеха",
+      "url": "https://www.f1news.ru/news/f1-192525.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-13T08:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/192525.jpg"
+    },
     {
       "title": "Мотоцикл MotoGP быстрее Формулы 1 в гонке на льду",
       "url": "https://www.f1news.ru/news/f1-192524.html",
@@ -26,7 +98,7 @@
       "language": "en",
       "publishedAt": "2026-11-12T15:21:07+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
     },
     {
       "title": "Никола Цолов – резервный пилот двух команд Red Bull",
@@ -89,7 +161,7 @@
       "language": "en",
       "publishedAt": "2026-11-12T12:27:55+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/YvKB3V16/s6/gr63-academy-unveil-2.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/YvKB3V16/s6/gr63-academy-unveil-2.jpg"
     },
     {
       "title": "Этап в 2027-м станет последним для Джидды?",
@@ -101,76 +173,13 @@
       "image": "https://c.f1news.ru/userfiles/192516.jpg"
     },
     {
-      "title": "Лоусон и Линдблад продолжат выступать за Racing Bulls",
-      "url": "https://www.f1news.ru/news/f1-192515.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-12T11:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/permane/192515.jpg"
-    },
-    {
       "title": "Lawson to stay in F1 as Racing Bulls announces 2027 driver pairing",
       "url": "https://www.autosport.com/f1/news/lawson-to-stay-in-f1-as-racing-bulls-announces-2027-driver-pairing/10874063/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-12T11:06:00+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/6grQG3nY/s6/liam-lawson-racing-bulls-2.jpg"
-    },
-    {
-      "title": "В Формуле Е отменили декабрьские этапы в Джидде",
-      "url": "https://www.f1news.ru/news/autosport-192514.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-12T10:49:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192514.jpg"
-    },
-    {
-      "title": "Джордж Расселл открыл свою Академию картинга",
-      "url": "https://www.f1news.ru/news/f1-192513.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-12T10:01:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/russell/192513.jpg"
-    },
-    {
-      "title": "Грег Маффей прогнозирует продажу Формулы 1 до 2029 года",
-      "url": "https://www.f1news.ru/news/f1-192512.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-12T09:32:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/fia/192512.jpg"
-    },
-    {
-      "title": "Поворот 130R в Сузуке переименуют в честь видеоигры",
-      "url": "https://www.f1news.ru/news/f1-192510.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-12T09:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192510.jpg"
-    },
-    {
-      "title": "Масса: Ferrari нужно вернуться к старым правилам",
-      "url": "https://www.f1news.ru/news/f1-192509.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-12T09:08:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/massa/192509.jpg"
-    },
-    {
-      "title": "Штайнер считает, что Антонелли перейдёт в Ferrari",
-      "url": "https://www.f1news.ru/news/f1-192508.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-12T08:53:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192508.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/6grQG3nY/s6/liam-lawson-racing-bulls-2.jpg"
     },
     {
       "title": "What the Brazilian GP revealed about F1's ability to cope with rain",
@@ -179,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-11T09:23:42+00:00",
       "category": "racing",
-      "image": "https://cdn-9.motorsport.com/images/amp/Y9lNzqb2/s6/oscar-piastri-mclaren-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/Y9lNzqb2/s6/oscar-piastri-mclaren-2.jpg"
     },
     {
       "title": "F1 2026 calendar update: Imola off the table, no plan B if Iran war escalates",
@@ -189,15 +198,6 @@
       "publishedAt": "2026-11-10T14:52:26+00:00",
       "category": "teams",
       "image": "https://cdn-3.motorsport.com/images/amp/6x7Lz8jY/s6/lando-norris-mclaren-liam-laws-2.jpg"
-    },
-    {
-      "title": "FIA reveals ADUO results in final review of 2026 F1 season",
-      "url": "https://www.autosport.com/f1/news/fia-reveals-aduo-results-in-final-review-of-2026-f1-season/10873566/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-10T11:45:39+00:00",
-      "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws-2.jpg"
     }
   ]
 }
