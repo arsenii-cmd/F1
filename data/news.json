@@ -1,6 +1,51 @@
 {
-  "updatedAt": "2026-11-14T11:34:25.190791+00:00",
+  "updatedAt": "2026-11-14T18:13:15.105132+00:00",
   "articles": [
+    {
+      "title": "Формула E: В Jaguar представили раскраску I-Type 08",
+      "url": "https://www.f1news.ru/news/autosport-192548.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-14T17:29:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/afcosta/192548.jpg"
+    },
+    {
+      "title": "Джеймс Хинчклифф: Титул Антонелли – это только начало",
+      "url": "https://www.f1news.ru/news/f1-192547.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-14T16:29:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192547.jpg"
+    },
+    {
+      "title": "Поль Бельмондо вспоминает Айртона Сенну, глядя на Кими",
+      "url": "https://www.f1news.ru/news/f1-192546.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-14T15:24:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192546.jpg"
+    },
+    {
+      "title": "Карун Чандхок: Сможет ли Расселл отыграться в 2027 году?",
+      "url": "https://www.f1news.ru/news/f1-192545.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-14T13:22:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192545.jpg"
+    },
+    {
+      "title": "Хаджар: Хорошего гонщика было сразу видно и в прошлом",
+      "url": "https://www.f1news.ru/news/f1-192544.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-14T12:16:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/192544.jpg"
+    },
     {
       "title": "Хорнер не уверен, что хочет вернуться в Формулу 1",
       "url": "https://www.f1news.ru/news/f1-192543.html",
@@ -17,7 +62,7 @@
       "language": "en",
       "publishedAt": "2026-11-14T09:13:34+00:00",
       "category": "tech",
-      "image": "https://cdn-5.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "Ферстаппен ездит по Монако на редкой модели Audi",
@@ -119,58 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/piastri/192530.jpg"
     },
     {
-      "title": "Палмовски – участница молодёжной программы Red Bull",
-      "url": "https://www.f1news.ru/news/autosport-192529.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T10:39:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/mekies/192529.jpg"
-    },
-    {
       "title": "The Antonelli you don't know: Inside the Mercedes garage with F1's new world champion",
       "url": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion/10874265/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-13T10:04:48+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/0o5AwKwY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
-    },
-    {
-      "title": "Кими Антонелли: Жажда успеха стала ещё сильнее",
-      "url": "https://www.f1news.ru/news/f1-192528.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T09:54:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192528.jpg"
-    },
-    {
-      "title": "Роман Грожан завершил карьеру в «формулах»",
-      "url": "https://www.f1news.ru/news/autosport-192527.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T09:16:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/grosjean/192527.jpg"
-    },
-    {
-      "title": "Тото Вольфф несколько раз пытался уйти в отставку",
-      "url": "https://www.f1news.ru/news/f1-192526.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T08:38:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/wolff/192526.jpg"
-    },
-    {
-      "title": "Карлос Сайнс: Отец поделился со мной секретом успеха",
-      "url": "https://www.f1news.ru/news/f1-192525.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T08:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sainz-junior/192525.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/0o5AwKwY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
     },
     {
       "title": "Tsolov lands reserve driver role for F1 2027",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-12T15:21:07+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
     },
     {
       "title": "Russell partners with BRDC to launch karting academy",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-12T12:27:55+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/YvKB3V16/s6/gr63-academy-unveil-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/YvKB3V16/s6/gr63-academy-unveil-2.jpg"
     },
     {
       "title": "Lawson to stay in F1 as Racing Bulls announces 2027 driver pairing",
