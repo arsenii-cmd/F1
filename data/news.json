@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-11-14T18:13:15.105132+00:00",
+  "updatedAt": "2026-11-14T23:57:44.671668+00:00",
   "articles": [
+    {
+      "title": "Баттон: Меня поражает целеустремлённость Фернандо",
+      "url": "https://www.f1news.ru/news/f1-192549.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-14T19:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/192549.jpg"
+    },
     {
       "title": "Формула E: В Jaguar представили раскраску I-Type 08",
       "url": "https://www.f1news.ru/news/autosport-192548.html",
@@ -62,7 +71,7 @@
       "language": "en",
       "publishedAt": "2026-11-14T09:13:34+00:00",
       "category": "tech",
-      "image": "https://cdn-8.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "Ферстаппен ездит по Монако на редкой модели Audi",
@@ -98,7 +107,7 @@
       "language": "en",
       "publishedAt": "2026-11-13T17:14:52+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws.jpg"
     },
     {
       "title": "В Pirelli объявили составы на финальные этапы сезона",
@@ -155,22 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/192531.jpg"
     },
     {
-      "title": "Оскар Пиастри: Гонки на выносливость – это интересно",
-      "url": "https://www.f1news.ru/news/f1-192530.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T11:37:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/piastri/192530.jpg"
-    },
-    {
       "title": "The Antonelli you don't know: Inside the Mercedes garage with F1's new world champion",
       "url": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion/10874265/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-13T10:04:48+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/0o5AwKwY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/0o5AwKwY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
     },
     {
       "title": "Tsolov lands reserve driver role for F1 2027",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-12T15:21:07+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
     },
     {
       "title": "Russell partners with BRDC to launch karting academy",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-12T12:27:55+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/YvKB3V16/s6/gr63-academy-unveil-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/YvKB3V16/s6/gr63-academy-unveil-2.jpg"
     },
     {
       "title": "Lawson to stay in F1 as Racing Bulls announces 2027 driver pairing",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-12T11:06:00+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/6grQG3nY/s6/liam-lawson-racing-bulls-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/6grQG3nY/s6/liam-lawson-racing-bulls-2.jpg"
     }
   ]
 }
