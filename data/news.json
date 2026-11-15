@@ -1,6 +1,78 @@
 {
-  "updatedAt": "2026-11-15T06:43:29.510623+00:00",
+  "updatedAt": "2026-11-15T15:42:20.861455+00:00",
   "articles": [
+    {
+      "title": "Формула E: Mahindra Racing представила новую машину",
+      "url": "https://www.f1news.ru/news/autosport-192555.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-15T15:37:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/vries/192555.jpg"
+    },
+    {
+      "title": "Fusion приходит в Формулу E, но продолжает интриговать",
+      "url": "https://www.f1news.ru/news/autosport-192554.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-15T14:34:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192554.jpg"
+    },
+    {
+      "title": "Retaining Lawson isn't enough – Red Bull must stop treating him like a failure",
+      "url": "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-15T13:08:22+00:00",
+      "category": "teams",
+      "image": "https://cdn-4.motorsport.com/images/amp/YP743Le2/s6/liam-lawson-red-bull-2.jpg"
+    },
+    {
+      "title": "Валттери Боттас отправился на Галапагосские острова",
+      "url": "https://www.f1news.ru/news/f1-192553.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-15T12:10:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/192553.jpg"
+    },
+    {
+      "title": "AF Corse на гиперкаре Ferrari быстрее всех в Ле-Кастелле",
+      "url": "https://www.f1news.ru/news/autosport-192552.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-15T10:36:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192552.jpg"
+    },
+    {
+      "title": "Inside Turkey’s revamp for the return of a modern F1 classic",
+      "url": "https://www.autosport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874610/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-15T09:39:18+00:00",
+      "category": "teams",
+      "image": "https://cdn-8.motorsport.com/images/amp/YE9EVzGY/s6/track-action-2.jpg"
+    },
+    {
+      "title": "Хорнер: Отчётливо ощущалось, что всё стало совсем другим",
+      "url": "https://www.f1news.ru/news/f1-192551.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-15T09:32:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/horner/192551.jpg"
+    },
+    {
+      "title": "Берни Экклстоун критикует решение FIA",
+      "url": "https://www.f1news.ru/news/f1-192550.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-15T07:43:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ecclestone/192550.jpg"
+    },
     {
       "title": "Баттон: Меня поражает целеустремлённость Фернандо",
       "url": "https://www.f1news.ru/news/f1-192549.html",
@@ -71,7 +143,7 @@
       "language": "en",
       "publishedAt": "2026-11-14T09:13:34+00:00",
       "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "Ферстаппен ездит по Монако на редкой модели Audi",
@@ -107,61 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-13T17:14:52+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws.jpg"
-    },
-    {
-      "title": "В Pirelli объявили составы на финальные этапы сезона",
-      "url": "https://www.f1news.ru/tech/192539.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T17:11:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/pirelli/192539.jpg"
-    },
-    {
-      "title": "Ferrari – самая дорогая команда Формулы 1",
-      "url": "https://www.f1news.ru/news/f1-192538.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T16:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/192538.jpg"
-    },
-    {
-      "title": "Ваулз: В Вегасе FW48 может работать более эффективно",
-      "url": "https://www.f1news.ru/news/f1-192537.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T15:04:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/vowles/192537.jpg"
-    },
-    {
-      "title": "Журналиста лишили аккредитации за оскорбление Леклера",
-      "url": "https://www.f1news.ru/news/f1-192533.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T13:36:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/vasseur/192533.jpg"
-    },
-    {
-      "title": "Дэн Таурисс: Мы хотели вознаградить Серхио за его вклад",
-      "url": "https://www.f1news.ru/news/f1-192532.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T12:41:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/towriss/192532.jpg"
-    },
-    {
-      "title": "Экономический эффект от этапа в Мадриде выше прогнозов",
-      "url": "https://www.f1news.ru/news/f1-192531.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-13T12:09:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192531.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws.jpg"
     },
     {
       "title": "The Antonelli you don't know: Inside the Mercedes garage with F1's new world champion",
@@ -170,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-13T10:04:48+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/0o5AwKwY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/0o5AwKwY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
     },
     {
       "title": "Tsolov lands reserve driver role for F1 2027",
@@ -179,25 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-12T15:21:07+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
-    },
-    {
-      "title": "Russell partners with BRDC to launch karting academy",
-      "url": "https://www.autosport.com/f1/news/russell-and-brdc-launch-karting-academy/10874110/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-12T12:27:55+00:00",
-      "category": "teams",
-      "image": "https://cdn-7.motorsport.com/images/amp/YvKB3V16/s6/gr63-academy-unveil-2.jpg"
-    },
-    {
-      "title": "Lawson to stay in F1 as Racing Bulls announces 2027 driver pairing",
-      "url": "https://www.autosport.com/f1/news/lawson-to-stay-in-f1-as-racing-bulls-announces-2027-driver-pairing/10874063/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-12T11:06:00+00:00",
-      "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/6grQG3nY/s6/liam-lawson-racing-bulls-2.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
     }
   ]
 }
