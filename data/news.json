@@ -1,6 +1,141 @@
 {
-  "updatedAt": "2026-11-16T06:42:36.516915+00:00",
+  "updatedAt": "2026-11-16T18:38:19.734808+00:00",
   "articles": [
+    {
+      "title": "В Williams тоже изменили раскраску машины для Лас-Вегаса",
+      "url": "https://www.f1news.ru/news/f1-192570.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T17:53:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/vowles/192570.jpg"
+    },
+    {
+      "title": "Norris: Las Vegas GP would be \"scary\" with current F1 wet tyres",
+      "url": "https://www.autosport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874886/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-16T17:30:03+00:00",
+      "category": "tech",
+      "image": "https://cdn-1.motorsport.com/images/amp/0o5AVObY/s6/lando-norris-mclaren-george-ru-2.jpg"
+    },
+    {
+      "title": "Оскар Пиастри: Надеюсь, я всё-таки прогрессирую",
+      "url": "https://www.f1news.ru/news/f1-192569.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T17:14:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/piastri/192569.jpg"
+    },
+    {
+      "title": "В Aston Martin показали раскраску машины для Лас-Вегаса",
+      "url": "https://www.f1news.ru/news/f1-192568.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T16:48:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/astonmartin/192568.jpg"
+    },
+    {
+      "title": "Габриэль Бортолето: У нас нет проблем с мотивацией",
+      "url": "https://www.f1news.ru/news/f1-192567.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T15:52:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192567.jpg"
+    },
+    {
+      "title": "Pirelli: Тактика «подрезки» в Лас-Вегасе не так эффективна",
+      "url": "https://www.f1news.ru/news/f1-192566.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T15:46:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/pirelli/192566.jpg"
+    },
+    {
+      "title": "Сингх: Оставшиеся гонки – это своего рода мини-чемпионат",
+      "url": "https://www.f1news.ru/news/f1-192565.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T14:13:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/mclaren/192565.jpg"
+    },
+    {
+      "title": "Формула E: Изменения в составах команд на тестах",
+      "url": "https://www.f1news.ru/news/autosport-192564.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T12:59:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192564.jpg"
+    },
+    {
+      "title": "Тото Вольфф: Я не опасаюсь, что Антонелли уйдёт в Ferrari",
+      "url": "https://www.f1news.ru/interview/wolff/192563.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T10:55:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/wolff/192563.jpg"
+    },
+    {
+      "title": "Haas sticks with Camara for Las Vegas GP, Hirakawa in for FP1",
+      "url": "https://www.autosport.com/f1/news/haas-sticks-with-rafael-camara-for-las-vegas-ryo-hirakawa-in-for-fp1/10874781/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-16T09:52:30+00:00",
+      "category": "racing",
+      "image": "https://cdn-5.motorsport.com/images/amp/YWKAR5KY/s6/rafael-camara-haas-f1-team.jpg"
+    },
+    {
+      "title": "FIA и моторостроители обсуждают переход на двигатели V8",
+      "url": "https://www.f1news.ru/news/f1-192562.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T09:39:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/fia/192562.jpg"
+    },
+    {
+      "title": "What is left to fight for in F1 2026?",
+      "url": "https://www.autosport.com/f1/news/what-is-left-to-fight-for-in-f1-2026/10874769/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-16T09:28:44+00:00",
+      "category": "teams",
+      "image": "https://cdn-4.motorsport.com/images/amp/YpbAX7g0/s6/lewis-hamilton-ferrari-max-ver-3.jpg"
+    },
+    {
+      "title": "Ф2: Команда Норриса подписала контракт с Гёте",
+      "url": "https://www.f1news.ru/news/autosport-192561.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T09:27:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192561.jpg"
+    },
+    {
+      "title": "В Haas подтвердили участие Камары в Гран При Лас-Вегаса",
+      "url": "https://www.f1news.ru/news/f1-192560.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T08:45:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/bearman/192560.jpg"
+    },
+    {
+      "title": "Формула E: В Хараме стартуют предсезонные тесты",
+      "url": "https://www.f1news.ru/news/autosport-192559.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T07:48:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192559.jpg"
+    },
     {
       "title": "Гран При Лас-Вегаса: Пять прямых трансляций",
       "url": "https://www.f1news.ru/news/f1-119347.html",
@@ -38,76 +173,13 @@
       "image": "https://c.f1news.ru/userfiles/192534.jpg"
     },
     {
-      "title": "Формула E: Команду Fusion возглавил Фил Чарльз",
-      "url": "https://www.f1news.ru/news/autosport-192558.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-15T19:23:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192558.jpg"
-    },
-    {
-      "title": "Шарль Леклер: У Льюиса всегда можно многому научиться",
-      "url": "https://www.f1news.ru/news/f1-192557.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-15T17:44:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/russell/192557.jpg"
-    },
-    {
-      "title": "Оле Шак: Макса можно сравнить с Роналду и Месси",
-      "url": "https://www.f1news.ru/news/f1-192556.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-15T16:52:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192556.jpg"
-    },
-    {
-      "title": "Формула E: Mahindra Racing представила новую машину",
-      "url": "https://www.f1news.ru/news/autosport-192555.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-15T15:37:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/vries/192555.jpg"
-    },
-    {
-      "title": "Fusion приходит в Формулу E, но продолжает интриговать",
-      "url": "https://www.f1news.ru/news/autosport-192554.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-15T14:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192554.jpg"
-    },
-    {
       "title": "Retaining Lawson isn't enough – Red Bull must stop treating him like a failure",
       "url": "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-15T13:08:22+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/YP743Le2/s6/liam-lawson-red-bull-2.jpg"
-    },
-    {
-      "title": "Валттери Боттас отправился на Галапагосские острова",
-      "url": "https://www.f1news.ru/news/f1-192553.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-15T12:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/192553.jpg"
-    },
-    {
-      "title": "AF Corse на гиперкаре Ferrari быстрее всех в Ле-Кастелле",
-      "url": "https://www.f1news.ru/news/autosport-192552.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-15T10:36:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192552.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/YP743Le2/s6/liam-lawson-red-bull-2.jpg"
     },
     {
       "title": "Inside Turkey’s revamp for the return of a modern F1 classic",
@@ -116,52 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-15T09:39:18+00:00",
       "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/YE9EVzGY/s6/track-action-2.jpg"
-    },
-    {
-      "title": "Хорнер: Отчётливо ощущалось, что всё стало совсем другим",
-      "url": "https://www.f1news.ru/news/f1-192551.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-15T09:32:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/horner/192551.jpg"
-    },
-    {
-      "title": "Берни Экклстоун критикует решение FIA",
-      "url": "https://www.f1news.ru/news/f1-192550.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-15T07:43:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ecclestone/192550.jpg"
-    },
-    {
-      "title": "Баттон: Меня поражает целеустремлённость Фернандо",
-      "url": "https://www.f1news.ru/news/f1-192549.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-14T19:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/192549.jpg"
-    },
-    {
-      "title": "Формула E: В Jaguar представили раскраску I-Type 08",
-      "url": "https://www.f1news.ru/news/autosport-192548.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-14T17:29:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/afcosta/192548.jpg"
-    },
-    {
-      "title": "Джеймс Хинчклифф: Титул Антонелли – это только начало",
-      "url": "https://www.f1news.ru/news/f1-192547.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-14T16:29:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192547.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/YE9EVzGY/s6/track-action-2.jpg"
     },
     {
       "title": "McLaren to upgrade MCL40 F1 car at its bogey track Las Vegas",
@@ -170,34 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-14T09:13:34+00:00",
       "category": "tech",
-      "image": "https://cdn-2.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
-    },
-    {
-      "title": "The surprising convergence behind F1's increasingly competitive 2026 season",
-      "url": "https://www.autosport.com/f1/news/the-surprising-convergence-behind-f1s-increasingly-competitive-2026-season/10874375/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-13T17:14:52+00:00",
-      "category": "teams",
-      "image": "https://cdn-8.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws.jpg"
-    },
-    {
-      "title": "The Antonelli you don't know: Inside the Mercedes garage with F1's new world champion",
-      "url": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-inside-the-mercedes-garage-with-f1s-new-world-champion/10874265/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-13T10:04:48+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/0o5AwKwY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
-    },
-    {
-      "title": "Tsolov lands reserve driver role for F1 2027",
-      "url": "https://www.autosport.com/f1/news/tsolov-lands-reserve-driver-role-for-f1-2027/10874151/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-12T15:21:07+00:00",
-      "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
+      "image": "https://cdn-6.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
     }
   ]
 }
