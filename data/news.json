@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-15T21:05:08.521453+00:00",
+  "updatedAt": "2026-11-16T06:42:36.516915+00:00",
   "articles": [
+    {
+      "title": "Гран При Лас-Вегаса: Пять прямых трансляций",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-15T21:15:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-174.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Этап конкурса прогнозов",
+      "url": "https://www.f1news.ru/news/f1-192536.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-15T21:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192536.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Ставки букмекеров",
+      "url": "https://www.f1news.ru/news/f1-192535.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-15T21:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192535.jpg"
+    },
     {
       "title": "Гран При Лас-Вегаса: Предварительный прогноз погоды",
       "url": "https://www.f1news.ru/news/f1-192534.html",
@@ -62,7 +89,7 @@
       "language": "en",
       "publishedAt": "2026-11-15T13:08:22+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/YP743Le2/s6/liam-lawson-red-bull-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/YP743Le2/s6/liam-lawson-red-bull-2.jpg"
     },
     {
       "title": "Валттери Боттас отправился на Галапагосские острова",
@@ -137,40 +164,13 @@
       "image": "https://c.f1news.ru/userfiles/antonelli/192547.jpg"
     },
     {
-      "title": "Поль Бельмондо вспоминает Айртона Сенну, глядя на Кими",
-      "url": "https://www.f1news.ru/news/f1-192546.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-14T15:24:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192546.jpg"
-    },
-    {
-      "title": "Карун Чандхок: Сможет ли Расселл отыграться в 2027 году?",
-      "url": "https://www.f1news.ru/news/f1-192545.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-14T13:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192545.jpg"
-    },
-    {
-      "title": "Хаджар: Хорошего гонщика было сразу видно и в прошлом",
-      "url": "https://www.f1news.ru/news/f1-192544.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-14T12:16:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192544.jpg"
-    },
-    {
       "title": "McLaren to upgrade MCL40 F1 car at its bogey track Las Vegas",
       "url": "https://www.autosport.com/f1/news/mclaren-to-upgrade-mcl40-f1-car-at-its-bogey-track-las-vegas/10874450/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-14T09:13:34+00:00",
       "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
     },
     {
       "title": "The surprising convergence behind F1's increasingly competitive 2026 season",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-13T17:14:52+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/0kZX9KA6/s6/lando-norris-mclaren-liam-laws.jpg"
     },
     {
       "title": "The Antonelli you don't know: Inside the Mercedes garage with F1's new world champion",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-13T10:04:48+00:00",
       "category": "teams",
-      "image": "https://cdn-2.motorsport.com/images/amp/0o5AwKwY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/0o5AwKwY/s6/andrea-kimi-antonelli-mercedes-2.jpg"
     },
     {
       "title": "Tsolov lands reserve driver role for F1 2027",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-12T15:21:07+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/6x7LbPRY/s6/nikola-tsolov-racing-bulls-4.jpg"
     }
   ]
 }
