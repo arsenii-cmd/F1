@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-11-16T18:38:19.734808+00:00",
+  "updatedAt": "2026-11-17T02:58:15.560337+00:00",
   "articles": [
+    {
+      "title": "Формула E: Машина GEN4 проезжает круг на 10 сек. быстрее",
+      "url": "https://www.f1news.ru/news/autosport-192571.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-16T19:06:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/192571.jpg"
+    },
     {
       "title": "В Williams тоже изменили раскраску машины для Лас-Вегаса",
       "url": "https://www.f1news.ru/news/f1-192570.html",
@@ -17,7 +26,7 @@
       "language": "en",
       "publishedAt": "2026-11-16T17:30:03+00:00",
       "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/0o5AVObY/s6/lando-norris-mclaren-george-ru-2.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/0o5AVObY/s6/lando-norris-mclaren-george-ru-2.jpg"
     },
     {
       "title": "Оскар Пиастри: Надеюсь, я всё-таки прогрессирую",
@@ -89,7 +98,7 @@
       "language": "en",
       "publishedAt": "2026-11-16T09:52:30+00:00",
       "category": "racing",
-      "image": "https://cdn-5.motorsport.com/images/amp/YWKAR5KY/s6/rafael-camara-haas-f1-team.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/YWKAR5KY/s6/rafael-camara-haas-f1-team.jpg"
     },
     {
       "title": "FIA и моторостроители обсуждают переход на двигатели V8",
@@ -107,7 +116,7 @@
       "language": "en",
       "publishedAt": "2026-11-16T09:28:44+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/YpbAX7g0/s6/lewis-hamilton-ferrari-max-ver-3.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/YpbAX7g0/s6/lewis-hamilton-ferrari-max-ver-3.jpg"
     },
     {
       "title": "Ф2: Команда Норриса подписала контракт с Гёте",
@@ -164,22 +173,13 @@
       "image": "https://c.f1news.ru/userfiles/192535.jpg"
     },
     {
-      "title": "Гран При Лас-Вегаса: Предварительный прогноз погоды",
-      "url": "https://www.f1news.ru/news/f1-192534.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-15T21:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192534.jpg"
-    },
-    {
       "title": "Retaining Lawson isn't enough – Red Bull must stop treating him like a failure",
       "url": "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-15T13:08:22+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/YP743Le2/s6/liam-lawson-red-bull-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/YP743Le2/s6/liam-lawson-red-bull-2.jpg"
     },
     {
       "title": "Inside Turkey’s revamp for the return of a modern F1 classic",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-15T09:39:18+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/YE9EVzGY/s6/track-action-2.jpg"
+      "image": "https://cdn-7.motorsport.com/images/amp/YE9EVzGY/s6/track-action-2.jpg"
     },
     {
       "title": "McLaren to upgrade MCL40 F1 car at its bogey track Las Vegas",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-14T09:13:34+00:00",
       "category": "tech",
-      "image": "https://cdn-6.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/68VwEx92/s6/lando-norris-mclaren-2.jpg"
     }
   ]
 }
