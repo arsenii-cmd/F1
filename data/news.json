@@ -1,6 +1,132 @@
 {
-  "updatedAt": "2026-11-18T07:38:53.802361+00:00",
+  "updatedAt": "2026-11-18T17:18:52.275279+00:00",
   "articles": [
+    {
+      "title": "Мотористов Honda тревожит холодная погода в Лас-Вегасе",
+      "url": "https://www.f1news.ru/news/f1-192603.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T15:50:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/astonmartin/192603.jpg"
+    },
+    {
+      "title": "В декабре McLaren продаст на аукционе машину 2027 года",
+      "url": "https://www.f1news.ru/news/f1-192602.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T14:43:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/norris/192005.jpg"
+    },
+    {
+      "title": "The factors behind the abortive 2030 F1 rules announcement",
+      "url": "https://www.autosport.com/f1/news/the-factors-behind-the-abortive-f1-2030-rules-announcement/10875290/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-18T14:08:08+00:00",
+      "category": "teams",
+      "image": "https://cdn-3.motorsport.com/images/amp/0rVx13O0/s6/stefano-domenicali-mohammed-be-2.jpg"
+    },
+    {
+      "title": "What McLaren has learned from a tough 2026 as it aims for a return to glory in 2027",
+      "url": "https://www.autosport.com/f1/news/what-mclaren-has-learned-from-a-tough-f1-2026/10875268/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-18T13:30:02+00:00",
+      "category": "teams",
+      "image": "https://cdn-9.motorsport.com/images/amp/6VyKR1lY/s6/andrea-stella-mclaren-2.jpg"
+    },
+    {
+      "title": "Андреа Стелла: Наше время ещё придёт",
+      "url": "https://www.f1news.ru/interview/stella/192600.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T13:10:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/stella/192600.jpg"
+    },
+    {
+      "title": "Ferrari не будет тестировать новинки на SF-26",
+      "url": "https://www.f1news.ru/news/f1-192599.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T12:55:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/191975.jpg"
+    },
+    {
+      "title": "Сайнс: Следующий сезон для Williams станет самым важным",
+      "url": "https://www.f1news.ru/news/f1-192597.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T11:42:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/192597.jpg"
+    },
+    {
+      "title": "Антонелли получит прибавку к зарплате",
+      "url": "https://www.f1news.ru/news/f1-192598.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T10:28:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192268.jpg"
+    },
+    {
+      "title": "Формула E: Fortescue и Fusion не поделили гонщика",
+      "url": "https://www.f1news.ru/news/autosport-192596.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T09:49:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192596.jpg"
+    },
+    {
+      "title": "The Antonelli you don't know: Daily life with F1's newest champion",
+      "url": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-18T09:20:55+00:00",
+      "category": "teams",
+      "image": "https://cdn-8.motorsport.com/images/amp/YN7vl3m6/s6/andrea-kimi-antonelli-mercedes-3.jpg"
+    },
+    {
+      "title": "Витантонио Лиуцци – третий стюард Гран При Лас-Вегаса",
+      "url": "https://www.f1news.ru/news/f1-192594.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T09:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/liuzzi/192594.jpg"
+    },
+    {
+      "title": "Оскар Пиастри потеряет 10 мест на старте",
+      "url": "https://www.f1news.ru/news/f1-192595.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T08:41:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/piastri/192349.jpg"
+    },
+    {
+      "title": "Piastri to receive 10-place grid drop at Las Vegas GP",
+      "url": "https://www.autosport.com/f1/news/piastri-to-receive-grid-drop-at-las-vegas-gp/10875205/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-18T08:14:39+00:00",
+      "category": "racing",
+      "image": "https://cdn-3.motorsport.com/images/amp/YXypRDx6/s6/oscar-piastri-mclaren-3.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Расписание пресс-конференций",
+      "url": "https://www.f1news.ru/news/f1-192593.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T08:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/187867.jpg"
+    },
     {
       "title": "Гран При Лас-Вегаса: Изменения на трассе и зоны обгонов",
       "url": "https://www.f1news.ru/news/f1-192592.html",
@@ -11,7 +137,7 @@
       "image": "https://c.f1news.ru/userfiles/fia/192592.jpg"
     },
     {
-      "title": "Линдблад: Уик-энд в Лас-Вегсае будет сложным",
+      "title": "Линдблад: Уик-энд в Лас-Вегасе будет сложным",
       "url": "https://www.f1news.ru/news/f1-192591.html",
       "source": "F1News",
       "language": "ru",
@@ -56,103 +182,13 @@
       "image": "https://c.f1news.ru/userfiles/cadillacf1/192587.jpg"
     },
     {
-      "title": "Зак Браун: Я люблю рискованные решения",
-      "url": "https://www.f1news.ru/news/f1-192586.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T16:07:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/brown/187026.jpg"
-    },
-    {
-      "title": "Льюис Хэмилтон стал послом бренда AG1",
-      "url": "https://www.f1news.ru/news/f1-192585.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T15:38:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192585.jpg"
-    },
-    {
-      "title": "Вольфф: Кими получит мотор, доработанный по ADUO",
-      "url": "https://www.f1news.ru/news/f1-192584.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T14:43:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/wolff/191255.jpg"
-    },
-    {
-      "title": "В Лас-Вегасе готовы к аншлагу",
-      "url": "https://www.f1news.ru/news/f1-192583.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T14:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192583.jpg"
-    },
-    {
-      "title": "FIA обсудит с командами вопрос ограничения скорости",
-      "url": "https://www.f1news.ru/news/f1-192582.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T13:50:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192582.jpg"
-    },
-    {
-      "title": "Шварцман ставит перед собой цель победить в Ле-Мане",
-      "url": "https://www.f1news.ru/news/autosport-192581.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T12:56:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/Shwartzman/192581.jpg"
-    },
-    {
-      "title": "Три вопроса Дино Бегановичу",
-      "url": "https://www.f1news.ru/interview/beganovic/192579.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T11:39:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/beganovic/192579.jpg"
-    },
-    {
-      "title": "Беганович заменит Хэмилтона в тренировке в Лас-Вегасе",
-      "url": "https://www.f1news.ru/news/f1-192578.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T11:14:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/vasseur/192578.jpg"
-    },
-    {
-      "title": "Стелла: В Лас-Вегасе нам приходилось сложнее всего",
-      "url": "https://www.f1news.ru/news/f1-192577.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T10:51:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stella/192577.jpg"
-    },
-    {
-      "title": "Гонка в Вегасе может стать самой холодной в истории",
-      "url": "https://www.f1news.ru/news/f1-192576.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T10:44:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192576.jpg"
-    },
-    {
       "title": "Alonso, Loeb join Aston Martin for 2027 Dakar Rally",
       "url": "https://www.autosport.com/dakar/news/alonso-loeb-join-aston-martin-for-2027-dakar-rally/10875003/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-17T09:01:58+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/6n7bvPO0/s6/fernando-alonso-aston-martin-3.jpg"
+      "image": "https://cdn-3.motorsport.com/images/amp/6n7bvPO0/s6/fernando-alonso-aston-martin-3.jpg"
     },
     {
       "title": "Norris: Las Vegas GP would be \"scary\" with current F1 wet tyres",
@@ -161,43 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-16T17:30:03+00:00",
       "category": "tech",
-      "image": "https://cdn-4.motorsport.com/images/amp/0o5AVObY/s6/lando-norris-mclaren-george-ru-2.jpg"
-    },
-    {
-      "title": "Haas sticks with Camara for Las Vegas GP, Hirakawa in for FP1",
-      "url": "https://www.autosport.com/f1/news/haas-sticks-with-rafael-camara-for-las-vegas-ryo-hirakawa-in-for-fp1/10874781/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-16T09:52:30+00:00",
-      "category": "racing",
-      "image": "https://cdn-8.motorsport.com/images/amp/YWKAR5KY/s6/rafael-camara-haas-f1-team.jpg"
-    },
-    {
-      "title": "What is left to fight for in F1 2026?",
-      "url": "https://www.autosport.com/f1/news/what-is-left-to-fight-for-in-f1-2026/10874769/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-16T09:28:44+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/YpbAX7g0/s6/lewis-hamilton-ferrari-max-ver-3.jpg"
-    },
-    {
-      "title": "Retaining Lawson isn't enough – Red Bull must stop treating him like a failure",
-      "url": "https://www.autosport.com/f1/news/retaining-lawson-isnt-enough-red-bull-must-stop-treating-him-like-a-failure/10874666/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-15T13:08:22+00:00",
-      "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/YP743Le2/s6/liam-lawson-red-bull-2.jpg"
-    },
-    {
-      "title": "Inside Turkey’s revamp for the return of a modern F1 classic",
-      "url": "https://www.autosport.com/f1/news/inside-turkeys-revamp-for-the-return-of-a-modern-f1-classic/10874610/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-15T09:39:18+00:00",
-      "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/YE9EVzGY/s6/track-action-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/0o5AVObY/s6/lando-norris-mclaren-george-ru-2.jpg"
     }
   ]
 }
