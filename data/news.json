@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-11-17T23:32:29.842106+00:00",
+  "updatedAt": "2026-11-18T07:38:53.802361+00:00",
   "articles": [
+    {
+      "title": "Гран При Лас-Вегаса: Изменения на трассе и зоны обгонов",
+      "url": "https://www.f1news.ru/news/f1-192592.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T07:32:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/fia/192592.jpg"
+    },
+    {
+      "title": "Линдблад: Уик-энд в Лас-Вегсае будет сложным",
+      "url": "https://www.f1news.ru/news/f1-192591.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T06:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192591.jpg"
+    },
     {
       "title": "Ферстаппен: Мы хотим завершить сезон на высоком уровне",
       "url": "https://www.f1news.ru/news/f1-192590.html",
@@ -128,31 +146,13 @@
       "image": "https://c.f1news.ru/userfiles/192576.jpg"
     },
     {
-      "title": "Гасли: Нужно на 100% выложиться в каждой сессии",
-      "url": "https://www.f1news.ru/news/f1-192575.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T10:01:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/191602.jpg"
-    },
-    {
-      "title": "Официально: Фернандо Алонсо выступит в «Дакаре»",
-      "url": "https://www.f1news.ru/news/f1-192574.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T09:17:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/192574.jpg"
-    },
-    {
       "title": "Alonso, Loeb join Aston Martin for 2027 Dakar Rally",
       "url": "https://www.autosport.com/dakar/news/alonso-loeb-join-aston-martin-for-2027-dakar-rally/10875003/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
       "publishedAt": "2026-11-17T09:01:58+00:00",
       "category": "teams",
-      "image": "https://cdn-5.motorsport.com/images/amp/6n7bvPO0/s6/fernando-alonso-aston-martin-3.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/6n7bvPO0/s6/fernando-alonso-aston-martin-3.jpg"
     },
     {
       "title": "Norris: Las Vegas GP would be \"scary\" with current F1 wet tyres",
@@ -161,7 +161,7 @@
       "language": "en",
       "publishedAt": "2026-11-16T17:30:03+00:00",
       "category": "tech",
-      "image": "https://cdn-3.motorsport.com/images/amp/0o5AVObY/s6/lando-norris-mclaren-george-ru-2.jpg"
+      "image": "https://cdn-4.motorsport.com/images/amp/0o5AVObY/s6/lando-norris-mclaren-george-ru-2.jpg"
     },
     {
       "title": "Haas sticks with Camara for Las Vegas GP, Hirakawa in for FP1",
@@ -170,7 +170,7 @@
       "language": "en",
       "publishedAt": "2026-11-16T09:52:30+00:00",
       "category": "racing",
-      "image": "https://cdn-5.motorsport.com/images/amp/YWKAR5KY/s6/rafael-camara-haas-f1-team.jpg"
+      "image": "https://cdn-8.motorsport.com/images/amp/YWKAR5KY/s6/rafael-camara-haas-f1-team.jpg"
     },
     {
       "title": "What is left to fight for in F1 2026?",
@@ -179,7 +179,7 @@
       "language": "en",
       "publishedAt": "2026-11-16T09:28:44+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/YpbAX7g0/s6/lewis-hamilton-ferrari-max-ver-3.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/YpbAX7g0/s6/lewis-hamilton-ferrari-max-ver-3.jpg"
     },
     {
       "title": "Retaining Lawson isn't enough – Red Bull must stop treating him like a failure",
@@ -188,7 +188,7 @@
       "language": "en",
       "publishedAt": "2026-11-15T13:08:22+00:00",
       "category": "teams",
-      "image": "https://cdn-6.motorsport.com/images/amp/YP743Le2/s6/liam-lawson-red-bull-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/YP743Le2/s6/liam-lawson-red-bull-2.jpg"
     },
     {
       "title": "Inside Turkey’s revamp for the return of a modern F1 classic",
@@ -197,7 +197,7 @@
       "language": "en",
       "publishedAt": "2026-11-15T09:39:18+00:00",
       "category": "teams",
-      "image": "https://cdn-4.motorsport.com/images/amp/YE9EVzGY/s6/track-action-2.jpg"
+      "image": "https://cdn-9.motorsport.com/images/amp/YE9EVzGY/s6/track-action-2.jpg"
     }
   ]
 }
