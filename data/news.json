@@ -1,6 +1,132 @@
 {
-  "updatedAt": "2026-11-18T17:18:52.275279+00:00",
+  "updatedAt": "2026-11-19T01:53:54.060152+00:00",
   "articles": [
+    {
+      "title": "Гран При Лас-Вегаса: Точка самого серьёзного торможения",
+      "url": "https://www.f1news.ru/news/f1-192580.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T21:30:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/190741.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Этап конкурса прогнозов",
+      "url": "https://www.f1news.ru/news/f1-192536.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T21:25:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192536.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Круглые числа",
+      "url": "https://www.f1news.ru/Championship/2026/las-vegas/stats.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T21:20:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184479.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Превью этапа",
+      "url": "https://www.f1news.ru/Championship/2026/las-vegas/preview.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T21:15:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184554.jpg"
+    },
+    {
+      "title": "В Cadillac продлили контракт с Валттери Боттасом",
+      "url": "https://www.f1news.ru/news/f1-192607.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T21:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/192607.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Комментарии перед этапом",
+      "url": "https://www.f1news.ru/Championship/2026/las-vegas/beforerace.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T21:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184552.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Трасса и статистика",
+      "url": "https://www.f1news.ru/Championship/2026/las-vegas/index.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T21:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/164756.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Прогноз погоды на уик-энд",
+      "url": "https://www.f1news.ru/news/f1-192601.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T21:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/171219.jpg"
+    },
+    {
+      "title": "Cadillac retaining Bottas for F1 2027 is the logical move",
+      "url": "https://www.autosport.com/f1/news/cadillac-retaining-bottas-for-f1-2027-is-the-logical-move/10875337/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-18T20:01:35+00:00",
+      "category": "teams",
+      "image": "https://cdn-7.motorsport.com/images/amp/2eZgEAjY/s6/valtteri-bottas-cadillac-racin-3.jpg"
+    },
+    {
+      "title": "Cadillac completes F1 2027 driver pairing",
+      "url": "https://www.autosport.com/f1/news/cadillac-completes-f1-2027-driver-pairing/10875162/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-18T20:01:11+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/6DGqnGVY/s6/valtteri-bottas-cadillac-racin-2.jpg"
+    },
+    {
+      "title": "В Ford не были готовы к темпам и качеству, нужным RBPT",
+      "url": "https://www.f1news.ru/news/f1-192606.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T18:25:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/redbullracing/192606.jpg"
+    },
+    {
+      "title": "Джек Кроуфорд заменит Алонсо в первой тренировке",
+      "url": "https://www.f1news.ru/news/f1-192605.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T17:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/crawford/192605.jpg"
+    },
+    {
+      "title": "F1 to showcase driver health data in new partnership",
+      "url": "https://www.autosport.com/f1/news/f1-announces-new-partnership-with-whoop/10875346/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-18T17:39:21+00:00",
+      "category": "teams",
+      "image": "https://cdn-4.motorsport.com/images/amp/2y7Q83g6/s6/ahmed-domenicali.jpg"
+    },
+    {
+      "title": "Ален Прост: У Кими несомненный природный талант",
+      "url": "https://www.f1news.ru/news/f1-192604.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-18T16:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/191772.jpg"
+    },
     {
       "title": "Мотористов Honda тревожит холодная погода в Лас-Вегасе",
       "url": "https://www.f1news.ru/news/f1-192603.html",
@@ -26,7 +152,7 @@
       "language": "en",
       "publishedAt": "2026-11-18T14:08:08+00:00",
       "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/0rVx13O0/s6/stefano-domenicali-mohammed-be-2.jpg"
+      "image": "https://cdn-5.motorsport.com/images/amp/0rVx13O0/s6/stefano-domenicali-mohammed-be-2.jpg"
     },
     {
       "title": "What McLaren has learned from a tough 2026 as it aims for a return to glory in 2027",
@@ -35,7 +161,7 @@
       "language": "en",
       "publishedAt": "2026-11-18T13:30:02+00:00",
       "category": "teams",
-      "image": "https://cdn-9.motorsport.com/images/amp/6VyKR1lY/s6/andrea-stella-mclaren-2.jpg"
+      "image": "https://cdn-2.motorsport.com/images/amp/6VyKR1lY/s6/andrea-stella-mclaren-2.jpg"
     },
     {
       "title": "Андреа Стелла: Наше время ещё придёт",
@@ -65,24 +191,6 @@
       "image": "https://c.f1news.ru/userfiles/sainz-junior/192597.jpg"
     },
     {
-      "title": "Антонелли получит прибавку к зарплате",
-      "url": "https://www.f1news.ru/news/f1-192598.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-18T10:28:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192268.jpg"
-    },
-    {
-      "title": "Формула E: Fortescue и Fusion не поделили гонщика",
-      "url": "https://www.f1news.ru/news/autosport-192596.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-18T09:49:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192596.jpg"
-    },
-    {
       "title": "The Antonelli you don't know: Daily life with F1's newest champion",
       "url": "https://www.autosport.com/f1/news/the-antonelli-you-dont-know-daily-life-with-f1s-newest-champion/10875217/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -90,114 +198,6 @@
       "publishedAt": "2026-11-18T09:20:55+00:00",
       "category": "teams",
       "image": "https://cdn-8.motorsport.com/images/amp/YN7vl3m6/s6/andrea-kimi-antonelli-mercedes-3.jpg"
-    },
-    {
-      "title": "Витантонио Лиуцци – третий стюард Гран При Лас-Вегаса",
-      "url": "https://www.f1news.ru/news/f1-192594.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-18T09:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/liuzzi/192594.jpg"
-    },
-    {
-      "title": "Оскар Пиастри потеряет 10 мест на старте",
-      "url": "https://www.f1news.ru/news/f1-192595.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-18T08:41:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/piastri/192349.jpg"
-    },
-    {
-      "title": "Piastri to receive 10-place grid drop at Las Vegas GP",
-      "url": "https://www.autosport.com/f1/news/piastri-to-receive-grid-drop-at-las-vegas-gp/10875205/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-18T08:14:39+00:00",
-      "category": "racing",
-      "image": "https://cdn-3.motorsport.com/images/amp/YXypRDx6/s6/oscar-piastri-mclaren-3.jpg"
-    },
-    {
-      "title": "Гран При Лас-Вегаса: Расписание пресс-конференций",
-      "url": "https://www.f1news.ru/news/f1-192593.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-18T08:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/187867.jpg"
-    },
-    {
-      "title": "Гран При Лас-Вегаса: Изменения на трассе и зоны обгонов",
-      "url": "https://www.f1news.ru/news/f1-192592.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-18T07:32:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/192592.jpg"
-    },
-    {
-      "title": "Линдблад: Уик-энд в Лас-Вегасе будет сложным",
-      "url": "https://www.f1news.ru/news/f1-192591.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-18T06:47:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192591.jpg"
-    },
-    {
-      "title": "Ферстаппен: Мы хотим завершить сезон на высоком уровне",
-      "url": "https://www.f1news.ru/news/f1-192590.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T21:42:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/191250.jpg"
-    },
-    {
-      "title": "Пол Уильямс об особенностях Гран При Лас-Вегаса",
-      "url": "https://www.f1news.ru/news/f1-192589.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T20:41:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/Paul_Williams/192293.jpg"
-    },
-    {
-      "title": "Три последние гонки Alpine проведёт в цветах BWT",
-      "url": "https://www.f1news.ru/news/f1-192588.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T17:55:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/alpinef1team/192588.jpg"
-    },
-    {
-      "title": "В Cadillac показали раскраску машины для Лас-Вегаса",
-      "url": "https://www.f1news.ru/news/f1-192587.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-17T16:19:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/cadillacf1/192587.jpg"
-    },
-    {
-      "title": "Alonso, Loeb join Aston Martin for 2027 Dakar Rally",
-      "url": "https://www.autosport.com/dakar/news/alonso-loeb-join-aston-martin-for-2027-dakar-rally/10875003/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-17T09:01:58+00:00",
-      "category": "teams",
-      "image": "https://cdn-3.motorsport.com/images/amp/6n7bvPO0/s6/fernando-alonso-aston-martin-3.jpg"
-    },
-    {
-      "title": "Norris: Las Vegas GP would be \"scary\" with current F1 wet tyres",
-      "url": "https://www.autosport.com/f1/news/lando-norris-f1-needs-better-rain-tyres-as-wet-las-vegas-would-be-scary/10874886/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-16T17:30:03+00:00",
-      "category": "tech",
-      "image": "https://cdn-5.motorsport.com/images/amp/0o5AVObY/s6/lando-norris-mclaren-george-ru-2.jpg"
     }
   ]
 }
