@@ -1,6 +1,69 @@
 {
-  "updatedAt": "2026-11-19T13:23:16.657605+00:00",
+  "updatedAt": "2026-11-19T23:05:20.696191+00:00",
   "articles": [
+    {
+      "title": "FIA to phase in full-time F1 stewards from 2027",
+      "url": "https://www.autosport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-to-improve-consistency/10875719/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-19T21:01:44+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/24QerjAY/s6/start-action-3.jpg"
+    },
+    {
+      "title": "03:25 МСК: Прямая трансляция свободных заездов",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-19T17:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-174.jpg"
+    },
+    {
+      "title": "Линдблад: Главное – как можно лучше завершить сезон",
+      "url": "https://www.f1news.ru/news/f1-192633.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-19T16:30:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192633.jpg"
+    },
+    {
+      "title": "Карлос Сайнс: Я люблю Формулу 1!",
+      "url": "https://www.f1news.ru/interview/sainz-junior/192614.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-19T16:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/192614.jpg"
+    },
+    {
+      "title": "Мика Сало: Cadillac пойдёт на пользу стабильность состава",
+      "url": "https://www.f1news.ru/news/f1-192634.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-19T15:23:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/192634.jpg"
+    },
+    {
+      "title": "Нико Хюлкенберг: Мы испытываем осторожный оптимизм",
+      "url": "https://www.f1news.ru/news/f1-192620.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-19T15:08:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hulkenberg/192620.jpg"
+    },
+    {
+      "title": "Алекс Элбон: Заработать очки будет сложно",
+      "url": "https://www.f1news.ru/news/f1-192624.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-19T14:31:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/192624.jpg"
+    },
     {
       "title": "Пьер Гасли: В Вегасе у нас больше шансов на очки",
       "url": "https://www.f1news.ru/news/f1-192632.html",
@@ -110,60 +173,6 @@
       "image": "https://c.f1news.ru/userfiles/leclerc/192626.jpg"
     },
     {
-      "title": "Эстебан Окон договорился о контракте с Aston Martin",
-      "url": "https://www.f1news.ru/news/f1-192623.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T09:30:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ocon/192623.jpg"
-    },
-    {
-      "title": "Кими Антонелли потеряет пять мест на старте в Вегасе",
-      "url": "https://www.f1news.ru/news/f1-192619.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T09:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192619.jpg"
-    },
-    {
-      "title": "Рафаэль Камара: Нужно подготовиться как можно лучше",
-      "url": "https://www.f1news.ru/news/f1-192618.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T09:04:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/camara_1/192618.jpg"
-    },
-    {
-      "title": "Пиастри: Вклад Уэббера в мою карьеру трудно переоценить",
-      "url": "https://www.f1news.ru/news/f1-192617.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T08:39:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/piastri/192617.jpg"
-    },
-    {
-      "title": "Франко Колапинто: Впереди уникальный уик-энд",
-      "url": "https://www.f1news.ru/news/f1-192616.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T08:18:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/colapinto/192616.jpg"
-    },
-    {
-      "title": "Лоусон: Раньше со мной не продлевали контракт так рано",
-      "url": "https://www.f1news.ru/news/f1-192615.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T08:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lawson_1/192615.jpg"
-    },
-    {
       "title": "Honda reveals key F1 power unit change for 2027",
       "url": "https://www.autosport.com/f1/news/honda-reveals-key-f1-power-unit-change-for-2027/10875538/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -189,15 +198,6 @@
       "publishedAt": "2026-11-19T03:53:45+00:00",
       "category": "teams",
       "image": "https://cdn-1.motorsport.com/images/amp/63QaODg2/s6/fernando-alonso-aston-martin-r-2.jpg"
-    },
-    {
-      "title": "Cadillac retaining Bottas for F1 2027 is the logical move",
-      "url": "https://www.autosport.com/f1/news/cadillac-retaining-bottas-for-f1-2027-is-the-logical-move/10875337/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-18T20:01:35+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/2eZgEAjY/s6/valtteri-bottas-cadillac-racin-3.jpg"
     }
   ]
 }
