@@ -1,6 +1,186 @@
 {
-  "updatedAt": "2026-11-19T23:05:20.696191+00:00",
+  "updatedAt": "2026-11-20T07:25:33.279952+00:00",
   "articles": [
+    {
+      "title": "Хаджар: Я всегда неплохо справляюсь на этой трассе",
+      "url": "https://www.f1news.ru/news/f1-192654.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T07:23:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/192654.jpg"
+    },
+    {
+      "title": "Оскар Пиастри: В дождь не было смысла выезжать на трассу",
+      "url": "https://www.f1news.ru/news/f1-192653.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T07:21:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/192653.jpg"
+    },
+    {
+      "title": "Лиам Лоусон: Надеюсь, завтра трасса будет сухой",
+      "url": "https://www.f1news.ru/news/f1-192652.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T07:13:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192652.jpg"
+    },
+    {
+      "title": "Нико Хюлкенберг: Реальные выводы делать рано",
+      "url": "https://www.f1news.ru/news/f1-192651.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T06:57:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192651-1.jpg"
+    },
+    {
+      "title": "Оливер Берман: Непростой первый день в Лас-Вегасе",
+      "url": "https://www.f1news.ru/news/f1-192650.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T06:45:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192650.jpg"
+    },
+    {
+      "title": "Пятеро гонщиков потеряют позиции на старте",
+      "url": "https://www.f1news.ru/news/f1-192649.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T06:42:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192649.jpg"
+    },
+    {
+      "title": "Алекс Элбон: Мы бы предпочли дождь весь уик-энд",
+      "url": "https://www.f1news.ru/news/f1-192648.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T06:26:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/192648.jpg"
+    },
+    {
+      "title": "Джордж Расселл: В реальности мы не самые быстрые",
+      "url": "https://www.f1news.ru/news/f1-192647.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T06:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/192647.jpg"
+    },
+    {
+      "title": "В General Motors отложили дебют своего мотора на 2030-й",
+      "url": "https://www.f1news.ru/news/f1-192646.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T05:23:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/cadillacf1/192646.jpg"
+    },
+    {
+      "title": "F1 Las Vegas GP: Russell fastest in damp FP2 from Gasly",
+      "url": "https://www.autosport.com/f1/news/f1-las-vegas-gp-russell-fastest-in-damp-fp2-from-gasly/10875841/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-20T05:15:28+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/YE9EbBMY/s6/george-russell-mercedes-2.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При Лас-Вегаса, пятница",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/las-vegas/2011/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T05:15:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "Джордж Расселл быстрее всех во второй тренировке",
+      "url": "https://www.f1news.ru/Championship/2026/las-vegas/friday-free.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T05:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/184555.jpg"
+    },
+    {
+      "title": "На девяти машинах заменили узлы силовой установки",
+      "url": "https://www.f1news.ru/news/f1-192644.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T04:35:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/fia/192644.jpg"
+    },
+    {
+      "title": "Будковски: Идея вернуться к двигателям V8 мне нравится",
+      "url": "https://www.f1news.ru/interview/budkowski/192643.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T04:10:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/budkowski/192643.jpg"
+    },
+    {
+      "title": "Cadillac ditches plan to produce own V6 hybrid engine ahead of F1’s V8 push",
+      "url": "https://www.autosport.com/f1/news/cadillac-ditches-plan-to-produce-own-v6-hybrid-engine-ahead-of-f1s-v8-push/10875807/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-20T04:01:54+00:00",
+      "category": "tech",
+      "image": "https://cdn-1.motorsport.com/images/amp/2jEAkpP0/s6/valtteri-bottas-cadillac-2.jpg"
+    },
+    {
+      "title": "Nike – официальный поставщик Формулы 1",
+      "url": "https://www.f1news.ru/news/f1-192642.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T02:16:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/domenicali/192642.jpg"
+    },
+    {
+      "title": "В 2027-м в Формуле 1 появятся штатные стюарды",
+      "url": "https://www.f1news.ru/news/f1-192641.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T02:04:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/fia/192641.jpg"
+    },
+    {
+      "title": "F1 Las Vegas GP: Rain drowns out FP1",
+      "url": "https://www.autosport.com/f1/news/f1-las-vegas-gp-fp1-report/10875770/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-20T01:43:05+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/6DGgOo9Y/s6/george-russell-mercedes-2.jpg"
+    },
+    {
+      "title": "Технические новинки, представленные в Лас-Вегасе",
+      "url": "https://www.f1news.ru/tech/192638.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T01:40:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/fia/192638.jpg"
+    },
+    {
+      "title": "Nike joins F1 as apparel partner",
+      "url": "https://www.autosport.com/f1/news/nike-joins-f1-as-apparel-partner/10875757/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-20T00:24:50+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/6O7zEMP6/s6/nike-x-formula-1.jpg"
+    },
     {
       "title": "FIA to phase in full-time F1 stewards from 2027",
       "url": "https://www.autosport.com/f1/news/fia-to-introduce-full-time-f1-stewards-from-2027-to-improve-consistency/10875719/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -11,114 +191,6 @@
       "image": "https://cdn-1.motorsport.com/images/amp/24QerjAY/s6/start-action-3.jpg"
     },
     {
-      "title": "03:25 МСК: Прямая трансляция свободных заездов",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T17:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-174.jpg"
-    },
-    {
-      "title": "Линдблад: Главное – как можно лучше завершить сезон",
-      "url": "https://www.f1news.ru/news/f1-192633.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T16:30:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192633.jpg"
-    },
-    {
-      "title": "Карлос Сайнс: Я люблю Формулу 1!",
-      "url": "https://www.f1news.ru/interview/sainz-junior/192614.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T16:15:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/sainz-junior/192614.jpg"
-    },
-    {
-      "title": "Мика Сало: Cadillac пойдёт на пользу стабильность состава",
-      "url": "https://www.f1news.ru/news/f1-192634.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T15:23:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bottas/192634.jpg"
-    },
-    {
-      "title": "Нико Хюлкенберг: Мы испытываем осторожный оптимизм",
-      "url": "https://www.f1news.ru/news/f1-192620.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T15:08:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hulkenberg/192620.jpg"
-    },
-    {
-      "title": "Алекс Элбон: Заработать очки будет сложно",
-      "url": "https://www.f1news.ru/news/f1-192624.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T14:31:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/albon_1/192624.jpg"
-    },
-    {
-      "title": "Пьер Гасли: В Вегасе у нас больше шансов на очки",
-      "url": "https://www.f1news.ru/news/f1-192632.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T13:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/192632.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен: Прогресс команды важнее, чем титул",
-      "url": "https://www.f1news.ru/news/f1-192628.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T13:03:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192628.jpg"
-    },
-    {
-      "title": "Джордж Расселл: Я сам отказался от новой турбины",
-      "url": "https://www.f1news.ru/news/f1-192631.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T12:17:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/russell/192631.jpg"
-    },
-    {
-      "title": "Хаджар: Хотелось бы выиграть одну из трёх гонок",
-      "url": "https://www.f1news.ru/news/f1-192627.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T12:08:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192627.jpg"
-    },
-    {
-      "title": "Боттас: Наша цель – финишировать в гонках",
-      "url": "https://www.f1news.ru/interview/bottas/192611.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T12:02:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/bottas/192611.jpg"
-    },
-    {
-      "title": "Антонелли: Если понадобится, я помогу Джорджу",
-      "url": "https://www.f1news.ru/news/f1-192629.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T11:50:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192629.jpg"
-    },
-    {
       "title": "Hamilton insists there are no \"trust\" problems at Ferrari",
       "url": "https://www.autosport.com/f1/news/lewis-hamilton-insists-there-are-no-trust-problems-at-ferrari/10875609/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -126,78 +198,6 @@
       "publishedAt": "2026-11-19T11:49:02+00:00",
       "category": "teams",
       "image": "https://cdn-1.motorsport.com/images/amp/68VwM4l2/s6/lewis-hamilton-ferrari.jpg"
-    },
-    {
-      "title": "Хэмилтон: Цель – второе место в Кубке конструкторов",
-      "url": "https://www.f1news.ru/news/f1-192625.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T11:18:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192625.jpg"
-    },
-    {
-      "title": "Перес: Я вернулся не для того, чтобы просто быть в Ф1",
-      "url": "https://www.f1news.ru/news/f1-192630.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T11:07:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/perez/192630.jpg"
-    },
-    {
-      "title": "Who has the best F1 power unit: Red Bull or Mercedes? Russell shares interesting theory",
-      "url": "https://www.autosport.com/f1/news/who-has-the-best-f1-power-unit-red-bull-or-mercedes-russell-shares-interesting-theory/10875591/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-19T10:47:32+00:00",
-      "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/0rVPwaJ0/s6/max-verstappen-red-bull-racing.jpg"
-    },
-    {
-      "title": "Бортолето: У нас есть шансы опередить Haas",
-      "url": "https://www.f1news.ru/news/f1-192621.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T10:23:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/192621.jpg"
-    },
-    {
-      "title": "Леклер: Меня удивил выбор слов в статье Daily Mail",
-      "url": "https://www.f1news.ru/news/f1-192626.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-19T10:11:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/leclerc/192626.jpg"
-    },
-    {
-      "title": "Honda reveals key F1 power unit change for 2027",
-      "url": "https://www.autosport.com/f1/news/honda-reveals-key-f1-power-unit-change-for-2027/10875538/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-19T07:57:39+00:00",
-      "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/2jEAyEN0/s6/lance-stroll-aston-martin-raci-3.jpg"
-    },
-    {
-      "title": "Why Verstappen's ideal F1 rules would make some circuits off-limits",
-      "url": "https://www.autosport.com/f1/news/max-verstappen-if-they-let-me-write-the-rules-f1-wouldnt-be-allowed-in-certain-places/10875462/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-19T06:00:15+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/Y9lNGqZ2/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Alonso won't stay for V8 return: \"F1 has lost 16 years of pure racing\"",
-      "url": "https://www.autosport.com/f1/news/alonso-wont-stay-for-v8-return-f1-has-lost-16-years-of-pure-racing/10875426/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-19T03:53:45+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/63QaODg2/s6/fernando-alonso-aston-martin-r-2.jpg"
     }
   ]
 }
