@@ -1,6 +1,87 @@
 {
-  "updatedAt": "2026-11-21T12:45:25.786572+00:00",
+  "updatedAt": "2026-11-21T21:41:37.295492+00:00",
   "articles": [
+    {
+      "title": "06:50 МСК: Прямая трансляция гонки",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T18:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-174.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Стартовое поле",
+      "url": "https://www.f1news.ru/Championship/2026/las-vegas/grid.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T18:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184558.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Прогноз погоды на гонку",
+      "url": "https://www.f1news.ru/news/f1-192674.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T18:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/171308.jpg"
+    },
+    {
+      "title": "Доменикали: Эволюция носит естественный характер",
+      "url": "https://www.f1news.ru/news/f1-192702.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T16:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/domenicali/192702.jpg"
+    },
+    {
+      "title": "Вассёр: Добраться до финала было вполне по силам",
+      "url": "https://www.f1news.ru/news/f1-192704.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T15:40:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vasseur/192704.jpg"
+    },
+    {
+      "title": "Кими Антонелли: Я считаю, что смогу выиграть гонку",
+      "url": "https://www.f1news.ru/interview/antonelli/192700.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T15:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192700.jpg"
+    },
+    {
+      "title": "Расселл: Эффект от слипстрима в Вегасе очень велик",
+      "url": "https://www.f1news.ru/interview/russell/192698.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T14:26:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/192698.jpg"
+    },
+    {
+      "title": "Стелла: В днище машины Ландо застрял пластиковый пакет",
+      "url": "https://www.f1news.ru/news/f1-192699.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T13:18:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/stella/192699.jpg"
+    },
+    {
+      "title": "Берман пытается подписать контракт с Alpine на 2027-й",
+      "url": "https://www.f1news.ru/news/f1-192701.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T12:58:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192701.jpg"
+    },
     {
       "title": "Алонсо: Я потерял 2,8 секунды на прямых из-за двигателя",
       "url": "https://www.f1news.ru/news/f1-192697.html",
@@ -83,42 +164,6 @@
       "image": "https://c.f1news.ru/userfiles/norris/192692.jpg"
     },
     {
-      "title": "Расселл: Кто-то должен был дать отпор Ферстаппену",
-      "url": "https://www.f1news.ru/news/f1-192691.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T07:27:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/russell/192691.jpg"
-    },
-    {
-      "title": "Оливер Берман допущен к старту",
-      "url": "https://www.f1news.ru/news/f1-192690.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T07:26:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/192690.jpg"
-    },
-    {
-      "title": "Арвид Линдблад: Наш подход сработал",
-      "url": "https://www.f1news.ru/news/f1-192688.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T07:19:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192688.jpg"
-    },
-    {
-      "title": "Стюарды оштрафовали Racing Bulls на пять тысяч евро",
-      "url": "https://www.f1news.ru/news/f1-192687.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T07:07:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192687.jpg"
-    },
-    {
       "title": "Verstappen responds to Russell after Las Vegas GP practice clash over 'gentleman's agreement'",
       "url": "https://www.autosport.com/f1/news/verstappen-responds-to-russell-after-las-vegas-gp-practice-clash-over-gentlemans-agreement/10876337/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -126,33 +171,6 @@
       "publishedAt": "2026-11-21T07:05:12+00:00",
       "category": "racing",
       "image": "https://cdn-1.motorsport.com/images/amp/0Zq8OJb6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
-    },
-    {
-      "title": "Хюлкенберг: Нам не хватило скорости, чтобы выйти в финал",
-      "url": "https://www.f1news.ru/news/f1-192686.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T06:51:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/192686.jpg"
-    },
-    {
-      "title": "Карлос Сайнс: Мы достойно провели квалификацию",
-      "url": "https://www.f1news.ru/news/f1-192685.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T06:50:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/albon_1/192685.jpg"
-    },
-    {
-      "title": "Камара: Квалификация не была простой",
-      "url": "https://www.f1news.ru/news/f1-192684.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T06:46:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/bearman/192684.jpg"
     },
     {
       "title": "Floor damage, deployment down to Hamilton's Las Vegas GP Q2 exit",
@@ -171,24 +189,6 @@
       "publishedAt": "2026-11-21T06:28:41+00:00",
       "category": "racing",
       "image": "https://cdn-1.motorsport.com/images/amp/6grQkLjY/s6/andrea-kimi-antonelli-mercedes.jpg"
-    },
-    {
-      "title": "Вильнёв: Команда не сделала ничего, чтобы помочь Расселлу",
-      "url": "https://www.f1news.ru/news/f1-192683.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T06:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192683.jpg"
-    },
-    {
-      "title": "Шарль Леклер: Я допустил ошибку и очень зол",
-      "url": "https://www.f1news.ru/news/f1-192682.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T06:06:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192682.jpg"
     },
     {
       "title": "F1 Las Vegas GP: Antonelli tops qualifying but Verstappen gets pole",
