@@ -1,203 +1,203 @@
 {
-  "updatedAt": "2026-11-21T01:34:42.286965+00:00",
+  "updatedAt": "2026-11-21T12:45:25.786572+00:00",
   "articles": [
     {
-      "title": "В Haas подпишут контракт с Берманом «как можно скорее»",
-      "url": "https://www.f1news.ru/news/f1-192671.html",
+      "title": "Алонсо: Я потерял 2,8 секунды на прямых из-за двигателя",
+      "url": "https://www.f1news.ru/news/f1-192697.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-21T01:15:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/192671.jpg"
-    },
-    {
-      "title": "Формула 1 и FIA договорились о новых моторах в 2030-м",
-      "url": "https://www.f1news.ru/news/f1-192670.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T00:38:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192670.jpg"
-    },
-    {
-      "title": "F1 set for V8 return from 2030",
-      "url": "https://www.autosport.com/f1/news/f1-set-for-v8-return-from-2030/10875119/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-20T19:02:00+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/YWKAgeVY/s6/charles-leclerc-ferrari-lewis--2.jpg"
-    },
-    {
-      "title": "03:25 МСК: Прямая трансляция свободных заездов",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T17:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-174.jpg"
-    },
-    {
-      "title": "Формула E: На тестах сгорела машина новой команды Fusion",
-      "url": "https://www.f1news.ru/news/autosport-192669.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T16:14:00+00:00",
+      "publishedAt": "2026-11-21T12:07:00+00:00",
       "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/192669.jpg"
+      "image": "https://c.f1news.ru/userfiles/alonso/192697.jpg"
     },
     {
-      "title": "Гарри Конелли рад появлению постоянных стюардов",
-      "url": "https://www.f1news.ru/news/f1-192665.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T15:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/connelly/192665.jpg"
-    },
-    {
-      "title": "Пауль Арон уходит из Alpine, чтобы выступать в Формуле E",
-      "url": "https://www.f1news.ru/news/f1-192668.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T15:07:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192668.jpg"
-    },
-    {
-      "title": "Бриаторе: Мы сделали большой шаг вперёд",
-      "url": "https://www.f1news.ru/interview/briatore/192661.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T14:18:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/briatore/192661.jpg"
-    },
-    {
-      "title": "Peugeot собирается свернуть программу в WEC?",
-      "url": "https://www.f1news.ru/news/autosport-192667.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T14:03:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/Shwartzman/192667.jpg"
-    },
-    {
-      "title": "Таурисс: Херта расстроился, узнав решение по Боттасу",
-      "url": "https://www.f1news.ru/interview/towriss/192663.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T13:07:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/towriss/192663.jpg"
-    },
-    {
-      "title": "В Pirelli ограничат число кругов на одном комплекте",
-      "url": "https://www.f1news.ru/news/f1-192666.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T12:49:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/pirelli/192666.jpg"
-    },
-    {
-      "title": "Зак Браун: В этом году мы проходили проверку на прочность",
-      "url": "https://www.f1news.ru/interview/brown/192660.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T12:30:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/brown/192660.jpg"
-    },
-    {
-      "title": "Никола Лакорте продолжит карьеру в Формуле 2",
-      "url": "https://www.f1news.ru/news/autosport-192664.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T12:11:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192664.jpg"
-    },
-    {
-      "title": "Бригада Sky Deutschland в Катар не полетит",
-      "url": "https://www.f1news.ru/news/f1-192662.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T11:49:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192662.jpg"
-    },
-    {
-      "title": "Боттас: Мы проверяли, всё ли с машиной в порядке",
-      "url": "https://www.f1news.ru/news/f1-192659.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T10:00:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/bottas/192659.jpg"
-    },
-    {
-      "title": "Гасли: Завтра нас ждут совсем другие условия",
-      "url": "https://www.f1news.ru/news/f1-192655.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T09:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/192655.jpg"
-    },
-    {
-      "title": "Алонсо: Прогрев шин будет иметь ключевое значение",
-      "url": "https://www.f1news.ru/news/f1-192658.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T08:36:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/alonso/192658.jpg"
-    },
-    {
-      "title": "Pirelli reintroduces stint limit for F1 Qatar GP",
-      "url": "https://www.autosport.com/f1/news/pirelli-reintroduces-stint-limit-for-f1-qatar-gp/10875958/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "title": "Antonelli and Russell set for Mercedes talks over Las Vegas GP qualifying mix-up",
+      "url": "https://www.autosport.com/f1/news/kimi-antonelli-and-george-russell-set-for-mercedes-talks-over-las-vegas-gp-qualifying-woes/10876456/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
-      "publishedAt": "2026-11-20T08:21:11+00:00",
+      "publishedAt": "2026-11-21T11:05:19+00:00",
       "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/6DGqG9JY/s6/lando-norris-mclaren-oscar-pia-2.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/YWKAVQOY/s6/andrea-kimi-antonelli-mercedes.jpg"
     },
     {
-      "title": "\"Same as Brazil\" – Red Bull \"trying to understand\" the root cause of Verstappen's complaints",
-      "url": "https://www.autosport.com/f1/news/same-as-brazil-red-bull-trying-to-understand-the-root-cause-of-verstappens-complaints/10875945/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-20T08:12:55+00:00",
+      "title": "Ферстаппен: Сложно ожидать большего с учётом проблем",
+      "url": "https://www.f1news.ru/interview/max_verstappen/192696.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T11:00:00+00:00",
       "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/0arEG1p2/s6/max-verstappen-red-bull-racing-2.jpg"
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/192696.jpg"
     },
     {
-      "title": "F1 Las Vegas GP: Russell fastest in damp FP2 from Gasly",
-      "url": "https://www.autosport.com/f1/news/f1-las-vegas-gp-russell-fastest-in-damp-fp2-from-gasly/10875841/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-20T05:15:28+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/YE9EbBMY/s6/george-russell-mercedes-2.jpg"
+      "title": "Вольфф: У Расселла была идеальная позиция для поула",
+      "url": "https://www.f1news.ru/news/f1-192689.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T10:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192689.jpg"
     },
     {
-      "title": "Cadillac ditches plan to produce own V6 hybrid engine ahead of F1’s V8 push",
-      "url": "https://www.autosport.com/f1/news/cadillac-ditches-plan-to-produce-own-v6-hybrid-engine-ahead-of-f1s-v8-push/10875807/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "title": "Verstappen reveals mysterious Red Bull F1 car issue that cannot be fixed in Las Vegas",
+      "url": "https://www.autosport.com/f1/news/verstappen-reveals-mysterious-red-bull-f1-car-issue-that-cannot-be-fixed-in-las-vegas/10876404/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
-      "publishedAt": "2026-11-20T04:01:54+00:00",
+      "publishedAt": "2026-11-21T08:52:06+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/0LderEP0/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Шинники Pirelli ждут одного пит-стопа",
+      "url": "https://www.f1news.ru/news/f1-192695.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T08:46:00+00:00",
       "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/2jEAkpP0/s6/valtteri-bottas-cadillac-2.jpg"
+      "image": "https://c.f1news.ru/userfiles/pirelli/192695.jpg"
     },
     {
-      "title": "F1 Las Vegas GP: Rain drowns out FP1",
-      "url": "https://www.autosport.com/f1/news/f1-las-vegas-gp-fp1-report/10875770/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "title": "Пьер Гасли: Я хочу заработать первые очки в Вегасе",
+      "url": "https://www.f1news.ru/news/f1-192694.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T08:18:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/192694.jpg"
+    },
+    {
+      "title": "Перес: Мне не удалось воспользоваться слипстримом",
+      "url": "https://www.f1news.ru/news/f1-192693.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T08:06:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/192693.jpg"
+    },
+    {
+      "title": "Ландо Норрис: Не думаю, что мог добиться большего",
+      "url": "https://www.f1news.ru/news/f1-192692.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T08:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/norris/192692.jpg"
+    },
+    {
+      "title": "Расселл: Кто-то должен был дать отпор Ферстаппену",
+      "url": "https://www.f1news.ru/news/f1-192691.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T07:27:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/192691.jpg"
+    },
+    {
+      "title": "Оливер Берман допущен к старту",
+      "url": "https://www.f1news.ru/news/f1-192690.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T07:26:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192690.jpg"
+    },
+    {
+      "title": "Арвид Линдблад: Наш подход сработал",
+      "url": "https://www.f1news.ru/news/f1-192688.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T07:19:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192688.jpg"
+    },
+    {
+      "title": "Стюарды оштрафовали Racing Bulls на пять тысяч евро",
+      "url": "https://www.f1news.ru/news/f1-192687.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T07:07:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192687.jpg"
+    },
+    {
+      "title": "Verstappen responds to Russell after Las Vegas GP practice clash over 'gentleman's agreement'",
+      "url": "https://www.autosport.com/f1/news/verstappen-responds-to-russell-after-las-vegas-gp-practice-clash-over-gentlemans-agreement/10876337/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
       "language": "en",
-      "publishedAt": "2026-11-20T01:43:05+00:00",
+      "publishedAt": "2026-11-21T07:05:12+00:00",
       "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/6DGgOo9Y/s6/george-russell-mercedes-2.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/0Zq8OJb6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
+    },
+    {
+      "title": "Хюлкенберг: Нам не хватило скорости, чтобы выйти в финал",
+      "url": "https://www.f1news.ru/news/f1-192686.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T06:51:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192686.jpg"
+    },
+    {
+      "title": "Карлос Сайнс: Мы достойно провели квалификацию",
+      "url": "https://www.f1news.ru/news/f1-192685.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T06:50:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/albon_1/192685.jpg"
+    },
+    {
+      "title": "Камара: Квалификация не была простой",
+      "url": "https://www.f1news.ru/news/f1-192684.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T06:46:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/bearman/192684.jpg"
+    },
+    {
+      "title": "Floor damage, deployment down to Hamilton's Las Vegas GP Q2 exit",
+      "url": "https://www.autosport.com/f1/news/floor-damage-deployment-down-to-lewis-hamiltons-las-vegas-q2-exit/10876316/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-21T06:33:00+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/YE9EbowY/s6/lewis-hamilton-ferrari-2.jpg"
+    },
+    {
+      "title": "Russell slams Verstappen after Las Vegas GP practice clash: ‘He walks around like he’s bigger and better than everyone’",
+      "url": "https://www.autosport.com/f1/news/george-russell-slams-max-verstappen-after-las-vegas-clash-he-walks-around-like-hes-bigger-and-bette/10876309/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-21T06:28:41+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/6grQkLjY/s6/andrea-kimi-antonelli-mercedes.jpg"
+    },
+    {
+      "title": "Вильнёв: Команда не сделала ничего, чтобы помочь Расселлу",
+      "url": "https://www.f1news.ru/news/f1-192683.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T06:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/192683.jpg"
+    },
+    {
+      "title": "Шарль Леклер: Я допустил ошибку и очень зол",
+      "url": "https://www.f1news.ru/news/f1-192682.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T06:06:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192682.jpg"
+    },
+    {
+      "title": "F1 Las Vegas GP: Antonelli tops qualifying but Verstappen gets pole",
+      "url": "https://www.autosport.com/f1/news/f1-las-vegas-gp-antonelli-tops-qualifying-but-verstappen-gets-pole/10876233/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-21T05:20:37+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/0rVPkgW0/s6/andrea-kimi-antonelli-mercedes-2.jpg"
     }
   ]
 }
