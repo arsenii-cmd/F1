@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-11-20T17:00:01.524279+00:00",
+  "updatedAt": "2026-11-21T01:34:42.286965+00:00",
   "articles": [
+    {
+      "title": "В Haas подпишут контракт с Берманом «как можно скорее»",
+      "url": "https://www.f1news.ru/news/f1-192671.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T01:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192671.jpg"
+    },
+    {
+      "title": "Формула 1 и FIA договорились о новых моторах в 2030-м",
+      "url": "https://www.f1news.ru/news/f1-192670.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-21T00:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192670.jpg"
+    },
+    {
+      "title": "F1 set for V8 return from 2030",
+      "url": "https://www.autosport.com/f1/news/f1-set-for-v8-return-from-2030/10875119/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-20T19:02:00+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/YWKAgeVY/s6/charles-leclerc-ferrari-lewis--2.jpg"
+    },
+    {
+      "title": "03:25 МСК: Прямая трансляция свободных заездов",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-20T17:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-174.jpg"
+    },
     {
       "title": "Формула E: На тестах сгорела машина новой команды Fusion",
       "url": "https://www.f1news.ru/news/autosport-192669.html",
@@ -137,33 +173,6 @@
       "image": "https://cdn-1.motorsport.com/images/amp/0arEG1p2/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
-      "title": "Берра: Наиболее важная работа на трассе начнётся в субботу",
-      "url": "https://www.f1news.ru/news/f1-192657.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T08:07:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/pirelli/192657.jpg"
-    },
-    {
-      "title": "Шарль Леклер: Завтра начнём работу заново",
-      "url": "https://www.f1news.ru/news/f1-192656.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T08:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192656.jpg"
-    },
-    {
-      "title": "Фотогалерея: Гран При Лас-Вегаса, пятница",
-      "url": "https://www.f1news.ru/gallery/v/2026/gp/las-vegas/2011/",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-20T07:50:00+00:00",
-      "category": "racing",
-      "image": ""
-    },
-    {
       "title": "F1 Las Vegas GP: Russell fastest in damp FP2 from Gasly",
       "url": "https://www.autosport.com/f1/news/f1-las-vegas-gp-russell-fastest-in-damp-fp2-from-gasly/10875841/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -189,15 +198,6 @@
       "publishedAt": "2026-11-20T01:43:05+00:00",
       "category": "racing",
       "image": "https://cdn-1.motorsport.com/images/amp/6DGgOo9Y/s6/george-russell-mercedes-2.jpg"
-    },
-    {
-      "title": "Nike joins F1 as apparel partner",
-      "url": "https://www.autosport.com/f1/news/nike-joins-f1-as-apparel-partner/10875757/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-20T00:24:50+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/6O7zEMP6/s6/nike-x-formula-1.jpg"
     }
   ]
 }
