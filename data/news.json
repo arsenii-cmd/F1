@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-22T16:20:30.556136+00:00",
+  "updatedAt": "2026-11-22T21:54:02.289647+00:00",
   "articles": [
+    {
+      "title": "F1 plans two-team engine supply limit under 2030 V8 rules",
+      "url": "https://www.autosport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-22T20:32:03+00:00",
+      "category": "tech",
+      "image": "https://cdn-1.motorsport.com/images/amp/YP7rVg42/s6/race-start-2.jpg"
+    },
+    {
+      "title": "Рафаэль Камара выступит за Haas в Катаре и Абу-Даби",
+      "url": "https://www.f1news.ru/news/f1-192731.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T19:31:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/camara_1/192731.jpg"
+    },
+    {
+      "title": "Camara to finish F1 season with Haas, ending F2 title bid",
+      "url": "https://www.autosport.com/f1/news/haas-keeps-rafael-camara-in-f1-ending-his-2026-f2-title-bid/10877044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-22T18:32:32+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/YP74VKA2/s6/rafael-camara-haas-2.jpg"
+    },
     {
       "title": "Лоран Мекис: Какая невероятная гонка!",
       "url": "https://www.f1news.ru/news/f1-192730.html",
@@ -164,15 +191,6 @@
       "image": "https://cdn-1.motorsport.com/images/amp/YK15yEz0/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
-      "title": "Оливер Берман: Одна из самых интересных гонок в сезоне",
-      "url": "https://www.f1news.ru/news/f1-192719.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-22T07:47:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/192719.jpg"
-    },
-    {
       "title": "“My mistake was to lift” – Why Antonelli lost power in Las Vegas GP victory battle",
       "url": "https://www.autosport.com/f1/news/my-mistake-was-to-lift-why-antonelli-lost-power-in-las-vegas-gp-victory-battle/10876786/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -180,24 +198,6 @@
       "publishedAt": "2026-11-22T07:27:37+00:00",
       "category": "racing",
       "image": "https://cdn-1.motorsport.com/images/amp/6VyKxydY/s6/andrea-kimi-antonelli-mercedes.jpg"
-    },
-    {
-      "title": "F1 Las Vegas GP: Verstappen wins thriller as Russell hits the wall late on",
-      "url": "https://www.autosport.com/f1/news/f1-las-vegas-gp-report/10876677/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-22T05:45:47+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/24QGyQAY/s6/max-verstappen-red-bull-racing-3.jpg"
-    },
-    {
-      "title": "Antonelli and Russell set for Mercedes talks over Las Vegas GP qualifying mix-up",
-      "url": "https://www.autosport.com/f1/news/kimi-antonelli-and-george-russell-set-for-mercedes-talks-over-las-vegas-gp-qualifying-woes/10876456/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-21T11:05:19+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/YWKAVQOY/s6/andrea-kimi-antonelli-mercedes.jpg"
     }
   ]
 }
