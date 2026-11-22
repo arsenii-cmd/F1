@@ -1,50 +1,185 @@
 {
-  "updatedAt": "2026-11-22T07:00:02.319015+00:00",
+  "updatedAt": "2026-11-22T16:20:30.556136+00:00",
   "articles": [
     {
-      "title": "Льюис Хэмилтон: Мы могли подняться на подиум",
-      "url": "https://www.f1news.ru/news/f1-192715.html",
+      "title": "Лоран Мекис: Какая невероятная гонка!",
+      "url": "https://www.f1news.ru/news/f1-192730.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-22T06:48:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192715.jpg"
+      "publishedAt": "2026-11-22T15:52:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/mekies/192730.jpg"
     },
     {
-      "title": "Ферстаппен: Таких сумасшедших гонок у меня ещё не было!",
-      "url": "https://www.f1news.ru/news/f1-192714.html",
+      "title": "Макс Ферстаппен: Расселл не дотягивает до моего уровня",
+      "url": "https://www.f1news.ru/news/f1-192729.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-22T06:25:00+00:00",
+      "publishedAt": "2026-11-22T14:22:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192714.jpg"
+      "image": "https://c.f1news.ru/userfiles/russell/192729.jpg"
     },
     {
-      "title": "Ландо Норрис: Победить мог кто угодно",
-      "url": "https://www.f1news.ru/news/f1-192713.html",
+      "title": "Кен Накамура-Берта выиграл Гран При Макао",
+      "url": "https://www.f1news.ru/news/autosport-192728.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-22T06:24:00+00:00",
+      "publishedAt": "2026-11-22T13:07:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192728.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Все цитаты уик-энда",
+      "url": "https://www.f1news.ru/news/f1-192511.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T12:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192511-1.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Комментарии после гонки",
+      "url": "https://www.f1news.ru/Championship/2026/las-vegas/afterrace.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T12:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184562.jpg"
+    },
+    {
+      "title": "Боттас: Хорошо, что нам удалось доехать до финиша",
+      "url": "https://www.f1news.ru/news/f1-192727.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T11:10:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/192713.jpg"
+      "image": "https://c.f1news.ru/userfiles/bottas/192727.jpg"
+    },
+    {
+      "title": "Бортолето: Было трудно удержаться в темпе соперников",
+      "url": "https://www.f1news.ru/news/f1-192726.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T10:03:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192726.jpg"
     },
     {
       "title": "Фотогалерея: Гран При Лас-Вегаса, воскресенье",
       "url": "https://www.f1news.ru/gallery/v/2026/gp/las-vegas/2211/",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-22T06:15:00+00:00",
+      "publishedAt": "2026-11-22T09:15:00+00:00",
       "category": "racing",
       "image": ""
     },
     {
-      "title": "Гран При Лас-Вегаса: Круг за кругом",
-      "url": "https://www.f1news.ru/Championship/2026/las-vegas/laps.shtml",
+      "title": "Hadjar penalised after backing up Russell in Las Vegas GP, Perez given grid drop for Qatar GP",
+      "url": "https://www.autosport.com/f1/news/hadjar-penalised-after-backing-up-russell-in-las-vegas-gp-perez-given-grid-drop-for-qatar-gp/10876867/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-22T09:11:46+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/6b8Zy8v2/s6/george-russell-mercedes-pierre-2.jpg"
+    },
+    {
+      "title": "Алонсо сошёл из-за проблем с силовой установкой",
+      "url": "https://www.f1news.ru/news/f1-192725.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-22T06:10:00+00:00",
+      "publishedAt": "2026-11-22T09:06:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/stroll/192725.jpg"
+    },
+    {
+      "title": "Линдблад: Я нажал педаль газа, и машину развернуло",
+      "url": "https://www.f1news.ru/news/f1-192724.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T09:00:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192724.jpg"
+    },
+    {
+      "title": "В Pirelli довольны работой шин в Лас-Вегасе",
+      "url": "https://www.f1news.ru/news/f1-192723.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T08:47:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/pirelli/192723.jpg"
+    },
+    {
+      "title": "Vasseur furious with \"unprofessional\" Ferrari clash and demands fresh talks after Las Vegas GP",
+      "url": "https://www.autosport.com/f1/news/vasseur-furious-with-unprofessional-ferrari-clash-and-demands-fresh-talks-after-las-vegas-gp/10876847/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-22T08:40:17+00:00",
       "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184560.jpg"
+      "image": "https://cdn-1.motorsport.com/images/amp/6b8Zy7v2/s6/charles-leclerc-ferrari-lewis-.jpg"
+    },
+    {
+      "title": "Гран При Лас-Вегаса: Порядок смены шин на дистанции",
+      "url": "https://www.f1news.ru/Championship/2026/las-vegas/tyres.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T08:36:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/184561.jpg"
+    },
+    {
+      "title": "Бриаторе: Нам есть что отпраздновать в Энстоуне",
+      "url": "https://www.f1news.ru/news/f1-192722.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T08:25:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/192722.jpg"
+    },
+    {
+      "title": "Айзек Хаджар получил 10-секундный штраф",
+      "url": "https://www.f1news.ru/news/f1-192721.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T08:22:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/192721.jpg"
+    },
+    {
+      "title": "Сайнс показал лучший результат в сезоне в Лас-Вегасе",
+      "url": "https://www.f1news.ru/news/f1-192720.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T08:13:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/192720.jpg"
+    },
+    {
+      "title": "Verstappen hits back after Russell criticism: “He’s so far below my level”",
+      "url": "https://www.autosport.com/f1/news/max-verstappens-snarky-revenge-on-george-russell-karma-is-a-bitch/10876811/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-22T07:56:20+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/YK15yEz0/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Оливер Берман: Одна из самых интересных гонок в сезоне",
+      "url": "https://www.f1news.ru/news/f1-192719.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-22T07:47:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192719.jpg"
+    },
+    {
+      "title": "“My mistake was to lift” – Why Antonelli lost power in Las Vegas GP victory battle",
+      "url": "https://www.autosport.com/f1/news/my-mistake-was-to-lift-why-antonelli-lost-power-in-las-vegas-gp-victory-battle/10876786/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-22T07:27:37+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/6VyKxydY/s6/andrea-kimi-antonelli-mercedes.jpg"
     },
     {
       "title": "F1 Las Vegas GP: Verstappen wins thriller as Russell hits the wall late on",
@@ -56,105 +191,6 @@
       "image": "https://cdn-1.motorsport.com/images/amp/24QGyQAY/s6/max-verstappen-red-bull-racing-3.jpg"
     },
     {
-      "title": "Гран При Лас-Вегаса: Ферстаппен - Норрис - Пиастри",
-      "url": "https://www.f1news.ru/Championship/2026/las-vegas/race.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-22T05:38:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184559.jpg"
-    },
-    {
-      "title": "40 минут до старта: Комментарий Джорджа Расселла",
-      "url": "https://www.f1news.ru/news/f1-192710.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-22T03:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/russell/192710.jpg"
-    },
-    {
-      "title": "80 минут до старта: Комментарий Ландо Норриса",
-      "url": "https://www.f1news.ru/news/f1-192709.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-22T02:40:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/192709.jpg"
-    },
-    {
-      "title": "90 минут до старта: Комментарий Айзека Хаджара",
-      "url": "https://www.f1news.ru/news/f1-192707.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-22T02:30:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/187712.jpg"
-    },
-    {
-      "title": "100 минут до старта: Комментарий Оскара Пиастри",
-      "url": "https://www.f1news.ru/news/f1-192708.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-22T02:20:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/piastri/192708.jpg"
-    },
-    {
-      "title": "110 минут до старта: Комментарий Шарля Леклера",
-      "url": "https://www.f1news.ru/news/f1-192706.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-22T02:10:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/leclerc/192706.jpg"
-    },
-    {
-      "title": "Гран При Лас-Вегаса: Стартовое поле",
-      "url": "https://www.f1news.ru/Championship/2026/las-vegas/grid.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T18:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184558.jpg"
-    },
-    {
-      "title": "Гран При Лас-Вегаса: Прогноз погоды на гонку",
-      "url": "https://www.f1news.ru/news/f1-192674.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T18:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/171308.jpg"
-    },
-    {
-      "title": "Доменикали: Эволюция носит естественный характер",
-      "url": "https://www.f1news.ru/news/f1-192702.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T16:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/domenicali/192702.jpg"
-    },
-    {
-      "title": "Вассёр: Добраться до финала было вполне по силам",
-      "url": "https://www.f1news.ru/news/f1-192704.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T15:40:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/vasseur/192704.jpg"
-    },
-    {
-      "title": "Кими Антонелли: Я считаю, что смогу выиграть гонку",
-      "url": "https://www.f1news.ru/interview/antonelli/192700.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-21T15:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/antonelli/192700.jpg"
-    },
-    {
       "title": "Antonelli and Russell set for Mercedes talks over Las Vegas GP qualifying mix-up",
       "url": "https://www.autosport.com/f1/news/kimi-antonelli-and-george-russell-set-for-mercedes-talks-over-las-vegas-gp-qualifying-woes/10876456/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -162,42 +198,6 @@
       "publishedAt": "2026-11-21T11:05:19+00:00",
       "category": "racing",
       "image": "https://cdn-1.motorsport.com/images/amp/YWKAVQOY/s6/andrea-kimi-antonelli-mercedes.jpg"
-    },
-    {
-      "title": "Verstappen reveals mysterious Red Bull F1 car issue that cannot be fixed in Las Vegas",
-      "url": "https://www.autosport.com/f1/news/verstappen-reveals-mysterious-red-bull-f1-car-issue-that-cannot-be-fixed-in-las-vegas/10876404/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-21T08:52:06+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/0LderEP0/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Verstappen responds to Russell after Las Vegas GP practice clash over 'gentleman's agreement'",
-      "url": "https://www.autosport.com/f1/news/verstappen-responds-to-russell-after-las-vegas-gp-practice-clash-over-gentlemans-agreement/10876337/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-21T07:05:12+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/0Zq8OJb6/s6/andrea-kimi-antonelli-mercedes-2.jpg"
-    },
-    {
-      "title": "Floor damage, deployment down to Hamilton's Las Vegas GP Q2 exit",
-      "url": "https://www.autosport.com/f1/news/floor-damage-deployment-down-to-lewis-hamiltons-las-vegas-q2-exit/10876316/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-21T06:33:00+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/YE9EbowY/s6/lewis-hamilton-ferrari-2.jpg"
-    },
-    {
-      "title": "Russell slams Verstappen after Las Vegas GP practice clash: ‘He walks around like he’s bigger and better than everyone’",
-      "url": "https://www.autosport.com/f1/news/george-russell-slams-max-verstappen-after-las-vegas-clash-he-walks-around-like-hes-bigger-and-bette/10876309/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-21T06:28:41+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/6grQkLjY/s6/andrea-kimi-antonelli-mercedes.jpg"
     }
   ]
 }
