@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-11-22T21:54:02.289647+00:00",
+  "updatedAt": "2026-11-23T07:49:47.491625+00:00",
   "articles": [
+    {
+      "title": "Монтойя: В Ferrari не оставят инцидент без последствий",
+      "url": "https://www.f1news.ru/news/f1-192734.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-23T07:43:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/leclerc/192734.jpg"
+    },
+    {
+      "title": "Ваулз: Карлос мог бороться именно за счёт своей скорости",
+      "url": "https://www.f1news.ru/news/f1-192733.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-23T07:08:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/vowles/192733-1.jpg"
+    },
+    {
+      "title": "DHL Fastest Pit Stop Award: Лучший пит-стоп у Racing Bulls",
+      "url": "https://www.f1news.ru/news/f1-192732.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-23T06:46:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192732.jpg"
+    },
     {
       "title": "F1 plans two-team engine supply limit under 2030 V8 rules",
       "url": "https://www.autosport.com/f1/news/f1-set-to-reduce-customer-teams-as-key-2030-details-emerge/10877058/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -153,33 +180,6 @@
       "publishedAt": "2026-11-22T08:36:00+00:00",
       "category": "tech",
       "image": "https://c.f1news.ru/userfiles/184561.jpg"
-    },
-    {
-      "title": "Бриаторе: Нам есть что отпраздновать в Энстоуне",
-      "url": "https://www.f1news.ru/news/f1-192722.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-22T08:25:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/192722.jpg"
-    },
-    {
-      "title": "Айзек Хаджар получил 10-секундный штраф",
-      "url": "https://www.f1news.ru/news/f1-192721.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-22T08:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192721.jpg"
-    },
-    {
-      "title": "Сайнс показал лучший результат в сезоне в Лас-Вегасе",
-      "url": "https://www.f1news.ru/news/f1-192720.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-22T08:13:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/albon_1/192720.jpg"
     },
     {
       "title": "Verstappen hits back after Russell criticism: “He’s so far below my level”",
