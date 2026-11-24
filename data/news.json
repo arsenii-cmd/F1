@@ -1,14 +1,158 @@
 {
-  "updatedAt": "2026-11-24T04:50:01.544339+00:00",
+  "updatedAt": "2026-11-24T19:32:28.489155+00:00",
   "articles": [
     {
-      "title": "Ферстаппен: Даже пульс не учащался, я вообще не нервничал",
-      "url": "https://www.f1news.ru/interview/max_verstappen/192746.shtml",
+      "title": "What's next for Herta after F1 2027 snub?",
+      "url": "https://www.autosport.com/f1/news/whats-next-for-herta-after-f1-2027-snub/10877533/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-24T17:59:55+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/0arKWNy2/s6/colton-herta-hitech-gp-2.jpg"
+    },
+    {
+      "title": "Орихара: В Катаре возможны сложности с системой смазки",
+      "url": "https://www.f1news.ru/news/f1-192766.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-23T18:20:00+00:00",
+      "publishedAt": "2026-11-24T17:35:00+00:00",
       "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/192746.jpg"
+      "image": "https://c.f1news.ru/userfiles/astonmartin/192766.jpg"
+    },
+    {
+      "title": "Алекс Палоу намекнул на участие Алонсо в гонке IndyCar",
+      "url": "https://www.f1news.ru/news/f1-192765.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T17:03:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/alonso/192765.jpg"
+    },
+    {
+      "title": "WEC: Команда Ford завершила европейскую стадию тестов",
+      "url": "https://www.f1news.ru/news/autosport-192764.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T16:45:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192764.jpg"
+    },
+    {
+      "title": "Гонщики Alpine надеются заработать очки и в Катаре",
+      "url": "https://www.f1news.ru/news/f1-192763.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T15:24:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/192763.jpg"
+    },
+    {
+      "title": "Джолион Палмер: Не завидую Фредерику Вассёру",
+      "url": "https://www.f1news.ru/news/f1-192762.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T14:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192762.jpg"
+    },
+    {
+      "title": "В Ferrari могут ввести новые правила борьбы для гонщиков",
+      "url": "https://www.f1news.ru/news/f1-192761.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T13:31:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/ferrari/192761.jpg"
+    },
+    {
+      "title": "Зак Браун: Вся наша команда заслуживает похвалы",
+      "url": "https://www.f1news.ru/news/f1-192760.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T12:12:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/brown/192760.jpg"
+    },
+    {
+      "title": "Арвид Линдблад: Я раздавлен после схода в Лас-Вегасе",
+      "url": "https://www.f1news.ru/news/f1-192759.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T12:09:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192759.jpg"
+    },
+    {
+      "title": "Фредди Слейтер заменит Камару в Формуле 2",
+      "url": "https://www.f1news.ru/news/autosport-192758.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T11:22:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/camara_1/192758.jpg"
+    },
+    {
+      "title": "Дакар: Нани Рома рад возвращению Фернандо Алонсо",
+      "url": "https://www.f1news.ru/news/autosport-192757.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T11:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/192757.jpg"
+    },
+    {
+      "title": "Нико Хюлкенберг: Надеюсь, мы поборемся за очки в Катаре",
+      "url": "https://www.f1news.ru/news/f1-192756.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T11:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/192756.jpg"
+    },
+    {
+      "title": "Мартин Молнар дебютирует в Формуле 3",
+      "url": "https://www.f1news.ru/news/autosport-192755.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T10:03:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192755.jpg"
+    },
+    {
+      "title": "Pirelli: На Гран При Катара шины проходят суровую проверку",
+      "url": "https://www.f1news.ru/news/f1-192754.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T10:02:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/pirelli/192754.jpg"
+    },
+    {
+      "title": "Тото Вольфф: В Катаре предстоит учесть множество нюансов",
+      "url": "https://www.f1news.ru/news/f1-192753.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T09:30:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/wolff/192753.jpg"
+    },
+    {
+      "title": "Штайнер предлагает Ferrari перевести Леклера в Haas",
+      "url": "https://www.f1news.ru/news/f1-192752.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T09:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/steiner/192752.jpg"
+    },
+    {
+      "title": "Уго Угочукву дебютирует в Формуле 2 на этапе в Катаре",
+      "url": "https://www.f1news.ru/news/autosport-192751.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-24T08:34:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192751.jpg"
     },
     {
       "title": "Max Verstappen considering 2027 Daytona 24 Hours entry",
@@ -20,15 +164,6 @@
       "image": "https://cdn-1.motorsport.com/images/amp/6VyKxMwY/s6/max-verstappen-red-bull-racing.jpg"
     },
     {
-      "title": "Итальянская пресса о кризисе в Ferrari",
-      "url": "https://www.f1news.ru/news/f1-192745.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T16:13:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192745.jpg"
-    },
-    {
       "title": "F1 2027 grid: Who will be racing and where?",
       "url": "https://www.autosport.com/f1/news/f1-2027-grid-who-will-be-racing-and-where/10847600/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -36,33 +171,6 @@
       "publishedAt": "2026-11-23T16:09:34+00:00",
       "category": "teams",
       "image": "https://cdn-1.motorsport.com/images/amp/6x7ZeD4Y/s6/oscar-piastri-mclaren-2.jpg"
-    },
-    {
-      "title": "В Мадринге рассказали о начале продаж и обновлениях",
-      "url": "https://www.f1news.ru/news/f1-192744.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T15:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192744.jpg"
-    },
-    {
-      "title": "Норрис: Я больше смотрел на индикаторы, чем на трассу",
-      "url": "https://www.f1news.ru/interview/norris/192742.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T14:18:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/norris/192742.jpg"
-    },
-    {
-      "title": "Андреа Стелла о трёх факторах, повлиявших на итоги гонки",
-      "url": "https://www.f1news.ru/news/f1-192743.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T13:51:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/stella/192743.jpg"
     },
     {
       "title": "Was the Las Vegas GP best race of the year - or too fake?",
@@ -74,15 +182,6 @@
       "image": "https://cdn-1.motorsport.com/images/amp/01QNEJe0/s6/lando-norris-mclaren-andrea-ki.jpg"
     },
     {
-      "title": "Херта досрочно завершил неудачный сезон в Формуле 2",
-      "url": "https://www.f1news.ru/news/autosport-192741.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T12:31:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/herta/192741.jpg"
-    },
-    {
       "title": "Why Ferrari believes written rules won't help manage Leclerc and Hamilton",
       "url": "https://www.autosport.com/f1/news/why-ferrari-believes-written-rules-wont-help-manage-leclerc-and-hamilton/10877158/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -92,51 +191,6 @@
       "image": "https://cdn-1.motorsport.com/images/amp/YBVj7MWY/s6/max-verstappen-red-bull-racing-2.jpg"
     },
     {
-      "title": "Гран При Лас-Вегаса: Любопытная статистика",
-      "url": "https://www.f1news.ru/news/f1-192703.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T12:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192703.jpg"
-    },
-    {
-      "title": "Ф2: Никола Лакорте заменит Себастьяна Монтойю в Prema",
-      "url": "https://www.f1news.ru/news/autosport-192740.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T11:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192740.jpg"
-    },
-    {
-      "title": "Эндрю Шовлин: Нужно сосредоточиться на работе",
-      "url": "https://www.f1news.ru/news/f1-192739.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T11:09:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/shovlin/189841.jpg"
-    },
-    {
-      "title": "WEC: Гиперкар Ferrari в 2027 году сменит название",
-      "url": "https://www.f1news.ru/news/autosport-192738.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T10:47:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/192738.jpg"
-    },
-    {
-      "title": "Лео Турини: Нет, так дальше продолжаться не может",
-      "url": "https://www.f1news.ru/news/f1-192737.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T10:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/192737.jpg"
-    },
-    {
       "title": "Herta replaced at Hitech to end F2 season early",
       "url": "https://www.autosport.com/formula2/news/colton-herta-replaced-at-hitech-to-end-poor-f2-season-early/10877140/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -144,60 +198,6 @@
       "publishedAt": "2026-11-23T09:42:39+00:00",
       "category": "teams",
       "image": "https://cdn-1.motorsport.com/images/amp/2y7QPOK6/s6/colton-herta-hitech.jpg"
-    },
-    {
-      "title": "Why Bearman’s expected 2027 Haas F1 deal remains unsigned",
-      "url": "https://www.autosport.com/f1/news/why-bearmans-expected-2027-haas-f1-deal-remains-unsigned/10877066/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-23T09:05:17+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/6AlvVJqY/s6/oliver-bearman-haas-f1-team-2.jpg"
-    },
-    {
-      "title": "Статистика прошедших Гран При: Гонки и гонщики",
-      "url": "https://www.f1news.ru/news/f1-192705.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T09:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192705.jpg"
-    },
-    {
-      "title": "Cтатистика прошедших Гран При: Квалификация",
-      "url": "https://www.f1news.ru/news/f1-192679.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T09:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192400.jpg"
-    },
-    {
-      "title": "Число клиентских команд может быть ограничено",
-      "url": "https://www.f1news.ru/news/f1-192736.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T08:46:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192736.jpg"
-    },
-    {
-      "title": "Оскар Пиастри: В гонке большую роль сыграл слипстрим",
-      "url": "https://www.f1news.ru/interview/piastri/192735.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T08:10:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/piastri/192735.jpg"
-    },
-    {
-      "title": "Монтойя: В Ferrari не оставят инцидент без последствий",
-      "url": "https://www.f1news.ru/news/f1-192734.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-23T07:43:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/leclerc/192734.jpg"
     }
   ]
 }
