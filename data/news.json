@@ -1,6 +1,132 @@
 {
-  "updatedAt": "2026-11-25T03:34:02.881296+00:00",
+  "updatedAt": "2026-11-25T14:31:01.727630+00:00",
   "articles": [
+    {
+      "title": "Гран При Катара: Изменения на трассе и зона обгонов",
+      "url": "https://www.f1news.ru/news/f1-192782.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T14:22:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/fia/192782-1.jpg"
+    },
+    {
+      "title": "Тим Госс о подготовке Racing Bulls к Гран При Катара",
+      "url": "https://www.f1news.ru/news/f1-192781.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T14:19:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/lindblad/192457.jpg"
+    },
+    {
+      "title": "Макс Ферстаппен: Мы не раз добивались успеха в Катаре",
+      "url": "https://www.f1news.ru/news/f1-192780.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T13:56:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hadjar_1/192780.jpg"
+    },
+    {
+      "title": "Кроуфорд заменит Алонсо в тренировке Гран При Катара",
+      "url": "https://www.f1news.ru/news/f1-192779.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T13:18:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/crawford/192779.jpg"
+    },
+    {
+      "title": "Пол Уильямс об особенностях Гран При Катара",
+      "url": "https://www.f1news.ru/news/f1-192778.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T12:47:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/Paul_Williams/192293.jpg"
+    },
+    {
+      "title": "Гран При Катара: Расписание пресс-конференций",
+      "url": "https://www.f1news.ru/news/f1-192777.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T12:14:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/fia/192777.jpg"
+    },
+    {
+      "title": "Оливер Берман: В этот уик-энд будет жарко",
+      "url": "https://www.f1news.ru/news/f1-192774.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T11:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/191933.jpg"
+    },
+    {
+      "title": "Доработка моторов может быть заморожена в 2028-м",
+      "url": "https://www.f1news.ru/tech/192773.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T10:34:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192773.jpg"
+    },
+    {
+      "title": "Перес: В Катаре будут заметны слабые стороны машины",
+      "url": "https://www.f1news.ru/news/f1-192772.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T10:33:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/bottas/192772.jpg"
+    },
+    {
+      "title": "Гюнтер Штайнер: Расселлу стоит поменьше говорить",
+      "url": "https://www.f1news.ru/news/f1-192771.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T09:32:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/steiner/192771.jpg"
+    },
+    {
+      "title": "Alonso: “We can't be competitive with the power unit we have”",
+      "url": "https://www.autosport.com/f1/news/fernando-alonso-we-cant-be-competitive-with-the-power-unit-we-have/10877607/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-25T09:16:47+00:00",
+      "category": "tech",
+      "image": "https://cdn-1.motorsport.com/images/amp/68VwBRQ2/s6/fernando-alonso-aston-martin-r-2.jpg"
+    },
+    {
+      "title": "Уилл Бакстон: Колтон Херта ведёт себя как ребёнок",
+      "url": "https://www.f1news.ru/news/f1-192770.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T09:13:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/herta/192770.jpg"
+    },
+    {
+      "title": "Хэмилтон: Я не просил сделать меня первым номером",
+      "url": "https://www.f1news.ru/news/f1-192769.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T08:39:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/192769.jpg"
+    },
+    {
+      "title": "Алонсо продолжает верить в проект Aston Martin",
+      "url": "https://www.f1news.ru/news/f1-192768.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T08:00:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/191436.jpg"
+    },
     {
       "title": "What's next for Herta after F1 2027 snub?",
       "url": "https://www.autosport.com/f1/news/whats-next-for-herta-after-f1-2027-snub/10877533/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
@@ -38,123 +164,6 @@
       "image": "https://c.f1news.ru/userfiles/192764.jpg"
     },
     {
-      "title": "Гонщики Alpine надеются заработать очки и в Катаре",
-      "url": "https://www.f1news.ru/news/f1-192763.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T15:24:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/gasly/192763.jpg"
-    },
-    {
-      "title": "Джолион Палмер: Не завидую Фредерику Вассёру",
-      "url": "https://www.f1news.ru/news/f1-192762.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T14:15:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192762.jpg"
-    },
-    {
-      "title": "В Ferrari могут ввести новые правила борьбы для гонщиков",
-      "url": "https://www.f1news.ru/news/f1-192761.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T13:31:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/ferrari/192761.jpg"
-    },
-    {
-      "title": "Зак Браун: Вся наша команда заслуживает похвалы",
-      "url": "https://www.f1news.ru/news/f1-192760.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T12:12:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/brown/192760.jpg"
-    },
-    {
-      "title": "Арвид Линдблад: Я раздавлен после схода в Лас-Вегасе",
-      "url": "https://www.f1news.ru/news/f1-192759.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T12:09:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192759.jpg"
-    },
-    {
-      "title": "Фредди Слейтер заменит Камару в Формуле 2",
-      "url": "https://www.f1news.ru/news/autosport-192758.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T11:22:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/camara_1/192758.jpg"
-    },
-    {
-      "title": "Дакар: Нани Рома рад возвращению Фернандо Алонсо",
-      "url": "https://www.f1news.ru/news/autosport-192757.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T11:15:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/192757.jpg"
-    },
-    {
-      "title": "Нико Хюлкенберг: Надеюсь, мы поборемся за очки в Катаре",
-      "url": "https://www.f1news.ru/news/f1-192756.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T11:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bortoleto/192756.jpg"
-    },
-    {
-      "title": "Мартин Молнар дебютирует в Формуле 3",
-      "url": "https://www.f1news.ru/news/autosport-192755.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T10:03:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192755.jpg"
-    },
-    {
-      "title": "Pirelli: На Гран При Катара шины проходят суровую проверку",
-      "url": "https://www.f1news.ru/news/f1-192754.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T10:02:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/pirelli/192754.jpg"
-    },
-    {
-      "title": "Тото Вольфф: В Катаре предстоит учесть множество нюансов",
-      "url": "https://www.f1news.ru/news/f1-192753.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T09:30:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/wolff/192753.jpg"
-    },
-    {
-      "title": "Штайнер предлагает Ferrari перевести Леклера в Haas",
-      "url": "https://www.f1news.ru/news/f1-192752.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T09:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/steiner/192752.jpg"
-    },
-    {
-      "title": "Уго Угочукву дебютирует в Формуле 2 на этапе в Катаре",
-      "url": "https://www.f1news.ru/news/autosport-192751.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T08:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192751.jpg"
-    },
-    {
       "title": "Max Verstappen considering 2027 Daytona 24 Hours entry",
       "url": "https://www.autosport.com/f1/news/max-verstappen-reveals-he-is-considering-2027-daytona-24-hours-entry/10877159/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -189,15 +198,6 @@
       "publishedAt": "2026-11-23T12:15:05+00:00",
       "category": "teams",
       "image": "https://cdn-1.motorsport.com/images/amp/YBVj7MWY/s6/max-verstappen-red-bull-racing-2.jpg"
-    },
-    {
-      "title": "Herta replaced at Hitech to end F2 season early",
-      "url": "https://www.autosport.com/formula2/news/colton-herta-replaced-at-hitech-to-end-poor-f2-season-early/10877140/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-23T09:42:39+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/2y7QPOK6/s6/colton-herta-hitech.jpg"
     }
   ]
 }
