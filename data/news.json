@@ -1,6 +1,132 @@
 {
-  "updatedAt": "2026-11-26T00:29:26.384016+00:00",
+  "updatedAt": "2026-11-26T13:58:32.965375+00:00",
   "articles": [
+    {
+      "title": "В Катаре ждут аншлаг в день гонки",
+      "url": "https://www.f1news.ru/news/f1-193118.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T13:47:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/193118.jpg"
+    },
+    {
+      "title": "В Honda не нашли проблем с мотором на машине Алонсо",
+      "url": "https://www.f1news.ru/news/f1-193117.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T12:52:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/alonso/192120.jpg"
+    },
+    {
+      "title": "Фотогалерея: Гран При Катара, четверг",
+      "url": "https://www.f1news.ru/gallery/v/2026/gp/qatar/2611/",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T12:20:00+00:00",
+      "category": "racing",
+      "image": ""
+    },
+    {
+      "title": "F1 2027 grid: Who will be racing and where?",
+      "url": "https://www.autosport.com/f1/news/f1-2027-grid-who-will-be-racing-and-where/10847600/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-26T12:13:37+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/2GdKBmOY/s6/rafael-camara-haas-f1-team-lan-3.jpg"
+    },
+    {
+      "title": "Андреа Стелла сочувствует Фредерику Вассёру",
+      "url": "https://www.f1news.ru/news/f1-193116.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T11:44:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/stella/193116.jpg"
+    },
+    {
+      "title": "Фернандо Алонсо пропустит общение с прессой в Катаре",
+      "url": "https://www.f1news.ru/news/f1-193113.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T10:49:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alonso/193113.jpg"
+    },
+    {
+      "title": "Alonso to not let his age determine F1 retirement",
+      "url": "https://www.autosport.com/f1/news/alonso-to-not-let-age-determine-f1-retirement/10877846/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-26T10:42:24+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/6grQVmGY/s6/fernando-alonso-aston-martin-r-2.jpg"
+    },
+    {
+      "title": "Себастьен Бурдэ: Мне не нравится подход Макса",
+      "url": "https://www.f1news.ru/news/f1-193112.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T10:05:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/193112.jpg"
+    },
+    {
+      "title": "В Haas подтвердили контракт с Оливером Берманом",
+      "url": "https://www.f1news.ru/news/f1-192793.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T09:08:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/192793.jpg"
+    },
+    {
+      "title": "Haas finally announces Bearman for F1 2027",
+      "url": "https://www.autosport.com/f1/news/haas-announce-bearman-f1-2027/10877815/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-26T09:04:37+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/68VwB882/s6/oliver-bearman-haas-f1-team-2.jpg"
+    },
+    {
+      "title": "Росберг: Расселл загнал себя в психологическую яму",
+      "url": "https://www.f1news.ru/news/f1-192792.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T09:02:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/russell/192792-1.jpg"
+    },
+    {
+      "title": "В McLaren не планируют создавать собственный двигатель",
+      "url": "https://www.f1news.ru/news/f1-192791.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T08:44:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/brown/192791.jpg"
+    },
+    {
+      "title": "Шарль Леклер продаёт кроссовер Ferrari Purosangue",
+      "url": "https://www.f1news.ru/news/f1-192790.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T08:03:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/leclerc/192790.jpg"
+    },
+    {
+      "title": "Ф2: Теофиль Наэль подписал контракт с Campos",
+      "url": "https://www.f1news.ru/news/autosport-192789.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T07:37:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/192789.jpg"
+    },
     {
       "title": "Гран При Катара: Пять прямых трансляций",
       "url": "https://www.f1news.ru/news/f1-119347.html",
@@ -47,69 +173,6 @@
       "image": "https://c.f1news.ru/userfiles/184479.jpg"
     },
     {
-      "title": "Гран При Катара: Превью этапа",
-      "url": "https://www.f1news.ru/Championship/2026/qatar/preview.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T21:15:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/171917.jpg"
-    },
-    {
-      "title": "Гран При Катара: Комментарии перед этапом",
-      "url": "https://www.f1news.ru/Championship/2026/qatar/beforerace.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T21:10:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184564.jpg"
-    },
-    {
-      "title": "Гран При Катара: Трасса и статистика",
-      "url": "https://www.f1news.ru/Championship/2026/qatar/index.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T21:05:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/149746.jpg"
-    },
-    {
-      "title": "Гран При Катара: Прогноз погоды на уик-энд",
-      "url": "https://www.f1news.ru/news/f1-192767.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T21:00:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/170311.jpg"
-    },
-    {
-      "title": "В Alpine объяснили суть допущенных нарушений",
-      "url": "https://www.f1news.ru/news/f1-192788.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T17:46:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alpinef1team/192788.jpg"
-    },
-    {
-      "title": "В Williams признали нарушение финансового регламента",
-      "url": "https://www.f1news.ru/news/f1-192787.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T17:19:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/fia/192787.jpg"
-    },
-    {
-      "title": "В FIA проверили соблюдение финансового регламента",
-      "url": "https://www.f1news.ru/news/f1-192786.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T16:55:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/fia/192786.jpg"
-    },
-    {
       "title": "Williams breaches F1 2025 cost cap, Alpine guilty of procedural violation",
       "url": "https://www.autosport.com/f1/news/williams-breaches-2025-f1-cost-cap-reveals-penalty/10877744/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -117,42 +180,6 @@
       "publishedAt": "2026-11-25T16:42:17+00:00",
       "category": "teams",
       "image": "https://cdn-1.motorsport.com/images/amp/Y9lLL572/s6/pierre-gasly-alpine-carlos-sai-3.jpg"
-    },
-    {
-      "title": "В McLaren рассказали о сложностях трассы в Катаре",
-      "url": "https://www.f1news.ru/news/f1-192785.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T16:01:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/mclaren/192785.jpg"
-    },
-    {
-      "title": "Вассёр: Цель – хороший результат двумя машинами",
-      "url": "https://www.f1news.ru/news/f1-192783.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T15:04:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/hamilton/182272.jpg"
-    },
-    {
-      "title": "Дерек Уорик – третий стюард Гран При Катара",
-      "url": "https://www.f1news.ru/news/f1-192784.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T14:49:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/192784.jpg"
-    },
-    {
-      "title": "Гран При Катара: Изменения на трассе и зона обгонов",
-      "url": "https://www.f1news.ru/news/f1-192782.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T14:22:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/192782-1.jpg"
     },
     {
       "title": "Alonso: “We can't be competitive with the power unit we have”",
@@ -171,33 +198,6 @@
       "publishedAt": "2026-11-24T17:59:55+00:00",
       "category": "teams",
       "image": "https://cdn-1.motorsport.com/images/amp/0arKWNy2/s6/colton-herta-hitech-gp-2.jpg"
-    },
-    {
-      "title": "Max Verstappen considering 2027 Daytona 24 Hours entry",
-      "url": "https://www.autosport.com/f1/news/max-verstappen-reveals-he-is-considering-2027-daytona-24-hours-entry/10877159/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-23T17:43:13+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/6VyKxMwY/s6/max-verstappen-red-bull-racing.jpg"
-    },
-    {
-      "title": "F1 2027 grid: Who will be racing and where?",
-      "url": "https://www.autosport.com/f1/news/f1-2027-grid-who-will-be-racing-and-where/10847600/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-23T16:09:34+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/6x7ZeD4Y/s6/oscar-piastri-mclaren-2.jpg"
-    },
-    {
-      "title": "Was the Las Vegas GP best race of the year - or too fake?",
-      "url": "https://www.autosport.com/f1/news/was-the-las-vegas-gp-best-race-of-the-year-or-too-fake/10877213/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-23T13:44:36+00:00",
-      "category": "racing",
-      "image": "https://cdn-1.motorsport.com/images/amp/01QNEJe0/s6/lando-norris-mclaren-andrea-ki.jpg"
     }
   ]
 }
