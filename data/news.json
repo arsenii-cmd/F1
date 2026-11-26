@@ -1,6 +1,150 @@
 {
-  "updatedAt": "2026-11-25T14:31:01.727630+00:00",
+  "updatedAt": "2026-11-26T00:29:26.384016+00:00",
   "articles": [
+    {
+      "title": "Гран При Катара: Пять прямых трансляций",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T21:40:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/119347-175.jpg"
+    },
+    {
+      "title": "Гран При Катара: Точка самого серьёзного торможения",
+      "url": "https://www.f1news.ru/news/f1-192747.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T21:35:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/190741.jpg"
+    },
+    {
+      "title": "Гран При Катара: Этап конкурса прогнозов",
+      "url": "https://www.f1news.ru/news/f1-192776.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T21:30:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192776.jpg"
+    },
+    {
+      "title": "Гран При Катара: Ставки букмекеров",
+      "url": "https://www.f1news.ru/news/f1-192775.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T21:25:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/192775.jpg"
+    },
+    {
+      "title": "Гран При Катара: Круглые числа",
+      "url": "https://www.f1news.ru/Championship/2026/qatar/stats.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T21:20:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184479.jpg"
+    },
+    {
+      "title": "Гран При Катара: Превью этапа",
+      "url": "https://www.f1news.ru/Championship/2026/qatar/preview.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T21:15:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/171917.jpg"
+    },
+    {
+      "title": "Гран При Катара: Комментарии перед этапом",
+      "url": "https://www.f1news.ru/Championship/2026/qatar/beforerace.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T21:10:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/184564.jpg"
+    },
+    {
+      "title": "Гран При Катара: Трасса и статистика",
+      "url": "https://www.f1news.ru/Championship/2026/qatar/index.shtml",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T21:05:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/149746.jpg"
+    },
+    {
+      "title": "Гран При Катара: Прогноз погоды на уик-энд",
+      "url": "https://www.f1news.ru/news/f1-192767.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T21:00:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/170311.jpg"
+    },
+    {
+      "title": "В Alpine объяснили суть допущенных нарушений",
+      "url": "https://www.f1news.ru/news/f1-192788.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T17:46:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/alpinef1team/192788.jpg"
+    },
+    {
+      "title": "В Williams признали нарушение финансового регламента",
+      "url": "https://www.f1news.ru/news/f1-192787.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T17:19:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/fia/192787.jpg"
+    },
+    {
+      "title": "В FIA проверили соблюдение финансового регламента",
+      "url": "https://www.f1news.ru/news/f1-192786.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T16:55:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/fia/192786.jpg"
+    },
+    {
+      "title": "Williams breaches F1 2025 cost cap, Alpine guilty of procedural violation",
+      "url": "https://www.autosport.com/f1/news/williams-breaches-2025-f1-cost-cap-reveals-penalty/10877744/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-25T16:42:17+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/Y9lLL572/s6/pierre-gasly-alpine-carlos-sai-3.jpg"
+    },
+    {
+      "title": "В McLaren рассказали о сложностях трассы в Катаре",
+      "url": "https://www.f1news.ru/news/f1-192785.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T16:01:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/mclaren/192785.jpg"
+    },
+    {
+      "title": "Вассёр: Цель – хороший результат двумя машинами",
+      "url": "https://www.f1news.ru/news/f1-192783.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T15:04:00+00:00",
+      "category": "tech",
+      "image": "https://c.f1news.ru/userfiles/hamilton/182272.jpg"
+    },
+    {
+      "title": "Дерек Уорик – третий стюард Гран При Катара",
+      "url": "https://www.f1news.ru/news/f1-192784.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-25T14:49:00+00:00",
+      "category": "racing",
+      "image": "https://c.f1news.ru/userfiles/fia/192784.jpg"
+    },
     {
       "title": "Гран При Катара: Изменения на трассе и зона обгонов",
       "url": "https://www.f1news.ru/news/f1-192782.html",
@@ -9,87 +153,6 @@
       "publishedAt": "2026-11-25T14:22:00+00:00",
       "category": "racing",
       "image": "https://c.f1news.ru/userfiles/fia/192782-1.jpg"
-    },
-    {
-      "title": "Тим Госс о подготовке Racing Bulls к Гран При Катара",
-      "url": "https://www.f1news.ru/news/f1-192781.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T14:19:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/lindblad/192457.jpg"
-    },
-    {
-      "title": "Макс Ферстаппен: Мы не раз добивались успеха в Катаре",
-      "url": "https://www.f1news.ru/news/f1-192780.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T13:56:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hadjar_1/192780.jpg"
-    },
-    {
-      "title": "Кроуфорд заменит Алонсо в тренировке Гран При Катара",
-      "url": "https://www.f1news.ru/news/f1-192779.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T13:18:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/crawford/192779.jpg"
-    },
-    {
-      "title": "Пол Уильямс об особенностях Гран При Катара",
-      "url": "https://www.f1news.ru/news/f1-192778.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T12:47:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/Paul_Williams/192293.jpg"
-    },
-    {
-      "title": "Гран При Катара: Расписание пресс-конференций",
-      "url": "https://www.f1news.ru/news/f1-192777.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T12:14:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/fia/192777.jpg"
-    },
-    {
-      "title": "Оливер Берман: В этот уик-энд будет жарко",
-      "url": "https://www.f1news.ru/news/f1-192774.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T11:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/191933.jpg"
-    },
-    {
-      "title": "Доработка моторов может быть заморожена в 2028-м",
-      "url": "https://www.f1news.ru/tech/192773.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T10:34:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192773.jpg"
-    },
-    {
-      "title": "Перес: В Катаре будут заметны слабые стороны машины",
-      "url": "https://www.f1news.ru/news/f1-192772.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T10:33:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/bottas/192772.jpg"
-    },
-    {
-      "title": "Гюнтер Штайнер: Расселлу стоит поменьше говорить",
-      "url": "https://www.f1news.ru/news/f1-192771.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T09:32:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/steiner/192771.jpg"
     },
     {
       "title": "Alonso: “We can't be competitive with the power unit we have”",
@@ -101,33 +164,6 @@
       "image": "https://cdn-1.motorsport.com/images/amp/68VwBRQ2/s6/fernando-alonso-aston-martin-r-2.jpg"
     },
     {
-      "title": "Уилл Бакстон: Колтон Херта ведёт себя как ребёнок",
-      "url": "https://www.f1news.ru/news/f1-192770.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T09:13:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/herta/192770.jpg"
-    },
-    {
-      "title": "Хэмилтон: Я не просил сделать меня первым номером",
-      "url": "https://www.f1news.ru/news/f1-192769.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T08:39:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/hamilton/192769.jpg"
-    },
-    {
-      "title": "Алонсо продолжает верить в проект Aston Martin",
-      "url": "https://www.f1news.ru/news/f1-192768.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T08:00:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/191436.jpg"
-    },
-    {
       "title": "What's next for Herta after F1 2027 snub?",
       "url": "https://www.autosport.com/f1/news/whats-next-for-herta-after-f1-2027-snub/10877533/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -135,33 +171,6 @@
       "publishedAt": "2026-11-24T17:59:55+00:00",
       "category": "teams",
       "image": "https://cdn-1.motorsport.com/images/amp/0arKWNy2/s6/colton-herta-hitech-gp-2.jpg"
-    },
-    {
-      "title": "Орихара: В Катаре возможны сложности с системой смазки",
-      "url": "https://www.f1news.ru/news/f1-192766.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T17:35:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/astonmartin/192766.jpg"
-    },
-    {
-      "title": "Алекс Палоу намекнул на участие Алонсо в гонке IndyCar",
-      "url": "https://www.f1news.ru/news/f1-192765.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T17:03:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/alonso/192765.jpg"
-    },
-    {
-      "title": "WEC: Команда Ford завершила европейскую стадию тестов",
-      "url": "https://www.f1news.ru/news/autosport-192764.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-24T16:45:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192764.jpg"
     },
     {
       "title": "Max Verstappen considering 2027 Daytona 24 Hours entry",
@@ -189,15 +198,6 @@
       "publishedAt": "2026-11-23T13:44:36+00:00",
       "category": "racing",
       "image": "https://cdn-1.motorsport.com/images/amp/01QNEJe0/s6/lando-norris-mclaren-andrea-ki.jpg"
-    },
-    {
-      "title": "Why Ferrari believes written rules won't help manage Leclerc and Hamilton",
-      "url": "https://www.autosport.com/f1/news/why-ferrari-believes-written-rules-wont-help-manage-leclerc-and-hamilton/10877158/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-23T12:15:05+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/YBVj7MWY/s6/max-verstappen-red-bull-racing-2.jpg"
     }
   ]
 }
