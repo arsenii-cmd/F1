@@ -1,32 +1,185 @@
 {
-  "updatedAt": "2026-11-26T13:58:32.965375+00:00",
+  "updatedAt": "2026-11-27T00:38:40.697249+00:00",
   "articles": [
     {
-      "title": "В Катаре ждут аншлаг в день гонки",
-      "url": "https://www.f1news.ru/news/f1-193118.html",
+      "title": "16:25 МСК: Прямая трансляция свободных заездов",
+      "url": "https://www.f1news.ru/news/f1-119347.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-26T13:47:00+00:00",
+      "publishedAt": "2026-11-26T21:00:00+00:00",
       "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/193118.jpg"
+      "image": "https://c.f1news.ru/userfiles/119347-175.jpg"
     },
     {
-      "title": "В Honda не нашли проблем с мотором на машине Алонсо",
-      "url": "https://www.f1news.ru/news/f1-193117.html",
+      "title": "Verstappen to work with new race engineer Tom Hart again at Qatar GP",
+      "url": "https://www.autosport.com/f1/news/verstappen-to-work-with-new-race-engineer-tom-hart-again-at-qatar-gp/10878044/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-26T20:02:57+00:00",
+      "category": "tech",
+      "image": "https://cdn-1.motorsport.com/images/amp/YP74Zm42/s6/max-verstappen-red-bull-racing-2.jpg"
+    },
+    {
+      "title": "Антонелли: Расстановка сил меняется от трассы к трассе",
+      "url": "https://www.f1news.ru/news/f1-193141.html",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-26T12:52:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/alonso/192120.jpg"
+      "publishedAt": "2026-11-26T19:27:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/antonelli/193141.jpg"
+    },
+    {
+      "title": "Бортолето: В следующем году нам будет немного легче",
+      "url": "https://www.f1news.ru/news/f1-193140.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T19:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bortoleto/193140.jpg"
+    },
+    {
+      "title": "Макс Ферстаппен: Для меня вопрос с Вегасом закрыт",
+      "url": "https://www.f1news.ru/news/f1-193139.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T18:55:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/max_verstappen/193139.jpg"
+    },
+    {
+      "title": "Валттери Боттас: Сезон стал настоящим приключением",
+      "url": "https://www.f1news.ru/news/f1-193138.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T18:40:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bottas/193138.jpg"
+    },
+    {
+      "title": "Алекс Элбон: Надеюсь, в 2027-м у нас всё получится",
+      "url": "https://www.f1news.ru/news/f1-193137.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T18:36:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/albon_1/193137.jpg"
+    },
+    {
+      "title": "Карлос Сайнс: Результат в Вегасе придал уверенности",
+      "url": "https://www.f1news.ru/news/f1-193136.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T18:20:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/sainz-junior/193136.jpg"
+    },
+    {
+      "title": "Лоусон: Больше всего радует наша стабильность",
+      "url": "https://www.f1news.ru/news/f1-193135.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T17:45:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lawson_1/193135.jpg"
+    },
+    {
+      "title": "Хэмилтон: Нам с Шарлем позволено бороться друг с другом",
+      "url": "https://www.f1news.ru/news/f1-193134.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T17:28:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hamilton/193134.jpg"
+    },
+    {
+      "title": "Линдблад: Произошедшее в Вегасе стараюсь не вспоминать",
+      "url": "https://www.f1news.ru/news/f1-193133.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T17:23:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/lindblad/193133.jpg"
+    },
+    {
+      "title": "Рафаэль Камара был готов до конца сражаться за титул в Ф2",
+      "url": "https://www.f1news.ru/news/f1-193132.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T17:15:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/camara_1/193132.jpg"
+    },
+    {
+      "title": "Hamilton convinced Ferrari will \"figure it out\" following Leclerc skirmish",
+      "url": "https://www.autosport.com/f1/news/hamilton-convinced-ferrari-will-figure-it-out/10877979/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-26T17:07:17+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/2wlKzmeY/s6/charles-leclerc-ferrari-lewis--2.jpg"
+    },
+    {
+      "title": "Нико Хюлкенберг: Для Audi это только начало",
+      "url": "https://www.f1news.ru/news/f1-193131.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T16:52:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/hulkenberg/193131.jpg"
+    },
+    {
+      "title": "Гасли: Между гонщиками уже начались своего рода игры",
+      "url": "https://www.f1news.ru/news/f1-193130.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T16:38:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/gasly/193130.jpg"
+    },
+    {
+      "title": "Колапинто: Нужно продолжать в том же духе",
+      "url": "https://www.f1news.ru/news/f1-193129.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T16:35:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/colapinto/193129.jpg"
+    },
+    {
+      "title": "Leclerc furious with integrity being questioned after Hamilton clashes",
+      "url": "https://www.autosport.com/f1/news/leclerc-furious-with-integrity-being-questioned-after-hamilton-clashes/10877960/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-26T16:26:29+00:00",
+      "category": "teams",
+      "image": "https://cdn-1.motorsport.com/images/amp/63QaDqb2/s6/lewis-hamilton-ferrari-charles-2.jpg"
+    },
+    {
+      "title": "Оливер Берман: Моя мечта – выступать за Ferrari",
+      "url": "https://www.f1news.ru/news/f1-193128.html",
+      "source": "F1News",
+      "language": "ru",
+      "publishedAt": "2026-11-26T16:21:00+00:00",
+      "category": "teams",
+      "image": "https://c.f1news.ru/userfiles/bearman/193128.jpg"
     },
     {
       "title": "Фотогалерея: Гран При Катара, четверг",
       "url": "https://www.f1news.ru/gallery/v/2026/gp/qatar/2611/",
       "source": "F1News",
       "language": "ru",
-      "publishedAt": "2026-11-26T12:20:00+00:00",
+      "publishedAt": "2026-11-26T16:20:00+00:00",
       "category": "racing",
       "image": ""
+    },
+    {
+      "title": "Russell stands by Verstappen comments at Las Vegas GP - despite \"amusing\" reaction",
+      "url": "https://www.autosport.com/f1/news/russell-defends-las-vegas-f1-comments/10877940/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
+      "source": "Autosport",
+      "language": "en",
+      "publishedAt": "2026-11-26T15:56:53+00:00",
+      "category": "racing",
+      "image": "https://cdn-1.motorsport.com/images/amp/0o5AMMjY/s6/george-russell-mercedes-4.jpg"
     },
     {
       "title": "F1 2027 grid: Who will be racing and where?",
@@ -38,24 +191,6 @@
       "image": "https://cdn-1.motorsport.com/images/amp/2GdKBmOY/s6/rafael-camara-haas-f1-team-lan-3.jpg"
     },
     {
-      "title": "Андреа Стелла сочувствует Фредерику Вассёру",
-      "url": "https://www.f1news.ru/news/f1-193116.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-26T11:44:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/stella/193116.jpg"
-    },
-    {
-      "title": "Фернандо Алонсо пропустит общение с прессой в Катаре",
-      "url": "https://www.f1news.ru/news/f1-193113.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-26T10:49:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/alonso/193113.jpg"
-    },
-    {
       "title": "Alonso to not let his age determine F1 retirement",
       "url": "https://www.autosport.com/f1/news/alonso-to-not-let-age-determine-f1-retirement/10877846/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
       "source": "Autosport",
@@ -63,141 +198,6 @@
       "publishedAt": "2026-11-26T10:42:24+00:00",
       "category": "teams",
       "image": "https://cdn-1.motorsport.com/images/amp/6grQVmGY/s6/fernando-alonso-aston-martin-r-2.jpg"
-    },
-    {
-      "title": "Себастьен Бурдэ: Мне не нравится подход Макса",
-      "url": "https://www.f1news.ru/news/f1-193112.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-26T10:05:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/max_verstappen/193112.jpg"
-    },
-    {
-      "title": "В Haas подтвердили контракт с Оливером Берманом",
-      "url": "https://www.f1news.ru/news/f1-192793.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-26T09:08:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/bearman/192793.jpg"
-    },
-    {
-      "title": "Haas finally announces Bearman for F1 2027",
-      "url": "https://www.autosport.com/f1/news/haas-announce-bearman-f1-2027/10877815/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-26T09:04:37+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/68VwB882/s6/oliver-bearman-haas-f1-team-2.jpg"
-    },
-    {
-      "title": "Росберг: Расселл загнал себя в психологическую яму",
-      "url": "https://www.f1news.ru/news/f1-192792.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-26T09:02:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/russell/192792-1.jpg"
-    },
-    {
-      "title": "В McLaren не планируют создавать собственный двигатель",
-      "url": "https://www.f1news.ru/news/f1-192791.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-26T08:44:00+00:00",
-      "category": "tech",
-      "image": "https://c.f1news.ru/userfiles/brown/192791.jpg"
-    },
-    {
-      "title": "Шарль Леклер продаёт кроссовер Ferrari Purosangue",
-      "url": "https://www.f1news.ru/news/f1-192790.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-26T08:03:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/leclerc/192790.jpg"
-    },
-    {
-      "title": "Ф2: Теофиль Наэль подписал контракт с Campos",
-      "url": "https://www.f1news.ru/news/autosport-192789.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-26T07:37:00+00:00",
-      "category": "teams",
-      "image": "https://c.f1news.ru/userfiles/192789.jpg"
-    },
-    {
-      "title": "Гран При Катара: Пять прямых трансляций",
-      "url": "https://www.f1news.ru/news/f1-119347.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T21:40:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/119347-175.jpg"
-    },
-    {
-      "title": "Гран При Катара: Точка самого серьёзного торможения",
-      "url": "https://www.f1news.ru/news/f1-192747.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T21:35:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/190741.jpg"
-    },
-    {
-      "title": "Гран При Катара: Этап конкурса прогнозов",
-      "url": "https://www.f1news.ru/news/f1-192776.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T21:30:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192776.jpg"
-    },
-    {
-      "title": "Гран При Катара: Ставки букмекеров",
-      "url": "https://www.f1news.ru/news/f1-192775.html",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T21:25:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/192775.jpg"
-    },
-    {
-      "title": "Гран При Катара: Круглые числа",
-      "url": "https://www.f1news.ru/Championship/2026/qatar/stats.shtml",
-      "source": "F1News",
-      "language": "ru",
-      "publishedAt": "2026-11-25T21:20:00+00:00",
-      "category": "racing",
-      "image": "https://c.f1news.ru/userfiles/184479.jpg"
-    },
-    {
-      "title": "Williams breaches F1 2025 cost cap, Alpine guilty of procedural violation",
-      "url": "https://www.autosport.com/f1/news/williams-breaches-2025-f1-cost-cap-reveals-penalty/10877744/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-25T16:42:17+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/Y9lLL572/s6/pierre-gasly-alpine-carlos-sai-3.jpg"
-    },
-    {
-      "title": "Alonso: “We can't be competitive with the power unit we have”",
-      "url": "https://www.autosport.com/f1/news/fernando-alonso-we-cant-be-competitive-with-the-power-unit-we-have/10877607/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-25T09:16:47+00:00",
-      "category": "tech",
-      "image": "https://cdn-1.motorsport.com/images/amp/68VwBRQ2/s6/fernando-alonso-aston-martin-r-2.jpg"
-    },
-    {
-      "title": "What's next for Herta after F1 2027 snub?",
-      "url": "https://www.autosport.com/f1/news/whats-next-for-herta-after-f1-2027-snub/10877533/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=uk",
-      "source": "Autosport",
-      "language": "en",
-      "publishedAt": "2026-11-24T17:59:55+00:00",
-      "category": "teams",
-      "image": "https://cdn-1.motorsport.com/images/amp/0arKWNy2/s6/colton-herta-hitech-gp-2.jpg"
     }
   ]
 }
